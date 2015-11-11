@@ -19,6 +19,5 @@ node index.js --dev
 
 ## TODO
 
-* Move template engine to jade
 * Handle localization
 * Handle fingerprints for css and js
