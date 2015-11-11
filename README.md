@@ -20,4 +20,3 @@ node index.js --dev
 ## TODO
 
 * Handle localization
-* Handle fingerprints for css and js

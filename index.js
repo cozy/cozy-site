@@ -10,6 +10,7 @@ var permalinks = require('metalsmith-permalinks');
 var browserSync = require('metalsmith-browser-sync');
 var ignore = require('metalsmith-ignore');
 var rename = require('metalsmith-rename');
+var fingerprint = require('metalsmith-fingerprint');
 
 
 // Parse command line arguments.
@@ -27,6 +28,9 @@ var metalsmith = new Metalsmith(__dirname)
     src: 'assets'
   }))
   .use(stylus())
+  .use(fingerprint({
+    pattern: 'styles/main.css'
+  }))
   .use(layouts({
     engine: 'handlebars',
     directory: 'src/layouts'
