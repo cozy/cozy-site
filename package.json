@@ -7,10 +7,11 @@
     "start": "node index.js"
   },
   "author": "Cozy Cloud <frank@cozycloud.cc> (https://cozycloud.cc/)",
-  "license": "AGPL",
+  "repository": "https://github.com/cozy/cozy-site",
+  "license": "AGPL-3.0",
   "dependencies": {
-    "handlebars": "^4.0.4",
-    "jade": "^1.11.0",
+    "handlebars": "4.0.4",
+    "jade": "1.11.0",
     "metalsmith-browser-sync": "1.1.0",
     "metalsmith-build-date": "0.1.0",
     "metalsmith-filenames": "1.0.0",
@@ -22,6 +23,6 @@
     "metalsmith-rename": "1.0.0",
     "metalsmith-static": "0.0.5",
     "metalsmith-stylus": "1.0.0",
-    "minimist": "^1.2.0"
+    "minimist": "1.2.0"
   }
 }
