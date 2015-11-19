@@ -8,6 +8,7 @@ It requires Node v4 at least to run properly.
 
 ```
 node index.js
+node index-fr.js
 ```
 
 *Development server*
