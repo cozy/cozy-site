@@ -16,7 +16,3 @@ node index.js
 node index.js --dev
 ```
 
-
-## TODO
-
-* Handle localization

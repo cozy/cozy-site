@@ -4,7 +4,7 @@ var browserSync = require('metalsmith-browser-sync');
 // Parse command line arguments.
 var argv = require('minimist')(process.argv.slice(2));
 
-metalsmith = base.getMetalsmith('en');
+metalsmith = base.getMetalsmith('fr');
 
 if(argv.dev) {
   metalsmith.use(browserSync({
