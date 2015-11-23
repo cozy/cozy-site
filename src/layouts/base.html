@@ -1,10 +1,25 @@
-<!doctype html>
-<html>
-<head>
-  <title>Cozy - {{title}}</title>
-  <link rel="stylesheet" href="{{ fingerprint.[styles/main.css] }}">
-</head>
-<body>
-  {{{contents}}}
-</body>
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Cozy - {{metaTitle}}</title>
+    <meta name="description" content="{{metaDescription}}">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+    <meta property="og:title" content="Cozy - {{metaTitle}}">
+    <meta property="og:description" content="{{metaDescription}}">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="css/main.css" media="all">
+  </head>
+
+  <body>
+    {{{contents}}}
+
+    <!-- <script src="js/vendors.js"></script>
+    <script src="js/main.js"></script> -->
+  </body>
 </html>
