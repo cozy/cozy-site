@@ -1,4 +1,13 @@
-node_modules
-build
-old
+# misc
+.DS_Store
 *.swp
+
+# tmp folder
+tmp
+old
+
+# npm dependencies
+node_modules
+
+# build folder
+build

@@ -31,7 +31,7 @@ module.exports = {
       ]))
       .use(date)
       .use(assets({
-        src: 'assets'
+        src: 'images'
       }))
       .use(stylus())
       .use(autoprefixer({

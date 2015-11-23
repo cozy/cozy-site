@@ -7,13 +7,13 @@ It requires Node v4 at least to run properly.
 *build*
 
 ```
-node index.js
-node index-fr.js
+node output.js
+node output-fr.js
 ```
 
 *Development server*
 
 ```
-node index.js --dev
+npm run dev
 ```
 

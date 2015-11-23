@@ -4,7 +4,7 @@
   "description": "Assets and templates to build the Cozy website",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "node output.js --dev"
   },
   "author": "Cozy Cloud <frank@cozycloud.cc> (https://cozycloud.cc/)",
   "repository": "https://github.com/cozy/cozy-site",
@@ -27,5 +27,8 @@
     "metalsmith-static": "0.0.5",
     "metalsmith-stylus": "1.0.0",
     "minimist": "1.2.0"
+  },
+  "devDependencies": {
+    "normalize.css": "^3.0.3"
   }
 }
