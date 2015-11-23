@@ -37,12 +37,11 @@ $border-width = .0625rem    // 1px
 //
 // Praditus brand colors
 
-$clr-primary        = #ff0000 // red
-$clr-secondary      = #0000ff // blue
+$clr-primary        = #3AB4F0 // blue
 
-$clr-darker         = #222    // grayscale
-$clr-base           = #ededed
-$clr-light          = #f4f4f4
+$clr-darker         = #3D3D3D // grayscale
+$clr-base           = #86888B
+$clr-light          = #F8F9F9
 $clr-lighter        = #fff
 
 $clr-error          = FireBrick
@@ -53,15 +52,15 @@ $clr-error          = FireBrick
 //
 // Settings for the `<body>` element.
 
-$body-bkg = $clr-base
+$body-bkg = $clr-lighter
 
 
 // Links
 //
 // Style anchor elements.
 
-$link-clr              = $clr-secondary
-$link-hover-clr        = lighten($clr-secondary, 15%)
+$link-clr              = $clr-darker
+$link-hover-clr        = lighten($clr-darker, 15%)
 $link-hover-decoration = underline
 
 
@@ -69,12 +68,11 @@ $link-hover-decoration = underline
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$txt-clr-base        = $clr-secondary
-$txt-muted           = #949494
+$txt-clr-base        = $clr-darker
+$txt-muted           = $clr-light
 
-$ff-common           = Arial, "Helvetica Neue", Helvetica, sans-serif
-$ff-emphasis         = "Amnesty Trade Gothic Cn 20", "Helvetica Neue", Helvetica, sans-serif
-$ff-emphasis-alt     = "Amnesty Trade Gothic Cn 18", "Helvetica Neue", Helvetica, sans-serif
+$ff-common           = "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif
+$ff-emphasis         = sans-serif
 
 $fs-root             = 16px
 
@@ -94,9 +92,9 @@ $fs-h6               = 1.25rem   // 20px
 
 $fs-lead             = 1.5rem    // 24px
 
-$heading-bkg         = $clr-secondary
+$heading-bkg         = $clr-darker
 $headings-mrg-bottom = ($spacer / 2) // 20px
-$headings-ff-base    = $ff-emphasis
+$headings-ff-base    = $ff-common
 $headings-lh         = 1.1
 $headings-clr        = inherit
 
@@ -176,12 +174,12 @@ $btn-pdg-y            = .75rem
 
 $btn-ff               = $ff-common
 
-$btn-primary-clr      = $clr-secondary
+$btn-primary-clr      = $clr-darker
 $btn-primary-bkg      = $clr-primary
 $btn-primary-border   = $btn-primary-bkg
 
 $btn-secondary-clr    = $clr-primary
-$btn-secondary-bkg    = $clr-secondary
+$btn-secondary-bkg    = $clr-darker
 $btn-secondary-border = $btn-secondary-bkg
 
 $btn-pdg-x-sm         = .75rem
