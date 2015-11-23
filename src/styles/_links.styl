@@ -1,0 +1,10 @@
+// Links hover state helper
+//
+
+a
+  color: $link-clr
+  text-decoration: none
+  transition: $transition-property $transition-duration $transition-easing
+  +hover-state()
+    color: $link-hover-clr
+    text-decoration: $link-hover-decoration

@@ -1,0 +1,86 @@
+// Text selection
+::selection
+  background: darken($clr-secondary, 20%)
+  text-shadow: none
+
+
+// Headings
+//
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6
+  margin-top: 0
+  font-family: $headings-ff-base
+  line-height: $headings-lh
+  color: $headings-clr
+  text-transform: uppercase
+  a
+    +hover-state()
+      text-decoration: none
+
+// bottom margins
+h1, .h1,
+h2, .h2,
+h3, .h3
+  margin-bottom: $headings-mrg-bottom
+h4, .h4,
+h5, .h5,
+h6, .h6
+  margin-bottom: ($headings-mrg-bottom / 2)
+
+// font size
+h1, .h1
+  font-size: $fs-h1
+h2, .h2
+  font-size: $fs-h2
+h3, .h3
+  font-size: $fs-h3
+h4, .h4
+  font-size: $fs-h4
+h5, .h5
+  font-size: $fs-h5
+h6, .h6
+  font-size: $fs-h6
+
+
+// Paragraph
+//
+p
+  margin-top: 0
+  margin-bottom: 1rem
+
+
+// Lead paragraph
+.lead
+  text-align: center
+  font-size: $fs-lead
+
+
+// Variants
+small,
+.small
+  font-size: 66.6%
+  font-weight: normal
+
+big,
+.bigger
+  font-size: 125%
+
+.text-muted
+  color: $txt-muted
+
+
+// Lists
+//
+// Removes default browser padding and list-style but keep list items block level
+.list-unstyled
+  padding-left: 0
+  list-style: none
+
+
+// Horizontal rules
+//
+hr
+  margin-top: $spacer-y
+  margin-bottom: $spacer-y
+  border: 0
+  border-top: $hr-border-width solid $hr-border-clr

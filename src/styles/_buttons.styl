@@ -1,0 +1,59 @@
+// Button base styles
+//
+button
+  padding: 0
+  transition: $transition-property $transition-duration $transition-easing
+
+.btn
+  display: inline-block
+  text-align: center
+  vertical-align: middle
+  font-family: $btn-ff
+  text-transform: uppercase
+  border: $border-width solid transparent
+  white-space: nowrap
+  touch-action: manipulation
+  cursor: pointer
+  user-select: none
+  button-size($btn-pdg-y, $btn-pdg-x, $fs-base, $lh, $btn-border-radius)
+
+
+// Button colors
+//
+.btn-primary
+  button-colors($btn-primary-clr, $btn-primary-bkg, $btn-primary-border)
+
+
+// Button Sizes
+//
+.btn-sm
+  // line-height: ensure proper height of button next to small input
+  button-size($btn-pdg-y-sm, $btn-pdg-x-sm, $fs-sm, $lh-sm, $btn-border-radius-sm)
+
+.btn-lg
+  // line-height: ensure even-numbered height of button next to large input
+  button-size($btn-pdg-y-lg, $btn-pdg-x-lg, $fs-lg, $lh-lg, $btn-border-radius-lg)
+
+
+// Link buttons
+//
+// Make a button look and behave like a link
+.btn-link
+  font-weight: normal
+  color: $link-clr
+  border-radius: 0
+  +hover-state()
+    color: $link-hover-clr
+    text-decoration: $link-hover-decoration
+    background-color: transparent
+
+
+// Block button
+//
+.btn-block
+  display: block
+  width: 100%
+
+// Vertically space out multiple block buttons
+.btn-block + .btn-block
+  margin-top: 1rem

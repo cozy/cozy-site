@@ -1,0 +1,57 @@
+// Grid container
+//
+.container
+  margin: 0 auto
+  width: 100%
+  max-width: $container-max-width
+
+
+// Grid classes
+//
+.{$grid-row-classname}-top
+  grid(cells-align: 'top')
+
+.{$grid-row-classname}-bottom
+  grid(cells-align: 'bottom')
+
+.{$grid-row-classname}-center
+  grid(cells-align: 'center')
+
+.{$grid-row-classname}-stretch
+  grid(cells-align: 'stretch')
+
+.{$grid-row-classname}-justify-center
+  justify-content center
+
+.{$grid-row-classname}-justify-start
+  justify-content flex-start
+
+.{$grid-row-classname}-justify-end
+  justify-content flex-end
+
+.{$grid-row-classname}-row
+  grid(direction: 'row')
+
+.{$grid-row-classname}-row-reverse
+  grid(direction: 'row-reverse')
+
+.{$grid-row-classname}-column
+  grid(direction: 'column')
+
+.{$grid-row-classname}-column-reverse
+  grid(direction: 'column-reverse')
+
+grid-classes-generator()
+
+// Cell styles
+//
+.{$grid-cell-classname}-top
+  align-self flex-start
+
+.{$grid-cell-classname}-bottom
+  align-self flex-end
+
+.{$grid-cell-classname}-center
+  align-self center
+
+grid-cell-classes-generator()

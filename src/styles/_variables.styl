@@ -1,0 +1,239 @@
+// Variables
+//
+
+
+// Table of contents
+//
+// Spacing
+// Brand colors
+// Body settings
+// Links
+// Typography
+// Grid breakpoints
+// Grid containers
+// Grid columns
+// Navigation
+// Buttons
+// Forms
+
+
+// General variable structure
+//
+// Variable format should follow the `$component-modifier-state-property` order.
+// It's for an unvariable time prefixed with `` for avoids conflicts with actual Praditus website.
+
+
+// Spacing
+//
+// Control the default margins and paddings easily
+
+$spacer       = 2.5rem      // 40px
+$spacer-x     = ($spacer/4) // 10px
+$spacer-y     = ($spacer/4) // 10px
+$border-width = .0625rem    // 1px
+
+
+// Colors
+//
+// Praditus brand colors
+
+$clr-primary        = #ff0000 // red
+$clr-secondary      = #0000ff // blue
+
+$clr-darker         = #222    // grayscale
+$clr-base           = #ededed
+$clr-light          = #f4f4f4
+$clr-lighter        = #fff
+
+$clr-error          = FireBrick
+
+
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bkg = $clr-base
+
+
+// Links
+//
+// Style anchor elements.
+
+$link-clr              = $clr-secondary
+$link-hover-clr        = lighten($clr-secondary, 15%)
+$link-hover-decoration = underline
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$txt-clr-base        = $clr-secondary
+$txt-muted           = #949494
+
+$ff-common           = Arial, "Helvetica Neue", Helvetica, sans-serif
+$ff-emphasis         = "Amnesty Trade Gothic Cn 20", "Helvetica Neue", Helvetica, sans-serif
+$ff-emphasis-alt     = "Amnesty Trade Gothic Cn 18", "Helvetica Neue", Helvetica, sans-serif
+
+$fs-root             = 16px
+
+$lh                  = 1.65
+
+$fs-base             = .875rem   // 14px
+$fs-lg               = 1.5rem    // 24px
+$fs-sm               = .75rem    // 12px
+$fs-xs               = .625rem   // 10px
+
+$fs-h1               = 1.875rem  // 30px
+$fs-h2               = 1.75rem   // 28px
+$fs-h3               = 1.5625rem // 25px
+$fs-h4               = 1.5rem    // 24px
+$fs-h5               = 1.375rem  // 22px
+$fs-h6               = 1.25rem   // 20px
+
+$fs-lead             = 1.5rem    // 24px
+
+$heading-bkg         = $clr-secondary
+$headings-mrg-bottom = ($spacer / 2) // 20px
+$headings-ff-base    = $ff-emphasis
+$headings-lh         = 1.1
+$headings-clr        = inherit
+
+$hr-border-clr       = rgba(0,0,0,.1)
+$hr-border-width     = $border-width
+
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+
+$lh-lg               = (4/3)
+$lh-sm               = 1.5
+
+$border-radius       = 0
+$border-radius-lg    = $border-radius
+$border-radius-sm    = $border-radius
+
+$transition-property = all
+$transition-duration = .250s
+$transition-easing   = ease
+
+
+// Grid breakpoints
+//
+// Define the minimum and maximum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+//
+// xs - Extra small screen, phone
+// sm - Small screen, phone
+// md - Medium screen, tablet
+// lg - Large screen, desktop
+// xl - Extra large screen, wide desktop
+
+breakpoints = {
+    xs: 0,
+    sm: 320px,
+    md: 460px,
+    lg: 980px,
+    xlg: 1280px
+}
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-width = 1000px
+
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns = 12
+$grid-gutter  = 20px
+
+$grid-row-classname   = 'row'
+$grid-cell-classname  = 'cell'
+
+
+// Navigation
+//
+// Colors
+
+$nav-link-clr              = $clr-lighter
+$nav-link-hover-clr        = $clr-lighter
+$nav-link-hover-decoration = none
+
+
+// Buttons
+//
+// For each buttons, define text, background and border color.
+
+$btn-pdg-x            = 1.25rem
+$btn-pdg-y            = .75rem
+
+$btn-ff               = $ff-common
+
+$btn-primary-clr      = $clr-secondary
+$btn-primary-bkg      = $clr-primary
+$btn-primary-border   = $btn-primary-bkg
+
+$btn-secondary-clr    = $clr-primary
+$btn-secondary-bkg    = $clr-secondary
+$btn-secondary-border = $btn-secondary-bkg
+
+$btn-pdg-x-sm         = .75rem
+$btn-pdg-y-sm         = .25rem
+
+$btn-pdg-x-lg         = 2.75rem
+$btn-pdg-y-lg         = .55rem
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius    = $border-radius
+$btn-border-radius-lg = $border-radius-lg
+$btn-border-radius-sm = $border-radius-sm
+
+
+// Forms
+//
+
+$input-pdg-x                    = 0.625rem
+$input-pdg-y                    = 0.125rem
+$input-boder-width              = 0
+
+$input-ff                       = $ff-common
+
+$input-bkg                      = #fff
+$input-bkg-disabled             = $clr-base
+
+$input-clr                      = $txt-clr-base
+$input-border                   = darken($input-clr, 10%)
+$input-box-shadow               = inset 1px 1px 3px 0px #ccc
+
+$input-border-radius            = $border-radius
+$input-border-radius-lg         = $border-radius-lg
+$input-border-radius-sm         = $border-radius-sm
+
+$input-border-focus             = #66afe9
+$input-box-shadow-focus         = rgba(102,175,233,.6)
+
+$input-clr-placeholder          = $txt-clr-base
+
+$input-pdg-x-sm                 = .75rem
+$input-pdg-y-sm                 = .275rem
+
+$input-pdg-x-lg                 = 1.25rem
+$input-pdg-y-lg                 = .75rem
+
+$input-height                   = (($fs-base * $lh) + ($input-pdg-y * 2) + ($border-width * 2))
+$input-height-lg                = (($fs-lg * $lh-lg) + ($input-pdg-y-lg * 2) + ($border-width * 2))
+$input-height-sm                = (($fs-sm * $lh-sm) + ($input-pdg-y-sm * 2) + ($border-width * 2))
+
+$form-group-mb                  = 15px
+
+$input-group-addon-bkg          = $clr-base
+$input-group-addon-border-color = $input-border
+
+$cursor-disabled                = not-allowed

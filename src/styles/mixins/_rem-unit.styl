@@ -1,0 +1,10 @@
+// REM unit calculation
+//
+// Usefull for grid framework
+rem-calc(value)
+  u = unit(value);
+  if (u is 'rem') {
+    return unit(value, u);
+  } else {
+    return unit(value / $fs-root, 'rem')
+  }

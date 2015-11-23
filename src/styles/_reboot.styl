@@ -1,0 +1,106 @@
+// Reset the box-sizing
+//
+html
+  box-sizing: border-box
+*,
+*:before,
+*:after
+  box-sizing: inherit
+
+
+// Reset HTML, body, and more
+//
+html
+  // Sets a specific default `font-size` for user with `rem` type scales.
+  font-size: $fs-root
+  // Changes the default tap highlight to be completely transparent in iOS.
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+
+body
+  font-family: $ff-common
+  font-size: $fs-base
+  line-height: $lh
+  color: $txt-clr-base
+  background-color: $body-bkg
+  // Improve animations displaying
+  -webkit-backface-visibility: hidden
+
+
+// Font weights
+//
+// Normalize weight from exotic font
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+strong, b
+  font-weight: bold
+
+
+// List
+//
+ul, ol
+  margin-top: 0
+
+
+// Medias
+//
+// Prevent medias horizontal alignment
+audio,
+canvas,
+iframe,
+img,
+svg,
+video
+  vertical-align: middle
+
+
+// Forms
+//
+// Reset fieldset native style
+fieldset
+  border: 0
+  margin: 0
+  padding: 0
+
+// Avoid textarea horizontal resizing
+textarea
+  resize: vertical
+
+// Reset fonts for relevant elements
+input,
+button,
+select,
+textarea
+  font-family: inherit
+  font-size: inherit
+  line-height: inherit
+
+
+// Pretty default hr
+hr
+  display: block
+  height: 1px
+  border: 0
+  border-top: 1px solid #ccc
+  margin: 1em 0
+  padding: 0
+
+
+// Figures
+//
+// We reset this here because previously Normalize had no `figure` margins. This
+// ensures we don't break anyone's use of the element.
+figure
+  margin: 0
+
+
+// Focus behavior on clikable elements
+//
+a, button, input, select, textarea
+  &:focus, &:active
+    outline: 0
+
+
+// iOS "clickable elements" fix for role="button"
+//
+[role="button"]
+  cursor: pointer
