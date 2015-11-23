@@ -28,6 +28,8 @@ module.exports = {
       .use(ignore([
         "layouts/*",
         "locales/*",
+        "styles/mixins/*",
+        "styles/_*",
       ]))
       .use(date)
       .use(assets({
