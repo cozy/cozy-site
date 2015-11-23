@@ -11,7 +11,8 @@
   "license": "AGPL-3.0",
   "dependencies": {
     "handlebars": "4.0.4",
-    "jade": "1.11.0",
+    "metalsmith": "^2.1.0",
+    "metalsmith-autoprefixer": "^1.1.0",
     "metalsmith-browser-sync": "1.1.0",
     "metalsmith-build-date": "0.1.0",
     "metalsmith-filenames": "1.0.0",
