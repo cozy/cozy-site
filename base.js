@@ -33,10 +33,11 @@ module.exports = {
       .use(assets({
         src: 'images'
       }))
-      .use(stylus())
-      .use(autoprefixer({
-        browsers : ['last 2 versions'],
-        cascade  : false
+      .use(stylus({
+        // use: [autoprefixer({
+        //   browsers : ['last 2 versions'],
+        //   cascade  : false
+        // })]
       }))
       .use(fingerprint({
         pattern: 'styles/main.css'
