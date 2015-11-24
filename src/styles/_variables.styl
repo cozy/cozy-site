@@ -37,9 +37,9 @@ $border-width = .0625rem    // 1px
 //
 // Praditus brand colors
 
-$clr-primary        = #3AB4F0 // blue
+$clr-primary        = #3AB4F0
 
-$clr-darker         = #3D3D3D // grayscale
+$clr-darker         = #3D3D3D
 $clr-base           = #86888B
 $clr-light          = #F8F9F9
 $clr-lighter        = #fff
@@ -60,8 +60,8 @@ $body-bkg = $clr-lighter
 // Style anchor elements.
 
 $link-clr              = $clr-darker
-$link-hover-clr        = lighten($clr-darker, 15%)
-$link-hover-decoration = underline
+$link-hover-clr        = $clr-primary
+$link-hover-decoration = none
 
 
 // Typography
@@ -72,33 +72,33 @@ $txt-clr-base        = $clr-darker
 $txt-muted           = $clr-light
 
 $ff-common           = "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif
-$ff-emphasis         = sans-serif
+// $ff-emphasis         = sans-serif
 
 $fs-root             = 16px
 
-$lh                  = 1.65
+$lh                  = 1.15
 
-$fs-base             = .875rem   // 14px
-$fs-lg               = 1.5rem    // 24px
-$fs-sm               = .75rem    // 12px
-$fs-xs               = .625rem   // 10px
+$fs-base             = 1rem
+$fs-lg               = 1.125rem
+$fs-sm               = .75rem
+$fs-xs               = .625rem
 
-$fs-h1               = 1.875rem  // 30px
-$fs-h2               = 1.75rem   // 28px
-$fs-h3               = 1.5625rem // 25px
-$fs-h4               = 1.5rem    // 24px
-$fs-h5               = 1.375rem  // 22px
-$fs-h6               = 1.25rem   // 20px
+$fs-h1               = 4.375rem
+$fs-h2               = 2rem
+$fs-h3               = 1.5625rem
+$fs-h4               = 1.5rem
+$fs-h5               = 1.375rem
+$fs-h6               = 1.25rem
 
-$fs-lead             = 1.5rem    // 24px
+$fs-lead             = 2.625rem
 
-$heading-bkg         = $clr-darker
-$headings-mrg-bottom = ($spacer / 2) // 20px
+$heading-bkg         = transparent
+$headings-mrg-bottom = ($spacer / 2)
 $headings-ff-base    = $ff-common
-$headings-lh         = 1.1
+$headings-lh         = $lh
 $headings-clr        = inherit
 
-$hr-border-clr       = rgba(0,0,0,.1)
+$hr-border-clr       = $clr-base
 $hr-border-width     = $border-width
 
 
@@ -109,7 +109,7 @@ $hr-border-width     = $border-width
 $lh-lg               = (4/3)
 $lh-sm               = 1.5
 
-$border-radius       = 0
+$border-radius       = 3px
 $border-radius-lg    = $border-radius
 $border-radius-sm    = $border-radius
 
@@ -142,14 +142,14 @@ breakpoints = {
 //
 // Define the maximum width of `.container` for different screen sizes.
 
-$container-max-width = 1000px
+$container-max-width = 1200px
 
 
 // Grid columns
 //
 // Set the number of columns and specify the width of the gutters.
 
-$grid-columns = 12
+$grid-columns = 24
 $grid-gutter  = 20px
 
 $grid-row-classname   = 'row'
@@ -160,8 +160,8 @@ $grid-cell-classname  = 'cell'
 //
 // Colors
 
-$nav-link-clr              = $clr-lighter
-$nav-link-hover-clr        = $clr-lighter
+$nav-link-clr              = $clr-base
+$nav-link-hover-clr        = $clr-darker
 $nav-link-hover-decoration = none
 
 
@@ -169,24 +169,24 @@ $nav-link-hover-decoration = none
 //
 // For each buttons, define text, background and border color.
 
-$btn-pdg-x            = 1.25rem
-$btn-pdg-y            = .75rem
+$btn-pdg-x            = 1.875rem
+$btn-pdg-y            = .625rem
 
 $btn-ff               = $ff-common
 
-$btn-primary-clr      = $clr-darker
+$btn-primary-clr      = $clr-lighter
 $btn-primary-bkg      = $clr-primary
 $btn-primary-border   = $btn-primary-bkg
 
 $btn-secondary-clr    = $clr-primary
-$btn-secondary-bkg    = $clr-darker
+$btn-secondary-bkg    = $clr-lighter
 $btn-secondary-border = $btn-secondary-bkg
 
 $btn-pdg-x-sm         = .75rem
 $btn-pdg-y-sm         = .25rem
 
-$btn-pdg-x-lg         = 2.75rem
-$btn-pdg-y-lg         = .55rem
+$btn-pdg-x-lg         = 1.875rem
+$btn-pdg-y-lg         = 1.125rem
 
 // Allows for customizing button radius independently from global border radius
 $btn-border-radius    = $border-radius
@@ -197,18 +197,18 @@ $btn-border-radius-sm = $border-radius-sm
 // Forms
 //
 
-$input-pdg-x                    = 0.625rem
-$input-pdg-y                    = 0.125rem
-$input-boder-width              = 0
+$input-pdg-x                    = 1.875rem
+$input-pdg-y                    = .625rem
+$input-boder-width              = $border-width
 
 $input-ff                       = $ff-common
 
-$input-bkg                      = #fff
-$input-bkg-disabled             = $clr-base
+$input-bkg                      = $clr-lighter
+$input-bkg-disabled             = $clr-light
 
 $input-clr                      = $txt-clr-base
-$input-border                   = darken($input-clr, 10%)
-$input-box-shadow               = inset 1px 1px 3px 0px #ccc
+$input-border                   = $clr-base
+$input-box-shadow               = none
 
 $input-border-radius            = $border-radius
 $input-border-radius-lg         = $border-radius-lg
@@ -222,16 +222,16 @@ $input-clr-placeholder          = $txt-clr-base
 $input-pdg-x-sm                 = .75rem
 $input-pdg-y-sm                 = .275rem
 
-$input-pdg-x-lg                 = 1.25rem
-$input-pdg-y-lg                 = .75rem
+$input-pdg-x-lg                 = 1.875rem
+$input-pdg-y-lg                 = 1.125rem
 
 $input-height                   = (($fs-base * $lh) + ($input-pdg-y * 2) + ($border-width * 2))
 $input-height-lg                = (($fs-lg * $lh-lg) + ($input-pdg-y-lg * 2) + ($border-width * 2))
 $input-height-sm                = (($fs-sm * $lh-sm) + ($input-pdg-y-sm * 2) + ($border-width * 2))
 
-$form-group-mb                  = 15px
+$form-group-mb                  = 1.25rem
 
-$input-group-addon-bkg          = $clr-base
-$input-group-addon-border-color = $input-border
+$input-group-addon-bkg          = $clr-primary
+$input-group-addon-border-color = darken($clr-primary, 10%)
 
 $cursor-disabled                = not-allowed
