@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -56,14 +54,4 @@
        id="path15"
        style="fill:url(#cozy-gradient)" />
   </g>
-  <text
-     x="164.89432"
-     y="446.63773"
-     id="text2996"
-     xml:space="preserve"
-     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#61c5ed;fill-opacity:1;stroke:none;font-family:Sans"><tspan
-       x="164.89432"
-       y="446.63773"
-       id="tspan2998"
-       style="font-size:64px;fill:#61c5ed;fill-opacity:1;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro">cozy.io</tspan></text>
 </svg>
