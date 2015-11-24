@@ -9,7 +9,8 @@ metalsmith = base.getMetalsmith('en');
 if(argv.dev) {
   metalsmith.use(browserSync({
     server : "build",
-    files  : ["src/**/*.html", "src/layouts/*.html", "src/styles/*.styl"]
+    files  : ["src/**/*.*"],
+    open: false
   }))
 }
 
