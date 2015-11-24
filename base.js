@@ -35,9 +35,7 @@ module.exports = {
       .use(assets({
         src: 'images'
       }))
-      .use(stylus({
-
-      }))
+      .use(stylus())
       .use(autoprefixer({
         browsers : ['last 2 versions'],
         cascade  : false
@@ -51,7 +49,8 @@ module.exports = {
       }))
       .use(layouts({
         engine: 'handlebars',
-        directory: 'src/layouts'
+        directory: 'src/layouts',
+        partials: "src/partials"
       }))
       .use(inPlace({
         engine: 'handlebars',
