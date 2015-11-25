@@ -17,6 +17,18 @@ h1, h2, h3, h4, h5, h6,
     +hover-state()
       text-decoration: none
 
+// case
+h4, .h4,
+h5, .h5,
+h6, .h6
+  text-transform: none
+
+// alignment
+h1, .h1,
+h2, .h2,
+h3, .h3
+  text-align center
+
 // bottom margins
 h1, .h1,
 h2, .h2,
@@ -51,6 +63,7 @@ p
 
 // Lead paragraph
 .lead
+  margin-bottom $spacer
   text-align: center
   font-size: $fs-lead
 

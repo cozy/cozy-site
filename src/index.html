@@ -8,22 +8,79 @@ locale:
 
 {{> header }}
 
-  <main>
+  <main class="main">
     <div class="container">
-      <div class="row-top">
-        <div class="col-xs-14 col-offset-xs-5">
-          <h1 class="align-center">{{__ 'Simple, versatile, open, yours.'}}</h1>
+      <header>
+        <div class="row-top">
+          <div class="col-xs-14 col-offset-xs-5">
+            <h1>{{__ 'Simple, versatile, open, yours.'}}</h1>
+          </div>
         </div>
-      </div>
-      <div class="row-top">
-        <div class="col-xs-8 col-offset-xs-8">
-          <p class="lead">
-            {{__ 'Store, control, sync, and share your data just the way you want it.'}}
-          </p>
+        <div class="row-top">
+          <div class="col-xs-8 col-offset-xs-8">
+            <p class="lead">
+              {{__ 'Store, control, sync, and share your data just the way you want it.'}}
+            </p>
+          </div>
         </div>
-      </div>
+      </header>
+      <nav class="standFor">
+        <div class="row-top row-justify-center">
+          <div class="col-xs-6">
+            <div class="standFor-item">
+              <figure class="standFor-figure">
+                <img src="images/stand-for-tinkerers.png" class="img-responsive" alt="">
+              </figure>
+              <h2 class="h4 standFor-title">
+                {{__ 'For Tinkerers, Learners, and Computer Students'}}
+              </h2>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="standFor-item">
+              <figure class="standFor-figure">
+                <img src="images/stand-for-selfhosting.png" class="img-responsive" alt="">
+              </figure>
+              <h2 class="h4 standFor-title">
+                {{__ 'Self hosting with Cozy'}}
+              </h2>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="standFor-item">
+              <figure class="standFor-figure">
+                <img src="images/stand-for-files.png" class="img-responsive" alt="">
+              </figure>
+              <h2 class="h4 standFor-title">
+                {{__ 'Files, Photos, Mobile, Oh My! '}}
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row-top row-justify-center">
+          <div class="col-xs-6">
+            <div class="standFor-item">
+              <figure class="standFor-figure">
+                <img src="images/stand-for-aggregate.png" class="img-responsive" alt="">
+              </figure>
+              <h2 class="h4 standFor-title">
+                {{__ 'Aggregate and make sense of your data'}}
+              </h2>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="standFor-item">
+              <figure class="standFor-figure">
+                <img src="images/stand-for-ungoogleyourlife.png" class="img-responsive" alt="">
+              </figure>
+              <h2 class="h4 standFor-title">
+                {{__ 'Ungoogle your Life'}}
+              </h2>
+            </div>
+          </div>
+        </div>
+      </nav>
     </div>
   </main>
-  <a href="ungoogle-your-life">Ungoogle your life</a>
 
 {{> footer }}
