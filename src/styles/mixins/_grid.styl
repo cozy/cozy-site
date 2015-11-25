@@ -49,7 +49,7 @@ cell(i = 1, cols = $grid-columns, align = '', g = $grid-gutter)
   flex-basis: s('calc(100% * %s - %s)', i / cols, rem-calc(g))
   min-width 0 // FF adjustment fo rresponsive images
   if g is not 0
-    margin: rem-calc(g / 2)
+    margin: 0 rem-calc(g / 2)
   if align is 'top'
     align-self flex-start
   if align is 'bottom'
