@@ -53,7 +53,7 @@ $clr-error          = FireBrick
 //
 // Settings for the `<body>` element.
 
-$body-bkg = $clr-lighter
+$body-bkg          = $clr-lighter
 
 
 // Links
@@ -69,8 +69,9 @@ $link-hover-decoration = none
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$txt-clr-base        = $clr-base
-$txt-muted           = lighten($txt-clr-base, 30%)
+$txt-clr-base          = $clr-base
+$txt-muted             = lighten($txt-clr-base, 30%)
+$txt-clr-base-contrast = $clr-lighter
 
 $ff-common           = "Merriweather", Georgia, serif
 $ff-emphasis         = "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif
@@ -97,11 +98,12 @@ $fw-bold             = 700
 $fw-regular          = 400
 $fw-light            = 300
 
-$heading-bkg         = transparent
-$headings-mrg-bottom = ($spacer - .625rem)
-$headings-ff-base    = $ff-emphasis
-$headings-lh         = 1
-$headings-clr        = $clr-darker
+$heading-bkg           = transparent
+$headings-mrg-bottom   = ($spacer - .625rem)
+$headings-ff-base      = $ff-emphasis
+$headings-lh           = 1
+$headings-clr          = $clr-darker
+$headings-clr-contrast = $clr-lighter
 
 $hr-border-clr       = $clr-base
 $hr-border-width     = $border-width
@@ -167,9 +169,12 @@ $grid-cell-classname  = 'col'
 $nav-link-ff               = $ff-emphasis
 
 // Colors
-$nav-link-clr              = $clr-base
-$nav-link-hover-clr        = $clr-darker
-$nav-link-hover-decoration = none
+$nav-link-clr                       = $clr-base
+$nav-link-hover-clr                 = $clr-darker
+$nav-link-hover-decoration          = none
+$nav-link-clr-contrast              = $clr-lighter
+$nav-link-hover-clr-contrast        = $clr-primary
+$nav-link-hover-decoration-contrast = none
 
 
 // Buttons

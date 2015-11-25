@@ -6,3 +6,19 @@
 
 .siteLogo
   max-width 53px
+  fill: $clr-primary
+
+
+// Contrast mode
+//
+
+.contrast
+  .siteHeader
+    .btn-link
+      color $nav-link-clr-contrast
+
+      +hover-state()
+        color $nav-link-hover-clr-contrast
+
+  .siteLogo
+    fill: $clr-lighter

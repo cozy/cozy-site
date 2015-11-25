@@ -10,5 +10,22 @@ body
   color: $txt-clr-base
   background-color: $body-bkg
 
+  &.contrast
+    background $body-bkg url(../images/bkg-ungoogleyourlife.jpg) no-repeat
+    background-size contain
+
+
 .main
   margin-bottom $spacer
+
+
+// Contrast mode
+//
+// .contrast class is on body
+.contrast
+  .introduction
+  .introduction-title
+    color: $txt-clr-base-contrast
+
+  .introduction
+    height 100vh
