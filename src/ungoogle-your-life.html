@@ -1,7 +1,30 @@
 ---
 layout: base.html
-title: Ungoogle your life
-locale: en
+mode: contrast
+metaTitle: Ungoogle your Life
+metaDescription: Ungoogle your Life
+locale:
+pathTo: ../
 ---
 
-<h1>Ungoogle your life</h1>
+{{> header }}
+
+    <div class="container">
+      <header>
+        <div class="row-top">
+          <div class="col-xs-14 col-offset-xs-5">
+            <h1>{{__ 'Ungoogle your digital life.'}}</h1>
+          </div>
+        </div>
+        <div class="row-top">
+          <div class="col-xs-8 col-offset-xs-8">
+            <p class="lead">
+              {{__ 'Reclaim your privacy and apps from Google. Calendar, contact books and mails under control.'}}
+            </p>
+          </div>
+        </div>
+      </header>
+    </div>
+
+{{> footer }}
+
