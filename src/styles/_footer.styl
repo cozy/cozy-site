@@ -1,0 +1,50 @@
+// App main footer
+//
+
+.siteFooter
+  padding-top 50px
+  padding-bottom 50px
+  font-family $ff-emphasis
+  font-size $fs-sm
+  background-color $footer-bkg
+
+.siteFooter-hangTitle
+  margin-bottom 10px
+  font-size $fs-h3
+  line-height $headings-lh
+  font-weight $fw-bold
+  color $clr-darker
+
+.siteFooter-hangContent
+  line-height 1.3
+  color $clr-highlight
+
+.siteFooter-copy
+  margin-top 4.375rem
+  font-family $ff-common
+  font-size ($fs-sm - .063rem)
+  line-height 1.3
+  color lighten($txt-clr-base, 60%)
+
+.siteFooter-listTitle
+  @extend .h5
+
+.siteFooter-list
+  @extend .list-unstyled
+
+.siteFooter-list-item
+  margin-bottom 10px
+  line-height 1
+
+  &.bolder
+    font-weight $fw-bold
+    a
+      color $clr-darker
+  &.muted
+    a
+      color $txt-muted
+  &.bolder
+  &.muted
+    a
+      +hover-state()
+        color $clr-primary
