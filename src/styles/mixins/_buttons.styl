@@ -16,4 +16,6 @@ button-colors($clr, $bkg, $border)
   background-color: $bkg
   border-color: $border
   transition: $transition-property $transition-duration $transition-easing
-  hover-state()
+  +hover-state()
+    color: $clr
+    background-color: darken($bkg, 10%)
