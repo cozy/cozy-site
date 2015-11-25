@@ -8,3 +8,42 @@ a
   +hover-state()
     color: $link-hover-clr
     text-decoration: $link-hover-decoration
+
+
+// Social Links
+//
+// Add icons to respectives social medias links
+.socialLink
+  position relative
+  padding-left 2.5rem
+  &::before
+    content ""
+    position absolute
+
+  &.facebook
+    &::before
+      left .313rem
+      width .5rem
+      height 1rem
+      background: url(../images/icon-facebook.svg) no-repeat
+
+  &.twitter
+    &::before
+      left 0
+      width 1.188rem
+      height .813rem
+      background: url(../images/icon-twitter.svg) no-repeat
+
+  &.instagram
+    &::before
+      left .125rem
+      width .938rem
+      height .938rem
+      background: url(../images/icon-instagram.svg) no-repeat
+
+  &.rss
+    &::before
+      left .188rem
+      width .75rem
+      height .813rem
+      background: url(../images/icon-rss.svg) no-repeat
