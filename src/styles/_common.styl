@@ -18,17 +18,12 @@
 //
 // 2 columns list with icons for presentation hangs on a list
 .hangs
-  margin-bottom $spacer
   padding $spacer 0 0
-
-  &.onBlack
-    background-color #000
 
 .hangsList
   @extend .clearfix
   @extend .list-unstyled
   font-family $ff-emphasis
-  color: $txt-clr-base-contrast
 
 .hangsList-item
   float: left
@@ -50,3 +45,17 @@
 
   &:nth-child(odd)
     padding-right 50px
+
+
+// Features list
+//
+// interactive features list
+.featuresList
+  @extend .list-unstyled
+  font-family $ff-emphasis
+
+.featuresList-item
+  margin $spacer-y
+
+.features-screenshot
+  box-shadow 0px 0px 35px 0px rgba(0,0,0, 0.3)

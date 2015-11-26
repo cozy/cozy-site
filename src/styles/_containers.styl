@@ -10,19 +10,31 @@ body
   color: $txt-clr-base
   background-color: $body-bkg
 
+  &.is-introductionFullHeight
+
+    .introduction
+      padding-top 40vh
+      height 100vh
+
 
 .main
   margin-bottom $spacer
 
+// Default introduction panel
+//
+// ex: homepage
 .introduction
   padding-top (.938rem + 3.375rem + $spacer) // top header margin + header height + default margin
 
 
-// Contrast mode
+// Full width block
 //
-// .contrast class is on body
-.is-introductionFullHeight
+// Set padding and barckground colors
+.panel
+  padding ($spacer * 1.5) 0
 
-  .introduction
-    padding-top 40vh
-    height 100vh
+  &.onBlack
+    background-color #000
+
+  &.onPurple
+    background-color #7588E0

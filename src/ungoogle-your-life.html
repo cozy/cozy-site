@@ -27,7 +27,7 @@ pathTo: ../
   </header>
 
   <article>
-    <section class="hangs onBlack">
+    <section class="panel onBlack hangs">
       <div class="container">
         <div class="row row-justify-center">
           <div class="col-xs-18">
@@ -58,7 +58,7 @@ pathTo: ../
       </div>
     </section>
 
-    <section class="presentation">
+    <section class="presentation panel">
       <div class="container">
         <div class="row row-justify-center">
           <div class="col-xs-20">
@@ -98,11 +98,25 @@ pathTo: ../
       </div>
     </section>
 
-    <section class="features contrast onPurple">
+    <section class="features panel onPurple contrast">
       <div class="container">
+        <h2>{{__ 'Features'}}</h2>
+        <p class="lead lead-sm">
+          {{__ 'Learning by doing: tinker with Cozy.'}}
+        </p>
+
         <div class="row">
-          <div class="col-xs-24">
-            <h2>Features</h2>
+          <div class="col-xs-6 col-center">
+            <ul class="featuresList">
+              <li class="featuresList-item">{{__ 'Calendar manager simple and easy to use.'}}</li>
+              <li class="featuresList-item">{{__ 'Contact book that gives efficient contact browsing and management'}}</li>
+              <li class="featuresList-item">{{__ 'Slick webmail that supports several accounts.'}}</li>
+              <li class="featuresList-item">{{__ 'Mobile synchronization for your contacts and calendar'}}</li>
+              <li class="featuresList-item">{{__ 'CalDAV and CardDAV support for synchronization with every tools'}}</li>
+            </ul>
+          </div>
+          <div class="col-xs-17 col-offset-xs-1">
+            <img src="{{ pathTo }}images/features-webmail.png" class="features-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
           </div>
         </div>
       </div>
