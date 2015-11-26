@@ -14,30 +14,30 @@
   text-align center
 
 
-// Features list
+// Hangs list
 //
-// 2 columns list with icons for presentation features on list
-.features
+// 2 columns list with icons for presentation hangs on a list
+.hangs
   margin-bottom $spacer
   padding $spacer 0 0
 
   &.onBlack
     background-color #000
 
-.featuresList
+.hangsList
   @extend .clearfix
   @extend .list-unstyled
   font-family $ff-emphasis
   color: $txt-clr-base-contrast
 
-.featuresList-item
+.hangsList-item
   float: left
   position relative
   margin-bottom ($spacer * 1.5)
   padding-left 50px
   width 50%
 
-  .featuresList-item-icon
+  .hangsList-item-icon
     position absolute
     top 5px
     left 0
@@ -45,7 +45,7 @@
   &:nth-child(even)
     padding-left 100px
 
-    .featuresList-item-icon
+    .hangsList-item-icon
       left 50px
 
   &:nth-child(odd)
