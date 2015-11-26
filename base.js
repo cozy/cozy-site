@@ -28,6 +28,7 @@ module.exports = {
       .use(ignore([
         "layouts/*",
         "locales/*",
+        "partials/*",
         "styles/mixins/*",
         "styles/_*",
       ]))
