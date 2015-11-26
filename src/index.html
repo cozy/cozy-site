@@ -7,8 +7,8 @@ permalink: false
 
 {{> header }}
 
+  <header class="introduction">
     <div class="container">
-      <header class="introduction">
         <div class="row">
           <div class="col-xs-14 col-offset-xs-5">
             <h1 class="introduction-title">{{__ 'Simple, versatile, open, yours.'}}</h1>
@@ -16,13 +16,15 @@ permalink: false
         </div>
         <div class="row">
           <div class="col-xs-8 col-offset-xs-8">
-            <p class="lead">
+            <p class="lead introduction-content">
               {{__ 'Store, control, sync, and share your data just the way you want it.'}}
             </p>
           </div>
         </div>
-      </header>
-      <nav class="standFor">
+      </div>
+    </header>
+    <nav class="standFor">
+      <div class="container">
         <div class="row row-justify-center">
           <div class="col-xs-6">
             <div class="standFor-item">
@@ -77,7 +79,7 @@ permalink: false
             </div>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
 {{> footer }}

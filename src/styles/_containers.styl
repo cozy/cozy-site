@@ -3,20 +3,19 @@
 // Apply styles to html, body and main containers classes
 
 body
-  padding-top .938rem
+  // padding-top .938rem
   font-family: $ff-common
   font-size: $fs-base
   line-height: $lh
   color: $txt-clr-base
   background-color: $body-bkg
 
-  &.contrast
-    background $body-bkg url(../images/bkg-ungoogleyourlife.jpg) no-repeat
-    background-size contain
-
 
 .main
   margin-bottom $spacer
+
+.introduction
+  padding-top (.938rem + 3.375rem + $spacer) // top header margin + header height + default margin
 
 
 // Contrast mode
@@ -28,4 +27,5 @@ body
     color: $txt-clr-base-contrast
 
   .introduction
+    padding-top 40vh
     height 100vh
