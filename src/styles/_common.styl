@@ -5,9 +5,48 @@
 //
 
 .introduction
+
   &.ungoogleYourLife
-    background url(../images/bkg-ungoogleyourlife@2x.jpg) no-repeat
+    background url(../images/bkg-ungoogleyourlife@2x.jpg) no-repeat 50% 100%
     background-size cover
 
 .introduction-content
   text-align center
+
+
+// Features list
+//
+// 2 columns list with icons for presentation features on list
+.features
+  margin-bottom $spacer
+  padding $spacer 0 0
+
+  &.onBlack
+    background-color #000
+
+.featuresList
+  @extend .clearfix
+  @extend .list-unstyled
+  font-family $ff-emphasis
+  color: $txt-clr-base-contrast
+
+.featuresList-item
+  float: left
+  position relative
+  margin-bottom ($spacer * 1.5)
+  padding-left 50px
+  width 50%
+
+  .featuresList-item-icon
+    position absolute
+    top 5px
+    left 0
+
+  &:nth-child(even)
+    padding-left 100px
+
+    .featuresList-item-icon
+      left 50px
+
+  &:nth-child(odd)
+    padding-right 50px
