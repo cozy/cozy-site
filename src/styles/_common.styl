@@ -59,3 +59,30 @@
 
 .features-screenshot
   box-shadow 0px 0px 35px 0px rgba(0,0,0, 0.3)
+
+
+// Testimonials
+//
+// Present testimonials with portrait
+.testimonialsItem
+  display table
+  width 100%
+
+.testimonialsItem-figure,
+.testimonialsItem-text
+  display table-cell
+  vertical-align middle
+
+.testimonialsItem-text
+  padding-left .938rem // 15px
+  font-family $ff-emphasis
+  line-height 1.25
+  font-weight $fw-bold
+  color: $clr-darker
+
+  div
+    padding-top .313rem
+    font-family $ff-common
+    font-size ($fs-sm - .063rem)
+    font-weight $fw-regular
+    color: $txt-clr-base
