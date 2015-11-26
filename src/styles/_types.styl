@@ -58,7 +58,33 @@ h6, .h6
 //
 p
   margin-top: 0
-  margin-bottom: 1rem
+  margin-bottom: $spacer-y
+
+
+// Hang emphasis
+.hang
+  display block
+  padding-left .938rem
+  font-family $ff-emphasis
+  font-size $fs-xl
+  line-height $lh-xl
+  font-weight $fw-bold
+  font-style normal
+  color: $clr-darker
+  border-left: .188rem solid $clr-primary
+
+
+// Drop case on first child letter
+//
+.dropcaps
+  +dropcaps($ff-emphasis, 6.875rem, $clr-darker)
+    0
+
+
+// Highlight text
+//
+.highlight
+  color: $txt-clr-highlight
 
 
 // Lead paragraph
