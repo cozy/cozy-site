@@ -123,3 +123,14 @@ hr
   margin-bottom: $spacer-y
   border: 0
   border-top: $hr-border-width solid $hr-border-clr
+
+
+// Contrast color managing
+//
+// Manage negative color on dark/light backgrounds
+.contrast
+  color $txt-clr-base-contrast
+
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6
+    color $txt-clr-base-contrast
