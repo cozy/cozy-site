@@ -10,6 +10,16 @@ a
     text-decoration: $link-hover-decoration
 
 
+// Direction
+//
+// Set properties of direction arrows links
+// Global styles
+.direction
+  display inline-block
+  transition: transform $transition-duration cubic-bezier(0.280, 1.650, 0.650, 1.650)
+  +hover-state()
+    transform: scale(1.5)
+
 // Social Links
 //
 // Add icons to respectives social medias links

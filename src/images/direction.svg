@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>Scroll</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="2b-Ungoogle" sketch:type="MSArtboardGroup" transform="translate(-689.000000, -646.000000)">
+            <g id="Cover" sketch:type="MSLayerGroup">
+                <g id="Scroll" transform="translate(689.000000, 646.000000)" sketch:type="MSShapeGroup">
+                    <path d="M20,40 C31.045695,40 40,31.045695 40,20 C40,8.954305 31.045695,0 20,0 C8.954305,0 0,8.954305 0,20 C0,31.045695 8.954305,40 20,40 Z" id="Oval-2" fill="#FFFFFF"></path>
+                    <path d="M20.3145397,23.4920635 C20.152,23.4920635 19.9900952,23.4298413 19.8662857,23.3053968 L16.6935873,20.1225397 C16.4459683,19.8736508 16.4459683,19.4711111 16.6935873,19.2222222 C16.9418413,18.9733333 17.3431111,18.9733333 17.5907302,19.2222222 L20.3145397,21.9549206 L23.0383492,19.2222222 C23.2859683,18.9733333 23.6872381,18.9733333 23.9354921,19.2222222 C24.1831111,19.4711111 24.1831111,19.8736508 23.9354921,20.1225397 L20.7634286,23.3053968 C20.6389841,23.4298413 20.4770794,23.4920635 20.3145397,23.4920635" id="Fill-1" fill="#37B2EF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

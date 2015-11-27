@@ -11,22 +11,28 @@ pathTo: ../
 
   <header class="introduction contrast ungoogleYourLife">
     <div class="container">
-        <div class="row">
-          <div class="col-xs-14 col-offset-xs-5">
-            <h1 class="introduction-title">{{__ 'Ungoogle your digital life.'}}</h1>
-          </div>
+      <div class="row">
+        <div class="col-xs-14 col-offset-xs-5">
+          <h1 class="introduction-title">{{__ 'Ungoogle your digital life.'}}</h1>
         </div>
-        <div class="row">
-          <div class="col-xs-10 col-offset-xs-7">
-            <p class="introduction-content">
-              {{__ 'Reclaim your privacy and apps from Google. Calendar, contact books and mails under control.'}}
-            </p>
-          </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-10 col-offset-xs-7">
+          <p class="introduction-content">
+            {{__ 'Reclaim your privacy and apps from Google. Calendar, contact books and mails under control.'}}
+          </p>
         </div>
+      </div>
+    </div>
+
+    <div class="introduction-goTo">
+      <a href="#article" class="direction">
+        <img src="{{ pathTo }}images/direction.svg" alt="{{__ 'Jump to content'}}">
+      </a>
     </div>
   </header>
 
-  <article>
+  <article id="article">
     <section class="panel onBlack hangs">
       <div class="container">
         <div class="row row-justify-center">
@@ -62,7 +68,7 @@ pathTo: ../
       <div class="container">
         <div class="row row-justify-center">
           <div class="col-xs-20">
-            <h2>{{__ 'Tell me more'}}</h2>
+            <h2 class="panel-title">{{__ 'Tell me more'}}</h2>
 
             <div class="row">
               <div class="col-xs-11">
@@ -100,8 +106,8 @@ pathTo: ../
 
     <section class="features panel onPurple contrast">
       <div class="container">
-        <h2>{{__ 'Features'}}</h2>
-        <p class="lead lead-sm">
+        <h2 class="panel-title">{{__ 'Features'}}</h2>
+        <p class="panel-lead lead lead-sm">
           {{__ 'Learning by doing: tinker with Cozy.'}}
         </p>
 
@@ -124,8 +130,8 @@ pathTo: ../
 
     <section class="testimonials panel">
       <div class="container">
-        <h2>{{__ 'Testimonials'}}</h2>
-        <p class="lead lead-sm">
+        <h2 class="panel-title">{{__ 'Testimonials'}}</h2>
+        <p class="panel-lead lead lead-sm">
           {{__ 'Learning by doing: tinker with Cozy, and build amazing apps'}}
         </p>
 
@@ -169,14 +175,14 @@ pathTo: ../
 
     <section class="ungoogleCTA panel onLightblue">
       <div class="container">
-        <h2>{{__ 'Start ungoogling your life by joigning our BETA program'}}</h2>
-        <p class="lead lead-sm">
+        <h2 class="panel-title">{{__ 'Start ungoogling your life by joigning our BETA program'}}</h2>
+        <p class="panel-lead lead lead-sm">
           {{__ 'Waiting line to expect'}}
         </p>
 
-        <p class="align-center">
+        <div class="align-center">
           <a href="#" class="btn btn-primary">{{__ 'Start ungoogle now'}}</a>
-        </p>
+        </div>
       </div>
     </section>
   </article>
