@@ -116,17 +116,66 @@ pathTo: ..
         </p>
 
         <div class="row">
-          <div class="col-xs-6 col-center">
+          <div class="col-xs-7 col-center">
             <ul class="featuresList">
-              <li class="featuresList-item">{{__ 'Calendar manager simple and easy to use.'}}</li>
-              <li class="featuresList-item">{{__ 'Contact book that gives efficient contact browsing and management'}}</li>
-              <li class="featuresList-item">{{__ 'Slick webmail that supports several accounts.'}}</li>
-              <li class="featuresList-item">{{__ 'Mobile synchronization for your contacts and calendar'}}</li>
-              <li class="featuresList-item">{{__ 'CalDAV and CardDAV support for synchronization with every tools'}}</li>
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link active" data-target="calendar">
+                  <span class="featuresList-item-link-icon">
+                    <svg width="17" height="18" class="svg-icon" viewBox="0 0 17 18" xmlns="http://www.w3.org/2000/svg"><path d="M1.213 2.83C.543 2.83 0 3.376 0 4.045v12.743C0 17.457.542 18 1.213 18h14.562c.67 0 1.214-.544 1.214-1.213V4.044c0-.67-.544-1.213-1.215-1.213h-1.213v.608s-.02 1.84-1.82 1.84c0 0-1.82-.02-1.82-1.82l-.02-.627H6.05v.608s.017 1.84-1.803 1.84c0 0-1.84.018-1.84-1.82V2.83H1.214zm1.715 1.563A.928.928 0 0 0 2 5.32v9.752c0 .512.415.928.928.928H14.07a.93.93 0 0 0 .93-.928v-9.75a.93.93 0 0 0-.93-.93h-.928v.466s-.014 1.407-1.393 1.407c0 0-1.393-.014-1.393-1.393l-.015-.48H6.628v.466s.014 1.407-1.38 1.407c0 0-1.406.014-1.406-1.393v-.48h-.914zM8.493 9.71h2.145c-.486.6-.84 1.07-1.062 1.6-.225.527-.39 1.268-.494 2.048h1.325c.043-.56.127-1.133.253-1.544.16-.528.204-.818.48-1.247.224-.355.65-.627.988-.93V8.492H8.493V9.71zM5.596 8.492c-.142.3-.34.457-.588.66-.25.207-.31.267-.76.526v1.088c.343-.207.473-.293.473-.293s.515-.236.73-.4v3.27h1.2V8.494H5.595zM12.536 0c.672 0 1.216.544 1.216 1.213v1.215a1.214 1.214 0 0 1-2.428 0V1.213c0-.67.544-1.213 1.213-1.213zM4.045 0c.67 0 1.215.544 1.215 1.213v1.215a1.214 1.214 0 0 1-2.43 0V1.213C2.83.543 3.376 0 4.045 0z" fill-rule="evenodd"/></svg>
+                  </span>
+                  {{__ 'Calendar manager simple and easy to use.'}}
+                </a>
+              </li>
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link" data-target="contacts">
+                  <span class="featuresList-item-link-icon">
+                    <svg width="14" height="16" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.013 14.004c-.024-.02-.012-.04-.005-.053C3.148 11.994 4.826 11 6.995 11c2.178 0 3.855.993 4.977 3l-9.96.004zM6.995 2a3.002 3.002 0 0 1 2.998 3c0 1.654-1.345 3-2.998 3a3.002 3.002 0 0 1-2.998-3c0-1.655 1.345-3 2.998-3zm6.717 10.95c-.95-1.643-2.37-2.98-4.32-3.59 1.543-.85 2.6-2.473 2.6-4.36a4.998 4.998 0 0 0-9.994 0c0 1.89 1.06 3.513 2.604 4.363-1.936.61-3.366 1.94-4.32 3.58C-.51 14.3.45 16 2.016 16h9.955c1.563 0 2.522-1.696 1.74-3.05z" fill-rule="evenodd"/></svg>
+                  </span>
+                  {{__ 'Contact book that gives efficient contact browsing and management'}}
+                </a>
+              </li>
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link" data-target="webmail">
+                  <span class="featuresList-item-link-icon">
+                    <svg width="16" height="12" viewBox="0 0 16 12" xmlns="http://www.w3.org/2000/svg"><path d="M3.562 2L8 5.698 12.438 2H3.562zM2 10h12V3.302L8.64 7.77c-.37.307-.91.307-1.28 0L2 3.3V10zm13 2H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1z" fill-rule="evenodd"/></svg>
+                  </span>
+                  {{__ 'Slick webmail that supports several accounts.'}}
+                </a>
+              </li>
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link" data-target="synchronization">
+                  <span class="featuresList-item-link-icon">
+                    <svg width="10" height="14" viewBox="0 0 10 14" xmlns="http://www.w3.org/2000/svg"><path d="M8 12H2V2h6v10zM9 0H1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1zM5 11a1 1 0 1 0 0-2 1 1 0 0 0 0 2" fill-rule="evenodd"/></svg>
+                  </span>
+                  {{__ 'Mobile synchronization for your contacts and calendar'}}
+                </a>
+              </li>
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link" data-target="calendar-standards">
+                  <span class="featuresList-item-link-icon">
+
+                  </span>
+                  {{__ 'CalDAV and CardDAV support for synchronization with every tools'}}
+                </a>
+              </li>
             </ul>
           </div>
-          <div class="col-xs-17 col-offset-xs-1">
-            <img src="{{ pathTo }}/images/features-webmail.png" class="features-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+          <div class="col-xs-16 col-offset-xs-1 featuresList-screenshots">
+            <figure id="feature-calendar" class="featuresList-screenshotOutter active">
+              <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-calendar.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+            </figure>
+            <figure id="feature-contacts" class="featuresList-screenshotOutter">
+              <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-contacts.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+            </figure>
+            <figure id="feature-webmail" class="featuresList-screenshotOutter">
+              <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-webmail.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+            </figure>
+            <figure id="feature-synchronization" class="featuresList-screenshotOutter">
+              <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-synchronization.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+            </figure>
+            <figure id="feature-calendar-standards" class="featuresList-screenshotOutter">
+              <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-calendar.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+            </figure>
           </div>
         </div>
       </div>

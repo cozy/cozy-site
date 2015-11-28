@@ -13,6 +13,10 @@
     background-color #000
   .features
     background-color #7588E0
+  .featuresList-item-link
+    &.active
+      .featuresList-item-link-icon
+        fill: #7588E0
   .landingCTA
     background-color #F1F4FF
     .panel-lead
@@ -85,15 +89,86 @@
 // Features list
 //
 // interactive features list
+.features
+  overflow hidden
+
 .featuresList
   @extend .list-unstyled
+  margin 0
   font-family $ff-emphasis
 
 .featuresList-item
-  margin $spacer-y
+  position relative
+  margin ($spacer - .625rem) 0
+  margin-left $grid-gutter
+  &::after
+    content ""
+    position absolute
+    bottom -(($spacer - 0.625rem) / 2) - (0.938rem / 2) // half of item margin bottom - half of the component height
+    left (2.813rem / 2) // 50% of icon size
+    width .125rem
+    height .938rem
+    background-color $clr-lighter
+  &:first-child
+    margin-top 0
+  &:last-child
+    margin-bottom 0
+    &::after
+      display none
 
-.features-screenshot
-  box-shadow 0px 0px 35px 0px rgba(0,0,0, 0.3)
+.featuresList-item-link
+  position relative
+  display block
+  padding-left 4.063rem // 65px
+  line-height $lh-sm
+  color $clr-lighter !important
+  +hover-state()
+    .featuresList-item-link-icon
+      background-color: rgba(255,255,255, 0.5)
+  &.active
+    .featuresList-item-link-icon
+      background-color $clr-lighter
+
+
+.featuresList-item-link-icon
+  position absolute
+  top 50%
+  left 0
+  transform translateY(-50%)
+  width 2.813rem  // 45px
+  height 2.813rem
+  border $border-width solid $clr-lighter
+  border-radius 100%
+  fill $clr-lighter
+  transition all $transition-duration $transition-easing
+  // 0
+  svg
+    position absolute
+    top 50%
+    left 50%
+    transform translate(-50%, -50%)
+
+.featuresList-screenshots
+  position relative
+
+.featuresList-screenshotOutter
+  position absolute
+  top 0
+  left 0
+  right 0
+  transform translateX(1000px)
+  transition transform 1s cubic-bezier(.46,-0.47,.59,1.29)
+
+  .featuresList-screenshot
+    box-shadow 0px 0px 35px 0px rgba(0,0,0, 0.3)
+    opacity 0
+    transition opacity 1.5s $transition-easing
+
+  &.active
+    transform translateX(0)
+
+    .featuresList-screenshot
+      opacity 1
 
 
 // Testimonials
