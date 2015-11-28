@@ -4,7 +4,8 @@
   "description": "Assets and templates to build the Cozy website",
   "main": "index.js",
   "scripts": {
-    "dev": "node output.js --dev"
+    "dev": "node output.js --dev",
+    "build": "node output.js"
   },
   "author": "Cozy Cloud <frank@cozycloud.cc> (https://cozycloud.cc/)",
   "repository": "https://github.com/cozy/cozy-site",
