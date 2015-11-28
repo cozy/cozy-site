@@ -1,16 +1,17 @@
-var Metalsmith = require('metalsmith'),
-    filenames = require("metalsmith-filenames"),
-    assets = require('metalsmith-static'),
-    date = require('metalsmith-build-date'),
-    layouts = require('metalsmith-layouts'),
-    stylus = require('metalsmith-stylus'),
-    i18n = require('metalsmith-i18n'),
-    mapsite = require('metalsmith-mapsite'),
-    permalinks = require('metalsmith-permalinks'),
-    ignore = require('metalsmith-ignore'),
-    rename = require('metalsmith-rename'),
-    fingerprint = require('metalsmith-fingerprint'),
-    inPlace = require('metalsmith-in-place'),
+var Metalsmith   = require('metalsmith'),
+    filenames    = require("metalsmith-filenames"),
+    assets       = require('metalsmith-static'),
+    date         = require('metalsmith-build-date'),
+    layouts      = require('metalsmith-layouts'),
+    stylus       = require('metalsmith-stylus'),
+    i18n         = require('metalsmith-i18n'),
+    mapsite      = require('metalsmith-mapsite'),
+    permalinks   = require('metalsmith-permalinks'),
+    ignore       = require('metalsmith-ignore'),
+    rename       = require('metalsmith-rename'),
+    fingerprint  = require('metalsmith-fingerprint'),
+    inPlace      = require('metalsmith-in-place'),
+    uglify       = require('metalsmith-uglify'),
     autoprefixer = require('metalsmith-autoprefixer');
 
 
@@ -24,6 +25,7 @@ module.exports = {
     }
 
     var metalsmith = new Metalsmith(__dirname)
+      // Config
       .use(filenames)
       .use(ignore([
         "layouts/*",
@@ -33,9 +35,22 @@ module.exports = {
         "styles/_*",
       ]))
       .use(date)
+
+      // Images
       .use(assets({
         src: 'images'
       }))
+
+      // Javascript
+      .use(uglify({
+        filter: ['js/**/*.js'],
+        removeOriginal: true,
+        sourceMap: true,
+        order: ['js/vendors/**/*.js', 'js/*.js'],
+        concat: 'js/main.min.js'
+      }))
+
+      // Styles
       .use(stylus())
       .use(autoprefixer({
         browsers : ['last 2 versions'],
@@ -44,10 +59,14 @@ module.exports = {
       .use(fingerprint({
         pattern: 'styles/main.css'
       }))
+
+      // Translation
       .use(i18n({
         default: locale,
         directory: 'src/locales'
       }))
+
+      // HTML
       .use(layouts({
         engine: 'handlebars',
         directory: 'src/layouts',
@@ -57,6 +76,8 @@ module.exports = {
         engine: 'handlebars',
         directory: 'src'
       }))
+
+      // Misc
       .use(mapsite({
         hostname: "http://cozy.io"
       }))
@@ -64,6 +85,7 @@ module.exports = {
         pattern: ':title',
         relative: false
       }))
+
       .destination(destination);
 
     return metalsmith;
