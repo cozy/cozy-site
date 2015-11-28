@@ -15,6 +15,8 @@
     background-color #7588E0
   .landingCTA
     background-color #F1F4FF
+    .panel-lead
+      color: $clr-primary
 
 
 // Introduction
@@ -37,10 +39,14 @@
   margin-right auto
 
 .panel-title
-  max-width 600px
+  max-width 37.5rem // 600px
+  margin-bottom ($spacer * 1.5) // ~75px
+
+  &.withLead
+    margin-bottom ($spacer / 4) // ~12
 
 .panel-lead
-  max-width 200px
+  max-width 12.5rem  // 200px
 
 
 // Hangs list
@@ -122,5 +128,5 @@
 // Panel with call to action title and button
 .landingCTA
   .panel-title
-    max-width 40.625rem
-    font-size ($fs-h2 + .625rem)
+    max-width 40.625rem // 650px
+    font-size ($fs-h2 + .625rem) // 42px
