@@ -1,0 +1,209 @@
+---
+layout: base.html
+
+metaTitle: Self hosting
+metaDescription: Cozy at Home - Run Cozy on your own server and keep your data at home
+
+fullHeightIntroduction: true
+colorscheme: selfHosting
+
+locale:
+pathTo: ..
+---
+
+{{> header }}
+
+  <header class="introduction">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-14 col-offset-xs-5">
+          <h1 class="introduction-title">{{__ 'Self hosting'}}</h1>
+        </div>
+      </div>
+      <div class="row row-justify-center">
+        <div class="col-xs-14">
+          <p class="introduction-content">
+            {{__ 'Cozy at Home - Run Cozy on your own server and keep your data at home'}}
+          </p>
+        </div>
+      </div>
+      <div class="row row-justify-center">
+        <div class="col-xs-16">
+          <p class="align-center">
+            {{__ 'Cozy is a versatile and extensible platform that can be put to a variety of practical uses: from sharing your photos with friends and family and maintaining a blog, to replacing key Google apps and aggregating your personal data from multiple sources. More importantly, Cozy can be hosted on your own physical or virtual server.'}}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="introduction-goTo">
+      <a href="#article" class="direction">
+        <img src="{{ pathTo }}/images/direction.svg" alt="{{__ 'Jump to content'}}">
+      </a>
+    </div>
+  </header>
+
+  <article id="article">
+    <section class="panel hangs">
+      <div class="container">
+        <div class="row row-justify-center">
+          <div class="col-xs-18">
+            <ul class="hangsList">
+              <li class="hangsList-item">
+                <img src="{{ pathTo }}/images/icon-platform.svg" class="hangsList-item-icon" alt="">
+                {{__ 'Cozy is available as an installable platform.'}}
+              </li>
+              <li class="hangsList-item">
+                <img src="{{ pathTo }}/images/icon-cube.svg" class="hangsList-item-icon" alt="">
+                {{__ 'Advanced users can run Cozy in a virtual machine and as a container.'}}
+              </li>
+              <li class="hangsList-item">
+                <img src="{{ pathTo }}/images/icon-linux.svg" class="hangsList-item-icon" alt="">
+                {{__ 'You can run Cozy on a Raspberry Pi B 2 or a Linux machine.'}}
+              </li>
+              <li class="hangsList-item">
+                <img src="{{ pathTo }}/images/icon-vps.svg" class="hangsList-item-icon" alt="">
+                {{__ 'Cozy can be deployed on a virtual private server.'}}
+              </li>
+              <li class="hangsList-item">
+                <img src="{{ pathTo }}/images/icon-magicwand.svg" class="hangsList-item-icon" alt="">
+                {{__ 'Hosting Cozy on your own server has several important benefits.'}}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="presentation panel">
+      <div class="container">
+        <div class="row row-justify-center">
+          <div class="col-xs-20">
+            <h2 class="panel-title">{{__ 'Tell me more'}}</h2>
+
+            <div class="row">
+              <div class="col-xs-11">
+                <div class="dropcaps">
+                  <p>
+                    With Cozy, you don't need a third-party service to run it for you and pay month	after month for the privilege. Instead you can deploy Cozy on your own server, and have everything you need: <strong class="highlight">from the Calendar and Contacts apps that support CalDAV and CardDAV, to apps for checking weather forecasts and news feeds</strong>. And you don't need a very powerful machine for that. In fact, if you have a Raspberry Pi B 2 or an Ubuntu or Debian machine (like the tiny and relatively inexpensive Intel NUC), you have everything you need to run Cozy. Using packages in the dedicated software repositories, you can install Cozy on Debian and Ubuntu with a few simple commands.
+                  </p>
+                  <p>
+                    Usually, deploying advanced hosting platforms requires serious technical chops, but that's not the case with Cozy. <strong class="highlight">Our developers went to great lengths to make Cozy deployment as easy as possible</strong>. This means that you can have Cozy up and running on your own server in a matter of minutes without having to dig through documentation. Important note: You should take the necessary steps to secure your Cozy installation. Among other things, this includes configuring your firewall and applying all Cozy updates in a timely manner.
+                  </p>
+                </div>
+              </div>
+              <div class="col-xs-11 col-offset-xs-2">
+                <p>
+                  Advanced users will also appreciate the fact that Cozy is available as an easy-to-use virtual machine (VirtualBox and OpenVZ) image and a Docker container. Soon you will also have the option to deploy Cozy with Bitnami Cloud.
+                </p>
+                <p>
+                  Instead of running Cozy on your own physical server at your home, you can opt to install it on a virtual private server (VPS). This way, you get the best of both worlds: full control over the system Cozy runs on, but without any maintenance and administration chores.
+                </p>
+                <p>
+                  <em class="hang">Easy to store, organize, and share your photographic masterpieces</em>
+                </p>
+                <p>
+                  Hosting Cozy on your own server does require some work on your part, but this approach provides several important benefits. First of all, you have more control of your data, and thus better privacy. <strong class="highlight">You'll get faster access and higher transfer speeds when using Cozy on the local network.</strong> The amount of data stored on Cozy is only limited by the storage space of the machine running Cozy. And since you can easily add more storage to the server, you have virtually unlimited space for your files and data. Last but not least, hosting Cozy at your place can save you money, as you don't have to pay for hosting and additional storage.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel contrast features">
+      <div class="container">
+        <h2 class="panel-title withLead">{{__ 'Features'}}</h2>
+        <p class="panel-lead lead lead-sm">
+          {{__ 'Learning by doing: tinker with Cozy.'}}
+        </p>
+
+        <div class="row">
+          <div class="col-xs-7 col-center">
+            <ul class="featuresList">
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link active" data-target="calendar">
+                  <span class="featuresList-item-link-icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 .998h15.988V17H0V.998z"/></defs><g transform="translate(0 -1)" fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path d="M3.83 4.938l4.173-1.785 4.165 1.865L8.01 6.734 3.83 4.938zm11.523 3.278L12.727 7.04l2.59-1.07c.88-.36.9-1.428.036-1.814L8.56 1.113a1.356 1.356 0 0 0-1.072-.008L.655 4.027c-.872.374-.873 1.443 0 1.817L7.47 8.772c.327.14.71.143 1.04.007l1.555-.642 2.1.94-4.156 1.716-4.18-1.796 2.086-.892L3.27 6.97.655 8.087c-.872.373-.873 1.442 0 1.816l6.817 2.93c.327.14.71.14 1.04.005l1.555-.642 2.1.94-4.156 1.716-4.18-1.795 2.086-.894L3.27 11.03.655 12.148c-.872.373-.873 1.442 0 1.817l6.817 2.928c.327.14.71.143 1.04.007l6.807-2.81c.876-.36.896-1.427.033-1.814L12.727 11.1l2.592-1.07c.876-.36.896-1.427.033-1.814z" fill="#FFF" mask="url(#b)"/></g></svg>
+                  </span>
+                  {{__ 'More control over your data'}}
+                </a>
+              </li>
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link" data-target="contacts">
+                  <span class="featuresList-item-link-icon">
+                    <svg width="16" height="14" viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h15.765v14H0"/></defs><g fill="none" fill-rule="evenodd"><g><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path d="M14.78 4.253c-.2 0-.4-.06-.575-.19A10.66 10.66 0 0 0 7.882 2c-2.286 0-4.472.713-6.32 2.064a.98.98 0 0 1-1.377-.228A1.012 1.012 0 0 1 .41 2.44 12.596 12.596 0 0 1 7.882 0c2.702 0 5.286.844 7.473 2.44.442.324.542.95.224 1.397a.98.98 0 0 1-.8.416" fill="#FFF" mask="url(#b)"/></g><path d="M12.81 7.758a.978.978 0 0 1-.618-.222 6.055 6.055 0 0 0-.286-.22C9.55 5.595 6.213 5.593 3.86 7.313c-.095.068-.187.14-.277.212A.974.974 0 0 1 2.2 7.37c-.34-.43-.273-1.06.153-1.405A8.72 8.72 0 0 1 7.883 4a8.716 8.716 0 0 1 5.547 1.98c.424.347.49.977.148 1.406a.978.978 0 0 1-.767.372" fill="#FFF"/><path d="M10.18 10.75a.974.974 0 0 1-.632-.233c-.984-.84-2.344-.84-3.33 0a.976.976 0 0 1-1.39-.124 1.01 1.01 0 0 1 .123-1.41 4.494 4.494 0 0 1 5.865.002c.417.355.47.986.12 1.41a.978.978 0 0 1-.754.356M7.883 12a.993.993 0 0 0-.985 1c0 .552.44 1 .985 1a.993.993 0 0 0 .985-1c0-.552-.44-1-.985-1" fill="#FFF"/></g></svg>
+                  </span>
+                  {{__ 'Faster access'}}
+                </a>
+              </li>
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link" data-target="webmail">
+                  <span class="featuresList-item-link-icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><g fill="#FFF" fill-rule="evenodd"><path d="M8 14c-3.308 0-6-2.692-6-6s2.692-6 6-6 6 2.692 6 6-2.692 6-6 6M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0"/><path d="M11 7H9V5a1 1 0 0 0-2 0v2H5a1 1 0 0 0 0 2h2v2a1 1 0 0 0 2 0V9h2a1 1 0 0 0 0-2"/></g></svg>
+                  </span>
+                  {{__ 'Easily add storage'}}
+                </a>
+              </li>
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link" data-target="synchronization">
+                  <span class="featuresList-item-link-icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 .008h16V16H0V.008z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path d="M14 11.667l-5 1.88V4.345l5-1.883v9.207zM2 2.46l5 1.884v9.204l-5-1.88V2.46zM15 .008a1 1 0 0 0-.35.065L8 2.577 1.35.072A1 1 0 0 0 1 .007c-.53 0-1 .43-1 1.005v11.35c0 .42.26.794.65.94l7 2.634a.986.986 0 0 0 .7 0l7-2.633c.39-.147.65-.522.65-.94V1.013c0-.576-.47-1.006-1-1.006z" fill="#FFF" mask="url(#b)"/></g></svg>
+                  </span>
+                  {{__ 'No susbscription fees'}}
+                </a>
+              </li>
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link" data-target="calendar-standards">
+                  <span class="featuresList-item-link-icon">
+                    <svg width="16" height="13" viewBox="0 0 16 13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h16v13H0V0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path d="M3 2h10v6H3V2zm-1 8h12a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1zM15 11H1a1 1 0 0 0 0 2h14a1 1 0 0 0 0-2" fill="#FFF" mask="url(#b)"/></g></svg>
+                  </span>
+                  {{__ 'Access to our services: online encrypted backup'}}
+                </a>
+              </li>
+              </li>
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link" data-target="calendar-standards">
+                  <span class="featuresList-item-link-icon">
+                    <svg width="12" height="16" viewBox="0 0 12 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h12v16H0"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path d="M8 14H4c-1.103 0-2-.897-2-2V7h8v5c0 1.103-.897 2-2 2M4 2h1v3H2V4c0-1.103.897-2 2-2m6 2v1H7V2h1c1.103 0 2 .897 2 2M8 0H4a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4" fill="#FFF" mask="url(#b)"/></g></svg>
+                  </span>
+                  {{__ 'Access to our services : dynamic DNS'}}
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-16 col-offset-xs-1 featuresList-screenshots">
+            <figure id="feature-calendar" class="featuresList-screenshotOutter active">
+              <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-calendar.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+            </figure>
+            <figure id="feature-contacts" class="featuresList-screenshotOutter">
+              <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-contacts.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+            </figure>
+            <figure id="feature-webmail" class="featuresList-screenshotOutter">
+              <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-webmail.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+            </figure>
+            <figure id="feature-synchronization" class="featuresList-screenshotOutter">
+              <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-synchronization.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+            </figure>
+            <figure id="feature-calendar-standards" class="featuresList-screenshotOutter">
+              <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-calendar.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel landingCTA">
+      <div class="container">
+        <h2 class="panel-title">{{__ 'Ready to give Cozy a try ? Go ahead and install it on your own hardware or VPS'}}</h2>
+
+        <div class="align-center">
+          <a href="#" class="btn btn-primary btn-bounce">{{__ 'Install Cozy'}}</a>
+        </div>
+      </div>
+    </section>
+  </article>
+
+{{> footer }}
+
