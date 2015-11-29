@@ -118,6 +118,32 @@ big,
   padding-left: 0
   list-style: none
 
+// Definitions list
+dl
+  margin 0
+
+  dt
+  dd
+    padding-left ($spacer / 2)
+  dt
+    position relative
+    margin-bottom ($spacer / 5)
+    font-family $dt-ff-base
+    font-size $dt-fs
+    line-height  $dt-lh
+    color $dt-clr
+
+    &::before
+      content ""
+      position absolute
+      top ($dt-fs / 2)
+      left 0
+      width .438rem
+      height .438rem
+      background-color lighten($clr-base, 65%)
+      border-radius 50%
+  dd
+    margin 0 0 $spacer
 
 // Horizontal rules
 //
