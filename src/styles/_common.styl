@@ -11,6 +11,7 @@
   .introduction
     background url(../images/bkg-ungoogleyourlife@2x.jpg) no-repeat 50% 100% / cover
   .hangs
+    color $clr-lighter
     background-color #000
   .features
     background-color #7588E0
@@ -28,6 +29,7 @@
   .introduction
     background url(../images/bkg-connectmydata@2x.jpg) no-repeat 50% 100% / cover
   .hangs
+    color $clr-lighter
     background-color #00011D
   .features
     background-color #5AA885
@@ -94,30 +96,23 @@
   padding $spacer 0 0
 
 .hangsList
-  @extend .clearfix
   @extend .list-unstyled
+  display flex
+  flex-wrap wrap
   font-family $ff-emphasis
+  line-height $lh-sm
 
 .hangsList-item
-  float: left
-  position relative
+  display table
   margin-bottom ($spacer * 1.5)
   padding-left 50px
   width 50%
+  > div
+    display table-cell
+    vertical-align middle
 
   .hangsList-item-icon
-    position absolute
-    top 5px
-    left 0
-
-  &:nth-child(even)
-    padding-left 100px
-
-    .hangsList-item-icon
-      left 50px
-
-  &:nth-child(odd)
-    padding-right 50px
+    margin-right ($spacer / 2)
 
 
 // Features list
