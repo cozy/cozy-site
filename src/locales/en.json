@@ -47,5 +47,17 @@
 	"try description": "try description",
 	"try description note": "try description note",
 	"try form email address": "try form email address",
-	"try form sign up": "try form sign up"
+	"try form sign up": "try form sign up",
+	"Connect my data": "Connect my data",
+	"Go beyond the traditional cloud, that focuses on files, by aggregating data of any kind.": "Go beyond the traditional cloud, that focuses on files, by aggregating data of any kind.",
+	"Collect and making sense of data from various sources easily.": "Collect and making sense of data from various sources easily.",
+	"Get unexpected insgights about yourself (via personal analytics).": "Get unexpected insgights about yourself (via personal analytics).",
+	"Build and use any tool you can imagine of top of it (like a home security dashboard).": "Build and use any tool you can imagine of top of it (like a home security dashboard).",
+	"Set of konnectors to collect your data from your vendors": "Set of konnectors to collect your data from your vendors",
+	"Raw data browser": "Raw data browser",
+	"Analytics data browser": "Analytics data browser",
+	"Banking data aggregator (currently for French only)": "Banking data aggregator (currently for French only)",
+	"Personal App Development SDK (based on Node.js)": "Personal App Development SDK (based on Node.js)",
+	"You don’t have to wait for a specific app to be developed": "You don’t have to wait for a specific app to be developed",
+	"Build it yourself": "Build it yourself"
 }

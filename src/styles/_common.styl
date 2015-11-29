@@ -6,6 +6,7 @@
 //
 // Set specifics colors of each landing pages
 // by using target classes on main container
+// Ungoogle your life
 .ungoogleYourLife
   .introduction
     background url(../images/bkg-ungoogleyourlife@2x.jpg) no-repeat 50% 100% / cover
@@ -21,6 +22,22 @@
     background-color #F1F4FF
     .panel-lead
       color: $clr-primary
+
+// Connect my data
+.connectMyData
+  .introduction
+    background url(../images/bkg-connectmydata@2x.jpg) no-repeat 50% 100% / cover
+  .hangs
+    background-color #00011D
+  .features
+    background-color #5AA885
+  .featuresList-item-link
+    +hover-state()
+      .featuresList-item-link-icon
+      .featuresList-item-link-icon *
+        fill: #5AA885 !important
+  .landingCTA
+    background-color #F2F5F4
 
 
 // Introduction
@@ -101,6 +118,7 @@
   position relative
   margin ($spacer - .625rem) 0
   margin-left $grid-gutter
+  min-height 3rem
   &::after
     content ""
     position absolute
@@ -117,7 +135,9 @@
       display none
 
 .featuresList-item-link
-  position relative
+  position absolute
+  top 50%
+  transform translateY(-50%)
   display block
   padding-left 4.063rem // 65px
   line-height $lh-sm
