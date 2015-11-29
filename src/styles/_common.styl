@@ -14,7 +14,7 @@
   .features
     background-color #7588E0
   .featuresList-item-link
-    &.active
+    +hover-state()
       .featuresList-item-link-icon
         fill: #7588E0
   .landingCTA
@@ -124,10 +124,11 @@
   color $clr-lighter !important
   +hover-state()
     .featuresList-item-link-icon
-      background-color: rgba(255,255,255, 0.5)
+      background-color $clr-lighter
+      transform: translateY(-50%) scale(0.9)
   &.active
     .featuresList-item-link-icon
-      background-color $clr-lighter
+      transform: translateY(-50%) scale(1)
 
 
 .featuresList-item-link-icon
@@ -135,12 +136,12 @@
   top 50%
   left 0
   transform translateY(-50%)
-  width 2.813rem  // 45px
-  height 2.813rem
-  border $border-width solid $clr-lighter
-  border-radius 100%
+  width 44px  // 45px
+  height 44px
+  box-shadow: inset 0 0 0 1px $clr-lighter
+  border-radius 22px
   fill $clr-lighter
-  transition all $transition-duration $transition-easing
+  transition background-color $transition-duration $transition-easing, fill $transition-duration $transition-easing, transform $transition-duration cubic-bezier(0.280, 1.650, 0.650, 1.650)
   // 0
   svg
     position absolute
