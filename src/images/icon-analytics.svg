@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>increase@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0,0.0442004357 L31.9557996,0.0442004357 L31.9557996,32 L0,32 L0,0.0442004357 Z"></path>
+        <path id="path-3" d="M0,0.0442004357 L31.9557996,0.0442004357 L31.9557996,32 L0,32 L0,0.0442004357 Z"></path>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="5a-connect-my-data" sketch:type="MSArtboardGroup" transform="translate(-292.000000, -956.000000)">
+            <g id="Section-1" sketch:type="MSLayerGroup" transform="translate(0.000000, 711.000000)">
+                <g id="3" transform="translate(292.000000, 241.000000)">
+                    <g id="increase" transform="translate(0.000000, 4.000000)">
+                        <g id="Group-3">
+                            <mask id="mask-2" sketch:name="Clip 2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M31.9557717,31.58499 C31.9557717,31.8144976 31.7702553,32.0000139 31.5407477,32.0000139 L0.414996078,32.0000139 C0.185906754,32.0000139 -2.78867105e-05,31.8144976 -2.78867105e-05,31.58499 L-2.78867105e-05,30.754942 C-2.78867105e-05,30.5254344 0.185906754,30.3399878 0.414996078,30.3399878 L31.5407477,30.3399878 C31.7702553,30.3399878 31.9557717,30.5254344 31.9557717,30.754942 L31.9557717,31.58499 Z" id="Fill-1" fill="#FFFFFF" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                        </g>
+                        <g id="Group-6">
+                            <mask id="mask-4" sketch:name="Clip 5" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Clip-5"></g>
+                            <path d="M1.66004009,31.58499 C1.66004009,31.8144976 1.47452375,32.0000139 1.24501612,32.0000139 L0.415037908,32.0000139 C0.185530283,32.0000139 1.39433549e-05,31.8144976 1.39433549e-05,31.58499 L1.39433549e-05,0.459238344 C1.39433549e-05,0.23014902 0.185530283,0.0442143791 0.415037908,0.0442143791 L1.24501612,0.0442143791 C1.47452375,0.0442143791 1.66004009,0.23014902 1.66004009,0.459238344 L1.66004009,31.58499 Z" id="Fill-4" fill="#FFFFFF" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                        </g>
+                        <path d="M6.5,29.5 L6.5,22" id="Line" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M12.5,29.5 L12.5,18" id="Line" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M18.5,29.5 L18.5,13" id="Line" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M24.5,29.5 L24.5,8" id="Line" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

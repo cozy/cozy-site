@@ -1,0 +1,212 @@
+---
+layout: base.html
+
+metaTitle: Connect my data
+metaDescription: Aggregate and make sense of your data
+
+fullHeightIntroduction: true
+colorscheme: connectMyData
+
+locale:
+pathTo: ..
+---
+
+{{> header }}
+
+  <header class="introduction contrast">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-14 col-offset-xs-5">
+          <h1 class="introduction-title">{{__ 'Connect my data'}}</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-10 col-offset-xs-7">
+          <p class="introduction-content">
+            {{__ 'Aggregate and make sense of your data'}}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="introduction-goTo">
+      <a href="#article" class="direction">
+        <img src="{{ pathTo }}/images/direction.svg" alt="{{__ 'Jump to content'}}">
+      </a>
+    </div>
+  </header>
+
+  <article id="article">
+    <section class="panel hangs">
+      <div class="container">
+        <div class="row row-justify-center">
+          <div class="col-xs-18">
+            <ul class="hangsList">
+              <li class="hangsList-item">
+                <div>
+                  <img src="{{ pathTo }}/images/icon-cloud.svg" class="hangsList-item-icon" alt="">
+                </div>
+                <div>
+                  {{__ 'Go beyond the traditional cloud, that focuses on files, by aggregating data of any kind.'}}
+                </div>
+              </li>
+              <li class="hangsList-item">
+                <div>
+                  <img src="{{ pathTo }}/images/icon-copies.svg" class="hangsList-item-icon" alt="">
+                </div>
+                <div>
+                  {{__ 'Collect and making sense of data from various sources easily.'}}
+                </div>
+              </li>
+              <li class="hangsList-item">
+                <div>
+                  <img src="{{ pathTo }}/images/icon-analytics.svg" class="hangsList-item-icon" alt="">
+                </div>
+                <div>
+                  {{__ 'Get unexpected insgights about yourself (via personal analytics).'}}
+                </div>
+              </li>
+              <li class="hangsList-item">
+                <div>
+                  <img src="{{ pathTo }}/images/icon-tools.svg" class="hangsList-item-icon" alt="">
+                </div>
+                <div>
+                  {{__ 'Build and use any tool you can imagine of top of it (like a home security dashboard).'}}
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="presentation panel">
+      <div class="container">
+        <div class="row row-justify-center">
+          <div class="col-xs-20">
+            <h2 class="panel-title">{{__ 'Tell me more'}}</h2>
+
+            <div class="row">
+              <div class="col-xs-11">
+                <div class="dropcaps">
+                  <p>
+                    In its present form, Cozy can be put to a variety of 	practical uses. But we also have a vision of what 	Cozy will become in the near future. Nowadays, photos and files are not your only personal data. Health data coming from a fitness tracker, information flowing from sensors and appliances in your home, your travel itineraries and hotel bookings, bank transactions and financial information -- there is a wealth of data pouring in from multiple sources. The challenge is to aggregate, process, and manage this vast amount of information. This is where Cozy comes into the picture. Cozy's extensible architecture provides a foundation for building apps that can help you to pull data from various sources and services, make sense of the obtained information, and put the analyzed data to new and exciting uses.
+                  </p>
+                  <p>
+                    <em class="hang">The challenge is to aggregate, process and manage information</em>
+                  </p>
+                  <p>
+                    In fact, Cozy already features a set of connectors for pulling data from external sources developed by our community members. These connectors can collect a wide range of data: from your status updates on Twitter and body data from Smart Body Analyzer, to your bank information and activity data from RescueTime.com.
+                  </p>
+                  <p>
+                    <strong class="highlight">Using Cozy as a platform for aggregating and managing your personal data ensures that your private life stays just that -- private.</strong>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xs-11 col-offset-xs-2">
+                <p>
+                  Want to get a taste of things to come and get an idea of what our vision is about? Try the KYou Cozy app. It lets you set up a dashboard and configure trackers that pull data from various sources, like tasks from Cozy's todo app, events from Cozy Calendar, sleep data from the Jawbone UP platform, and much more. This is, of course, only the beginning, and there are plenty of other exciting ways to extract, combine, and present data. Here are a few ideas for using Cozy as a personal data hub.
+                </p>
+                <p>
+                  <strong class="highlight">HEALTH Collect and analyze data like sleep data, number of steps, heart rate, and calorie count from multiple devices.</strong> Use then this information to create a personalized fitness program.<br>
+                  HOME Build a dashboard that aggregates and presents data from various sensors in your home.<br>
+                  HOME SECURITY Use Cozy to monitor and control cameras installed in your home.<br>
+                  TRAVEL Keep track of your Airbnb and Uber accounts and travel itinerary directly from Cozy.<br>
+                  BUSINESS Keep tabs on your finances, monitor and manage your stock portfolio.
+                </p>
+                <p>
+                  Since Cozy is an open platform, third-party developers and coders can use it as a foundation for building their own apps. We can't wait to see what they come up with.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel contrast features">
+      <div class="container">
+        <h2 class="panel-title withLead">{{__ 'Features'}}</h2>
+        <p class="panel-lead lead lead-sm">
+          {{__ 'Learning by doing: tinker with Cozy.'}}
+        </p>
+
+        <div class="row">
+          <div class="col-xs-7 col-center">
+            <ul class="featuresList">
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link active" data-target="calendar">
+                  <span class="featuresList-item-link-icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 .998h15.988V17H0V.998z"/></defs><g transform="translate(0 -1)" fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path d="M3.83 4.938l4.173-1.785 4.165 1.865L8.01 6.734 3.83 4.938zm11.523 3.278L12.727 7.04l2.59-1.07c.88-.36.9-1.428.036-1.814L8.56 1.113a1.356 1.356 0 0 0-1.072-.008L.655 4.027c-.872.374-.873 1.443 0 1.817L7.47 8.772c.327.14.71.143 1.04.007l1.555-.642 2.1.94-4.156 1.716-4.18-1.796 2.086-.892L3.27 6.97.655 8.087c-.872.373-.873 1.442 0 1.816l6.817 2.93c.327.14.71.14 1.04.005l1.555-.642 2.1.94-4.156 1.716-4.18-1.795 2.086-.894L3.27 11.03.655 12.148c-.872.373-.873 1.442 0 1.817l6.817 2.928c.327.14.71.143 1.04.007l6.807-2.81c.876-.36.896-1.427.033-1.814L12.727 11.1l2.592-1.07c.876-.36.896-1.427.033-1.814z" fill="#FFF" mask="url(#b)"/></g></svg>
+                  </span>
+                  {{__ 'Set of konnectors to collect your data from your vendors'}}
+                </a>
+              </li>
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link" data-target="contacts">
+                  <span class="featuresList-item-link-icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 .136h15.83V16H0"/><path id="c" d="M0 .136h15.83V16H0"/></defs><g fill="none" fill-rule="evenodd"><path d="M4.486 4.498a.977.977 0 0 0-1.4 0L.29 7.354a1.027 1.027 0 0 0 0 1.428l2.797 2.856a.977.977 0 0 0 1.4 0 1.027 1.027 0 0 0 0-1.428l-2.1-2.142 2.1-2.142a1.027 1.027 0 0 0 0-1.428" fill="#FFF"/><g><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path d="M15.54 7.354l-2.797-2.856a.977.977 0 0 0-1.4 0 1.027 1.027 0 0 0 0 1.428l2.098 2.142-2.096 2.142a1.027 1.027 0 0 0 0 1.428.977.977 0 0 0 1.4 0l2.796-2.856a1.027 1.027 0 0 0 0-1.428" fill="#FFF" mask="url(#b)"/></g><g><mask id="d" fill="#fff"><use xlink:href="#c"/></mask><path d="M9.06.15L9.027.145a.978.978 0 0 0-1.102.833L5.932 14.87a.985.985 0 0 0 .824 1.115l.032.005a.978.978 0 0 0 1.103-.832L9.884 1.264A.985.985 0 0 0 9.06.15" fill="#FFF" mask="url(#d)"/></g></g></svg>
+                  </span>
+                  {{__ 'Raw data browser'}}
+                </a>
+              </li>
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link" data-target="webmail">
+                  <span class="featuresList-item-link-icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h15.997v16H0"/></defs><g fill="none" fill-rule="evenodd"><path d="M2 12a1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0-1-1M6 11a1 1 0 0 0-1 1v3a1 1 0 0 0 2 0v-3a1 1 0 0 0-1-1M13.998 8a1 1 0 0 0-1 1v6a1 1 0 0 0 2 0V9a1 1 0 0 0-1-1" fill="#FFF"/><g><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path d="M14.998 0h-4a1 1 0 0 0 0 2h1.753C8.13 7.91 1.14 8 1.006 8H1a1 1 0 0 0-.005 2h.014c.486 0 7.812-.108 12.988-6.358V5a1 1 0 0 0 2 0V1a1 1 0 0 0-1-1" fill="#FFF" mask="url(#b)"/></g><path d="M9.998 9a1 1 0 0 0-1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0-1-1" fill="#FFF"/></g></svg>
+                  </span>
+                  {{__ 'Analytics data browser'}}
+                </a>
+              </li>
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link" data-target="synchronization">
+                  <span class="featuresList-item-link-icon">
+                    <svg width="14" height="16" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg"><g fill="#FFF" fill-rule="evenodd"><path d="M11 14H2v-1h9v1zM2 2h10v9H2V2zm12 10V1a1 1 0 0 0-1-1H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h11a1 1 0 0 0 0-2v-1a1 1 0 0 0 1-1z"/><path d="M5 8h4a1 1 0 0 0 0-2H5a1 1 0 0 0 0 2M5 5h4a1 1 0 0 0 0-2H5a1 1 0 0 0 0 2"/></g></svg>
+                  </span>
+                  {{__ 'Banking data aggregator (currently for French only)'}}
+                </a>
+              </li>
+              <li class="featuresList-item">
+                <a href="#" class="featuresList-item-link" data-target="calendar-standards">
+                  <span class="featuresList-item-link-icon">
+                    <svg width="16" height="13" viewBox="0 0 16 13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h16v13H0V0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path d="M3 2h10v6H3V2zm-1 8h12a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1zM15 11H1a1 1 0 0 0 0 2h14a1 1 0 0 0 0-2" fill="#FFF" mask="url(#b)"/></g></svg>
+                  </span>
+                  {{__ 'Personal App Development SDK (based on Node.js)'}}
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-16 col-offset-xs-1 featuresList-screenshots">
+            <figure id="feature-calendar" class="featuresList-screenshotOutter active">
+              <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-calendar.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+            </figure>
+            <figure id="feature-contacts" class="featuresList-screenshotOutter">
+              <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-contacts.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+            </figure>
+            <figure id="feature-webmail" class="featuresList-screenshotOutter">
+              <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-webmail.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+            </figure>
+            <figure id="feature-synchronization" class="featuresList-screenshotOutter">
+              <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-synchronization.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+            </figure>
+            <figure id="feature-calendar-standards" class="featuresList-screenshotOutter">
+              <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-calendar.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel landingCTA">
+      <div class="container">
+        <h2 class="panel-title">{{__ 'You don’t have to wait for a specific app to be developed'}}</h2>
+
+        <div class="align-center">
+          <a href="#" class="btn btn-primary btn-bounce">{{__ 'Build it yourself'}}</a>
+        </div>
+      </div>
+    </section>
+  </article>
+
+{{> footer }}
+

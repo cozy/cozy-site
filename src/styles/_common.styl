@@ -1,22 +1,62 @@
-// Common styles for common pages
+// Common styles for landing pages
 //
 
-// Specific introduction backgrounds
+
+// Colorschemes
 //
+// Set specifics colors of each landing pages
+// by using target classes on main container
+// Ungoogle your life
+.ungoogleYourLife
+  .introduction
+    background url(../images/bkg-ungoogleyourlife@2x.jpg) no-repeat 50% 100% / cover
+  .hangs
+    color $clr-lighter
+    background-color #000
+  .features
+    background-color #7588E0
+  .featuresList-item-link
+    +hover-state()
+      .featuresList-item-link-icon
+        fill: #7588E0
+  .landingCTA
+    background-color #F1F4FF
+    .panel-lead
+      color: $clr-primary
 
-.introduction
-  &.ungoogleYourLife
-    background url(../images/bkg-ungoogleyourlife@2x.jpg) no-repeat 50% 100%
-    background-size cover
+// Connect my data
+.connectMyData
+  .introduction
+    background url(../images/bkg-connectmydata@2x.jpg) no-repeat 50% 100% / cover
+  .hangs
+    color $clr-lighter
+    background-color #00011D
+  .features
+    background-color #5AA885
+  .featuresList-item-link
+    +hover-state()
+      .featuresList-item-link-icon
+      .featuresList-item-link-icon *
+        fill: #5AA885 !important
+  .landingCTA
+    background-color #F2F5F4
 
-.introduction-content
-  text-align center
-
-.introduction-goTo
-  position absolute
-  bottom 5vh
-  width 100%
-  text-align center
+// Self hosting
+.selfHosting
+  .introduction
+    background url(../images/bkg-selfhosting.jpg) no-repeat 50% 100% / cover
+  .hangs
+    color $clr-darker
+    background-color #F3F3F3
+  .features
+    background-color #0367AC
+  .featuresList-item-link
+    +hover-state()
+      .featuresList-item-link-icon
+      .featuresList-item-link-icon *
+        fill: #0367AC !important
+  .landingCTA
+    background-color #F2F2F2
 
 
 // Panels
@@ -27,10 +67,14 @@
   margin-right auto
 
 .panel-title
-  max-width 600px
+  max-width 37.5rem // 600px
+  margin-bottom ($spacer * 1.5) // ~75px
+
+  &.withLead
+    margin-bottom ($spacer / 4) // ~12
 
 .panel-lead
-  max-width 200px
+  max-width 12.5rem  // 200px
 
 
 // Hangs list
@@ -40,44 +84,112 @@
   padding $spacer 0 0
 
 .hangsList
-  @extend .clearfix
   @extend .list-unstyled
+  display flex
+  flex-wrap wrap
   font-family $ff-emphasis
+  line-height $lh-sm
 
 .hangsList-item
-  float: left
-  position relative
+  display table
   margin-bottom ($spacer * 1.5)
   padding-left 50px
   width 50%
+  > div
+    display table-cell
+    vertical-align middle
 
   .hangsList-item-icon
-    position absolute
-    top 5px
-    left 0
-
-  &:nth-child(even)
-    padding-left 100px
-
-    .hangsList-item-icon
-      left 50px
-
-  &:nth-child(odd)
-    padding-right 50px
+    margin-right ($spacer / 2)
 
 
 // Features list
 //
 // interactive features list
+.features
+  overflow hidden
+
 .featuresList
   @extend .list-unstyled
+  margin 0
   font-family $ff-emphasis
 
 .featuresList-item
-  margin $spacer-y
+  position relative
+  margin ($spacer - .625rem) 0
+  margin-left $grid-gutter
+  min-height 3rem
+  &::after
+    content ""
+    position absolute
+    bottom -(($spacer - 0.625rem) / 2) - (0.938rem / 2) // half of item margin bottom - half of the component height
+    left (2.813rem / 2) // 50% of icon size
+    width .125rem
+    height .938rem
+    background-color $clr-lighter
+  &:first-child
+    margin-top 0
+  &:last-child
+    margin-bottom 0
+    &::after
+      display none
 
-.features-screenshot
-  box-shadow 0px 0px 35px 0px rgba(0,0,0, 0.3)
+.featuresList-item-link
+  position absolute
+  top 50%
+  transform translateY(-50%)
+  display block
+  padding-left 4.063rem // 65px
+  line-height $lh-sm
+  color $clr-lighter !important
+  +hover-state()
+    .featuresList-item-link-icon
+      background-color $clr-lighter
+      transform: translateY(-50%) scale(0.9)
+  &.active
+    .featuresList-item-link-icon
+      transform: translateY(-50%) scale(1)
+
+
+.featuresList-item-link-icon
+  position absolute
+  top 50%
+  left 0
+  transform translateY(-50%)
+  width 44px  // 45px
+  height 44px
+  box-shadow: inset 0 0 0 1px $clr-lighter
+  border-radius 22px
+  fill $clr-lighter
+  transition background-color $transition-duration $transition-easing, fill $transition-duration $transition-easing, transform $transition-duration cubic-bezier(0.280, 1.650, 0.650, 1.650)
+  // 0
+  svg
+    position absolute
+    top 50%
+    left 50%
+    transform translate(-50%, -50%)
+
+.featuresList-screenshots
+  position relative
+
+.featuresList-screenshotOutter
+  position absolute
+  top 0
+  left 0
+  right 0
+  transform translateX(1000px)
+  transition transform 1s cubic-bezier(.46,-0.47,.59,1.29)
+
+  .featuresList-screenshot
+    box-shadow 0px 0px 35px 0px rgba(0,0,0, 0.3)
+    opacity 0
+    transition opacity 1.5s $transition-easing
+
+  &.active
+    transform translateX(0)
+
+    .featuresList-screenshot
+      opacity 1
 
 
 // Testimonials
@@ -105,3 +217,12 @@
     font-size ($fs-sm - .063rem)
     font-weight $fw-regular
     color: $txt-clr-base
+
+
+// CTA
+//
+// Panel with call to action title and button
+.landingCTA
+  .panel-title
+    max-width 40.625rem // 650px
+    font-size ($fs-h2 + .625rem) // 42px

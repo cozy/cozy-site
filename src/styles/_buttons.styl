@@ -57,3 +57,11 @@ button
 // Vertically space out multiple block buttons
 .btn-block + .btn-block
   margin-top: 1rem
+
+
+// Button animation
+.btn-bounce
+  transform scale(1)
+  transition transform $transition-duration cubic-bezier(0.280, 1.650, 0.650, 1.650)
+  +hover-state()
+    transform scale(1.1)
