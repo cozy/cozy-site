@@ -17,14 +17,15 @@ var Metalsmith   = require('metalsmith'),
 
 module.exports = {
   getMetalsmith: function (locale) {
+
     if (locale === 'en') {
       var destination = 'build'
-    }
-    else {
+    } else {
       var destination = 'build/' + locale
     }
 
     var metalsmith = new Metalsmith(__dirname)
+
       // Config
       .use(filenames)
       .use(ignore([
@@ -37,19 +38,19 @@ module.exports = {
       .use(date)
 
       // Images
-      .use(imagemin({
-        optimizationLevel: 3,
-        svgoPlugins: [{ removeViewBox: false }]
-      }))
+      //.use(imagemin({
+        //optimizationLevel: 3,
+        //svgoPlugins: [{ removeViewBox: false }]
+      //}))
 
       // Javascript
-      .use(uglify({
-        filter: ['js/**/*.js'],
-        removeOriginal: true,
-        sourceMap: true,
-        order: ['js/vendors/**/*.js', 'js/*.js'],
-        concat: 'js/main.min.js'
-      }))
+      //.use(uglify({
+        //filter: ['js/**/*.js'],
+        //removeOriginal: true,
+        //sourceMap: true,
+        //order: ['js/vendors/**/*.js', 'js/*.js'],
+        //concat: 'js/main.min.js'
+      //}))
 
       // Styles
       .use(stylus())
@@ -64,6 +65,7 @@ module.exports = {
       // Translation
       .use(i18n({
         default: locale,
+        locales: ['en', 'fr'],
         directory: 'src/locales'
       }))
 

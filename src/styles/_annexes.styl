@@ -8,13 +8,64 @@
 // by using target classes on introduction container
 // Ungoogle your life
 .introduction
-  // Give space between introduction and content
-  &.breath
-    margin-bottom $spacer
-
   // Set backgrounds
   &.faq
-    background url(../images/bkg-faq.jpg) no-repeat 100% / cover
-    padding-top 18rem
-    padding-bottom 14rem
+    background url(../images/bkg-faq.jpg) no-repeat 50% 0 / cover
 
+  &.community
+    background url(../images/bkg-community.jpg) no-repeat 50% 0 / cover
+
+
+// Annexe page specifics styles
+//
+// Community
+.communityContent-item
+  margin-bottom $spacer
+  text-align center
+
+.communityContent-item-titleIcon
+  margin-bottom ($spacer / 2)
+
+
+// Our members
+.ourMembers
+  background-color darken($clr-light, 2%)
+
+.ourMembersList
+  @extend .list-unstyled
+  margin-top -($spacer-x)
+  margin-bottom $spacer
+  text-align center
+
+.ourMembersList-item
+  position relative
+  display inline-block
+  margin $spacer-x ($spacer-y / 2) 0 ($spacer-y / 2)
+  width 10rem
+  height 10rem
+  border-radius 50%
+  overflow hidden
+  transform scale(1)
+  transition all $transition-duration $transition-bounce
+  +hover-state()
+    transform scale(0.9)
+
+    .ourMembersList-item-member
+      opacity 1
+
+.ourMembersList-item-member
+  position absolute
+  top 0
+  right 0
+  bottom 0
+  left 0
+  z-index 2
+  text-align center
+  font-family $ff-emphasis
+  font-size $fs-lg
+  line-height 10rem
+  text-transform uppercase
+  color $clr-lighter
+  background-color rgba(65,183,241, .7)
+  opacity 0
+  transition opacity $transition-duration $transition-easing

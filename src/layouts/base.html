@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="{{ pathTo }}/{{ fingerprint.[styles/main.css] }}" media="all">
   </head>
 
-  <body class="{{#if fullHeightIntroduction}}is-introductionFullHeight{{/if}}">
+  <body class="{{#if fullHeightIntroduction}}is-introductionFullHeight{{/if}} {{#if annexe}}is-annexe{{/if}}">
     {{{ contents }}}
 
     <script src="{{ pathTo }}/js/main.min.js"></script>

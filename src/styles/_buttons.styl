@@ -17,11 +17,18 @@ button
   user-select: none
   button-size($btn-pdg-y, $btn-pdg-x, $btn-fs, $lh, $btn-border-radius)
 
+  & + .btn
+    margin-left $spacer-x
+
 
 // Button colors
 //
 .btn-primary
   button-colors($btn-primary-clr, $btn-primary-bkg, $btn-primary-border)
+
+// Outlined button
+.btn-outlined-primary
+  button-outlined-colors($clr-primary, $btn-primary-border)
 
 
 // Button Sizes
@@ -66,6 +73,6 @@ button
 // Button animation
 .btn-bounce
   transform scale(1)
-  transition transform $transition-duration cubic-bezier(0.280, 1.650, 0.650, 1.650)
+  transition transform $transition-duration $transition-bounce
   +hover-state()
     transform scale(1.1)
