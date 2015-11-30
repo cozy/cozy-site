@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "node output.js --dev",
-    "build": "node output.js"
+    "build": "node output.js",
+    "build --fr": "node output-fr.js"
   },
   "author": "Cozy Cloud <frank@cozycloud.cc> (https://cozycloud.cc/)",
   "repository": "https://github.com/cozy/cozy-site",
