@@ -21,13 +21,19 @@
   grid(cells-align: 'stretch')
 
 .{$grid-row-classname}-justify-center
-  justify-content center
+  grid(justify: 'center')
 
 .{$grid-row-classname}-justify-start
-  justify-content flex-start
+  grid(justify: 'start')
 
 .{$grid-row-classname}-justify-end
-  justify-content flex-end
+  grid(justify: 'end')
+
+.{$grid-row-classname}-space-between
+  grid(justify: 'space-between')
+
+.{$grid-row-classname}-space-around
+  grid(justify: 'space-around')
 
 .{$grid-row-classname}-row
   grid(direction: 'row')
