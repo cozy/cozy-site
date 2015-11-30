@@ -49,11 +49,11 @@
 	"Start ungoogling your life by joigning our BETA program": "Ungoogle your life now",
 	"Waiting line to expect": "Waiting line to expect",
 	"Start ungoogle now": "Try Cozy For Free",
-	"Connect my data": "Connect my data",
+	"Connect my data": "Connect your data",
 	"Go beyond the traditional cloud, that focuses on files, by aggregating data of any kind.": "Go beyond the traditional cloud, that focuses on files, by aggregating data of any kind.",
-	"Collect and making sense of data from various sources easily.": "Collect and making sense of data from various sources easily.",
-	"Get unexpected insgights about yourself (via personal analytics).": "Get unexpected insgights about yourself (via personal analytics).",
-	"Build and use any tool you can imagine of top of it (like a home security dashboard).": "Build and use any tool you can imagine of top of it (like a home security dashboard).",
+	"Collect and make sense of data from various sources easily.": "Collect and making sense of data from various sources easily.",
+	"Get unexpected insights about yourself (via personal analytics).": "Get unexpected insgights about yourself (via personal analytics).",
+	"Build and use any tool you can imagine of top of it (like a home security dashboard).": "Build your own tool on top of your data and share your app with the community.",
 	"Set of konnectors to collect your data from your vendors": "Set of konnectors to collect your data from your vendors",
 	"Raw data browser": "Raw data browser",
 	"Analytics data browser": "Analytics data browser",
@@ -78,5 +78,10 @@
 	"Ready to give Cozy a try ? Go ahead and install it on your own hardware or VPS": "Ready to give Cozy a try ? Go ahead and install it on your own hardware or VPS",
 	"Install Cozy": "Install Cozy",
 	"To save you time and effort, we compiled a list of frequently-asked questions about Cozy.": "To save you time and effort, we compiled a list of frequently-asked questions about Cozy.",
-	"Connect your data": "Connect your data"
+	"Connect your data": "Connect your data",
+	"Collect and making sense of data from various sources easily.": "Collect and making sense of data from various sources easily.",
+	"Get unexpected insgights about yourself (via personal analytics).": "Get unexpected insgights about yourself (via personal analytics).",
+	"Start Connecting Your Data Now": "Start Connecting Your Data Now",
+	"Try Cozy For\n          Free": "Try Cozy For\n          Free",
+	"Connect Your Data Now": "Connect Your Data Now"
 }
