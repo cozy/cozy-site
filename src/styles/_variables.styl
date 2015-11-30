@@ -80,6 +80,8 @@ $ff-emphasis         = "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sa
 $fs-root             = 16px
 
 $lh                  = 1.55
+$lh-xl               = (4/3)
+$lh-lg               = $lh-xl
 $lh-sm               = 1.25
 
 $fs-base             = 1rem
@@ -121,9 +123,6 @@ $hr-border-width     = $border-width
 // Components
 //
 // Define common padding and border radius sizes and more.
-
-$lh-lg               = (4/3)
-$lh-sm               = 1.5
 
 $border-radius       = 4px
 $border-radius-lg    = $border-radius
@@ -195,6 +194,7 @@ $btn-pdg-y            = .625rem
 
 $btn-ff               = $ff-emphasis
 $btn-fs               = .75rem
+$btn-fw               = $fw-regular
 
 $btn-primary-clr      = $clr-lighter
 $btn-primary-bkg      = $clr-primary
@@ -204,14 +204,24 @@ $btn-secondary-clr    = $clr-primary
 $btn-secondary-bkg    = $clr-lighter
 $btn-secondary-border = $btn-secondary-bkg
 
-$btn-pdg-x-sm         = .75rem
-$btn-pdg-y-sm         = .25rem
+$btn-pdg-x-xl         = $btn-pdg-x-lg
+$btn-pdg-y-xl         = $btn-pdg-y-lg
+$btn-fs-xl            = 1.2rem
+$btn-fw-xl            = $fw-bold
 
 $btn-pdg-x-lg         = 1.875rem
 $btn-pdg-y-lg         = 1.125rem
+$btn-fs-lg            = $btn-fs
+$btn-fw-lg            = $btn-fw
+
+$btn-pdg-x-sm         = .75rem
+$btn-pdg-y-sm         = .25rem
+$btn-fs-sm            = $btn-fs
+$btn-fw-sm            = $btn-fw
 
 // Allows for customizing button radius independently from global border radius
 $btn-border-radius    = $border-radius
+$btn-border-radius-xl = $btn-border-radius-lg
 $btn-border-radius-lg = $border-radius-lg
 $btn-border-radius-sm = $border-radius-sm
 
