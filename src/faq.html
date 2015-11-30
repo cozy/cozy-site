@@ -4,7 +4,7 @@ layout: base.html
 metaTitle: FAQ
 metaDescription: To save you time and effort, we compiled a list of frequently-asked questions about Cozy.
 
-fullHeightIntroduction: true
+fullHeightIntroduction: false
 
 locale:
 pathTo: ..
@@ -34,6 +34,12 @@ pathTo: ..
       <div class="row row-justify-center">
         <div class="col-xs-22">
           <dl>
+            <dt>Does Cozy encrypt my data?</dt>
+            <dd>Cozy encrypts passwords and connections. The data stored in
+            Cozy is not encrypted, this would negatively affect the overall user experience. We are considering implementing partial encryption of data stored in Cozy.</dd>
+
+            <dt>What is your business model?</dt>
+            <dd>Our business model is described in a dedicated section of the <a href="{{ pathTo }}/about">About Cozy page.</a></dd>
             <dt>How much does Cozy cost?</dt>
             <dd>Cozy is available free of charge as software you can run on your own Linux machine. The hosted version of Cozy is free during the beta period. After that, the hosting plan is expected to cost between €5 and €10 per month.</dd>
 
@@ -44,11 +50,8 @@ pathTo: ..
             <dd>You have several options to choose from. You can install Cozy on your own Linux machine or Raspberry Pi 2 Model B. This is by far the easiest way to have Cozy running in no time. Alternatively, you can install Cozy on a virtual private server (VPS), and there are several excellent VPS providers out there, including Digital Ocean. If you want to give Cozy a try without installing it, you can request a Cozy test instance. Soon you'll also be able to sign up for a hosted version of Cozy.</dd>
 
             <dt>Can I test Cozy without installing it?</dt>
-            <dd>You can do that by submitting a request at cozy.io. You'll be added to a waiting list, and as soon as we set up a Cozy test instance for you, you'll receive an activation link via email.</dd>
-
-            <dt>Does Cozy encrypt my data?</dt>
-            <dd>Cozy encrypts passwords and connections. The data stored in Cozy is not encrypted, his would negatively affect the overall user experience. We are considering implementing partial encryption of data stored in Cozy.</dd>
-
+            <dd>You can do that by submitting subscribing to our beta program
+            (click on the <em>Try for free</em> button). You'll be added to a waiting list, and as soon as we set up a Cozy test instance for you, you'll receive an activation link via email.</dd>
             <dt>Can I create accounts for my family and friends on my Cozy server?</dt>
             <dd>Since Cozy is a personal server, it doesn't support multiple user accounts. This makes Cozy more secure and dramatically simplifies server administration.</dd>
 
@@ -76,8 +79,6 @@ pathTo: ..
             <dt>Can I install my favorite PHP, Python, Ruby, etc. application on Cozy?</dt>
             <dd>Currently Cozy supports only Node.js applications.</dd>
 
-            <dt>What is your business model?</dt>
-            <dd>This is a good question, and we have answered it on our <a href="{{ pathTo }}/about">About Cozy page.</a></dd>
           </dl>
         </div>
       </div>
