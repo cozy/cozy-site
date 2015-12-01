@@ -231,20 +231,20 @@ $btn-border-radius-sm = $border-radius-sm
 //
 $input-pdg-x                    = .625rem
 $input-pdg-y                    = .313rem
-$input-border-width             = 0
+$input-border-width             = $border-width
 
-$input-ff                       = $ff-emphasis
+$input-ff                       = $ff-common
 
 $input-bkg                      = $clr-lighter
 $input-bkg-disabled             = $clr-light
 
-$input-clr                      = $txt-clr-base
-$input-border                   = transparent
+$input-clr                      = $clr-darker
+$input-border                   = $clr-base
 $input-box-shadow               = none
 
-$input-border-radius            = 0
-$input-border-radius-lg         = 0
-$input-border-radius-sm         = 0
+$input-border-radius            = $btn-border-radius
+$input-border-radius-lg         = $btn-border-radius
+$input-border-radius-sm         = $btn-border-radius
 
 $input-border-focus             = #66afe9
 $input-box-shadow-focus         = rgba(102,175,233,.6)
@@ -254,14 +254,14 @@ $input-clr-placeholder          = $txt-clr-base
 $input-pdg-x-sm                 = .75rem
 $input-pdg-y-sm                 = .275rem
 
-$input-pdg-x-lg                 = 1.875rem
-$input-pdg-y-lg                 = 1.125rem
+$input-pdg-x-lg                 = 1rem
+$input-pdg-y-lg                 = 0.85rem
 
 $input-height                   = (($fs-base * $lh) + ($input-pdg-y * 2) + ($border-width * 2))
 $input-height-lg                = (($fs-lg * $lh-lg) + ($input-pdg-y-lg * 2) + ($border-width * 2))
 $input-height-sm                = (($fs-sm * $lh-sm) + ($input-pdg-y-sm * 2) + ($border-width * 2))
 
-$form-group-mb                  = 1.25rem
+$form-group-mb                  = $spacer-y
 
 $input-group-addon-bkg          = $clr-primary
 $input-group-addon-border-color = darken($clr-primary, 10%)
