@@ -24,11 +24,10 @@
 	"Ungoogle your digital life.": "Ungoogle your digital life",
 	"Reclaim your privacy and apps from Google. Calendar, contact books and mails under control.": "Reclaim your privacy from Google.",
 	"email address": "email address",
-	"try main title": "try main title",
-	"try description": "try description",
-	"try form email address": "try form email address",
-	"try description note": "try description note",
-	"try form sign up": "try form sign up",
+	"try main title": "try a free instance",
+	"try description": "You will enjoy a free Cozy instance with 2GB of RAM and 20GB of disk space (hosted in France).",
+	"try form email address": "Email",
+	"try form sign up": "sign up",
 	"Jump to content": "Jump to content",
 	"Reduce dependency on Google with Cozy's Calendar, Contacts, and Emails apps": "Reduce dependency on Google with Cozy's Calendar, Contacts, and Emails apps.",
 	"Maintain multiple calendars with ease and synchronize calendar data across multiple platforms, devices, and applications.": "Maintain multiple calendars with ease and synchronize calendar data across multiple platforms, devices, and applications.",
@@ -151,4 +150,3 @@
 	"Cozy can be deployed on a virtual private server you\n                  rent to an hosting provider.": "Cozy can be deployed on a virtual private server you\n                  rent to an hosting provider.",
 	"Install Cozy on your own hardware": "Install Cozy on your own hardware",
 	"Ready to feel Cozy with your data?": "Ready to feel Cozy with your data?"
-}
