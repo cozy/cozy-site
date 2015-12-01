@@ -8,31 +8,40 @@ pathTo: ../
 
 {{> header }}
 
-    <div class="container">
-      <div class="row row-justify-center">
+	<header class="introduction">
+		<div class="container">
 
-        <h1>{{__ 'try main title'}}</h1>
-        <p>
-            {{__ 'try description'}}
-        </p>
-        <p>
-            {{__ 'try description note'}}
-        </p>
-        <form id="sign-me-up" action="//cozy.us4.list-manage.com/subscribe/post?u=e25ec3b4f8c222291f7d77997&amp;id=a9da8da0de" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
-          <p>
-            <label for="mce-signmeup-EMAIL"><span>{{__ 'try form email address'}}</span>
-              <input id="mce-signmeup-EMAIL" type="email" name="EMAIL" placeholder="{{__ 'try form email address'}}">
-            </label>
-            <div style="position: absolute; left: -5000px;">
-              <input type="text" name="b_e25ec3b4f8c222291f7d77997_a9da8da0de" tabindex="-1" value="">
-            </div>
-          </p>
-          <p>
-            <button type="submit" name="subscribe" class="icon-cloud">
-              {{__ 'try form sign up'}}
-            </button>
-          </p>
-        </form>
-    </div>
+			<div class="row">
+				<div class="col-xs-14 col-offset-xs-5">
+					<h1 class="introduction-title">{{__ 'try main title'}}</h1>
+				</div>
+			</div>
+
+			<div class="row row-justify-center">
+				<div class="col-xs-16">
+					<p class="align-center">
+							{{__ 'try description'}}
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<form id="sign-me-up" action="//cozy.us4.list-manage.com/subscribe/post?u=e25ec3b4f8c222291f7d77997&amp;id=a9da8da0de" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+					<p>
+						<label for="mce-signmeup-EMAIL">
+							<input id="mce-signmeup-EMAIL" type="email" name="EMAIL" placeholder="{{__ 'try form email address'}}">
+						</label>
+						<div style="display: none;">
+							<input type="text" name="b_e25ec3b4f8c222291f7d77997_a9da8da0de" tabindex="-1" value="">
+						</div>
+					</p>
+					<p>
+						<button type="submit" name="subscribe" class="icon-cloud btn btn-primary">
+							{{__ 'try form sign up'}}
+						</button>
+					</p>
+				</form>
+			</div>
+		</div>
+	</header>
 
 {{> footer }}
