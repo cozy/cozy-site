@@ -4,6 +4,8 @@ layout: base.html
 metaTitle: Store, control, sync, and share your data
 metaDescription: Simple, versatile, yours
 
+homepage: true
+
 permalink: false
 
 locale:
@@ -12,15 +14,15 @@ pathTo: .
 
 {{> header }}
 
-  <header class="introduction">
+  <header class="introduction contrast">
     <div class="container">
       <div class="row">
         <div class="col-xs-14 col-offset-xs-5">
           <h1 class="introduction-title">{{__ 'Simple, versatile, open, yours.'}}</h1>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-8 col-offset-xs-8">
+      <div class="row row-justify-center">
+        <div class="col-xs-10">
           <p class="lead introduction-content">
             {{__ 'Store, control, sync, and share your data just the way you want it.'}}
           </p>
@@ -28,60 +30,60 @@ pathTo: .
       </div>
     </div>
   </header>
-  <nav class="standFor">
+  <nav class="standFor contrast">
     <div class="container">
       <div class="row row-justify-center">
         <div class="col-xs-6">
-          <div class="standFor-item">
+          <a href="{{ pathTo }}/" class="standFor-item">
             <figure class="standFor-figure">
-              <img src="images/stand-for-tinkerers.png" class="img-responsive" alt="">
+              <img src="images/stand-for-tinkerers.svg" class="img-responsive" alt="">
             </figure>
             <h2 class="h4 standFor-title">
               {{__ 'For Tinkerers, Learners, and Computer Students'}}
             </h2>
-          </div>
+          </a>
         </div>
         <div class="col-xs-6">
-          <div class="standFor-item">
+          <a href="{{ pathTo }}/self-hosting/" class="standFor-item">
             <figure class="standFor-figure">
-              <img src="images/stand-for-selfhosting.png" class="img-responsive" alt="">
+              <img src="images/stand-for-selfhosting.svg" class="img-responsive" alt="">
             </figure>
             <h2 class="h4 standFor-title">
               {{__ 'Self hosting with Cozy'}}
             </h2>
-          </div>
+          </a>
         </div>
         <div class="col-xs-6">
-          <div class="standFor-item">
+          <a href="{{ pathTo }}/connect-my-data" class="standFor-item">
             <figure class="standFor-figure">
-              <img src="images/stand-for-files.png" class="img-responsive" alt="">
+              <img src="images/stand-for-files.svg" class="img-responsive" alt="">
             </figure>
             <h2 class="h4 standFor-title">
               {{__ 'Files, Photos, Mobile, Oh My! '}}
             </h2>
-          </div>
+          </a>
         </div>
       </div>
       <div class="row row-justify-center">
         <div class="col-xs-6">
-          <div class="standFor-item">
+          <a href="{{ pathTo }}/" class="standFor-item">
             <figure class="standFor-figure">
-              <img src="images/stand-for-aggregate.png" class="img-responsive" alt="">
+              <img src="images/stand-for-aggregate.svg" class="img-responsive" alt="">
             </figure>
             <h2 class="h4 standFor-title">
               {{__ 'Aggregate and make sense of your data'}}
             </h2>
-          </div>
+          </a>
         </div>
         <div class="col-xs-6">
-          <div class="standFor-item">
+          <a href="{{ pathTo }}/ungoogle-your-life/" class="standFor-item">
             <figure class="standFor-figure">
-              <img src="images/stand-for-ungoogleyourlife.png" class="img-responsive" alt="">
+              <img src="images/stand-for-ungoogleyourlife.svg" class="img-responsive" alt="">
             </figure>
             <h2 class="h4 standFor-title">
               {{__ 'Ungoogle your Life'}}
             </h2>
-          </div>
+          </a>
         </div>
       </div>
     </div>

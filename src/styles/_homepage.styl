@@ -1,17 +1,37 @@
 // Homepage content specifics styles
 //
+
+.is-homepage
+  .introduction-content
+    color: lighten($body-bkg-alt, 50%)
+    &::after
+      content: ""
+      display block
+      margin ($spacer-y + .625rem) auto 0
+      width 6.25rem // 100px
+      height .25rem // 4px
+      background-color $clr-lighter
+
+
+// "Stand for" icons
+//
+
 .standFor,
 .standFor-item
+  display block
   margin-bottom $spacer
+
+.standFor-item
+  +hover-state()
+    .standFor-figure
+      transform translateY(-10px)
 
 .standFor-figure
   width 100%
-  height 175px
-  line-height 175px
+  height 134px
+  line-height 134px
   text-align center
-
-  img
-    vertical-align bottom
+  transition all $transition-duration $transition-bounce
 
 .standFor-title
   margin 0 auto
