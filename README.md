@@ -7,8 +7,8 @@ It requires Node v4 at least to run properly.
 *build*
 
 ```
-node output.js
-node output-fr.js
+npm run dev
+npm run dev --fr
 ```
 
 *Development server*

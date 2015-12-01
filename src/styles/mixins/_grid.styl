@@ -44,6 +44,10 @@ grid(direction = 'row', cells-align = 'top', justify = '')
     justify-content flex-start
   if justify is 'end'
     justify-content flex-end
+  if justify is 'space-between'
+    justify-content space-between
+  if justify is 'space-around'
+    justify-content space-around
 
 cell(i = 1, cols = $grid-columns, align = '', g = $grid-gutter)
   flex-basis: s('calc(100% * %s - %s)', i / cols, rem-calc(g))

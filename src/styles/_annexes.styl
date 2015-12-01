@@ -9,22 +9,35 @@
 // Ungoogle your life
 .introduction
   // Set backgrounds
+  &.about
+    background url(../images/bkg-about.jpg) no-repeat 50% 0 / cover
+
   &.faq
-    background url(../images/bkg-faq.jpg) no-repeat 50% 0 / cover
+    background url(../images/bkg-faq.jpg) no-repeat 50% 100% / cover
 
   &.community
-    background url(../images/bkg-community.jpg) no-repeat 50% 0 / cover
+    background url(../images/bkg-community.jpg) no-repeat 50% 100% / cover
 
 
 // Annexe page specifics styles
 //
+
 // Community
+//
 .communityContent-item
   margin-bottom $spacer
   text-align center
 
 .communityContent-item-titleIcon
   margin-bottom ($spacer / 2)
+
+
+// About
+//
+
+// Our vision
+.ourVision
+  margin-bottom $spacer
 
 
 // Our members
@@ -40,18 +53,24 @@
 .ourMembersList-item
   position relative
   display inline-block
-  margin $spacer-x ($spacer-y / 2) 0 ($spacer-y / 2)
-  width 10rem
+  margin $spacer-x ($spacer / 5) $spacer-x ($spacer / 5)
+  width 10rem  // 160px
   height 10rem
-  border-radius 50%
-  overflow hidden
   transform scale(1)
   transition all $transition-duration $transition-bounce
   +hover-state()
-    transform scale(0.9)
+    transform scale(0.95)
 
     .ourMembersList-item-member
       opacity 1
+
+  &.ourMembersList-item-lg
+    width 15.625rem  // 250px
+    height 15.625rem
+
+  &.rounded
+    border-radius 50%
+    overflow hidden
 
 .ourMembersList-item-member
   position absolute
@@ -60,12 +79,41 @@
   bottom 0
   left 0
   z-index 2
-  text-align center
   font-family $ff-emphasis
   font-size $fs-lg
-  line-height 10rem
   text-transform uppercase
   color $clr-lighter
   background-color rgba(65,183,241, .7)
   opacity 0
   transition opacity $transition-duration $transition-easing
+
+.ourMembersList-item-member-inner
+  position absolute
+  top 50%
+  width 100%
+  text-align center
+  transform translateY(-50%)
+
+.ourMembersList-item-member-job
+  display block
+  font-family $ff-common
+  font-size $fs-base
+  text-transform none
+  &::before
+    content ""
+    display block
+    margin $spacer-x auto
+    width ($spacer / 2)
+    height $border-width
+    background-color $clr-lighter
+
+
+// Business model
+.businessModel-introduction
+  margin-bottom ($spacer * 2)
+
+.businessModel-hangs
+  @extend .h2
+  margin-bottom ($spacer * 2)
+  font-size ($fs-h2 + .625rem) // 42px
+  color darken(#06608D, 20%)

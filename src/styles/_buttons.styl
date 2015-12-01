@@ -15,7 +15,7 @@ button
   touch-action: manipulation
   cursor: pointer
   user-select: none
-  button-size($btn-pdg-y, $btn-pdg-x, $btn-fs, $lh, $btn-border-radius)
+  button-size($btn-pdg-y, $btn-pdg-x, $btn-fs, $btn-fw, $lh, $btn-border-radius)
 
   & + .btn
     margin-left $spacer-x
@@ -34,16 +34,13 @@ button
 // Button Sizes
 //
 .btn-sm
-  // line-height: ensure proper height of button next to small input
-  button-size($btn-pdg-y-sm, $btn-pdg-x-sm, $btn-fs, $lh-sm, $btn-border-radius-sm)
+  button-size($btn-pdg-y-sm, $btn-pdg-x-sm, $btn-fs-sm, $btn-fw-sm, $lh-sm, $btn-border-radius-sm)
 
 .btn-lg
-  // line-height: ensure even-numbered height of button next to large input
-  button-size($btn-pdg-y-lg, $btn-pdg-x-lg, $btn-fs, $lh-lg, $btn-border-radius-lg)
+  button-size($btn-pdg-y-lg, $btn-pdg-x-lg, $btn-fs-lg, $btn-fw-lg, $lh-lg, $btn-border-radius-lg)
 
-.btn-action
-    font-size 1.2rem
-    font-weight bold
+.btn-xl
+  button-size($btn-pdg-y-lg, $btn-pdg-x-lg, $btn-fs-xl, $btn-fw-xl, $lh-xl, $btn-border-radius-xl)
 
 
 // Link buttons
@@ -75,4 +72,4 @@ button
   transform scale(1)
   transition transform $transition-duration $transition-bounce
   +hover-state()
-    transform scale(1.1)
+    transform scale(1.05)

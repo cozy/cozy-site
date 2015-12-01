@@ -43,14 +43,14 @@ module.exports = {
         //svgoPlugins: [{ removeViewBox: false }]
       //}))
 
-      // Javascript
-      //.use(uglify({
-        //filter: ['js/**/*.js'],
-        //removeOriginal: true,
-        //sourceMap: true,
-        //order: ['js/vendors/**/*.js', 'js/*.js'],
-        //concat: 'js/main.min.js'
-      //}))
+       //Javascript
+      .use(uglify({
+        filter: ['js/**/*.js'],
+        removeOriginal: true,
+        sourceMap: true,
+        order: ['js/vendors/**/*.js', 'js/*.js'],
+        concat: 'js/main.min.js'
+      }))
 
       // Styles
       .use(stylus())
