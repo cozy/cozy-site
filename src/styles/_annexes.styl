@@ -108,6 +108,106 @@
     background-color $clr-lighter
 
 
+// Timeline
+.timeline
+  @extend .list-unstyled
+  position relative
+  margin-bottom ($spacer * 1.5)
+  padding-bottom ($spacer * 1.5)
+  &::before
+    content ""
+    position absolute
+    top 0
+    bottom 0
+    left 50%
+    margin-left -.063rem
+    width .125rem
+    background-color lighten($clr-base, 20%)
+  &::after
+    content ""
+    position absolute
+    bottom 0
+    left 50%
+    margin-left -7px
+    width 14px
+    height 14px
+    background $body-bkg url(../images/direction-arrow.svg) no-repeat 50% 50%
+    transform rotate(90deg)
+
+
+.timeline-item
+  position relative
+  margin-bottom $spacer
+
+  &:nth-child(odd)
+    padding-right 55%
+    text-align right
+
+  &:nth-child(even)
+    padding-left 55%
+
+  &:first-child
+    padding 0
+    text-align center
+
+  &:last-child
+    margin-bottom 0
+
+.timeline-item-bullet
+  position absolute
+  top 50%
+  left 50%
+  z-index 3
+  transform translate(-50%, -50%)
+  width 2.813rem  // 45px
+  height 2.813rem
+  text-align center
+  line-height (2.813rem - .313rem)
+  background-color $body-bkg
+  border .125rem solid lighten($clr-base, 20%)
+  border-radius 50%
+
+.timeline-item-container
+  position relative
+  z-index 2
+  display inline-block
+  padding 1.875rem
+  max-width 80%
+  text-align left
+  background-color darken($clr-light, 5%)
+  border-radius $border-radius
+
+  &.highlighted
+    color: $clr-lighter
+    background-color $clr-primary
+
+    .timeline-item-date
+      color darken($clr-primary, 30%)
+    .timeline-item-content
+      color $clr-lighter
+
+  &.withCozyLogo
+    padding-left (1.875rem + 3.375rem + 1.25rem) // default padding + logo size + margin
+    background-image url(../images/cozy-smaller.svg);
+    background-repeat no-repeat
+    background-position 1.875rem 50%
+
+  p:last-child
+    margin-bottom 0
+
+.timeline-item-date
+  margin-bottom $spacer-x
+  text-align left
+  font-family $ff-common
+  font-size $fs-base
+  font-weight $fw-bold
+  color $clr-base
+  text-transform none
+
+.timeline-item-content
+  color $clr-darker
+
+
 // Business model
 .businessModel-introduction
   margin-bottom ($spacer * 2)

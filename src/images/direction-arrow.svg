@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="8px" height="13px" viewBox="0 0 8 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="1a-about" sketch:type="MSArtboardGroup" transform="translate(-716.000000, -5016.000000)" fill="#2E2B2C">
+            <g id="4" sketch:type="MSLayerGroup" transform="translate(171.000000, 2547.000000)">
+                <g id="timeline" transform="translate(0.000000, 218.000000)" sketch:type="MSShapeGroup">
+                    <g transform="translate(545.000000, 2251.000000)" id="arrow">
+                        <path d="M3.9955,10.019 C3.7395,10.019 3.4845,9.921 3.2895,9.725 L-1.7075,4.712 C-2.0975,4.32 -2.0975,3.686 -1.7075,3.294 C-1.3165,2.902 -0.6845,2.902 -0.2945,3.294 L3.9955,7.598 L8.2855,3.294 C8.6755,2.902 9.3075,2.902 9.6985,3.294 C10.0885,3.686 10.0885,4.32 9.6985,4.712 L4.7025,9.725 C4.5065,9.921 4.2515,10.019 3.9955,10.019" transform="translate(3.995500, 6.509500) rotate(-90.000000) translate(-3.995500, -6.509500) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
