@@ -1,6 +1,7 @@
 // Text selection
 ::selection
   background: darken($clr-darker, 20%)
+  color: $clr-lighter
   text-shadow: none
 
 
@@ -157,6 +158,12 @@ hr
     margin-left auto
     width 3.75rem
     border-top ($hr-border-width * 3) solid $clr-primary
+    
+  &.dash-light
+    margin-right auto
+    margin-left auto
+    width 3.75rem
+    border-top ($hr-border-width * 3) solid $clr-lighter
 
 
 // Contrast color managing
