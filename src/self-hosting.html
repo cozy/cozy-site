@@ -2,7 +2,7 @@
 layout: base.html
 
 metaTitle: Run your cloud at home
-metaDescription: Cozy is a versatile and extensible platform that can be put to a variety of practical uses. From sharing your photos with friends and family to contacts and schedule management. More importantly, Cozy can be hosted on your own physical or virtual server. 
+metaDescription: Cozy is a versatile and extensible platform that can be put to a variety of practical uses. From sharing your photos with friends and family to contacts and schedule management. More importantly, Cozy can be hosted on your own physical or virtual server.
 
 fullHeightIntroduction: true
 colorscheme: selfHosting
@@ -15,19 +15,19 @@ pathTo: ..
 
   <header class="introduction">
     <div class="container">
-      <div class="row">
-        <div class="col-xs-14 col-offset-xs-5">
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-14">
           <h1 class="introduction-title">{{__ 'Run your cloud at home'}}</h1>
         </div>
       </div>
       <div class="row row-justify-center">
-        <div class="col-xs-14">
+        <div class="col-xs-22 col-lg-14">
           <p class="introduction-content">
             {{__ 'Enjoy better storage and keep your data private'}}
           </p>
         </div>
       </div>
-      <div class="row row-justify-center">
+      <div class="row row-justify-center hidden-to-lg">
         <div class="col-xs-16">
           <p class="align-center">
             {{__ 'Cozy is a versatile and extensible platform that can be put
@@ -50,7 +50,7 @@ pathTo: ..
     <section class="panel hangs">
       <div class="container">
         <div class="row row-justify-center">
-          <div class="col-xs-18">
+          <div class="col-xs-22 col-lg-18">
             <ul class="hangsList">
               <li class="hangsList-item">
                 <div>
@@ -95,11 +95,11 @@ pathTo: ..
     <section class="presentation panel">
       <div class="container">
         <div class="row row-justify-center">
-          <div class="col-xs-20">
+          <div class="col-xs-22 col-lg-20">
             <h2 class="panel-title">{{__ 'Tell me more'}}</h2>
 
             <div class="row">
-              <div class="col-xs-11">
+              <div class="col-xs-24 col-lg-11">
                 <div class="dropcaps">
                   <p>
                     With Cozy, you don't need a third-party service to run it
@@ -114,7 +114,7 @@ pathTo: ..
                   </p>
                 </div>
               </div>
-              <div class="col-xs-11 col-offset-xs-2">
+              <div class="col-xs-24 col-lg-11 col-offset-lg-2">
                 <p>
                   Advanced users will also appreciate the fact that Cozy is available as an easy-to-use virtual machine (VirtualBox and OpenVZ) image and a Docker container.
                 </p>
@@ -143,7 +143,7 @@ pathTo: ..
         </p>
 
         <div class="row">
-          <div class="col-xs-7 col-center">
+          <div class="col-xs-22 col-lg-7 col-center">
             <ul class="featuresList">
               <li class="featuresList-item">
                 <a href="#" class="featuresList-item-link active" data-target="calendar">
@@ -196,7 +196,7 @@ pathTo: ..
               </li>
             </ul>
           </div>
-          <div class="col-xs-16 col-offset-xs-1 col-center featuresList-screenshots">
+          <div class="col-xs-16 col-offset-xs-1 hidden-to-lg  col-center featuresList-screenshots">
             <figure id="feature-calendar" class="featuresList-screenshotOutter active">
               <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-calendar.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
             </figure>
@@ -219,10 +219,14 @@ pathTo: ..
 
     <section class="panel landingCTA">
       <div class="container">
-        <h2 class="panel-title">{{__ 'Ready to be Cozy with your data?'}}</h2>
+        <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-14">
+            <h2 class="panel-title">{{__ 'Ready to be Cozy with your data?'}}</h2>
 
-        <div class="align-center">
-          <a href="https://docs.cozy.io/en/install/" class="btn btn-primary btn-xl btn-bounce">{{__ 'Install Cozy on your own hardware'}}</a>
+            <div class="align-center">
+              <a href="https://docs.cozy.io/en/install/" class="btn btn-primary btn-xl btn-bounce">{{__ 'Install Cozy on your own hardware'}}</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

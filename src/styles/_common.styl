@@ -99,11 +99,14 @@
 .hangsList-item
   display table
   margin-bottom ($spacer * 1.5)
-  padding-left 50px
-  width 50%
+  padding-left 0
+  width 100%
   > div
     display table-cell
     vertical-align middle
+  +bp-min(lg)
+    padding-left 50px
+    width 50%
 
   .hangsList-item-icon
     margin-right ($spacer / 2)
@@ -125,55 +128,66 @@
   margin ($spacer - .625rem) 0
   margin-left $grid-gutter
   min-height 3rem
-  &::after
-    content ""
-    position absolute
-    bottom -(($spacer - 0.625rem) / 2) - (0.938rem / 2) // half of item margin bottom - half of the component height
-    left (2.813rem / 2) // 50% of icon size
-    width .125rem
-    height .938rem
-    background-color $clr-lighter
   &:first-child
     margin-top 0
   &:last-child
     margin-bottom 0
+  +bp-min(lg)
     &::after
-      display none
+      content ""
+      position absolute
+      bottom -(($spacer - 0.625rem) / 2) - (0.938rem / 2) // half of item margin bottom - half of the component height
+      left (2.813rem / 2) // 50% of icon size
+      width .125rem
+      height .938rem
+      background-color $clr-lighter
+    &:last-child
+      &::after
+        display none
+
 
 .featuresList-item-link
-  position absolute
-  top 50%
-  transform translateY(-50%)
   display block
-  padding-left 4.063rem // 65px
+  text-align center
   line-height $lh-sm
   color $clr-lighter !important
-  +hover-state()
-    .featuresList-item-link-icon
-      background-color $clr-lighter
-      transform: translateY(-50%) scale(0.9)
-  &.active
-    .featuresList-item-link-icon
-      transform: translateY(-50%) scale(1)
+  +bp-min(lg)
+    position absolute
+    top 50%
+    transform translateY(-50%)
+    padding-left 4.063rem // 65px
+    text-align left
+    +hover-state()
+      .featuresList-item-link-icon
+        background-color $clr-lighter
+        transform: translateY(-50%) scale(0.9)
+    &.active
+      .featuresList-item-link-icon
+        transform: translateY(-50%) scale(1)
+
 
 
 .featuresList-item-link-icon
-  position absolute
-  top 50%
-  left 0
-  transform translateY(-50%)
-  width 44px  // 45px
-  height 44px
-  box-shadow: inset 0 0 0 1px $clr-lighter
-  border-radius 22px
-  fill $clr-lighter
-  transition background-color $transition-duration $transition-easing, fill $transition-duration $transition-easing, transform $transition-duration $transition-bounce
-  // 0
-  svg
+  display none
+  +bp-min(lg)
+    display block
     position absolute
     top 50%
-    left 50%
-    transform translate(-50%, -50%)
+    left 0
+    transform translateY(-50%)
+    width 44px  // 45px
+    height 44px
+    box-shadow: inset 0 0 0 1px $clr-lighter
+    border-radius 22px
+    fill $clr-lighter
+    transition background-color $transition-duration $transition-easing, fill $transition-duration $transition-easing, transform $transition-duration $transition-bounce
+    // 0
+    svg
+      position absolute
+      top 50%
+      left 50%
+      transform translate(-50%, -50%)
+
 
 .featuresList-screenshots
   position relative
@@ -201,16 +215,23 @@
 // Testimonials
 //
 // Present testimonials with portrait
-.testimonialsItem
-  display table
-  width 100%
++bp-max(lg)
+  .testimonials-list
+    margin-top -($spacer)
 
-.testimonialsItem-figure,
-.testimonialsItem-text
+.testimonials-list-item
+  display table
+  margin-top $spacer
+  width 100%
+  +bp-min(lg)
+    margin-top 0
+
+.testimonials-list-item-figure,
+.testimonials-list-item-text
   display table-cell
   vertical-align middle
 
-.testimonialsItem-text
+.testimonials-list-item-text
   padding-left .938rem // 15px
   font-family $ff-emphasis
   line-height 1.25
@@ -230,6 +251,8 @@
 // Panel with call to action title and button
 .landingCTA
   .panel-title
-    max-width 40.625rem // 650px
-    font-size ($fs-h2 + .625rem) // 42px
+    font-size 26px
+    +bp-min(lg)
+      max-width 40.625rem // 650px
+      font-size ($fs-h2 + .625rem) // 42px
 

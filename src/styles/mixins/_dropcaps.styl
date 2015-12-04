@@ -3,9 +3,13 @@
 dropcaps($font-family, $font-size, $color)
   p:first-child:first-letter
     float left
+    margin-top -($font-size / 3)
     padding 4px 12px 0 0
     font-family $font-family
     font-size $font-size
     font-weight $fw-bold
     line-height $font-size
     color $color
+  +bp-min(lg)
+    p:first-child:first-letter
+      margin-top 0

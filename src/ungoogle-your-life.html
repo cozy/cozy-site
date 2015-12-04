@@ -15,13 +15,13 @@ pathTo: ..
 
   <header class="introduction contrast">
     <div class="container">
-      <div class="row">
-        <div class="col-xs-14 col-offset-xs-5">
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-14">
           <h1 class="introduction-title">{{__ 'Ungoogle your digital life.'}}</h1>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-10 col-offset-xs-7">
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-14">
           <p class="introduction-content">
             {{__ 'Reclaim your privacy and apps from Google. Calendar, contact books and mails under control.'}}
           </p>
@@ -40,7 +40,7 @@ pathTo: ..
     <section class="panel hangs">
       <div class="container">
         <div class="row row-justify-center">
-          <div class="col-xs-18">
+          <div class="col-xs-22 col-lg-18">
             <ul class="hangsList">
               <li class="hangsList-item">
                 <div>
@@ -91,11 +91,11 @@ pathTo: ..
     <section class="presentation panel">
       <div class="container">
         <div class="row row-justify-center">
-          <div class="col-xs-20">
+          <div class="col-xs-22 col-lg-20">
             <h2 class="panel-title">{{__ 'Tell me more'}}</h2>
 
             <div class="row">
-              <div class="col-xs-11">
+              <div class="col-xs-24 col-lg-11">
                 <div class="dropcaps">
                   <p>
                     Search, maps, calendar, email, file storage, Android -- Google offers plenty of excellent services and platforms that cover pretty much every digital need. But the easy and enjoyable life in the Google universe comes at the price of your privacy.
@@ -110,7 +110,7 @@ pathTo: ..
                   </p>
                 </div>
               </div>
-              <div class="col-xs-11 col-offset-xs-2">
+              <div class="col-xs-24 col-lg-11 col-offset-lg-2">
                 <p>
                   Calendar offers all essential features for managing events and appointments efficiently. Having a standalone calendar in this day and age of multiple devices and platforms is all but impractical. And <strong class="highlight">the Calendar app supports the CalDAV protocol for syncing calendar data</strong> across multiple devices and platforms.
                 </p>
@@ -129,13 +129,10 @@ pathTo: ..
 
     <section class="panel contrast features">
       <div class="container">
-        <h2 class="panel-title withLead">{{__ 'Features'}}</h2>
-        <p class="panel-lead lead lead-sm">
-           &nbsp;
-        </p>
+        <h2 class="panel-title">{{__ 'Features'}}</h2>
 
         <div class="row">
-          <div class="col-xs-7 col-center">
+          <div class="col-xs-22 col-lg-7 col-center">
             <ul class="featuresList">
               <li class="featuresList-item">
                 <a href="#" class="featuresList-item-link active" data-target="calendar">
@@ -171,7 +168,7 @@ pathTo: ..
               </li>
             </ul>
           </div>
-          <div class="col-xs-16 col-offset-xs-1 featuresList-screenshots">
+          <div class="col-xs-16 col-offset-xs-1 hidden-to-lg featuresList-screenshots">
             <figure id="feature-calendar" class="featuresList-screenshotOutter active">
               <img src="{{ pathTo }}/images/features/ungoogleyourlife/features-calendar.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
             </figure>
@@ -189,60 +186,65 @@ pathTo: ..
       </div>
     </section>
 
-    <!-- section class="testimonials panel">
+    <!--
+    <section class="testimonials panel">
       <div class="container">
-        <h2 class="panel-title withLead">{{__ 'Testimonials'}}</h2>
-        <p class="panel-lead lead lead-sm">
-        &nbsp;
-        </p>
+        <h2 class="panel-title">{{__ 'Testimonials'}}</h2>
 
-        <div class="row row-justify-center">
-          <div class="col-xs-6">
-            <div class="testimonialsItem">
-              <figure class="testimonialsItem-figure">
-                <img src="{{ pathTo }}/images/tmp/testimonial-one.jpg" width="112" height="160" alt="Portrait of John Doe">
-              </figure>
-              <div class="testimonialsItem-text">
-                Lorem ipsum indolor sit amet
-                <div>John Doe</div>
+        <div class="testimonials-list">
+          <div class="row row-justify-center">
+            <div class="col-xs-22 col-lg-6">
+              <div class="testimonials-list-item">
+                <figure class="testimonials-list-item-figure">
+                  <img src="{{ pathTo }}/images/tmp/testimonial-one.jpg" width="112" height="160" alt="Portrait of John Doe">
+                </figure>
+                <div class="testimonials-list-item-text">
+                  Lorem ipsum indolor sit amet
+                  <div>John Doe</div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-xs-6 col-offset-1">
-            <div class="testimonialsItem">
-              <figure class="testimonialsItem-figure">
-                <img src="{{ pathTo }}/images/tmp/testimonial-two.jpg" width="112" height="160" alt="Portrait of John Doe">
-              </figure>
-              <div class="testimonialsItem-text">
-                Lorem ipsum indolor sit amet
-                <div>John Doe</div>
+            <div class="col-xs-22 col-lg-6 col-offset-lg-1">
+              <div class="testimonials-list-item">
+                <figure class="testimonials-list-item-figure">
+                  <img src="{{ pathTo }}/images/tmp/testimonial-two.jpg" width="112" height="160" alt="Portrait of John Doe">
+                </figure>
+                <div class="testimonials-list-item-text">
+                  Lorem ipsum indolor sit amet
+                  <div>John Doe</div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-xs-6 col-offset-1">
-            <div class="testimonialsItem">
-              <figure class="testimonialsItem-figure">
-                <img src="{{ pathTo }}/images/tmp/testimonial-three.jpg" width="112" height="160" alt="Portrait of John Doe">
-              </figure>
-              <div class="testimonialsItem-text">
-                Lorem ipsum indolor sit amet
-                <div>John Doe</div>
+            <div class="col-xs-22 col-lg-6 col-offset-lg-1">
+              <div class="testimonials-list-item">
+                <figure class="testimonials-list-item-figure">
+                  <img src="{{ pathTo }}/images/tmp/testimonial-three.jpg" width="112" height="160" alt="Portrait of John Doe">
+                </figure>
+                <div class="testimonials-list-item-text">
+                  Lorem ipsum indolor sit amet
+                  <div>John Doe</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section-->
+    </section>
+    -->
 
     <section class="panel landingCTA">
       <div class="container">
-        <h2 class="panel-title withLead">{{__ 'Start ungoogling your life by joigning our BETA program'}}</h2>
-        <p class="panel-lead lead">
-           We provide free Cozy instances in limited numbers
-        </p>
+        <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-14">
+            <h2 class="panel-title withLead">{{__ 'Start ungoogling your life by joigning our BETA program'}}</h2>
+            <p class="panel-lead lead">
+               We provide free Cozy instances in limited numbers
+            </p>
 
-        <div class="align-center">
-          <a href="{{locale}}/try-it/" class="btn btn-primary btn-xl btn-bounce">{{__ 'Try Cozy For Free'}}</a>
+            <div class="align-center">
+              <a href="{{locale}}/try-it/" class="btn btn-primary btn-xl btn-bounce">{{__ 'Try Cozy For Free'}}</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
