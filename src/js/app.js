@@ -26,8 +26,10 @@ $(function() {
 
   // Set height of screenshots container, from the first slide at launch
   $('.featuresList-screenshot').load(function() {
-    var firstScreenshotHeight = $featuresScreenshot.filter('.active').find('.featuresList-screenshot').height();
-    $screenshotsContainer.height(firstScreenshotHeight + 'px');
+    $(window).on('resize', function(){
+      var firstScreenshotHeight = $featuresScreenshot.filter('.active').find('.featuresList-screenshot').height();
+      $screenshotsContainer.height(firstScreenshotHeight + 'px');
+    }).resize();
   });
 
   $featuresLink.on('click', function() {
