@@ -12,9 +12,12 @@ html
 //
 html
   // Sets a specific default `font-size` for user with `rem` type scales.
-  font-size: $fs-root
+  font-size $fs-root
   // Changes the default tap highlight to be completely transparent in iOS.
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+
+  +bp-max(lg)
+    font-size 14px
 
 body
   // Improve animations displaying
