@@ -122,6 +122,10 @@
   @extend .list-unstyled
   margin -($spacer) 0 0
   font-family $ff-emphasis
+
+  &.light
+    margin-top -($spacer)
+
   +bp-min(lg)
     margin-top 0
 
@@ -159,6 +163,13 @@
       &::after
         display none
 
+.featuresList-item-light
+  position relative
+  margin $spacer 0 0
+  font-family $ff-emphasis
+  line-height $lh-sm
+  p
+    margin-bottom 0 // reset default margin
 
 .featuresList-item-link
   display block
@@ -179,8 +190,6 @@
       .featuresList-item-link-icon
         transform: translateY(-50%) scale(1)
 
-
-
 .featuresList-item-link-icon-sm
   position relative
   display block
@@ -189,6 +198,7 @@
   height 100px
   box-shadow inset 0 0 0 2px $clr-lighter
   border-radius 50px
+  fill $clr-lighter
 
   +bp-min(lg)
     display none
@@ -208,32 +218,20 @@
     fill $clr-lighter
     transition background-color $transition-duration $transition-easing, fill $transition-duration $transition-easing, transform $transition-duration $transition-bounce
 
-.featuresList-item-link-icon-sm
-.featuresList-item-link-icon
-  svg
-    position absolute
-    top 50%
-    left 50%
-    transform translate(-50%, -50%)
-
-.featuresList-item-simple
+.featuresList-item-link-icon-xl
   position relative
-  padding-top ($spacer * 2.25)
-  margin $spacer 0
-  font-family $ff-emphasis
-  line-height $lh-sm
-
-.featuresList-item-icon
-  position absolute
-  top 0
-  left 50%
-  transform translate(-50%, 0)
-  width 96px
-  height 96px
+  display block
+  margin 0 auto
+  margin-bottom $spacer-x
+  width 100px
+  height 100px
   box-shadow: inset 0 0 0 2px $clr-lighter
   border-radius 50%
   fill $clr-lighter
 
+.featuresList-item-link-icon-sm
+.featuresList-item-link-icon
+.featuresList-item-link-icon-xl
   svg
     position absolute
     top 50%
