@@ -18,8 +18,9 @@
   text-align: justify
 
 
-// Care about screen readers
+// Hide text
 //
+// Care about screen readers
 .sr-only
   position: absolute
   width: 1px
@@ -36,7 +37,14 @@
 .clearfix
   &:before
   &:after
-    content "";
+    content ""
     display table
   &:after
     clear both
+
+
+// Hide elements from breakpoint to infinite or from 0 to breakpoint
+//
+// Mixins will generate each breakpoint hidden class
+hidden-min()
+hidden-max()
