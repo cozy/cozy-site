@@ -5,13 +5,13 @@ hidden-min($breakpoints = $grid-breakpoints)
   for $bp, $value in breakpoints
     @media (min-width: ($value + 1px))
       .hidden-from-{$bp}
-        display none
-        visibility hidden
+        display none !important
+        visibility hidden !important
 
 // Hidden to maximum breakpoint
 hidden-max($breakpoints = $grid-breakpoints)
   for $bp, $value in breakpoints
     @media (max-width: $value)
       .hidden-to-{$bp}
-        display none
-        visibility hidden
+        display none !important
+        visibility hidden !important
