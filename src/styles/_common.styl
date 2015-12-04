@@ -120,19 +120,32 @@
 
 .featuresList
   @extend .list-unstyled
-  margin 0
+  margin -($spacer) 0 0
   font-family $ff-emphasis
+  +bp-min(lg)
+    margin-top 0
 
 .featuresList-item
   position relative
-  margin ($spacer - .625rem) 0
-  margin-left $grid-gutter
+  display inline-block
+  margin-top $spacer
+  width 49%
+  vertical-align top
   min-height 3rem
-  &:first-child
-    margin-top 0
+
   &:last-child
     margin-bottom 0
+
   +bp-min(lg)
+    display block
+    margin ($spacer - .625rem) 0
+    margin-left $grid-gutter
+    width auto
+    vertical-align middle
+
+    &:first-child
+      margin-top 0
+
     &::after
       content ""
       position absolute
@@ -141,6 +154,7 @@
       width .125rem
       height .938rem
       background-color $clr-lighter
+
     &:last-child
       &::after
         display none
@@ -167,6 +181,18 @@
 
 
 
+.featuresList-item-link-icon-sm
+  position relative
+  display block
+  margin 0 auto $spacer-x
+  width 100px
+  height 100px
+  box-shadow inset 0 0 0 2px $clr-lighter
+  border-radius 50px
+
+  +bp-min(lg)
+    display none
+
 .featuresList-item-link-icon
   display none
   +bp-min(lg)
@@ -175,18 +201,20 @@
     top 50%
     left 0
     transform translateY(-50%)
-    width 44px  // 45px
+    width 44px
     height 44px
     box-shadow: inset 0 0 0 1px $clr-lighter
     border-radius 22px
     fill $clr-lighter
     transition background-color $transition-duration $transition-easing, fill $transition-duration $transition-easing, transform $transition-duration $transition-bounce
-    // 0
-    svg
-      position absolute
-      top 50%
-      left 50%
-      transform translate(-50%, -50%)
+
+.featuresList-item-link-icon-sm
+.featuresList-item-link-icon
+  svg
+    position absolute
+    top 50%
+    left 50%
+    transform translate(-50%, -50%)
 
 .featuresList-item-simple
   position relative
