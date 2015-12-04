@@ -14,10 +14,15 @@
   line-height $headings-lh
   font-weight $fw-bold
   color $clr-darker
+  +bp-max(lg)
+    text-align center
 
 .siteFooter-hangContent
   line-height 1.3
   color $clr-highlight
+  +bp-max(lg)
+    margin-bottom $spacer
+    text-align center
 
 .siteFooter-copy
   margin-top 4.375rem
@@ -32,6 +37,19 @@
 
 .siteFooter-list
   @extend .list-unstyled
+  margin-bottom 0
+
+  +bp-max(lg)
+    &.social
+      margin-top $spacer
+      text-align center
+      .siteFooter-list-item
+        display inline-block
+        margin 0 0.5rem
+        padding-left 0
+        width 1.188rem
+      .socialLink
+        font-size 0
 
 .siteFooter-list-item
   margin-bottom .625rem
