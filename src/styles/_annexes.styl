@@ -83,6 +83,12 @@
       border-radius 50%
       overflow hidden
 
+// Specifics size for smaller screens on community page
++bp-max(md)
+  .ourMembers.community
+    .ourMembersList-item
+      max-width 75px
+
 .ourMembersList-item-pic
   margin-bottom $spacer-x
   +bp-min(lg)
