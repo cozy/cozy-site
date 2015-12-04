@@ -1,5 +1,22 @@
 $(function() {
 
+  // Small screens hamburger icon
+  var linkToMenu  = $('#siteHeader-toggleMenu'),
+      $menu       = $(linkToMenu.data('toggle'));
+
+  linkToMenu.on('click', function() {
+		$(this).toggleClass('is-active');
+
+    if($menu.hasClass('is-open')) {
+      $menu.removeClass('is-open');
+    }
+    else {
+      $menu.addClass('is-open');
+    }
+
+    return false;
+	});
+
   // Features
   //
   // Config features screenshot switching

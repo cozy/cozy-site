@@ -1,13 +1,6 @@
 // App main navigation / header
 //
 
-.siteHeader
-  position absolute
-  top .938rem
-  right 0
-  left 0
-  z-index 2
-
 .siteNavigation
   display none
 
@@ -18,22 +11,132 @@
 
 // Contrast mode
 //
-
-.siteHeader.contrast
-  .siteNavigation
-    .btn-link
-      color $nav-link-clr-contrast
-
-      +hover-state()
-        color $nav-link-hover-clr-contrast
-
-  .siteLogo
-    fill: $txt-clr-base-contrast
-
-
-// Mobile version
-//
-// hide
 +bp-min(lg)
+  .siteHeader.contrast
+    .siteNavigation
+      .btn-link
+        color $nav-link-clr-contrast
+
+        +hover-state()
+          color $nav-link-hover-clr-contrast
+
+    .siteLogo
+      fill: $txt-clr-base-contrast
+
+
+// Small screens navigation / header
+//
+
+.siteHeader-sm
+  position relative
+  z-index 2
+
+.siteHeader-sm-inner
+  position relative
+  z-index 2
+  padding 20px
+  background-color $clr-lighter
+
+.siteLogo-sm
+  width 35px
+  height 25px
+
+// Animated hamburger menu icon
+.siteHeader-hamburger
+  position absolute
+  top 25px
+  right 20px
+  width 17px
+  height 14px
+  cursor pointer
+  span
+    position absolute;
+    left 0;
+    width 100%;
+    height 3px;
+    background-color $clr-darker;
+    border-radius 2px;
+    opacity 1;
+    transition $transition-duration $transition-easing;
+
+    &:nth-child(1)
+      top 0px;
+    &:nth-child(2)
+    &:nth-child(3)
+      top 6px
+    &:nth-child(4)
+      top 12px
+
+  &.is-active
+    span
+      &:nth-child(1)
+        top: 6px
+        left: 50%
+        width: 0%
+      &:nth-child(2)
+        transform: rotate(45deg)
+      &:nth-child(3)
+        transform: rotate(-45deg)
+      &:nth-child(4)
+        top: 12px
+        width: 0%
+        left: 50%
+
+// Menu list
+.siteNavigation-sm
+  @extend .list-unstyled
+  position absolute
+  width 100%
+  margin-bottom 0
+  background-color lighten($clr-light, 30%)
+  border-top: $border-width solid darken($clr-light, 5%)
+  box-shadow 0px 4px 5px 0px rgba(0,0,0,.3)
+
+  // Menu opening animation
+  transform translateY(-100%)
+  transition transform $transition-duration $transition-easing
+
+  &.is-open
+    transform translateY(0)
+
+.siteNavigation-sm-item
+  text-align center
+
+  &::before
+    content ""
+    display block
+    margin 0 auto
+    width 90%
+    height 1px
+    background-color darken($clr-light, 5%)
+
+  a
+    display block
+    font-family $ff-emphasis
+    line-height ($lh * 3)
+    color: $clr-darker
+    text-transform uppercase
+
+  &.highlighted
+    a
+      font-weight $fw-bold
+      color: $clr-lighter
+      background-color $clr-primary
+
+  &:first-child::before
+  &.highlighted::before
+      display none
+
+// Show or hide header version between breakpoints
+//
+
++bp-min(lg)
+  .siteHeader
+    position absolute
+    top .938rem
+    right 0
+    left 0
+    z-index 2
+
   .siteNavigation
     display block
