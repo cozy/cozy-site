@@ -71,10 +71,6 @@
     .ourMembersList-item-member
       opacity 1
 
-  &.ourMembersList-item-lg
-    width 15.625rem  // 250px
-    height 15.625rem
-
   &.rounded
     border-radius 50%
     overflow hidden
@@ -87,7 +83,6 @@
   left 0
   z-index 2
   font-family $ff-emphasis
-  font-size $fs-lg
   text-transform uppercase
   color $clr-lighter
   background-color rgba(65,183,241, .7)
@@ -97,6 +92,8 @@
 .ourMembersList-item-member-inner
   position absolute
   top 50%
+  padding-right .625rem // 10px
+  padding-left .625rem
   width 100%
   text-align center
   transform translateY(-50%)
@@ -104,7 +101,7 @@
 .ourMembersList-item-member-job
   display block
   font-family $ff-common
-  font-size $fs-base
+  font-size $fs-sm
   text-transform none
   &::before
     content ""
