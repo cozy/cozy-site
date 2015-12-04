@@ -13,13 +13,13 @@ pathTo: ..
 
   <header class="introduction contrast about">
     <div class="container">
-      <div class="row">
-        <div class="col-xs-14 col-offset-xs-5">
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-14">
           <h1 class="introduction-title">{{__ 'About Cozy'}}</h1>
         </div>
       </div>
       <div class="row row-justify-center">
-        <div class="col-xs-16">
+        <div class="col-xs-22 col-lg-16">
           <p class="introduction-content-alt">
             {{__ 'Curious about the people behind Cozy, our history, business model, and vision? You are in the right place! Let\'s start with the most important and the most exciting part.'}}
           </p>
@@ -31,20 +31,21 @@ pathTo: ..
   <article class="aboutContent">
     <section class="ourVision">
       <div class="container">
-        <h2>{{__ 'Our vision'}}</h2>
-        <div class="row row-space-between">
-          <div class="col-xs-11">
-            <div class="dropcaps">
-              <p>{{__ 'We see Cozy evolving from a personal private cloud and app platform into a universal tool that can help you to organize your life and make you more productive by automating routine tasks. It will also act as your personal assistant, providing the information you are looking for and offering advice when you need it. We want Cozy to be useful not only for individual users but also for several types of businesses as a solid foundation for building a vendor-neutral cloud platform.'}}</p>
+        <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-20">
+            <h2>{{__ 'Our vision'}}</h2>
+
+            <div class="row">
+              <div class="col-xs-24 col-lg-11">
+                <div class="dropcaps">
+                  <p>{{__ 'We see Cozy evolving from a personal private cloud and app platform into a universal tool that can help you to organize your life and make you more productive by automating routine tasks. It will also act as your personal assistant, providing the information you are looking for and offering advice when you need it. We want Cozy to be useful not only for individual users but also for several types of businesses as a solid foundation for building a vendor-neutral cloud platform.'}}</p>
+                </div>
+              </div>
+              <div class="col-xs-24 col-lg-11 col-offset-lg-2">
+                <p>Cozy can be an ideal solution for virtual private server providers and cloud-enabled storage appliances. It can also serve as an alternative to proprietary services for mobile operating systems like Firefox OS and CyanogenMod. Cozy is already working with several large organizations that are experimenting with the future of their customer relations.</p>
+              </div>
             </div>
           </div>
-          <div class="col-xs-11">
-            Cozy can be an ideal solution for virtual private server providers
-            and cloud-enabled storage appliances. It can also serve as an
-            alternative to proprietary services for mobile operating systems
-            like Firefox OS and CyanogenMod. Cozy is already working with
-            several large organizations that are experimenting with the future
-            of their customer relations.</p> </div>
         </div>
       </div>
     </section>
@@ -54,9 +55,9 @@ pathTo: ..
     <section class="cozyTeam">
       <div class="container">
         <div class="row row-justify-center">
-          <div class="col-xs-18">
+          <div class="col-xs-22 col-lg-18">
             <h2>{{__ 'Cozy team'}}</h2>
-            <div class="align-center">
+            <div class="cozyTeam-content">
               <p>{{__ 'We are a team of people who are passionate about software development and who firmly believe in personal privacy and freedom. We also believe in empowering users by providing them with open source tools that can help them to improve their daily lives and remain independent from commercial service providers. We are a flat organization of equal peers, with executives and a board of members advising us on the business aspects of running the company.'}}</p>
             </div>
           </div>
@@ -65,7 +66,9 @@ pathTo: ..
           <div class="col-xs-24">
             <ul class="ourMembersList">
               <li class="ourMembersList-item rounded">
-                <img src="{{ pathTo }}/images/about/team/01-ben.png" class="img-responsive" alt="ben">
+                <figure class="ourMembersList-item-pic">
+                  <img src="{{ pathTo }}/images/about/team/01-ben.png" class="img-responsive" alt="ben">
+                </figure>
                 <div class="ourMembersList-item-member">
                   <div class="ourMembersList-item-member-inner">
                       Benjamin André
@@ -76,7 +79,9 @@ pathTo: ..
                 </div>
               </li>
               <li class="ourMembersList-item rounded">
-                <img src="{{ pathTo }}/images/about/team/02-frank.png" class="img-responsive" alt="frank">
+                <figure class="ourMembersList-item-pic">
+                  <img src="{{ pathTo }}/images/about/team/02-frank.png" class="img-responsive" alt="Portrait of Frank">
+                </figure>
                 <div class="ourMembersList-item-member">
                   <div class="ourMembersList-item-member-inner">
                       Frank Rousseau
@@ -87,7 +92,9 @@ pathTo: ..
                 </div>
               </li>
               <li class="ourMembersList-item rounded">
-                <img src="{{ pathTo }}/images/about/team/03-lucas.png" class="img-responsive" alt="lucas">
+                <figure class="ourMembersList-item-pic">
+                  <img src="{{ pathTo }}/images/about/team/03-lucas.png" class="img-responsive" alt="Portrait of Lucas">
+                </figure>
                 <div class="ourMembersList-item-member">
                   <div class="ourMembersList-item-member-inner">
                       Lucas Toulouse
@@ -98,7 +105,9 @@ pathTo: ..
                 </div>
               </li>
               <li class="ourMembersList-item rounded">
-                <img src="{{ pathTo }}/images/about/team/04-zoe.png" class="img-responsive" alt="zoe">
+                <figure class="ourMembersList-item-pic">
+                  <img src="{{ pathTo }}/images/about/team/04-zoe.png" class="img-responsive" alt="Portrait of Zoe">
+                </figure>
                 <div class="ourMembersList-item-member">
                   <div class="ourMembersList-item-member-inner">
                       Zoé Bellot
@@ -109,7 +118,9 @@ pathTo: ..
                 </div>
               </li>
               <li class="ourMembersList-item rounded">
-                <img src="{{ pathTo }}/images/about/team/05-joseph.png" class="img-responsive" alt="joseph">
+                <figure class="ourMembersList-item-pic">
+                  <img src="{{ pathTo }}/images/about/team/05-joseph.png" class="img-responsive" alt="Portrait of Joseph">
+                </figure>
                 <div class="ourMembersList-item-member">
                   <div class="ourMembersList-item-member-inner">
                       Joseph Silvestre
@@ -120,7 +131,9 @@ pathTo: ..
                 </div>
               </li>
               <li class="ourMembersList-item rounded">
-                <img src="{{ pathTo }}/images/about/team/06-romain.png" class="img-responsive" alt="romain">
+                <figure class="ourMembersList-item-pic">
+                  <img src="{{ pathTo }}/images/about/team/06-romain.png" class="img-responsive" alt="Portrait of Romain">
+                </figure>
                 <div class="ourMembersList-item-member">
                   <div class="ourMembersList-item-member-inner">
                       Romain Foucault
@@ -131,7 +144,9 @@ pathTo: ..
                 </div>
               </li>
               <li class="ourMembersList-item rounded">
-                <img src="{{ pathTo }}/images/about/team/07-nicolas.png" class="img-responsive" alt="nicolas">
+                <figure class="ourMembersList-item-pic">
+                  <img src="{{ pathTo }}/images/about/team/07-nicolas.png" class="img-responsive" alt="Portrait of Nicolas">
+                </figure>
                 <div class="ourMembersList-item-member">
                   <div class="ourMembersList-item-member-inner">
                       Nicolas Ledez
@@ -142,7 +157,9 @@ pathTo: ..
                 </div>
               </li>
               <li class="ourMembersList-item rounded">
-                <img src="{{ pathTo }}/images/about/team/08-clochix.png" class="img-responsive" alt="clochix">
+                <figure class="ourMembersList-item-pic">
+                  <img src="{{ pathTo }}/images/about/team/08-clochix.png" class="img-responsive" alt="Portrait of Clochix">
+                </figure>
                 <div class="ourMembersList-item-member">
                   <div class="ourMembersList-item-member-inner">
                       Brice
@@ -153,7 +170,9 @@ pathTo: ..
                 </div>
               </li>
               <li class="ourMembersList-item rounded">
-                <img src="{{ pathTo }}/images/about/team/09-paul.png" class="img-responsive" alt="paul">
+                <figure class="ourMembersList-item-pic">
+                  <img src="{{ pathTo }}/images/about/team/09-paul.png" class="img-responsive" alt="Portrait of Paul">
+                </figure>
                 <div class="ourMembersList-item-member">
                   <div class="ourMembersList-item-member-inner">
                       Paul Van Tran
@@ -164,7 +183,9 @@ pathTo: ..
                 </div>
               </li>
               <li class="ourMembersList-item rounded">
-                <img src="{{ pathTo }}/images/about/team/10-m4dz.png" class="img-responsive" alt="m4dz">
+                <figure class="ourMembersList-item-pic">
+                  <img src="{{ pathTo }}/images/about/team/10-m4dz.png" class="img-responsive" alt="Portrait of M4dz">
+                </figure>
                 <div class="ourMembersList-item-member">
                   <div class="ourMembersList-item-member-inner">
                       Matthias Dugué
@@ -175,7 +196,9 @@ pathTo: ..
                 </div>
               </li>
               <li class="ourMembersList-item rounded">
-                <img src="{{ pathTo }}/images/about/team/11-tristan.png" class="img-responsive" alt="tristan">
+                <figure class="ourMembersList-item-pic">
+                  <img src="{{ pathTo }}/images/about/team/11-tristan.png" class="img-responsive" alt="Portrait of Tristan">
+                </figure>
                 <div class="ourMembersList-item-member">
                   <div class="ourMembersList-item-member-inner">
                       Tristan Nitot
@@ -186,7 +209,9 @@ pathTo: ..
                 </div>
               </li>
               <li class="ourMembersList-item rounded">
-                <img src="{{ pathTo }}/images/about/team/12-luc.png" class="img-responsive" alt="luc">
+                <figure class="ourMembersList-item-pic">
+                  <img src="{{ pathTo }}/images/about/team/12-luc.png" class="img-responsive" alt="Portrait of Luc">
+                </figure>
                 <div class="ourMembersList-item-member">
                   <div class="ourMembersList-item-member-inner">
                       Luc Chaffard
@@ -197,7 +222,9 @@ pathTo: ..
                 </div>
               </li>
               <li class="ourMembersList-item rounded">
-                <img src="{{ pathTo }}/images/about/team/13-bruno.png" class="img-responsive" alt="bruno">
+                <figure class="ourMembersList-item-pic">
+                  <img src="{{ pathTo }}/images/about/team/13-bruno.png" class="img-responsive" alt="Portrait of Bruno">
+                </figure>
                 <div class="ourMembersList-item-member">
                   <div class="ourMembersList-item-member-inner">
                       Bruno Michel
@@ -208,7 +235,9 @@ pathTo: ..
                 </div>
               </li>
               <li class="ourMembersList-item ourMembersList-item-lg rounded">
-                <img src="{{ pathTo }}/images/about/team/14-julien.png" class="img-responsive" alt="bruno">
+                <figure class="ourMembersList-item-pic">
+                  <img src="{{ pathTo }}/images/about/team/14-julien.png" class="img-responsive" alt="Portrait of Julien">
+                </figure>
                 <div class="ourMembersList-item-member">
                   <div class="ourMembersList-item-member-inner">
                       Julien Loudet
@@ -219,7 +248,9 @@ pathTo: ..
                 </div>
               </li>
               <li class="ourMembersList-item ourMembersList-item-lg rounded">
-                <img src="{{ pathTo }}/images/about/team/15-simon.png" class="img-responsive" alt="bruno">
+                <figure class="ourMembersList-item-pic">
+                  <img src="{{ pathTo }}/images/about/team/15-simon.png" class="img-responsive" alt="Portrait of Simon">
+                </figure>
                 <div class="ourMembersList-item-member">
                   <div class="ourMembersList-item-member-inner">
                       Simon Constans
@@ -241,7 +272,7 @@ pathTo: ..
         <div class="container">
           <div class="businessModel-introduction">
             <div class="row row-justify-center">
-              <div class="col-xs-18">
+              <div class="col-xs-22 col-lg-18">
                 <h2>{{__ 'Business model'}}</h2>
                 <div class="align-center">
                   <p>{{__ 'We work closely with established businesses and service providers to make Cozy part of their offerings. Our expertise and help in building new Cozy-based products and including Cozy into other companies product portfolios generate a steady revenue stream via regular billings and royalties.'}}</p>
@@ -250,19 +281,19 @@ pathTo: ..
             </div>
           </div>
           <div class="row row-justify-center">
-            <div class="col-xs-14">
+            <div class="col-xs-22 col-lg-14">
               <div class="businessModel-hangs">
                 {{__ 'Our clients can be divided in three main group'}}
               </div>
             </div>
           </div>
           <div class="row row-justify-center">
-            <div class="col-xs-6 col-center">
-              <div class="align-center">
-                <figure><img src="{{ pathTo }}/images/business-server.svg" alt=""></figure>
-              </div>
+            <div class="col-lg-6 col-center">
+              <figure class="align-center">
+                <img src="{{ pathTo }}/images/business-server.svg" alt="">
+              </figure>
             </div>
-            <div class="col-xs-12">
+            <div class="col-xs-22 col-lg-12">
               <h4>Hosting Providers</h4>
               <p>They can offer Cozy as a turn-key solution for non-technical
               users. This allows you to expand your market reach by attracting
@@ -270,26 +301,26 @@ pathTo: ..
               iCloud. Cozy enhannces VPS offers by making them easy to use.</p>
             </div>
           </div>
-          <hr class="dash-light">
+          <hr class="dash-primary">
           <div class="row row-justify-center row-row-reverse">
-            <div class="col-xs-6 col-center">
+            <div class="col-lg-6 col-center">
               <div class="align-center">
                 <figure><img src="{{ pathTo }}/images/business-devices.svg" alt=""></figure>
               </div>
             </div>
-            <div class="col-xs-12">
+            <div class="col-xs-22 col-lg-12">
               <h4>Chief Digital Officer</h4>
               <p>They are interested in building apps and products based around personal data. They can use Cozy as a better platform for working with personal data than other existing solutions. Out team can work closely with you through the entire process, providing assistance every step of the way: from creating a proof of concept and organizing test panels to building ready-to-use physical devices and cloud services.</p>
             </div>
           </div>
-          <hr class="dash-light">
+          <hr class="dash-primary">
           <div class="row row-justify-center">
-            <div class="col-xs-6 col-center">
+            <div class="col-lg-6 col-center">
               <div class="align-center">
                 <figure><img src="{{ pathTo }}/images/business-book.svg" alt=""></figure>
               </div>
             </div>
-            <div class="col-xs-12">
+            <div class="col-xs-22 col-lg-12">
               <h4>Educational and Academic Institutions</h4>
               <p>They can use Cozy as a platform for their students. Cozy is a
               great educational platform that allow students to learn web
@@ -305,7 +336,7 @@ pathTo: ..
     <section class="ourHistory">
       <div class="container">
         <div class="row row-justify-center">
-          <div class="col-xs-22">
+          <div class="col-xs-20">
             <h2>{{__ 'Our history'}}</h2>
 
             <ul class="timeline">

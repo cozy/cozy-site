@@ -47,7 +47,13 @@
   margin-bottom $spacer
 
 
-// Our members
+// Cozy team
+.cozyTeam-content
+  margin-bottom $spacer
+
+  +bp-min(lg)
+    text-align center
+
 .ourMembers
   background-color darken($clr-light, 2%)
 
@@ -60,43 +66,53 @@
 .ourMembersList-item
   position relative
   display inline-block
-  margin $spacer-x ($spacer / 5) $spacer-x ($spacer / 5)
-  width 10rem  // 160px
-  height 10rem
-  transform scale(1)
-  transition all $transition-duration $transition-bounce
-  +hover-state()
-    transform scale(0.95)
+  margin ($spacer-x * 2)
+  max-width 10rem
+  +bp-min(lg)
+    margin $spacer-x ($spacer / 5) $spacer-x ($spacer / 5)
+    transform scale(1)
+    transition all $transition-duration $transition-bounce
+    +hover-state()
+      transform scale(0.95)
 
-    .ourMembersList-item-member
-      opacity 1
+      .ourMembersList-item-member
+        opacity 1
 
   &.rounded
-    border-radius 50%
-    overflow hidden
+    .ourMembersList-item-pic
+      border-radius 50%
+
+.ourMembersList-item-pic
+  margin-bottom $spacer-x
+  +bp-min(lg)
+    margin-bottom 0
 
 .ourMembersList-item-member
-  position absolute
-  top 0
-  right 0
-  bottom 0
-  left 0
-  z-index 2
   font-family $ff-emphasis
   text-transform uppercase
-  color $clr-lighter
-  background-color rgba(65,183,241, .7)
-  opacity 0
-  transition opacity $transition-duration $transition-easing
+  color $clr-darker
+  +bp-min(lg)
+    position absolute
+    top 0
+    right 0
+    bottom 0
+    left 0
+    z-index 2
+    color $clr-lighter
+    background-color rgba(65,183,241, .7)
+    border-radius 50%
+    opacity 0
+    transition opacity $transition-duration $transition-easing
 
 .ourMembersList-item-member-inner
-  position absolute
-  top 50%
-  padding-right .625rem // 10px
-  padding-left .625rem
-  width 100%
-  text-align center
-  transform translateY(-50%)
+  +bp-min(lg)
+    position absolute
+    top 50%
+    padding-right .625rem // 10px
+    padding-left .625rem
+    width 100%
+    text-align center
+    transform translateY(-50%)
 
 .ourMembersList-item-member-job
   display block
@@ -108,8 +124,30 @@
     display block
     margin $spacer-x auto
     width ($spacer / 2)
-    height $border-width
-    background-color $clr-lighter
+    height 1px
+    background-color $clr-darker
+  +bp-min(lg)
+    &::before
+      background-color $clr-lighter
+
+
+// Business model
+.businessModel
+  margin-bottom ($spacer * 1.5)
+
+// Business model
+.businessModel-introduction
+  margin-bottom ($spacer * 1.5)
+
+.businessModel-hangs
+  margin-bottom ($spacer * 1.5)
+  font-family $ff-emphasis
+  font-size $fs-xl
+  line-height $lh-sm
+  font-weight $fw-bold
+  font-style normal
+  color darken(#06608D, 20%)
+  text-align center
 
 
 // Timeline
@@ -123,7 +161,7 @@
     position absolute
     top 0
     bottom 0
-    left 50%
+    left 0
     margin-left -.063rem
     width .125rem
     background-color lighten($clr-base, 20%)
@@ -131,36 +169,51 @@
     content ""
     position absolute
     bottom 0
-    left 50%
+    left 0
     margin-left -7px
     width 14px
     height 14px
     background $body-bkg url(../images/direction-arrow.svg) no-repeat 50% 50%
     transform rotate(90deg)
+  +bp-min(lg)
+    &::before
+      left 50%
+    &::after
+      left 50%
+      margin-left -7px
+
 
 
 .timeline-item
   position relative
-
-  &:nth-child(odd)
-    padding-right 55%
-    text-align right
-
-  &:nth-child(even)
-    padding-left 55%
+  margin-bottom $spacer
+  padding-left 15%
 
   &:first-child
-    padding 0
-    text-align center
+    margin-left -5px
     margin-bottom $spacer
-
+    padding-left 0
   &:last-child
     margin-bottom 0
+
+  +bp-min(lg)
+    &:nth-child(odd)
+      padding-right 55%
+      text-align right
+    &:nth-child(even)
+      padding-left 55%
+    &:first-child
+      padding 0
+      text-align center
+      margin-bottom $spacer
+    &:last-child
+      margin-bottom 0
+
 
 .timeline-item-bullet
   position absolute
   top 50%
-  left 50%
+  left 0
   z-index 3
   transform translate(-50%, -50%)
   width 2.813rem  // 45px
@@ -170,16 +223,20 @@
   background-color $body-bkg
   border .125rem solid lighten($clr-base, 20%)
   border-radius 50%
+  +bp-min(lg)
+    left 50%
+
 
 .timeline-item-container
   position relative
   z-index 2
   display inline-block
   padding $spacer-y
-  max-width 80%
   text-align left
   background-color darken($clr-light, 5%)
   border-radius $border-radius
+  +bp-min(lg)
+    max-width 80%
 
   &.highlighted
     color: $clr-lighter
@@ -210,18 +267,3 @@
 
 .timeline-item-content
   color $clr-darker
-
-
-// Business model
-.businessModel-introduction
-  margin-bottom ($spacer * 1.5)
-
-.businessModel-hangs
-  margin-bottom ($spacer * 1.5)
-  font-family $ff-emphasis
-  font-size $fs-xl
-  line-height $lh-sm
-  font-weight $fw-bold
-  font-style normal
-  color darken(#06608D, 20%)
-  text-align center
