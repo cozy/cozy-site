@@ -11,11 +11,13 @@ button
   font-family: $btn-ff
   text-transform: uppercase
   border: $border-width solid transparent
-  white-space: nowrap
   touch-action: manipulation
   cursor: pointer
   user-select: none
   button-size($btn-pdg-y, $btn-pdg-x, $btn-fs, $btn-fw, $lh, $btn-border-radius)
+  +bp-min(lg)
+    white-space: nowrap
+
 
   & + .btn
     margin-left $spacer-x
