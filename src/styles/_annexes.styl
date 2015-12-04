@@ -141,7 +141,6 @@
 
 .timeline-item
   position relative
-  margin-bottom $spacer
 
   &:nth-child(odd)
     padding-right 55%
@@ -153,6 +152,7 @@
   &:first-child
     padding 0
     text-align center
+    margin-bottom $spacer
 
   &:last-child
     margin-bottom 0
@@ -175,7 +175,7 @@
   position relative
   z-index 2
   display inline-block
-  padding 1.875rem
+  padding $spacer-y
   max-width 80%
   text-align left
   background-color darken($clr-light, 5%)
@@ -200,7 +200,7 @@
     margin-bottom 0
 
 .timeline-item-date
-  margin-bottom $spacer-x
+  margin-bottom ($spacer-x * .5)
   text-align left
   font-family $ff-common
   font-size $fs-base
@@ -214,10 +214,14 @@
 
 // Business model
 .businessModel-introduction
-  margin-bottom ($spacer * 2)
+  margin-bottom ($spacer * 1.5)
 
 .businessModel-hangs
-  @extend .h2
-  margin-bottom ($spacer * 2)
-  font-size ($fs-h2 + .625rem) // 42px
+  margin-bottom ($spacer * 1.5)
+  font-family $ff-emphasis
+  font-size $fs-xl
+  line-height $lh-sm
+  font-weight $fw-bold
+  font-style normal
   color darken(#06608D, 20%)
+  text-align center
