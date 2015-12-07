@@ -12,7 +12,8 @@ var Metalsmith   = require('metalsmith'),
     imagemin     = require('metalsmith-imagemin'),
     uglify       = require('metalsmith-uglify'),
     stylus       = require('metalsmith-stylus'),
-    autoprefixer = require('metalsmith-autoprefixer');
+    autoprefixer = require('metalsmith-autoprefixer'),
+    assets       = require('metalsmith-assets');
 
 
 module.exports = {
@@ -87,6 +88,10 @@ module.exports = {
       .use(permalinks({
         pattern: ':title',
         relative: false
+      }))
+
+      .use(assets({
+          src: 'fonts'
       }))
 
       .destination(destination);

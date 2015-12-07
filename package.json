@@ -14,6 +14,7 @@
   "dependencies": {
     "handlebars": "4.0.4",
     "metalsmith": "^2.1.0",
+    "metalsmith-assets": "^0.1.0",
     "metalsmith-autoprefixer": "^1.1.0",
     "metalsmith-browser-sync": "1.1.0",
     "metalsmith-build-date": "0.1.0",
