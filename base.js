@@ -19,11 +19,7 @@ var Metalsmith   = require('metalsmith'),
 module.exports = {
   getMetalsmith: function (locale) {
 
-    if (locale === 'en') {
-      var destination = 'build'
-    } else {
-      var destination = 'build/' + locale
-    }
+    var destination = 'build/' + locale
 
     var metalsmith = new Metalsmith(__dirname)
 
