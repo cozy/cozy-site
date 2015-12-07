@@ -38,10 +38,10 @@ module.exports = {
       .use(date)
 
       // Images
-      //.use(imagemin({
-        //optimizationLevel: 3,
-        //svgoPlugins: [{ removeViewBox: false }]
-      //}))
+      .use(imagemin({
+        optimizationLevel: 3,
+        svgoPlugins: [{ removeViewBox: false }]
+      }))
 
        //Javascript
       .use(uglify({
