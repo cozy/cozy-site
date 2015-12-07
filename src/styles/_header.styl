@@ -5,6 +5,8 @@
   display none
   padding-right 10px
   padding-left 10px
+  padding-top .5em
+  padding-bottom .5em
 
 .siteNavigation-logoContainer
 .siteNavigation-ctaContainer
@@ -13,7 +15,7 @@
   text-align right
 
 .siteLogo
-  max-width 53px
+  max-width 42px
   fill: $clr-primary
 
 
@@ -23,13 +25,10 @@
   .siteHeader.contrast
     .siteNavigation
       .btn-link
-        color $nav-link-clr-contrast
+        color $nav-link-clr
 
         +hover-state()
-          color $nav-link-hover-clr-contrast
-
-    .siteLogo
-      fill: $txt-clr-base-contrast
+          color $nav-link-hover-clr
 
 
 // Small screens navigation / header
@@ -139,12 +138,12 @@
 //
 
 +bp-min(lg)
-  .siteHeader
-    position absolute
-    top .938rem
-    right 0
-    left 0
-    z-index 2
+  // .siteHeader
+  //   position absolute
+  //   top .938rem
+  //   right 0
+  //   left 0
+  //   z-index 2
 
   .siteNavigation
     display block

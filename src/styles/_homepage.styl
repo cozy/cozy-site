@@ -14,6 +14,17 @@
       width 6.25rem // 100px
       height .25rem // 4px
       background-color $clr-lighter
+      
+  .siteHeader.contrast
+    .siteNavigation
+      .btn-link
+        color $nav-link-clr-contrast
+
+        +hover-state()
+          color $nav-link-hover-clr-contrast
+
+    .siteLogo
+      fill $clr-lighter
 
 
 // "Stand for" icons
