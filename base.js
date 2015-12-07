@@ -90,10 +90,6 @@ module.exports = {
         relative: false
       }))
 
-      .use(assets({
-          src: 'fonts'
-      }))
-
       .destination(destination);
 
     return metalsmith;
