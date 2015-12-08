@@ -18,12 +18,7 @@ var Metalsmith   = require('metalsmith'),
 
 module.exports = {
   getMetalsmith: function (locale) {
-
-    if (locale === 'en') {
-      var destination = locale;
-    } else {
-      var destination = 'build/' + locale;
-    }
+    var destination = 'build/' + locale;
 
     var metalsmith = new Metalsmith(__dirname)
 
@@ -69,6 +64,14 @@ module.exports = {
         locales: ['en', 'fr'],
         directory: 'src/locales'
       }))
+
+      .use(function locales(files, metalsmith, done) {
+          for (var file in files) {
+            files[file].locale = locale;
+            done();
+          };
+        }
+      )
 
       // HTML
       .use(layouts({
