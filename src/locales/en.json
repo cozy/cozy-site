@@ -24,7 +24,7 @@
 	"Ungoogle your digital life.": "Ungoogle your digital life",
 	"Reclaim your privacy and apps from Google. Calendar, contact books and mails under control.": "Reclaim your privacy from Google.",
 	"email address": "email address",
-	"try main title": "Enjoy a free instance of Cozy",
+	"try main title": "Enjoy a free Cozy",
 	"try description": "We will provide you with a Cozy and 60GB of disk space (hosted in France). Many people are asking to try Cozy. Expect a delay before getting yours.",
 	"try form email address": "Email address",
 	"try form sign up": "Sign up",
@@ -182,5 +182,15 @@
 	"Get unexpected insights about yourself via personal analytics.": "Get unexpected insights about yourself via personal analytics.",
 	"Have a raw view of all your data": "Have a raw view of all your data",
 	"Discover your insights.": "Discover your insights.",
-	"No subscription fees": "No subscription fees"
+	"No subscription fees": "No subscription fees",
+	"More control: your data stay at home": "More control: your data stay at home",
+	"Faster access: you can manage your cloud from your\n                local network": "Faster access: you can manage your cloud from your\n                local network",
+	"Easily add storage: plug a new hard drive and get tons of available terabytes": "Easily add storage: plug a new hard drive and get tons of available terabytes",
+	"Faster access: you can manage your cloud from your local network.": "Faster access: you can manage your cloud from your local network.",
+	"Easily add storage: plug a new hard drive and get tons\n                of available terabytes.": "Easily add storage: plug a new hard drive and get tons\n                of available terabytes.",
+	"No subscription fees, you manage the hosting yourself.": "No subscription fees, you manage the hosting yourself.",
+	"Easily add storage: plug a new hard drive and get tons of available terabytes.": "Easily add storage: plug a new hard drive and get tons of available terabytes.",
+	"More control: your data stay safe at home": "More control: your data stay safe at home",
+	"More control on your cloud: your data stay safe at home": "More control on your cloud: your data stay safe at home",
+	"Easily add storage: plug a new hard drive and get tons\n                of new terabytes.": "Easily add storage: plug a new hard drive and get tons\n                of new terabytes."
 }
