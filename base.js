@@ -12,17 +12,14 @@ var Metalsmith   = require('metalsmith'),
     imagemin     = require('metalsmith-imagemin'),
     uglify       = require('metalsmith-uglify'),
     stylus       = require('metalsmith-stylus'),
-    autoprefixer = require('metalsmith-autoprefixer');
+    autoprefixer = require('metalsmith-autoprefixer'),
+    assets       = require('metalsmith-assets');
 
 
 module.exports = {
   getMetalsmith: function (locale) {
 
-    if (locale === 'en') {
-      var destination = 'build'
-    } else {
-      var destination = 'build/' + locale
-    }
+    var destination = 'build/' + locale
 
     var metalsmith = new Metalsmith(__dirname)
 
