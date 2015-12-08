@@ -20,9 +20,9 @@ module.exports = {
   getMetalsmith: function (locale) {
 
     if (locale === 'en') {
-      var destination = 'build'
+      var destination = locale;
     } else {
-      var destination = 'build/' + locale
+      var destination = 'build/' + locale;
     }
 
     var metalsmith = new Metalsmith(__dirname)
