@@ -2,148 +2,152 @@
 //
 
 .siteNavigation
-  display none
-  padding-right 10px
-  padding-left 10px
-  padding-top .5em
-  padding-bottom .5em
+	display none
+	padding-right 10px
+	padding-left 10px
+	padding-top .5em
+	padding-bottom .5em
 
 .siteNavigation-logoContainer
 .siteNavigation-ctaContainer
-  flex-grow 2
+	flex-grow 2
 .siteNavigation-ctaContainer
-  text-align right
+	text-align right
 
 .siteLogo
-  max-width 42px
-  fill: $clr-primary
+	max-height 32px
+	fill: $clr-primary
 
 
 // Contrast mode
 //
 +bp-min(lg)
-  .siteHeader.contrast
-    .siteNavigation
-      .btn-link
-        color $nav-link-clr
+	.siteHeader.contrast
+		.siteNavigation
+			.btn-link
+				color $nav-link-clr
 
-        +hover-state()
-          color $nav-link-hover-clr
+				+hover-state()
+					color $nav-link-hover-clr
 
 
 // Small screens navigation / header
 //
 
 .siteHeader-sm
-  position relative
-  z-index 2
+	position relative
+	z-index 2
 
 .siteHeader-sm-inner
-  position relative
-  z-index 2
-  padding 20px
-  background-color $clr-lighter
+	position relative
+	z-index 2
+	padding 20px
+	background-color $clr-lighter
 
 .siteLogo-sm
-  width 35px
-  height 25px
+	width 35px
+	height 25px
+	
+.is-homepage .siteHeader.contrast .siteLogo-sm .siteLogo
+		fill $clr-primary
+		color $clr-primary
 
 // Animated hamburger menu icon
 .siteHeader-hamburger
-  position absolute
-  top 25px
-  right 20px
-  width 17px
-  height 14px
-  cursor pointer
-  span
-    position absolute;
-    left 0;
-    width 100%;
-    height 3px;
-    background-color $clr-darker;
-    border-radius 2px;
-    opacity 1;
-    transition $transition-duration $transition-easing;
+	position absolute
+	top 25px
+	right 20px
+	width 17px
+	height 14px
+	cursor pointer
+	span
+		position absolute;
+		left 0;
+		width 100%;
+		height 3px;
+		background-color $clr-darker;
+		border-radius 2px;
+		opacity 1;
+		transition $transition-duration $transition-easing;
 
-    &:nth-child(1)
-      top 0px;
-    &:nth-child(2)
-    &:nth-child(3)
-      top 6px
-    &:nth-child(4)
-      top 12px
+		&:nth-child(1)
+			top 0px;
+		&:nth-child(2)
+		&:nth-child(3)
+			top 6px
+		&:nth-child(4)
+			top 12px
 
-  &.is-active
-    span
-      &:nth-child(1)
-        top: 6px
-        left: 50%
-        width: 0%
-      &:nth-child(2)
-        transform: rotate(45deg)
-      &:nth-child(3)
-        transform: rotate(-45deg)
-      &:nth-child(4)
-        top: 12px
-        width: 0%
-        left: 50%
+	&.is-active
+		span
+			&:nth-child(1)
+				top: 6px
+				left: 50%
+				width: 0%
+			&:nth-child(2)
+				transform: rotate(45deg)
+			&:nth-child(3)
+				transform: rotate(-45deg)
+			&:nth-child(4)
+				top: 12px
+				width: 0%
+				left: 50%
 
 // Menu list
 .siteNavigation-sm
-  @extend .list-unstyled
-  position absolute
-  width 100%
-  margin-bottom 0
-  background-color lighten($clr-light, 30%)
-  border-top: $border-width solid darken($clr-light, 5%)
-  box-shadow 0px 4px 5px 0px rgba(0,0,0,.3)
+	@extend .list-unstyled
+	position absolute
+	width 100%
+	margin-bottom 0
+	background-color lighten($clr-light, 30%)
+	border-top: $border-width solid darken($clr-light, 5%)
+	box-shadow 0px 4px 5px 0px rgba(0,0,0,.3)
 
-  // Menu opening animation
-  transform translateY(-100%)
-  transition transform $transition-duration $transition-easing
+	// Menu opening animation
+	transform translateY(-100%)
+	transition transform $transition-duration $transition-easing
 
-  &.is-open
-    transform translateY(0)
+	&.is-open
+		transform translateY(0)
 
 .siteNavigation-sm-item
-  text-align center
+	text-align center
 
-  &::before
-    content ""
-    display block
-    margin 0 auto
-    width 90%
-    height 1px
-    background-color darken($clr-light, 5%)
+	&::before
+		content ""
+		display block
+		margin 0 auto
+		width 90%
+		height 1px
+		background-color darken($clr-light, 5%)
 
-  a
-    display block
-    font-family $ff-emphasis
-    line-height ($lh * 3)
-    color: $clr-darker
-    text-transform uppercase
+	a
+		display block
+		font-family $ff-emphasis
+		line-height ($lh * 3)
+		color: $clr-darker
+		text-transform uppercase
 
-  &.highlighted
-    a
-      font-weight $fw-bold
-      color: $clr-lighter
-      background-color $clr-primary
+	&.highlighted
+		a
+			font-weight $fw-bold
+			color: $clr-lighter
+			background-color $clr-primary
 
-  &:first-child::before
-  &.highlighted::before
-      display none
+	&:first-child::before
+	&.highlighted::before
+			display none
 
 // Show or hide header version between breakpoints
 //
 
 +bp-min(lg)
-  // .siteHeader
-  //   position absolute
-  //   top .938rem
-  //   right 0
-  //   left 0
-  //   z-index 2
+	// .siteHeader
+	//   position absolute
+	//   top .938rem
+	//   right 0
+	//   left 0
+	//   z-index 2
 
-  .siteNavigation
-    display block
+	.siteNavigation
+		display block

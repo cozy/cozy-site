@@ -19,7 +19,6 @@ var Metalsmith   = require('metalsmith'),
 module.exports = {
   getMetalsmith: function (locale) {
     var destination = 'build/' + locale;
-
     var metalsmith = new Metalsmith(__dirname)
 
       // Config
