@@ -1,3 +1,10 @@
 {
   "main": "Simple, polyvalent, à vous"
+	"testimonials description": "Testimonials from cozyclouders",
+	"testimonials nicolas name": "Nicolas - Developer",
+	"testimonials nicolas text": "I host Cozy on an online VPS and use it mainly to manage my finance. I use connectors to fetch my bills directly in the Files app and link them with my bank operations. That way, I follow my bank accounts more efficiently with the Banking app called Kresus. Cozy makes everything smooth and simple.",
+	"testimonials florent name": "Florent - Project Manager",
+	"testimonials florent text": "I was looking for a way to leave Google services. I found only unstable or complex solutions. Then, I discovered Cozy that is a great alternative. The integration between apps and the data crossing capabilities makes it unique and very convenient. I like their business model too, because it respects my privacy.",
+	"testimonials mathilde name": "Mathilde - Publisher",
+	"testimonials mathilde text": "My computer was dying, so I looked for a way to backup my documents and pictures. A friend recommended me Cozy, because it protects the personal data. I liked their philosophy. I started using it and I had a great experience. Then, I discovered the other apps. I now enjoy using the contact and the calendar manager too."
 }
