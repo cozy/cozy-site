@@ -10,8 +10,7 @@
 .ungoogleYourLife
   .introduction
     color $clr-lighter
-    background-color black
-    background url(../images/bkg-ungoogleyourlife@2x.jpg) no-repeat 50% 100% / cover
+    background #000 url(../images/bkg-ungoogleyourlife@2x.jpg) no-repeat 50% 100% / cover
   .hangs
     color $clr-lighter
     background-color #000
@@ -30,8 +29,7 @@
 .connectMyData
   .introduction
     color $clr-lighter
-    background-color black
-    background url(../images/bkg-connectmydata@2x.jpg) no-repeat 50% 100% / cover
+    background #00011D url(../images/bkg-connectmydata@2x.jpg) no-repeat 50% 100% / cover
   .hangs
     color $clr-lighter
     background-color #00011D
@@ -71,8 +69,7 @@
 .syncFiles
   .introduction
     color $clr-lighter
-    background-color #171E22
-    background url(../images/bkg-syncfiles@2x.jpg) no-repeat 50% 100% / cover
+    background #171E22 url(../images/bkg-syncfiles@2x.jpg) no-repeat 50% 100% / cover
   .hangs
     color $clr-lighter
     background-color #171E22
@@ -86,6 +83,22 @@
     background-color #FEF2EB
     .panel-lead
       color: #FA915D
+
+
+// Computer science student
+.student
+  .introduction
+    color $clr-lighter
+    background #F3F3F3 url(../images/bkg-student@2x.jpg) no-repeat 50% 100% / cover
+  .hangs
+    color $clr-darker
+    background-color #F3F3F3
+  .features
+    background-color #EFAA47
+  .featuresList-item-link
+    +hover-state()
+      .featuresList-item-link-icon
+        fill: #EFAA47
 
 
 // Panels
