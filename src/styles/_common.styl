@@ -41,7 +41,7 @@
       .featuresList-item-link-icon *
         fill: #5AA885 !important
   .landingCTA
-    background-color #F2F5F4
+    background-color #5AA885 + 90%
 
   dd
     margin-bottom 1.25rem
@@ -62,8 +62,7 @@
       .featuresList-item-link-icon *
         fill: #0367AC !important
   .landingCTA
-    background-color #F2F2F2
-
+    background-color #0367AC + 92%
 
 // Sync files and photos
 .syncFiles
@@ -92,6 +91,17 @@
   .introduction
     color $clr-lighter
     background #F3F3F3 url(../images/bkg-student@2x.jpg) no-repeat 50% 100% / cover
+    color #3D3D3D
+    
+  .introduction-title
+    color #3D3D3D
+
+  .introduction-goTo
+    display none
+
+  .introduction.introduction-student
+    padding-top 53vh
+
   .hangs
     color $clr-darker
     background-color #F3F3F3
@@ -101,6 +111,10 @@
     +hover-state()
       .featuresList-item-link-icon
         fill: #EFAA47
+
+  .landingCTA
+    background-color #EFAA47 + 90%
+
 
 
 // Panels
