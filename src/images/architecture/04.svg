@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="565px" height="431px" viewBox="0 0 565 431" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17248) - http://www.bohemiancoding.com/sketch -->
+    <title>ILLU</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.21 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.21 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.21 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.21 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.21 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.21 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.21 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="5a-architecture" sketch:type="MSArtboardGroup" transform="translate(-414.000000, -3045.000000)">
+            <g id="4" sketch:type="MSLayerGroup" transform="translate(386.000000, 2803.000000)">
+                <g id="ILLU" transform="translate(70.000000, 251.000000)">
+                    <g id="Appro-App" transform="translate(144.000000, 22.000000)" fill="#EFAA47" sketch:type="MSShapeGroup">
+                        <g id="Page-1-+-Page-1-Copy">
+                            <g id="Page-1" transform="translate(0.000000, 20.000000)">
+                                <path d="M10.62,46.81875 L28.32,46.81875 L28.32,64.5583333 L10.62,64.5583333 L10.62,46.81875 Z" id="Fill-11"></path>
+                                <path d="M0,158.16875 L17.7,158.16875 L17.7,140.429167 L0,140.429167 L0,158.16875 Z" id="Fill-12" opacity="0.2"></path>
+                                <path d="M42.2076923,116.685417 L47.6538462,116.685417 L47.6538462,122.14375 L42.2076923,122.14375 L42.2076923,116.685417 Z" id="Fill-15"></path>
+                                <path d="M29.4092308,128.420833 L34.8553846,128.420833 L34.8553846,133.879167 L29.4092308,133.879167 L29.4092308,128.420833 Z" id="Fill-16"></path>
+                                <path d="M1.90615385,80.3875 L7.35230769,80.3875 L7.35230769,74.9291667 L1.90615385,74.9291667 L1.90615385,80.3875 Z" id="Fill-17"></path>
+                                <path d="M29.1369231,85.0270833 L40.5738462,85.0270833 L40.5738462,96.4895833 L29.1369231,96.4895833 L29.1369231,85.0270833 Z" id="Fill-21" opacity="0.5"></path>
+                                <path d="M25.8692308,164.172917 L37.3061538,164.172917 L37.3061538,175.635417 L25.8692308,175.635417 L25.8692308,164.172917 Z" id="Fill-22"></path>
+                                <g id="Group" transform="translate(54.000000, 0.000000)">
+                                    <path d="M25.8630769,0.639583333 L43.5630769,0.639583333 L43.5630769,18.3791667 L25.8630769,18.3791667 L25.8630769,0.639583333 Z" id="Fill-13"></path>
+                                    <path d="M16.6046154,106.53125 L34.3046154,106.53125 L34.3046154,124.270833 L16.6046154,124.270833 L16.6046154,106.53125 Z" id="Fill-14"></path>
+                                    <path d="M5.98461538,47.58125 L11.4307692,47.58125 L11.4307692,53.0395833 L5.98461538,53.0395833 L5.98461538,47.58125 Z" id="Fill-18"></path>
+                                    <path d="M42.2015385,27.1125 L47.6476923,27.1125 L47.6476923,32.5708333 L42.2015385,32.5708333 L42.2015385,27.1125 Z" id="Fill-19"></path>
+                                    <path d="M0.538461538,102.710417 L5.98461538,102.710417 L5.98461538,108.16875 L0.538461538,108.16875 L0.538461538,102.710417 Z" id="Fill-20"></path>
+                                    <path d="M4.62307692,14.0125 L16.06,14.0125 L16.06,25.475 L4.62307692,25.475 L4.62307692,14.0125 Z" id="Fill-23" opacity="0.799999952"></path>
+                                    <path d="M29.6753846,48.9458333 L41.1123077,48.9458333 L41.1123077,60.4083333 L29.6753846,60.4083333 L29.6753846,48.9458333 Z" id="Fill-24" opacity="0.5"></path>
+                                    <path d="M13.8815385,73.2354167 L25.3184615,73.2354167 L25.3184615,84.6979167 L13.8815385,84.6979167 L13.8815385,73.2354167 Z" id="Fill-25" opacity="0.2"></path>
+                                    <path d="M43.0184615,99.98125 L54.4553846,99.98125 L54.4553846,88.51875 L43.0184615,88.51875 L43.0184615,99.98125 Z" id="Fill-26" opacity="0.799999952"></path>
+                                </g>
+                                <path d="M9.80307692,109.04375 L21.24,109.04375 L21.24,120.50625 L9.80307692,120.50625 L9.80307692,109.04375 Z" id="Fill-27"></path>
+                                <path d="M42.2076923,133.60625 L53.6446154,133.60625 L53.6446154,145.06875 L42.2076923,145.06875 L42.2076923,133.60625 Z" id="Fill-28" opacity="0.5"></path>
+                            </g>
+                            <g id="Page-1-Copy" transform="translate(157.000000, 98.500000) rotate(-180.000000) translate(-157.000000, -98.500000) translate(85.000000, 0.000000)">
+                                <path d="M10.62,67.81875 L28.32,67.81875 L28.32,85.5583333 L10.62,85.5583333 L10.62,67.81875 Z" id="Fill-11"></path>
+                                <path d="M2.84217094e-14,179.16875 L17.7,179.16875 L17.7,161.429167 L2.84217094e-14,161.429167 L2.84217094e-14,179.16875 Z" id="Fill-12"></path>
+                                <path d="M42.2076923,137.685417 L47.6538462,137.685417 L47.6538462,143.14375 L42.2076923,143.14375 L42.2076923,137.685417 Z" id="Fill-15"></path>
+                                <path d="M29.4092308,149.420833 L34.8553846,149.420833 L34.8553846,154.879167 L29.4092308,154.879167 L29.4092308,149.420833 Z" id="Fill-16"></path>
+                                <path d="M1.90615385,101.3875 L7.35230769,101.3875 L7.35230769,95.9291667 L1.90615385,95.9291667 L1.90615385,101.3875 Z" id="Fill-17"></path>
+                                <path d="M29.1369231,106.027083 L40.5738462,106.027083 L40.5738462,117.489583 L29.1369231,117.489583 L29.1369231,106.027083 Z" id="Fill-21" opacity="0.5"></path>
+                                <path d="M25.8692308,185.172917 L37.3061538,185.172917 L37.3061538,196.635417 L25.8692308,196.635417 L25.8692308,185.172917 Z" id="Fill-22"></path>
+                                <g id="Group" transform="translate(54.000000, 21.000000)">
+                                    <path d="M25.8630769,0.639583333 L43.5630769,0.639583333 L43.5630769,18.3791667 L25.8630769,18.3791667 L25.8630769,0.639583333 Z" id="Fill-13" opacity="0.799999952"></path>
+                                    <path d="M16.6046154,106.53125 L34.3046154,106.53125 L34.3046154,124.270833 L16.6046154,124.270833 L16.6046154,106.53125 Z" id="Fill-14" opacity="0.5"></path>
+                                    <path d="M5.98461538,47.58125 L11.4307692,47.58125 L11.4307692,53.0395833 L5.98461538,53.0395833 L5.98461538,47.58125 Z" id="Fill-18"></path>
+                                    <path d="M42.2015385,27.1125 L47.6476923,27.1125 L47.6476923,32.5708333 L42.2015385,32.5708333 L42.2015385,27.1125 Z" id="Fill-19"></path>
+                                    <path d="M0.538461538,102.710417 L5.98461538,102.710417 L5.98461538,108.16875 L0.538461538,108.16875 L0.538461538,102.710417 Z" id="Fill-20" opacity="0.2"></path>
+                                    <path d="M4.62307692,14.0125 L16.06,14.0125 L16.06,25.475 L4.62307692,25.475 L4.62307692,14.0125 Z" id="Fill-23"></path>
+                                    <path d="M29.6753846,48.9458333 L41.1123077,48.9458333 L41.1123077,60.4083333 L29.6753846,60.4083333 L29.6753846,48.9458333 Z" id="Fill-24"></path>
+                                    <path d="M13.8815385,73.2354167 L25.3184615,73.2354167 L25.3184615,84.6979167 L13.8815385,84.6979167 L13.8815385,73.2354167 Z" id="Fill-25" opacity="0.2"></path>
+                                    <path d="M43.0184615,99.98125 L54.4553846,99.98125 L54.4553846,88.51875 L43.0184615,88.51875 L43.0184615,99.98125 Z" id="Fill-26"></path>
+                                </g>
+                                <path d="M99.8030769,0.04375 L111.24,0.04375 L111.24,11.50625 L99.8030769,11.50625 L99.8030769,0.04375 Z" id="Fill-27"></path>
+                                <path d="M132.207692,24.60625 L143.644615,24.60625 L143.644615,36.06875 L132.207692,36.06875 L132.207692,24.60625 Z" id="Fill-28" opacity="0.799999952"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Cube-Copy" sketch:type="MSShapeGroup">
+                        <path d="M214.096966,67.6193151 C214.132329,53.7935752 214.096966,0 214.096966,0 L289.091393,0 C289.091393,0 290.144336,10.6141299 291.308717,15.5365467 L291.308717,81.2159121 L214.602794,81.2159121 C214.602794,81.2159121 214.602794,79.9101266 214.096966,67.6193151 Z" id="Rectangle-64-Copy-3" fill="#FFFFFF" filter="url(#filter-1)" transform="translate(252.702841, 40.607956) scale(-1, 1) translate(-252.702841, -40.607956) "></path>
+                        <g id="Illu" transform="translate(213.000000, 0.000000)">
+                            <path d="M0.504202807,15.6184446 L76.3951125,15.6184446 L76.3951125,81.2159121 L0.504202807,81.2159121 L0.504202807,15.6184446 Z" id="Rectangle-64" fill="#FFFFFF"></path>
+                            <path d="M76.7640068,15.6184446 L78.6989716,0 L78.6989716,65.5974675 L76.7640068,81.2159121 L76.7640068,15.6184446 Z" id="Rectangle-64-Copy-2" fill="#E0E0E0"></path>
+                            <path d="M0.504202807,15.6184446 L76.3951125,15.6184446 L78.6373113,0 L3.26655348,0 L0.504202807,15.6184446 Z" id="Rectangle-64-Copy" fill="#FAFAFA"></path>
+                        </g>
+                        <g id="Bar" transform="translate(0.000000, 145.000000)">
+                            <path d="M0.666794501,18.5359971 C0.666794501,18.5359971 9.11969384,3.91287518 11.921015,0.0415169147 C18.885808,0.106592002 503.491614,0.0415169147 503.491614,0.0415169147 C503.491614,0.0415169147 509.74001,13.7508359 513.507844,18.5359976 L513.507844,81.4759306 L0.666794423,82.3839803 L0.666794501,18.5359971 Z" id="Rectangle-64-Copy-3" fill="#FFFFFF" filter="url(#filter-2)"></path>
+                            <g id="Illu" transform="translate(0.702567, 0.000000)">
+                                <rect id="Rectangle-64" fill="#FFFFFF" x="0.0112586071" y="18.6156109" width="512.678772" height="62.9322072"></rect>
+                                <path d="M0.0112586071,0.264051219 L512.690031,0.264051219 L502.436456,18.6156109 L10.2648341,18.6156109 L0.0112586071,0.264051219 Z" id="Rectangle-64-Copy-8" fill="#F9F9F9" transform="translate(256.350645, 9.439831) scale(1, -1) translate(-256.350645, -9.439831) "></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Cercle-1" transform="translate(0.000000, 310.000000)" sketch:type="MSShapeGroup">
+                        <circle id="Oval-213-Copy" fill="#FFFFFF" filter="url(#filter-3)" cx="33.5" cy="36.5" r="33.5"></circle>
+                        <g id="Illu">
+                            <circle id="Oval-213" fill="#E0E0E0" cx="39.5" cy="33.5" r="33.5"></circle>
+                            <circle id="Oval-213-Copy-2" fill="#FFFFFF" cx="33.5" cy="36.5" r="33.5"></circle>
+                        </g>
+                    </g>
+                    <g id="Cercle-1-Copy" transform="translate(111.000000, 310.000000)" sketch:type="MSShapeGroup">
+                        <circle id="Oval-213-Copy" fill="#FFFFFF" filter="url(#filter-4)" cx="33.5" cy="36.5" r="33.5"></circle>
+                        <g id="Illu">
+                            <circle id="Oval-213" fill="#E0E0E0" cx="33.5" cy="33.5" r="33.5"></circle>
+                            <circle id="Oval-213-Copy-2" fill="#FFFFFF" cx="33.5" cy="36.5" r="33.5"></circle>
+                        </g>
+                    </g>
+                    <g id="Cercle-1-Copy-2" transform="translate(216.000000, 310.000000)" sketch:type="MSShapeGroup">
+                        <circle id="Oval-213-Copy" fill="#FFFFFF" filter="url(#filter-5)" cx="34.5" cy="36.5" r="33.5"></circle>
+                        <g id="Illu">
+                            <circle id="Oval-213" fill="#E0E0E0" cx="33.5" cy="33.5" r="33.5"></circle>
+                            <circle id="Oval-213-Copy-2" fill="#FFFFFF" cx="34.5" cy="36.5" r="33.5"></circle>
+                        </g>
+                    </g>
+                    <g id="Cercle-1-Copy-3" transform="translate(322.000000, 310.000000)" sketch:type="MSShapeGroup">
+                        <circle id="Oval-213-Copy" fill="#FFFFFF" filter="url(#filter-6)" cx="37.5" cy="36.5" r="33.5"></circle>
+                        <g id="Illu">
+                            <circle id="Oval-213" fill="#E0E0E0" cx="33.5" cy="33.5" r="33.5"></circle>
+                            <circle id="Oval-213-Copy-2" fill="#FFFFFF" cx="37.5" cy="36.5" r="33.5"></circle>
+                        </g>
+                    </g>
+                    <g id="Cercle-1-Copy-4" transform="translate(432.000000, 310.000000)" sketch:type="MSShapeGroup">
+                        <circle id="Oval-213-Copy" fill="#FFFFFF" filter="url(#filter-7)" cx="39.5" cy="36.5" r="33.5"></circle>
+                        <g id="Illu">
+                            <circle id="Oval-213" fill="#E0E0E0" cx="33.5" cy="33.5" r="33.5"></circle>
+                            <circle id="Oval-213-Copy-2" fill="#FFFFFF" cx="39.5" cy="36.5" r="33.5"></circle>
+                        </g>
+                    </g>
+                    <g id="Dot" transform="translate(254.000000, 271.000000) rotate(-90.000000) translate(-254.000000, -271.000000) translate(229.000000, 50.000000)" fill="#EFAA47" sketch:type="MSShapeGroup">
+                        <circle id="Oval-56-Copy-8" opacity="0.300000012" cx="5" cy="5" r="5"></circle>
+                        <circle id="Oval-56-Copy-9" opacity="0.600000024" cx="25" cy="5" r="5"></circle>
+                        <circle id="Oval-56-Copy-10" cx="45" cy="5" r="5"></circle>
+                        <circle id="Oval-56-Copy-84" opacity="0.300000012" cx="5" cy="108" r="5"></circle>
+                        <circle id="Oval-56-Copy-83" opacity="0.600000024" cx="25" cy="108" r="5"></circle>
+                        <circle id="Oval-56-Copy-82" cx="45" cy="108" r="5"></circle>
+                        <circle id="Oval-56-Copy-87" opacity="0.300000012" cx="5" cy="216" r="5"></circle>
+                        <circle id="Oval-56-Copy-86" opacity="0.600000024" cx="25" cy="216" r="5"></circle>
+                        <circle id="Oval-56-Copy-85" cx="45" cy="216" r="5"></circle>
+                        <circle id="Oval-56-Copy-90" opacity="0.300000012" cx="5" cy="327" r="5"></circle>
+                        <circle id="Oval-56-Copy-89" opacity="0.600000024" cx="25" cy="327" r="5"></circle>
+                        <circle id="Oval-56-Copy-88" cx="45" cy="327" r="5"></circle>
+                        <circle id="Oval-56-Copy-93" opacity="0.300000012" cx="5" cy="437" r="5"></circle>
+                        <circle id="Oval-56-Copy-92" opacity="0.600000024" cx="25" cy="437" r="5"></circle>
+                        <circle id="Oval-56-Copy-91" cx="45" cy="437" r="5"></circle>
+                    </g>
+                    <text id="DATA" sketch:type="MSTextLayer" font-family="Source Sans Pro" font-size="25" font-weight="bold" sketch:alignment="middle" fill="#F5CB90">
+                        <tspan x="3.9125" y="417">DATA</tspan>
+                    </text>
+                    <text id="FILES" sketch:type="MSTextLayer" font-family="Source Sans Pro" font-size="25" font-weight="bold" sketch:alignment="middle" fill="#FBE6C8">
+                        <tspan x="116.4125" y="417">FILES</tspan>
+                    </text>
+                    <text id="INDEX" sketch:type="MSTextLayer" font-family="Source Sans Pro" font-size="25" font-weight="bold" sketch:alignment="middle" fill="#F5CB90">
+                        <tspan x="214.05" y="417">INDEX</tspan>
+                    </text>
+                    <text id="EMAILS" sketch:type="MSTextLayer" font-family="Source Sans Pro" font-size="25" font-weight="bold" sketch:alignment="middle" fill="#EFAA47">
+                        <tspan x="317.125" y="417">EMAILS</tspan>
+                    </text>
+                    <text id="TAGS" sketch:type="MSTextLayer" font-family="Source Sans Pro" font-size="25" font-weight="bold" sketch:alignment="middle" fill="#FBE6C8">
+                        <tspan x="441.5875" y="417">TAGS</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
