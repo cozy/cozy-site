@@ -16,13 +16,13 @@ from: comparison
     <div class="container">
       <div class="row row-justify-center">
         <div class="col-xs-22 col-lg-14">
-          <h1 class="introduction-title">{{__ 'Cozy Architecture'}}</h1>
+          <h1 class="introduction-title">{{__ 'architecture title'}}</h1>
         </div>
       </div>
       <div class="row row-justify-center">
         <div class="col-xs-22 col-lg-16">
           <p class="introduction-content-alt">
-            {{__ 'Peek under Cozy\'s hood, and learn what makes it tick.'}}
+            {{__ 'architecture introduction'}}
           </p>
         </div>
       </div>
@@ -35,35 +35,44 @@ from: comparison
         <div class="row row-justify-center">
           <div class="col-xs-22 col-lg-20">
             <div class="architectureContent-item">
-              <p>Behind Cozy's polished and user-friendly interface hides an advanced platform based on modern web technologies. To get a general idea of Cozy's overall architecture, you can think of it as a cake with two layers: <strong class="highlight">Apps and Data</strong>.</p>
+              <p>
+                {{__ 'architecture introduction two'}}
               <figure>
                 <img src="{{ pathTo }}/images/architecture/01.svg" width="761" height="265" class="img-responsive" alt="">
               </figure>
             </div>
 
             <div class="architectureContent-item">
-              <p>The main components in the Apps layer include the Controller service responsible for deploying, removing, and updating apps. Controller has its own web-based graphical interface called the Home that lets you administer Cozy: deploy, update, and remove applications as well as modify settings like language, timezone, etc.</p>
+              <p>
+                {{__ 'architecture apps layer'}}
+              </p>
               <figure>
                 <img src="{{ pathTo }}/images/architecture/02.svg" width="853" height="302" class="img-responsive" alt="">
               </figure>
             </div>
 
             <div class="architectureContent-item">
-              <p>The Apps layer sits behind a proxy that acts as a dispatcher, redirecting requests received from external clients (browsers, native apps, third-party services, etc.) to the appropriate apps. The proxy also handles authentication and authorization in Cozy, including registration, login, logout, and password reset operations.</p>
+              <p>
+                {{__ 'architecture proxy'}}
+              </p>
               <figure>
                 <img src="{{ pathTo }}/images/architecture/03.svg" width="865" height="421" class="img-responsive" alt="">
               </figure>
             </div>
 
             <div class="architectureContent-item">
-              <p>The data system in the Data layer enables storing, querying, and searching data and files. This system also features services for performing various tasks, such as managing tags and sending emails. The Data layer also includes a database for working with data and a file system for storing, accessing, and managing files. The indexer component is responsible for indexing the stored data for faster and more efficient search.</p>
+              <p>
+                {{__ 'architecture datasystem'}}
+              </p>
               <figure>
                 <img src="{{ pathTo }}/images/architecture/04.svg" width="514" height="424" class="img-responsive" alt="">
               </figure>
             </div>
 
             <div class="architectureContent-item">
-              <p>Cozy also features the Data Proxy component which keeps a part of the database on a smartphone or laptop in sync with a smaller version of Cozy's main database. This way, Cozy mobile apps (currently only the Files app is supported) can access data as if they were stored locally. This mechanism offers two benefits: better overall performance and support for the offline mode.</p>
+              <p>
+                {{__ 'architecture dataproxy'}}
+              </p>
               <figure>
                 <img src="{{ pathTo }}/images/architecture/05.svg" width="824" height="305" class="img-responsive" alt="">
               </figure>

@@ -9,25 +9,31 @@
 					</div>
 
 					<div class="col-xs-3 col-center align-center">
-						<a href="/{{ locale }}/about/" class="btn btn-link">About</a>
+						<a href="/{{ locale }}/about/" class="btn btn-link">
+                          {{__ 'nav about title'}}
+                        </a>
 					</div>
 
 					<div class="col-xs-3 col-center align-center">
-						<a href="/{{ locale }}/community/" class="btn btn-link">Community</a>
+						<a href="/{{ locale }}/community/" class="btn btn-link">
+                          {{__ 'nav community title'}}
+                        </a>
 					</div>
 
 					<div class="col-xs-3 col-center align-center">
-						<a href="https://blog.cozycloud.cc/" class="btn btn-link">Blog</a>
+						<a href="https://blog.cozycloud.cc/" class="btn btn-link">
+                          {{__ 'nav blog title'}}
+                        </a>
 					</div>
 
 					<div class="col-xs-3 col-center align-center">
 						<a href="https://github.com/cozy/cozy/" class="btn btn-link">
-							Source
+                          {{__ 'nav source title'}}
 						</a>
 					</div>
 					<div class="siteNavigation-ctaContainer">
 						<a href="/{{ locale }}/try-it/?from={{from}}" class="btn btn-primary">
-							Try it for free
+                          {{__ 'nav signup title'}}
 						</a>
 					</div>
 				</div>
@@ -49,11 +55,25 @@
 				</div>
 			</div>
 			<ul id="menu" class="siteNavigation-sm">
-				<li class="siteNavigation-sm-item"><a href="/{{ locale }}/">Home</a></li>
-				<li class="siteNavigation-sm-item"><a href="/{{ locale }}/about/">About</a></li>
-				<li class="siteNavigation-sm-item"><a href="/{{ locale }}/community/">Community</a></li>
-				<li class="siteNavigation-sm-item"><a href="https://blog.cozycloud.cc/">Blog</a></li>
-				<li class="siteNavigation-sm-item highlighted"><a href="/{{locale }}/try-it/?from={{from}}">Try it for free</a></li>
+				<li class="siteNavigation-sm-item">
+                  <a href="/{{ locale }}/about/">
+                    {{__ 'nav about title'}}
+                  </a>
+                </li>
+				<li class="siteNavigation-sm-item">
+                  <a href="/{{ locale }}/community/">
+                    {{__ 'nav community title'}}
+                  </a>
+                </li>
+				<li class="siteNavigation-sm-item">
+                  <a href="https://blog.cozycloud.cc/">
+                    {{__ 'nav blog title'}}
+                  </a>
+				<li class="siteNavigation-sm-item highlighted">
+                  <a href="/{{locale }}/try-it/?from={{from}}">
+                    {{__ 'nav signup title'}}
+                  </a>
+                </li>
 			</ul>
 		</div>
 	</header>
