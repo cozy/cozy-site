@@ -7,7 +7,7 @@
     padding-top 13vh
 
   .introduction-content
-    color white
+    color lighten($clr-primary, 80%)
 
     &::after
       content: ""
@@ -21,9 +21,18 @@
     .siteNavigation
       .btn-link
         color $nav-link-clr-contrast
+        transition border 0.4s ease
 
         +hover-state()
-          color $nav-link-hover-clr-contrast
+          border-bottom 1px solid white
+
+      .siteNavigation-ctaContainer
+          .btn.btn-primary
+            border 1px solid white
+
+            +hover-state()
+              background-color darken($clr-primary, 10%)
+
 
     .siteLogo
       fill $clr-lighter
