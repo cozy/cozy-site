@@ -12,17 +12,17 @@ from: comparison
 
 {{> header }}
 
-  <header class="introduction contrast comparison">
+  <header class="introduction comparison contrast">
     <div class="container">
       <div class="row row-justify-center">
         <div class="col-xs-22 col-lg-14">
-          <h1 class="introduction-title">{{__ 'Comparison'}}</h1>
+          <h1 class="introduction-title">{{__ 'comparison title'}}</h1>
         </div>
       </div>
       <div class="row row-justify-center">
         <div class="col-xs-22 col-lg-16">
           <p class="introduction-content-alt">
-            {{__ 'Cozy is great, but it\'s not the only fish in the sea: there are several other platforms and services that offer similar functionality and try to solve similar problems. The big question is how Cozy differs from them and what makes it a better fit for your specific needs. To answer these questions, we compiled a comparison between Cozy and the most popular platforms and services on the market.'}}
+            {{__ 'comparison introduction'}}
           </p>
         </div>
       </div>
@@ -34,13 +34,13 @@ from: comparison
       <div class="container">
         <div class="row row-justify-center">
           <div class="col-xs-22 col-lg-20">
-            <h2>{{__ 'Cozy and...'}}</h2>
+            <h2>{{__ 'comparison introduction two'}}</h2>
 
             <div class="comparisonContent-item">
               <figure>
                 <img src="{{ pathTo }}/images/comparison/owncloud.png" width="187" height="92" alt="ownCloud">
               </figure>
-              <p>OwnCloud is one of the most popular personal cloud platforms out there, and it shares a lot of similarities with Cozy. Like Cozy, ownCloud uses apps to handle common tasks like file hosting and sharing, calendaring, note-taking, photo sharing, etc. There are also third-party apps that can extend the default functionality. Both Cozy and ownCloud make it possible to sync files and photos across multiple platforms and devices. However, there are several key aspects that make Cozy and ownCloud radically different products. First and foremost, there are different visions behind each platform. While ownCloud is designed and built as a collaboration solution, <span class="highlight">Cozy focuses on being a personal platform</span>. So instead of featuring collaborative editing, versioning, user management, and access control, Cozy provides functionality that makes it possible to aggregate, manage, and share your personal data. In addition to apps, Cozy also supports connectors that can collect your personal data from various sources and services. This data can then be processed and analyzed in Cozy and shared across Cozy apps. <span class="highlight">This makes Cozy an ideal platform for aggregating and making sense of your data spread over multiple services</span>.</p>
+              <p>{{__ 'comparison owncloud'}}</p>
             </div>
 
             <hr class="dash-primary">
@@ -49,7 +49,7 @@ from: comparison
               <figure>
                 <img src="{{ pathTo }}/images/comparison/pydio.png" width="163" height="70" alt="Pydio">
               </figure>
-              <p>Although both Cozy and Pydio can be used for hosting and sharing files, there are significant differences between these two platforms in terms of functionality and target audience. Pydio focuses solely on file hosting, and the platform is geared towards businesses and workgroups. As such, Pydio provides advanced functionality essential for its intended clients: sophisticated user management and access control mechanisms, support for workspaces, analytics, LDAP support, etc. <span class="highlight">The Cozy's Files app, in turn, is designed to make file hosting and sharing as easy as possible</span>, and it is aimed at individual users looking for a quick and simple way to publish files and share them with friends and families. Also, Cozy's file sharing capabilities are only part of the overall package. This means that you can use Cozy not only to host and share files, but also to manage your calendar and work with email, aggregate your personal data and much more.</p>
+              <p>{{__ 'comparison pydio'}}</p>
             </div>
 
             <hr class="dash-primary">
@@ -58,15 +58,7 @@ from: comparison
               <figure>
                 <img src="{{ pathTo }}/images/comparison/lima.png" width="184" height="42" alt="Lima">
               </figure>
-              <p>First of all, Lima is a hardware device running proprietary
-              software. Connect a hard disk to the device, plug Lima into your
-              router, and you have cloud-enabled storage. You can access files
-              and photos, sync them across different devices, and that's pretty
-              much it. Unlike Cozy, Lima doesn't allow you to host your own
-              calendar, access email, or install additional apps. Moreover,
-              it's closed source. So you don't know what happens under the
-              hood. In short, Lima can come in handy if you only want to access
-              and manage your files et don't care about privacy, but if you need more than that, Cozy is the way to go.</p>
+              <p>{{__ 'comparison lima'}}</p>
             </div>
 
             <hr class="dash-primary">
@@ -75,7 +67,7 @@ from: comparison
               <figure>
                 <img src="{{ pathTo }}/images/comparison/sandstorm.png" width="173" height="173" alt="Sandstorm.io">
               </figure>
-              <p>Even though Sandstorm is described as a personal cloud platform, it's very different from Cozy. Sandstorm's raison d'être is to simplify the deployment of popular open source applications. So if you want to host a WordPress blog, a MediaWiki-powered wiki, or manage your email using Roundcube, Sandstorm can help you to deploy these and other apps on your server with a minimum of effort. Simply put, Sandstorm is basically a tool that simplifies the installation and management of third-party open source apps, and not an integrated cloud platform that offers a cohesive user experience. <span class="highlight">Cozy, in turn, offers a tightly integrated environment which features purpose-built apps with a uniform design.</span> Data stored in Cozy can flow between the apps, and each app has a strong focus on simplicity and usability. In addition to that, Cozy provides synchronization capabilities and mobile apps.</p>
+              <p>{{__ 'comparison sandstorm'}}</p>
             </div>
 
             <hr class="dash-primary">
@@ -84,7 +76,7 @@ from: comparison
               <figure>
                 <img src="{{ pathTo }}/images/comparison/google.png" width="164" height="82" alt="Google">
               </figure>
-              <p>Google offers a range of excellent apps and services: Gmail, Google Calendar, Google Drive, Google Photos, just to name a few. There is a lot to like about Google apps. They are free, work well on mobile platforms, feature synchronization functionality, and some of them even work offline. Cozy features apps that allow you to do essentially the same: store and share files and photos, manage your calendar, work with email (including your Gmail account), etc. You can also sync your files between your mobile device and Cozy. <span class="highlight">The big difference is the goals Cozy and Google try to achieve. To put it bluntly, Google is building a web universe where you spend your working and private life and supply Google with a stream of data they can use for commercial purposes.</span> Cozy's goal is to provide you with a personal platform that you can adapt to your specific needs, tweak, and run from the convenience of your home. More importantly, you can use Cozy as a foundation for your own projects and experiments: from building custom apps to aggregating and analyzing personal data. In other words, instead of treating you as a passive customer and locking in proprietary products, Cozy empowers you by offering you an open and free platform you can use and build upon.</p>
+              <p>{{__ 'comparison google'}}</p>
             </div>
 
             <hr class="dash-primary">
@@ -93,8 +85,7 @@ from: comparison
               <figure>
                 <img src="{{ pathTo }}/images/comparison/icloud.png" width="94" height="61" alt="iCLoud">
               </figure>
-              <p>Comparing Cozy and iCloud is a bit like comparing  apples and
-              oranges, but there are a couple of points worth mentioning. First of all, iCloud is designed to work exclusively with Apple devices. The service is also limited in scope, offering only synchronization and backup functionality. Unlike iCloud, Cozy is not merely a service but a platform that can run apps, keep data in sync, and collect data from external sources.</p>
+              <p>{{__ 'comparison icloud'}}</p>
             </div>
           </div>
         </div>
