@@ -26,9 +26,14 @@
 		.siteNavigation
 			.btn-link
 				color $nav-link-clr
-
 				+hover-state()
 					color $nav-link-hover-clr
+
+// Homepage exception
++bp-max(lg)
+	.is-homepage
+		.siteLogo
+			fill $clr-primary
 
 
 // Small screens navigation / header
@@ -47,10 +52,6 @@
 .siteLogo-sm
 	width 35px
 	height 25px
-	
-.is-homepage .siteHeader.contrast .siteLogo-sm .siteLogo
-    fill $clr-primary
-    color $clr-primary
 
 
 // Animated hamburger menu icon
