@@ -290,6 +290,8 @@
 	"nav devdocs title": "Dev Documentation",
 	"nav roadmap title": "Roadmap",
 	"nav mobile title": "Mobile app",
+	"nav contact title": "Contact",
+	"nav legal title": "Legal",
 	"about title": "About Cozy",
 	"about introduction": "Curious about the people behind Cozy, our history, business model, and vision? You are in the right place! Let's start with the most important and the most exciting part. ",
 	"about vision title": "Our vision",
@@ -479,5 +481,10 @@
 	"selfhosting features backup": "selfhosting features backup",
 	"selfhosting features dyndns": "selfhosting features dyndns",
 	"selfhosting cta title": "Ready to be Cozy with your data?",
-	"selfhosting cta button": "Install Cozy on your own hardware"
+	"selfhosting cta button": "Install Cozy on your own hardware",
+	"legal title": "Legal Information",
+	"legal introduction": "Additional legal information about the Cozy Cloud company and its hosting.",
+	"legal company information": "Company",
+	"legal hosting title": "Hosting",
+	"legal publisher director": "Publication Director"
 }
