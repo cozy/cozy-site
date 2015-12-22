@@ -85,7 +85,7 @@ module.exports = {
 
       // Misc
       .use(mapsite({
-        hostname: "http://cozy.io"
+        hostname: "http://cozy.io/" + locale
       }))
       .use(permalinks({
         pattern: ':title',
