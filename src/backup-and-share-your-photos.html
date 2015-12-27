@@ -17,13 +17,13 @@ pathTo: ..
     <div class="container">
       <div class="row row-justify-center">
         <div class="col-xs-22 col-lg-14">
-          <h1 class="introduction-title">{{__ 'Backup And Share Your Photos'}}</h1>
+          <h1 class="introduction-title">{{__ 'photos title'}}</h1>
         </div>
       </div>
       <div class="row row-justify-center">
         <div class="col-xs-22 col-lg-14">
           <p class="introduction-content">
-            {{__ 'Synchronize photos and files between your devices, and share them with friends and family.'}}
+            {{__ 'photos introduction'}}
           </p>
         </div>
       </div>
@@ -31,7 +31,8 @@ pathTo: ..
 
     <div class="introduction-goTo hidden-to-lg">
       <a href="#article" class="direction">
-        <img src="{{ pathTo }}/images/direction.svg" alt="{{__ 'Jump to content'}}">
+        <img src="{{ pathTo }}/images/direction.svg" 
+             alt="{{__ 'landing jump'}}">
       </a>
     </div>
   </header>
@@ -44,10 +45,12 @@ pathTo: ..
             <ul class="hangsList">
               <li class="hangsList-item">
                 <div>
-                  <img src="{{ pathTo }}/images/icon-safe.svg" class="hangsList-item-icon" alt="">
+                  <img src="{{ pathTo }}/images/icon-safe.svg" 
+                       class="hangsList-item-icon" 
+                       alt="">
                 </div>
                 <div>
-                  {{__ 'Thanks to the simple and user-friendly Files and Photos apps, Cozy lets you keep all your documents and photos in one place.'}}
+                  {{__ 'photos benefits safe'}}
                 </div>
               </li>
               <li class="hangsList-item">
@@ -55,7 +58,7 @@ pathTo: ..
                   <img src="{{ pathTo }}/images/icon-trackpad.svg" class="hangsList-item-icon" alt="">
                 </div>
                 <div>
-                  {{__ 'There is no learning curve, and you can add files and photos and organize them into folders and albums in a matter of minutes.'}}
+                  {{__ 'photos benefits organize'}}
                 </div>
               </li>
               <li class="hangsList-item">
@@ -63,7 +66,7 @@ pathTo: ..
                   <img src="{{ pathTo }}/images/icon-worldmap.svg" class="hangsList-item-icon" alt="">
                 </div>
                 <div>
-                  {{__ 'With a few clicks, you can share albums and folders with a selected group of people or the entire world.'}}
+                  {{__ 'photos benefits share'}}
                 </div>
               </li>
               <li class="hangsList-item">
@@ -71,7 +74,7 @@ pathTo: ..
                   <img src="{{ pathTo }}/images/icon-mobile.svg" class="hangsList-item-icon" alt="">
                 </div>
                 <div>
-                  {{__ 'The Cozy mobile app for Android takes care of automatically backing up your snapshots to Cozy. And you can also use the app to access all your files. Not on Android? An iOS version is in the works!'}}
+                  {{__ 'photos benefits mobile'}}
                 </div>
               </li>
             </ul>
@@ -84,27 +87,40 @@ pathTo: ..
       <div class="container">
         <div class="row row-justify-center">
           <div class="col-xs-22 col-lg-20">
-            <h2 class="panel-title">{{__ 'Tell me more'}}</h2>
+            <h2 class="panel-title">{{__ 'landing tellmemore'}}</h2>
 
             <div class="row">
               <div class="col-xs-24 col-lg-11">
                 <div class="dropcaps">
                   <p>
-                    Not so long ago, a shoe box or a photo album was the best place to store your precious photographic memories. The Web promised us to make storing and sharing photos easy, but for many of us the reality is different. Most of our photos end up being spread all over the Web, and keeping tabs on your snapshots is becoming increasingly difficult and time-consuming.
+                    {{__ 'photos tellme one'}}
                   <p>
-                    <em class="hang">Easy to store, organize, and share your photographic masterpieces</em>
+                    <em class="hang">
+                    {{__ 'photos tellme hang'}}
+                    </em>
                   </p>
                   <p>
-                    On top of that, some services want you to pay for premium functionality, while others reserve the right to use your photos for their own purposes. <strong class="highlight">So perhaps it's time to bring all your digital photos back home</strong> and keep them safe and neatly organized just the way you want it. Cozy is here to help you with that.
+                    {{__ 'photos tellme two one'}}
+                    <strong class="highlight">
+                    {{__ 'photos tellme two two'}}
+                    </strong>
+                    {{__ 'photos tellme two three'}}
                   </p>
                 </div>
               </div>
               <div class="col-xs-24 col-lg-11 col-offset-lg-2">
                 <p>
-                  The Photos app has been carefully designed to make it easy to store, organize, and share your photographic masterpieces. Creating an album is a matter of pressing the appropriate button, while populating the album with photos is as easy as dragging photos from your computer and dropping them onto the album. The Photos app features a sleek built-in photo viewer and makes <strong class="highlight">it possible to share albums both privately and publicly with just a few mouse clicks.</strong>
+                    {{__ 'photos tellme three one'}}
+                    <strong class="highlight">
+                    {{__ 'photos tellme three two'}}
+                    </strong>
                 </p>
                 <p>
-                  Remember when you had to wait to get back home and offload photos from your camera to a computer before you could back them up and share them with the world? These days are thankfully over, and many of us use smartphones to take photos and instantly back them up in the cloud and share them with others. If that's how you use a smartphone, you'll appreciate the Cozy mobile app for Android. Once installed, it quietly <strong class="highlight">backs up photos on your smartphone to Cozy. Everything happens automatically in the background</strong>, so no effort is required on your part to keep snapshots safe.
+                    {{__ 'photos tellme four one'}}
+                    <strong class="highlight">
+                    {{__ 'photos tellme four two'}}
+                    </strong>
+                    {{__ 'photos tellme four three'}}
                 </p>
               </div>
             </div>
@@ -115,7 +131,7 @@ pathTo: ..
 
     <section class="panel contrast features">
       <div class="container">
-        <h2 class="panel-title">{{__ 'Features'}}</h2>
+        <h2 class="panel-title">{{__ 'landing features title'}}</h2>
 
         <div class="row row-justify-center">
           <div class="col-xs-22 col-lg-7 col-center">
@@ -128,7 +144,7 @@ pathTo: ..
                   <span class="featuresList-item-link-icon">
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 .998h15.988V17H0V.998z"/></defs><g transform="translate(0 -1)" fill-rule="evenodd"><mask id="b"><use xlink:href="#a"/></mask><path d="M3.83 4.938l4.173-1.785 4.165 1.865L8.01 6.734 3.83 4.938zm11.523 3.278L12.727 7.04l2.59-1.07c.88-.36.9-1.428.036-1.814L8.56 1.113a1.356 1.356 0 0 0-1.072-.008L.655 4.027c-.872.374-.873 1.443 0 1.817L7.47 8.772c.327.14.71.143 1.04.007l1.555-.645 2.1.94L8.01 10.79 3.83 8.996l2.083-.892L3.27 6.97.655 8.087c-.872.373-.873 1.442 0 1.816l6.817 2.93c.327.14.71.14 1.04.005l1.555-.642 2.1.94-4.156 1.716-4.18-1.795 2.09-.894-2.65-1.133-2.615 1.118c-.872.373-.873 1.442 0 1.817l6.817 2.928c.327.14.71.143 1.04.007l6.807-2.81c.873-.36.893-1.427.03-1.814L12.727 11.1l2.592-1.07c.874-.36.894-1.427.03-1.814z" mask="url(#b)"/></g></svg>
                   </span>
-                  {{__ 'Access to your File storage from anywhere via the Web interface.'}}
+                  {{__ 'photos features webui'}}
                 </a>
               </li>
               <li class="featuresList-item">
@@ -139,7 +155,7 @@ pathTo: ..
                   <span class="featuresList-item-link-icon">
                     <svg width="10" height="14" viewBox="0 0 10 14" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd"><path d="M8 12H2V2h6v10zM9 0H1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/><path d="M5 11a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/></g></svg>
                   </span>
-                  {{__ 'Access from you mobile and automatically backup of your mobile pictures.'}}
+                  {{__ 'photos features backup'}}
                 </a>
               </li>
               <!--li class="featuresList-item">
@@ -150,7 +166,7 @@ pathTo: ..
                   <span class="featuresList-item-link-icon">
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h16v16H0V0z"/></defs><g fill-rule="evenodd"><mask id="b"><use xlink:href="#a"/></mask><path d="M2 14V7h2.14C4.06 7.32 4 7.653 4 8a4 4 0 0 0 8 0c0-.347-.058-.68-.14-1H14v7H2zm6-8c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2zm6-4v3h-3.38A3.965 3.965 0 0 0 8 4a3.968 3.968 0 0 0-2.62 1H2V2h12zm0-2H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" mask="url(#b)"/></g></svg>
                   </span>
-                  {{__ 'Automatic Mobile Photo Backup'}}
+                  {{__ 'photos features backup mobile'}}
                 </a>
               </li-->
               <li class="featuresList-item">
@@ -161,7 +177,7 @@ pathTo: ..
                   <span class="featuresList-item-link-icon">
                     <svg width="16" height="15" viewBox="0 0 16 15" xmlns="http://www.w3.org/2000/svg"><path d="M14 10H2V2h12v8zm1-10H1a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h6v1H5a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2H9v-1h6a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z" fill-rule="evenodd"/></svg>
                   </span>
-                  {{__ 'Manage your storage from your usual file explorer.'}}
+                  {{__ 'photos features file explorer'}}
                 </a>
               </li>
               </li>
@@ -173,7 +189,7 @@ pathTo: ..
                   <span class="featuresList-item-link-icon">
                     <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h16v16H0"/></defs><g fill-rule="evenodd"><mask id="b"><use xlink:href="#a"/></mask><path d="M2 4c0-1.103.897-2 2-2s2 .897 2 2-.897 2-2 2-2-.897-2-2m11-3a2.99 2.99 0 0 0-2.816 2H7.858A3.99 3.99 0 0 0 4 0a4 4 0 0 0 0 8c.143 0 .278-.027.418-.042l2.154 3.292A2.98 2.98 0 0 0 6 13a3 3 0 1 0 3-3c-.27 0-.53.048-.78.115l-1.885-2.88A3.984 3.984 0 0 0 7.858 5h2.326A2.99 2.99 0 0 0 13 7a3 3 0 0 0 0-6" mask="url(#b)"/></g></svg>
                   </span>
-                  {{__ 'Share your album and folders with your contacts.'}}
+                  {{__ 'photos features album share'}}
                 </a>
               </li>
               </li>
@@ -185,24 +201,31 @@ pathTo: ..
                   <span class="featuresList-item-link-icon">
                     <svg width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd"><path d="M11.25 13.714c0-1.26 1.01-2.285 2.25-2.285s2.25 1.024 2.25 2.284h-4.5zm-9 0c0-1.89 1.514-3.428 3.375-3.428 1.86 0 3.375 1.538 3.375 3.428H2.25zM5.625 2.286c1.24 0 2.25 1.025 2.25 2.285 0 1.26-1.01 2.287-2.25 2.287S3.375 5.83 3.375 4.57s1.01-2.284 2.25-2.284zm8.73 6.938c-1.59-.303-3.067.263-4.068 1.304A5.696 5.696 0 0 0 7.9 8.494a4.572 4.572 0 0 0 2.225-3.923c0-2.52-2.018-4.57-4.5-4.57s-4.5 2.05-4.5 4.57c0 1.683.908 3.14 2.24 3.932C1.34 9.43 0 11.572 0 13.915 0 15.065.92 16 2.052 16h13.896C17.08 16 18 15.066 18 13.915v-.017c0-2.228-1.49-4.263-3.646-4.674z"/><path d="M13.5 9.143c1.242 0 2.25-1.023 2.25-2.286 0-1.263-1.008-2.286-2.25-2.286-1.243 0-2.25 1.024-2.25 2.287s1.007 2.286 2.25 2.286"/></g></svg>
                   </span>
-                  {{__ 'Use photos from your storage to set your contact pictures'}}
+                  {{__ 'photos features contact picture'}}
                 </a>
               </li-->
             </ul>
           </div>
           <div class="col-xs-16 col-offset-xs-1 hidden-to-lg featuresList-screenshots">
             <figure id="feature-webui" class="featuresList-screenshotOutter active">
-              <img src="{{ pathTo }}/images/features/sync/features-webui.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of web UI feature'}}">
+              <img src="{{ pathTo }}/images/features/sync/features-webui.png" 
+                   class="featuresList-screenshot img-responsive" 
+                   alt="{{__ 'photos screenshot webui'}}">
             </figure>
             <figure id="feature-mobile" class="featuresList-screenshotOutter">
-              <img src="{{ pathTo }}/images/features/sync/features-mobile.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of webmail feature'}}">
+              <img src="{{ pathTo }}/images/features/sync/features-mobile.png" 
+                   class="featuresList-screenshot img-responsive" 
+                   alt="{{__ 'photos screenshot mobile'}}">
             </figure>
             <figure id="feature-desktop" class="featuresList-screenshotOutter">
               <img src="{{ pathTo }}/images/features/sync/features-desktop.png"
-              class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of desktop sync'}}">
+                   class="featuresList-screenshot img-responsive" 
+                   alt="{{__ 'photos screenshot desktop'}}">
             </figure>
             <figure id="feature-share" class="featuresList-screenshotOutter">
-              <img src="{{ pathTo }}/images/features/sync/features-share.png" class="featuresList-screenshot img-responsive" alt="{{__ 'Screenshot of share feature'}}">
+              <img src="{{ pathTo }}/images/features/sync/features-share.png" 
+                   class="featuresList-screenshot img-responsive" 
+                   alt="{{__ 'photos screenshot share'}}">
             </figure>
           </div>
         </div>
@@ -257,13 +280,16 @@ pathTo: ..
       <div class="container">
         <div class="row row-justify-center">
           <div class="col-xs-22 col-lg-14">
-            <h2 class="panel-title withLead">{{__ 'Start backing up and sharing your photos now'}}</h2>
+            <h2 class="panel-title withLead">{{__ 'photos cta title'}}</h2>
             <p class="panel-lead lead">
-               We provide free Cozy in limited numbers
+              {{__ 'landing free cozy'}} 
             </p>
 
             <div class="align-center">
-              <a href="/{{locale}}/try-it/?from=sync" class="btn btn-primary btn-xl btn-bounce">{{__ 'Try Cozy For Free'}}</a>
+              <a href="/{{locale}}/try-it/?from=sync" 
+                 class="btn btn-primary btn-xl btn-bounce">
+                 {{__ 'landing try cozy'}}
+              </a>
             </div>
           </div>
         </div>
