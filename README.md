@@ -19,7 +19,6 @@ npm run dev
 
 ## TODO
 
-* Special Metadata for Search Engines
 * French translations
 * Find a way to localize page titles and metadata
 * Add application page
