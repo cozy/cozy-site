@@ -17,3 +17,13 @@ npm run build --fr
 npm run dev
 ```
 
+## TODO
+
+* Special Metadata for Search Engines
+* French translations
+* Find a way to localize page titles and metadata
+* Add application page
+* Lazy load pictures
+* Add EDF partnership to timeline
+* Add Pine64 partnership to timeline
+
