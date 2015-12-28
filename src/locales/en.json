@@ -89,6 +89,8 @@
 	"about timeline tristan": "Tristan Nitot, former Head of Mozilla Europe, joins the Cozy team.",
 	"about timeline v2": "Version 2.0 of the platform is released.",
 	"about timeline bitnami": "Cozy wins the monthly Bitnami contest and joins major open source projects in Bitnami's library.",
+	"about timeline edf": "EDF started using the Cozy platform to make experiments to enhance its customer relations.",
+	"about timeline pine64": "Pine64, a $15 microboard, adds Cozy to their supported OS list.",
 	"architecture title": "Architecture",
 	"architecture introduction": "Peek under Cozy's hood, and learn what makes it tick.",
 	"architecture introduction two": "Behind Cozy's polished and user-friendly interface hides an advanced platform based on modern web technologies. To get a general idea of Cozy's overall architecture, you can think of it as a cake with two layers: Apps and Data.",
