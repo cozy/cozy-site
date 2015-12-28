@@ -20,7 +20,6 @@ npm run dev
 ## TODO
 
 * French translations
-* Find a way to localize page titles and metadata
 * Add application page
 * Lazy load pictures
 
