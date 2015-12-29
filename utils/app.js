@@ -52,6 +52,9 @@ client.get("repos/cozy/cozy-registry/contents/apps", (req, res, body) => {
     var path = "cozy/cozy-registry/master/apps/" + entry.name;
     clientFile.get(path, (req, res, app) => {
       log.info(`Data for ${entry.name} retrieved.`);
+      repoInfos = app.git.split('/');
+      authorSlug = repoInfos[3];
+      repoSlug = repoInfos[4].split('.')[0];
 
       var color = colorPicker.getColor(app.slug, 'cozy');
       html += `
@@ -61,7 +64,14 @@ client.get("repos/cozy/cozy-registry/contents/apps", (req, res, body) => {
       <p class="app-type">{{__ 'apps built by'}}
         <a href="${app.author.url}">${app.author.name}</a>
       </p>
-      <p class="app-description">{{__ 'apps ${app.slug} description'}}</p>
+      <p class="app-description">
+        {{__ 'apps ${app.slug} description'}}
+        <br />
+        <iframe src="https://ghbtns.com/github-btn.html?user=${authorSlug}&repo=${repoSlug}&type=star&count=true"
+                frameborder="0" scrolling="0" width="170px" height="20px">
+        </iframe>
+      </p>
+
     </div>`
       log.info(`Markup built for ${entry.name}.`);
 
