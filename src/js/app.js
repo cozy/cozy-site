@@ -60,4 +60,7 @@ $(function() {
     }
   });
 
+
+  // Lazy load images
+  $("img").unveil();
 });
