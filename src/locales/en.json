@@ -345,5 +345,6 @@
 	"apps todos description": "Write your tasks, order them and complete them efficiently.",
 	"apps zero-feeds description": "Aggregate your feeds and save your favorite links as bookmarks.",
 	"apps official application": "Built by the Cozy Team",
-	"apps community contribution": "Built by the Cozy Community"
+	"apps community contribution": "Built by the Cozy Community",
+	"apps built by": "Built by"
 }

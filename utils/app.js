@@ -54,13 +54,13 @@ client.get("repos/cozy/cozy-registry/contents/apps", (req, res, body) => {
       log.info(`Data for ${entry.name} retrieved.`);
 
       var color = colorPicker.getColor(app.slug, 'cozy');
-      console.log(app.slug);
-      console.log(color);
       html += `
     <div class="col-xs-24 col-lg-12 app">
       <img src="../images/apps/${app.slug}.svg" style="background: ${color}"/>
       <h3 class="app-title">${app.displayName}</h3>
-      <p class="app-type">{{__ 'apps ${app.comment}'}}</p>
+      <p class="app-type">{{__ 'apps built by'}}
+        <a href="${app.author.url}">${app.author.name}</a>
+      </p>
       <p class="app-description">{{__ 'apps ${app.slug} description'}}</p>
     </div>`
       log.info(`Markup built for ${entry.name}.`);
