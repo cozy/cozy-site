@@ -59,7 +59,9 @@ client.get("repos/cozy/cozy-registry/contents/apps", (req, res, body) => {
       var color = colorPicker.getColor(app.slug, 'cozy');
       html += `
     <div class="col-xs-24 col-lg-12 app">
-      <img src="../images/apps/${app.slug}.svg" style="background: ${color}"/>
+      <img src="../images/spinner.svg"
+           data-src="../images/apps/${app.slug}.svg"
+           style="background: ${color}"/>
       <h3 class="app-title">${app.displayName}</h3>
       <p class="app-type">{{__ 'apps built by'}}
         <a href="${app.author.url}">${app.author.name}</a>
