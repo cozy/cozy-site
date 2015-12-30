@@ -59,20 +59,24 @@ client.get("repos/cozy/cozy-registry/contents/apps", (req, res, body) => {
       var color = colorPicker.getColor(app.slug, 'cozy');
       html += `
     <div class="col-xs-24 col-lg-12 app">
-      <img src="../images/spinner.svg"
-           data-src="../images/apps/${app.slug}.svg"
-           style="background: ${color}"/>
-      <h3 class="app-title">${app.displayName}</h3>
-      <p class="app-type">{{__ 'apps built by'}}
-        <a href="${app.author.url}">${app.author.name}</a>
-      </p>
-      <p class="app-description">
-        {{__ 'apps ${app.slug} description'}}
-        <br />
-        <iframe src="https://ghbtns.com/github-btn.html?user=${authorSlug}&repo=${repoSlug}&type=star&count=true"
-                frameborder="0" scrolling="0" width="170px" height="20px">
-        </iframe>
-      </p>
+      <div>
+        <img src="../images/spinner.svg"
+             data-src="../images/apps/${app.slug}.svg"
+             style="background: ${color}"/>
+      </div>
+      <div>
+        <h3 class="app-title">${app.displayName}</h3>
+        <p class="app-type">{{__ 'apps built by'}}
+          <a href="${app.author.url}">${app.author.name}</a>
+        </p>
+        <p class="app-description">
+          {{__ 'apps ${app.slug} description'}}
+          <br />
+          <iframe src="https://ghbtns.com/github-btn.html?user=${authorSlug}&repo=${repoSlug}&type=star&count=true"
+                  frameborder="0" scrolling="0" width="170px" height="20px">
+          </iframe>
+        </p>
+      </div>
 
     </div>`
       log.info(`Markup built for ${entry.name}.`);

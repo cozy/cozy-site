@@ -328,9 +328,9 @@ body.is-annexe
 
 .app
     margin-bottom 4rem
+    display flex
 
     img
-      float left
       width 9rem
       padding 2rem
       margin-right 2rem
@@ -338,10 +338,23 @@ body.is-annexe
       background-color yellow
       border-radius 50%
 
+      @media (max-width: 800px)
+        width 6rem
+        padding 1.5rem
+        margin-right 1.5rem
+        margin-left 1.5rem
+        
+
     h3.app-title
       text-align left
       margin-bottom 0
 
+      @media (max-width: 800px)
+        font-size 20px
+
     p.app-type
       font-style italic
+
+      @media (max-width: 800px)
+        margin-bottom 0.5rem
 
