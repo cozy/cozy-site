@@ -35,6 +35,12 @@ This command will run:
 
 ## Locales
 
+We use JSON key-value files to store all the locales, and Transifex to translate the website.
+This files are located inside `src/locales`. To prevent conflicts, please avoid updating this
+files directly, but prefer to edit them on Transifex.
+
+* to translate the Website, go to [Trnasifex](https://www.transifex.com/cozy/cozy-site/);
+* to test your translations, install the [Transifex client](http://docs.transifex.com/client/) and run `tx pull` inside the root directory, the rebuild the site.
 
 ## Application page
 
