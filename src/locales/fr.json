@@ -401,5 +401,7 @@
 	"press android title": "press android title",
 	"press android content one": "press android content one",
 	"press android link app": "press android link app",
-	"press android link apk": "press android link apk"
+	"press android link apk": "press android link apk",
+	"locale english": "Anglais",
+	"locale french": "Français"
 }

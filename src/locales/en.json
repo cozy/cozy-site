@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
 	"try main title": "Enjoy a free Cozy",
 	"try description": "We will provide you with a Cozy and 60GB of disk space (hosted in France). Many people are asking to try Cozy. Expect a delay before getting yours.",
 	"try form email address": "Email address",
@@ -402,5 +401,7 @@
 	"press android title": "Cozy App for Android",
 	"press android content one": "Cozy app for Android makes it possible to synchronize files, calendars, and contacts between an Android device and the Cozy platform (see screenshot-8.png). The app also provides the ability to automatically back up photos on the Android device to Cozy. You can install the app via the Google Play Store. Alternatively, you can download the latest APK package and install it manually. ",
 	"press android link app": "Android application on Google Play",
-	"press android link apk": "Android application APK link"
+	"press android link apk": "Android application APK link",
+  "locale english": "English",
+  "locale french": "French"
 }
