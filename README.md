@@ -36,11 +36,11 @@ This command will run:
 ## Locales
 
 We use JSON key-value files to store all the locales, and Transifex to translate the website.
-This files are located inside `src/locales`. To prevent conflicts, please avoid updating this
+These files are located inside the `src/locales` folder. To prevent conflicts, please avoid updating this
 files directly, but prefer to edit them on Transifex.
 
-* to translate the Website, go to [Trnasifex](https://www.transifex.com/cozy/cozy-site/);
-* to test your translations, install the [Transifex client](http://docs.transifex.com/client/) and run `tx pull` inside the root directory, the rebuild the site.
+* To translate the Website, go to [Transifex](https://www.transifex.com/cozy/cozy-site/);
+* To test your translations, install the [Transifex client](http://docs.transifex.com/client/) and run `tx pull` inside the root directory, the rebuild the site.
 
 ## Application page
 
@@ -56,13 +56,9 @@ node app.js
 
 ## Extra information
 
-* The build engine of the website is based on [Metalsmith](http://metalsmith.io/) (a static-website generator). 
+* The build engine of the website is based on [Metalsmith](http://metalsmith.io/) (a static website generator). 
 * The templates are written with [Handlebars](http://handlebarsjs.com/). 
 * Stylesheets are written with [Stylus](http://stylus-lang.com/)
-
-## TODO
-
-* French translations
 
 
 ## What is Cozy?
