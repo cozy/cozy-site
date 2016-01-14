@@ -209,6 +209,7 @@
 	"selfhosting title": "Run your cloud at home",
 	"selfhosting introduction content subtitle": "Enjoy better storage and keep your data private",
 	"selfhosting introduction content": "Cozy is a versatile and extensible platform that can be put to a variety of practical uses: from sharing your photos with friends and family to contacts and schedule management. More importantly, Cozy can be hosted on your own physical or virtual server.",
+	"selfhosting introduction pine64": "Our partner Pine64 is running a Kickstarter campaign to build a new micro-board. It will allow you to host your Cozy for $19!",
 	"selfhosting benefits platform": "Cozy is available as an installable platform. It will fit perfectly with a box at your home.",
 	"selfhosting benefits linux": "You can run Cozy on a Raspberry Pi B 2 or a Linux machine.",
 	"selfhosting benefits containers": "Advanced users can run Cozy as a virtual machine and as a container. ",
