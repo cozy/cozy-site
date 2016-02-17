@@ -8,6 +8,20 @@ var colorPicker = require('./color');
 client = request.newClient("https://api.github.com/");
 clientFile = request.newClient("https://raw.githubusercontent.com/");
 
+var repos_with_demo = {
+  'contacts': 'https://demo.cozycloud.cc/#apps/contacts/',
+  'calendar': 'https://demo.cozycloud.cc/#apps/calendar/',
+  'emails': 'https://demo.cozycloud.cc/#apps/emails/account/new',
+  'files': 'https://demo.cozycloud.cc/#apps/files/',
+  'blog': 'https://demo.cozycloud.cc/#apps/blog/',
+  'konnectors': 'https://demo.cozycloud.cc/#apps/konnectors/',
+  'pr-owm': 'https://demo.cozycloud.cc/#apps/pr-owm/',
+  'photos': 'https://demo.cozycloud.cc/#apps/photos',
+  'sync': 'https://demo.cozycloud.cc/#apps/sync/',
+  'term': 'https://demo.cozycloud.cc/#apps/term/',
+  'cozic': 'https://demo.cozycloud.cc/#apps/cozic/'};
+
+//var repos_with_demo = ['cozy-contact', 'cozy-calendar'];
 var html = `---
 layout: base.html
 
@@ -57,6 +71,15 @@ client.get("repos/cozy/cozy-registry/contents/apps", (req, res, body) => {
       repoSlug = repoInfos[4].split('.')[0];
 
       var color = colorPicker.getColor(app.slug, 'cozy');
+
+      var demo_tag = '';
+      log.info(app.slug);
+      if (repos_with_demo.hasOwnProperty(app.slug)){
+        var demo_url = repos_with_demo[app.slug];
+        var demo_title = `Go to the ${app.slug} demo`;
+        var demo_tag = `<a class="app-demo" title="${demo_title}" href="${demo_url}">Demo</a>`;
+      };
+
       html += `
     <div class="col-xs-24 col-lg-12 app">
       <div>
@@ -65,7 +88,7 @@ client.get("repos/cozy/cozy-registry/contents/apps", (req, res, body) => {
              style="background: ${color}"/>
       </div>
       <div>
-        <h3 class="app-title">${app.displayName}</h3>
+        <h3 class="app-title">${app.displayName} ${demo_tag}</h3>
         <p class="app-type">{{__ 'apps built by'}}
           <a href="${app.author.url}">${app.author.name}</a>
         </p>
@@ -83,6 +106,7 @@ client.get("repos/cozy/cozy-registry/contents/apps", (req, res, body) => {
 
       next();
     });
+
   };
 
   async.eachSeries(body, buildAppMarkup, (err) => {
