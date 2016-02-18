@@ -73,7 +73,8 @@ client.get("repos/cozy/cozy-registry/contents/apps", (req, res, body) => {
       if (repos_with_demo.hasOwnProperty(app.slug)){
         var demo_url = repos_with_demo[app.slug];
         var demo_title = `{{__ 'Go to the ${app.slug} demo' }}`;
-        var demo_tag = `<a class="app-demo" title="${demo_title}" href="${demo_url}">Demo</a>`;
+        var demo_tag = `<a class="app-demo" title="${demo_title}" \
+          href="${demo_url}">Demo</a>`;
       };
 
       html += `
