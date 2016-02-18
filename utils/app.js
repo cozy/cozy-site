@@ -73,7 +73,6 @@ client.get("repos/cozy/cozy-registry/contents/apps", (req, res, body) => {
       var color = colorPicker.getColor(app.slug, 'cozy');
 
       var demo_tag = '';
-      log.info(app.slug);
       if (repos_with_demo.hasOwnProperty(app.slug)){
         var demo_url = repos_with_demo[app.slug];
         var demo_title = `{{__ 'Go to the ${app.slug} demo' }}`;
