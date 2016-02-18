@@ -405,5 +405,7 @@
 	"locale english": "English",
 	"locale french": "French",
 	"demo": "demo",
-	"apps go demo": "Go to demo of"
+	"apps go demo": "Go to demo of",
+	"about timeline gandi": "Cozy and Gandi announced partnership to build a commercial offer. This project won the French Innovation Digital Contest.",
+	"about timeline hosting providers": "4 hosting providers propose 1-click install of Cozy."
 }
