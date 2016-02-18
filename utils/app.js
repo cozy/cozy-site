@@ -1,6 +1,7 @@
 var request = require('request-json-light');
 var async = require('async');
 var fs = require('fs');
+var pathUtils = require('path');
 var log = require('printit')();
 
 var colorPicker = require('./color');
@@ -72,9 +73,12 @@ client.get("repos/cozy/cozy-registry/contents/apps", (req, res, body) => {
       var demo_tag = '';
       if (repos_with_demo.hasOwnProperty(app.slug)){
         var demo_url = repos_with_demo[app.slug];
-        var demo_title = `{{__ 'Go to the ${app.slug} demo' }}`;
-        var demo_tag = `<a class="app-demo" title="${demo_title}" \
-          href="${demo_url}">Demo</a>`;
+        var demo_title = `{{__ 'apps go demo' }} ${app.slug}`;
+        var demo_tag = `
+        <a class="app-demo" title="${demo_title}" target="_blank"
+                            href="${demo_url}">
+          {{__ 'demo' }}
+        </a>`;
       };
 
       html += `
@@ -110,7 +114,8 @@ client.get("repos/cozy/cozy-registry/contents/apps", (req, res, body) => {
     html += `</div>
   </div>
 {{> footer }}`;
-    fs.writeFileSync('../src/apps.html', html);
+    fs.writeFileSync(pathUtils.join(__dirname, '../src/apps.html'), html);
     log.info('Generation or src/apps.html is done.');
   });
 });
+

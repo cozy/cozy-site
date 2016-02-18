@@ -403,5 +403,7 @@
     "press android link app": "Application Android sur Google Play",
     "press android link apk": "Fichier APK de l'application Android",
     "locale english": "Anglais",
-    "locale french": "Français"
+    "locale french": "Français",
+	  "demo": "demo",
+	  "apps go demo": "Aller voir la démo de"
 }

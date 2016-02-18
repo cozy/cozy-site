@@ -404,17 +404,6 @@
 	"press android link apk": "Android application APK link",
 	"locale english": "English",
 	"locale french": "French",
-	"Demo": "Demo",
-	"Go to demo": "Go to demo",
-	"Go to the calendar demo": "Go to the calendar demo",
-	"Go to the contacts demo": "Go to the contacts demo",
-	"Go to the cozic demo": "Go to the cozic demo",
-	"Go to the emails demo": "Go to the emails demo",
-	"Go to the files demo": "Go to the files demo",
-	"Go to the blog demo": "Go to the blog demo",
-	"Go to the konnectors demo": "Go to the konnectors demo",
-	"Go to the pr-owm demo": "Go to the pr-owm demo",
-	"Go to the photos demo": "Go to the photos demo",
-	"Go to the sync demo": "Go to the sync demo",
-	"Go to the term demo": "Go to the term demo"
+	"demo": "demo",
+	"apps go demo": "Go to demo of"
 }
