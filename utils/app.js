@@ -16,10 +16,7 @@ var repos_with_demo = {
   'blog': 'https://demo.cozycloud.cc/#apps/blog/',
   'konnectors': 'https://demo.cozycloud.cc/#apps/konnectors/',
   'pr-owm': 'https://demo.cozycloud.cc/#apps/pr-owm/',
-  'photos': 'https://demo.cozycloud.cc/#apps/photos',
-  'sync': 'https://demo.cozycloud.cc/#apps/sync/',
-  'term': 'https://demo.cozycloud.cc/#apps/term/',
-  'cozic': 'https://demo.cozycloud.cc/#apps/cozic/'};
+  'photos': 'https://demo.cozycloud.cc/#apps/photos'};
 
 //var repos_with_demo = ['cozy-contact', 'cozy-calendar'];
 var html = `---
