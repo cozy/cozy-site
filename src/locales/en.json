@@ -62,7 +62,7 @@
 	"about bmodel hproviders title": "Hosting Providers",
 	"about bmodel hproviders content": "They can offer Cozy as a turn-key solution for non-technical users. This allows you to expand your market reach by attracting users looking for a viable alternative to existing solutions like iCloud. Cozy enhances VPS offers by making them easy to use",
 	"about bmodel cdo title": "Chief Digital Officers",
-	"about bmodel cdo content": "They are interested in building apps and products based around personal data. They can use Cozy as a better platform for working with personal data than other existing solutions. Out team can work closely with you through the entire process, providing assistance every step of the way: from creating a proof of concept and organizing test panels to building ready-to-use physical devices and cloud services.",
+	"about bmodel cdo content": "They are interested in building apps and products based around personal data. They can use Cozy as a better platform for working with personal data than other existing solutions. Our team can work closely with you through the entire process, providing assistance every step of the way: from creating a proof of concept and organizing test panels to building ready-to-use physical devices and cloud services.",
 	"about bmodel school title": "Educational and Academic Institutions",
 	"about bmodel school content": "They can use Cozy as a platform for their students. Cozy is a great educational platform that allows students to learn web development in the best conditions. Moreover, Cozy already has apps that allow institutions to manage data as well as interact with main information systems.",
 	"about history title": "Our history",
@@ -83,6 +83,8 @@
 	"about timeline bitnami": "Cozy wins the monthly Bitnami contest and joins major open source projects in Bitnami's library.",
 	"about timeline edf": "EDF started using the Cozy platform to make experiments to enhance its customer relations.",
 	"about timeline pine64": "Pine64, a $15 microboard, adds Cozy to their supported OS list.",
+	"about timeline gandi": "Cozy and Gandi announced partnership to build a commercial offer. This project won the French Innovation Digital Contest.",
+	"about timeline hosting providers": "4 hosting providers propose 1-click install of Cozy.",
 	"months january": "January",
 	"months february": "February",
 	"months march": "March",
@@ -406,6 +408,11 @@
 	"locale french": "French",
 	"demo": "demo",
 	"apps go demo": "Go to demo of",
-	"about timeline gandi": "Cozy and Gandi announced partnership to build a commercial offer. This project won the French Innovation Digital Contest.",
-	"about timeline hosting providers": "4 hosting providers propose 1-click install of Cozy."
+	"offers description": "or try it via one of our partner offer",
+	"offers ovh name": "OVH - $3,49 / month",
+	"offers ovh text": "Low cost virtual Servers",
+	"offers scaleway name": "Scaleway - $3,49 / month",
+	"offers scaleway text": "Low cost dedicated servers",
+	"offers sw name": "SWhosting - $45 / month",
+	"offers sw text": "High quality private servers"
 }
