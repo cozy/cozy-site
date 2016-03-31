@@ -37,6 +37,20 @@
 			fill $clr-primary !important
 
 
+// Site Header fixed position (except on homepage)
+//
+.siteHeader
+	background-color alpha($clr-light, 0.95)
+	box-shadow 0px 4px 5px 0px rgba(0,0,0,.3)
+
+	body:not(.is-homepage)  &
+		position fixed
+		z-index 2
+		top 0px
+		left 0px
+		width 100%
+
+
 // Small screens navigation / header
 //
 
@@ -100,7 +114,6 @@
 	margin-bottom 0
 	background-color lighten($clr-light, 30%)
 	border-top: $border-width solid darken($clr-light, 5%)
-	box-shadow 0px 4px 5px 0px rgba(0,0,0,.3)
 
 	// Menu opening animation
 	transform translateY(-100%)
@@ -141,12 +154,5 @@
 //
 
 +bp-min(lg)
-	// .siteHeader
-	//   position absolute
-	//   top .938rem
-	//   right 0
-	//   left 0
-	//   z-index 2
-
 	.siteNavigation
 		display block

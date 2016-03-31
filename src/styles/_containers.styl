@@ -2,6 +2,9 @@
 //
 // Apply styles to html, body and main containers classes
 
+$header-height = .938rem + 3.375rem // top header margin + header height
+
+
 body
   // padding-top .938rem
   font-family: $ff-common
@@ -15,14 +18,14 @@ body
 
   &.is-introductionFullHeight
     .introduction
-      padding-top 30vh
-      height calc(100vh - 56px) // remove header's height
+      padding-top "calc(30vh + %s)"  % $header-height
+      height 100vh
 
   &.is-annexe
     .introduction
       margin-bottom $spacer
-      padding-top 25vh
-      height: 70vh
+      padding-top "calc(25vh + %s)" % $header-height
+      height: "calc(70vh + %s)" % $header-height
       +bp-min(lg)
         margin-bottom ($spacer * 1.5)
 
@@ -38,7 +41,7 @@ body
 // ex: homepage
 .introduction
   position relative
-  padding-top (.938rem + 3.375rem + ($spacer * 1.5)) // top header margin + header height + (default margin * 1.5)
+  padding-top ($header-height + ($spacer * 1.5)) // header height + (default margin * 1.5)
 
 .introduction-content
   text-align center
