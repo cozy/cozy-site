@@ -32,6 +32,8 @@ This command will run:
 * a web server that serves your static built files on the 3000 port.
 * a watcher that will rebuild your files and update your locale keys eacht time you change something.
 
+Check http://localhost:3000/en/ to start browsing!
+
 
 ## Locales
 
