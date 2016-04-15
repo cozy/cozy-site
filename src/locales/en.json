@@ -423,5 +423,7 @@
 	"offers scaleway name": "Scaleway - $6,00 / month",
 	"offers scaleway text": "Low cost dedicated servers",
 	"offers sw name": "SWhosting - $45 / month",
-	"offers sw text": "High disponibility virtual servers"
+	"offers sw text": "High disponibility virtual servers",
+	"survey popup url": "https://fr.surveymonkey.com/r/cozy-commercial-offer",
+	"survey popup label": "In order to better understand your expectactions, please answer this survey in 3 minutes"
 }

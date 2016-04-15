@@ -1,102 +1,130 @@
 // App main footer
 //
 
-.siteFooter
-  padding-top $spacer
-  padding-bottom $spacer
-  font-family $ff-emphasis
-  font-size $fs-sm
-  background-color $footer-bkg
+.poll-popup
+	position fixed
+	bottom 0
+	right 2.5em
+	z-index 999
 
-.siteFooter-hangTitle
-  margin-bottom 10px
-  font-size $fs-h3
-  line-height $headings-lh
-  font-weight $fw-bold
-  color $clr-darker
-  +bp-max(lg)
-    text-align center
+	max-width 33%
 
-.siteFooter-hangContent
-  line-height 1.3
-  color $clr-highlight
-  +bp-max(lg)
-    margin-bottom $spacer
-    text-align center
+	background-color #4F5B69
+	color $clr-light
+	border-radius 4px 4px 0 0
+	padding 1em
+	box-shadow 0 3px 10px rgba(0, 0, 0, .23)
+	font-size $fs-sm
 
-.siteFooter-copy
-  margin-top 4.375rem
-  font-family $ff-common
-  font-size ($fs-sm - .063rem)
-  line-height 1.3
-  color lighten($txt-clr-base, 60%)
+	display flex
 
-.siteFooter-listTitle
-  @extend .h5
-  text-transform uppercase
+	a
+		color $clr-light
 
-.siteFooter-list
-  @extend .list-unstyled
-  margin-bottom 0
-
-  +bp-max(lg)
-    &.social
-      margin-top $spacer
-      text-align center
-      .siteFooter-list-item
-        display inline-block
-        margin 0 0.5rem
-        padding-left 0
-        width 1.188rem
-      .socialLink
-        font-size 0
-
-.siteFooter-list-item
-  margin-bottom .625rem
-  line-height 1
-
-  &.bolder
-    font-weight $fw-bold
-    a
-      color $clr-darker
-  &.muted
-    a
-      color $txt-muted
-  &.bolder
-  &.muted
-    a
-      +hover-state()
-        color $clr-primary
-
-  &.biggerGap
-    margin-bottom .938rem
-
-    margin-top 2em
-
-.siteFooter-subscribeEmail
-  width 70%
-  padding 0.4em
-  border 0
-
-.siteFooter-subscribeButton
-  background-color grey + 30%
-  border-color grey + 30%
-  padding 0.4em
-
-  &:hover
-      background-color grey
-      border-color grey
-
-.siteFooter-listTitle.newsletter
-    margin-top 2em
+	> img
+		margin-right 5px
 
 @media (max-width: 980px)
-    .siteFooter-listTitle.newsletter
-        text-align center
+	.poll-popup
+		display none
 
-    #mc_embed_signup
-        text-align center
 
-        form 
-            text-align center
+.siteFooter
+	padding-top $spacer
+	padding-bottom $spacer + 2rem // height of .poll-popup
+	font-family $ff-emphasis
+	font-size $fs-sm
+	background-color $footer-bkg
+
+.siteFooter-hangTitle
+	margin-bottom 10px
+	font-size $fs-h3
+	line-height $headings-lh
+	font-weight $fw-bold
+	color $clr-darker
+	+bp-max(lg)
+		text-align center
+
+.siteFooter-hangContent
+	line-height 1.3
+	color $clr-highlight
+	+bp-max(lg)
+		margin-bottom $spacer
+		text-align center
+
+.siteFooter-copy
+	margin-top 4.375rem
+	font-family $ff-common
+	font-size ($fs-sm - .063rem)
+	line-height 1.3
+	color lighten($txt-clr-base, 60%)
+
+.siteFooter-listTitle
+	@extend .h5
+	text-transform uppercase
+
+.siteFooter-list
+	@extend .list-unstyled
+	margin-bottom 0
+
+	+bp-max(lg)
+		&.social
+			margin-top $spacer
+			text-align center
+			.siteFooter-list-item
+				display inline-block
+				margin 0 0.5rem
+				padding-left 0
+				width 1.188rem
+			.socialLink
+				font-size 0
+
+.siteFooter-list-item
+	margin-bottom .625rem
+	line-height 1
+
+	&.bolder
+		font-weight $fw-bold
+		a
+			color $clr-darker
+	&.muted
+		a
+			color $txt-muted
+	&.bolder
+	&.muted
+		a
+			+hover-state()
+				color $clr-primary
+
+	&.biggerGap
+		margin-bottom .938rem
+
+		margin-top 2em
+
+.siteFooter-subscribeEmail
+	width 70%
+	padding 0.4em
+	border 0
+
+.siteFooter-subscribeButton
+	background-color grey + 30%
+	border-color grey + 30%
+	padding 0.4em
+
+	&:hover
+			background-color grey
+			border-color grey
+
+.siteFooter-listTitle.newsletter
+		margin-top 2em
+
+@media (max-width: 980px)
+		.siteFooter-listTitle.newsletter
+				text-align center
+
+		#mc_embed_signup
+				text-align center
+
+				form 
+						text-align center
 
