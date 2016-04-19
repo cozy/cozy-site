@@ -1,176 +1,181 @@
-  </main>
+	</main>
 
-  <footer class="siteFooter">
-    <div class="container">
-      <div class="row row-justify-center">
-        <div class="col-xs-24 col-lg-20">
-          <div class="row">
-            <div class="col-xs-24 col-lg-4">
-              <div class="siteFooter-hangTitle">Cozy</div>
-              <div class="siteFooter-hangContent">{{__ 'home main title'}}</div>
-              <p></p>
-              <ul class="siteFooter-list">
-                <li class="siteFooter-list-item bolder">
-                  <a href="/en">
-                    {{__ 'locale english'}}
-                  </a>
-                </li>
-                <li class="siteFooter-list-item bolder">
-                  <a href="/fr">
-                    {{__ 'locale french'}}
-                  </a>
-                </li>
-              </ul>
-            </div>
+	<aside class="poll-popup">
+		<img src="{{ pathTo }}/images/icon-survey.svg" alt="Survey logo" />
+		<a href="{{__ 'survey popup url'}}" target="_blank">{{__ 'survey popup label'}} →</a>
+	</aside>
 
-            <div class="col-xs-8 col-lg-4 col-offset-lg-1">
-              <ul class="siteFooter-list">
-                <li class="siteFooter-list-item bolder">
-                  <a href="{{ pathTo }}/ungoogle-your-life/">
-                    {{__ 'synccal main title'}}
-                  </a>
-                </li>
-                <li class="siteFooter-list-item bolder">
-                  <a href="{{ pathTo }}/run-your-cloud-at-home/">
-                      {{__ 'selfhosting main title'}}
-                  </a>
-                </li>
-                <li class="siteFooter-list-item bolder">
-                  <a href="{{ pathTo }}/backup-and-share-your-photos/">
-                    {{__ 'photos main title'}}
-                  </a>
-                </li>
-                <li class="siteFooter-list-item bolder">
-                </li>
-                <li class="siteFooter-list-item bolder">
-                  <a href="{{ pathTo }}/make-sense-of-your-data/">
-                    {{__ 'connect main title'}}
-                  </a>
-                </li>
-                <li class="siteFooter-list-item bolder">
-                  <a href="{{ pathTo }}/learn-web-development/">
-                    {{__ 'webdev main title'}}
-                  </a>
-                </li>
-              </ul>
-            </div>
+	<footer class="siteFooter">
+		<div class="container">
+			<div class="row row-justify-center">
+				<div class="col-xs-24 col-lg-20">
+					<div class="row">
+						<div class="col-xs-24 col-lg-4">
+							<div class="siteFooter-hangTitle">Cozy</div>
+							<div class="siteFooter-hangContent">{{__ 'home main title'}}</div>
+							<p></p>
+							<ul class="siteFooter-list">
+								<li class="siteFooter-list-item bolder">
+									<a href="/en">
+										{{__ 'locale english'}}
+									</a>
+								</li>
+								<li class="siteFooter-list-item bolder">
+									<a href="/fr">
+										{{__ 'locale french'}}
+									</a>
+								</li>
+							</ul>
+						</div>
 
-            <div class="col-xs-7 col-offset-xs-1 col-lg-4 col-offset-lg-1">
-              <ul class="siteFooter-list">
-                <li class="siteFooter-list-item bolder">
-                    <a href="/{{locale}}/apps/">{{__ 'nav apps title'}}</a>
-                </li>
-                <li class="siteFooter-list-item bolder">
-                    <a href="/{{locale}}/about/">{{__ 'nav about title'}}</a>
-                </li>
-                <li class="siteFooter-list-item bolder">
-                  <a href="/{{locale}}/faq">{{__ 'nav faq title'}}</a>
-                </li>
-                <li class="siteFooter-list-item bolder">
-                  <a href="/{{locale}}/community">{{__ 'nav community title'}}</a>
-                </li>
-                <li class="siteFooter-list-item bolder">
-                  <a href="/{{locale}}/comparison">{{__ 'nav comparison title'}}</a>
-                </li>
-                <li class="siteFooter-list-item bolder">
-                  <a href="/{{locale}}/architecture">{{__ 'nav architecture title'}}</a>
-                </li>
-                <li class="siteFooter-list-item bolder">
-                  <a href="/{{locale}}/legal">{{__ 'nav legal title'}}</a>
-                </li>
-                <li class="siteFooter-list-item bolder">
-                  <a href="/{{locale}}/press">{{__ 'nav press title'}}</a>
-                </li>
-              </ul>
-            </div>
+						<div class="col-xs-8 col-lg-4 col-offset-lg-1">
+							<ul class="siteFooter-list">
+								<li class="siteFooter-list-item bolder">
+									<a href="{{ pathTo }}/ungoogle-your-life/">
+										{{__ 'synccal main title'}}
+									</a>
+								</li>
+								<li class="siteFooter-list-item bolder">
+									<a href="{{ pathTo }}/run-your-cloud-at-home/">
+											{{__ 'selfhosting main title'}}
+									</a>
+								</li>
+								<li class="siteFooter-list-item bolder">
+									<a href="{{ pathTo }}/backup-and-share-your-photos/">
+										{{__ 'photos main title'}}
+									</a>
+								</li>
+								<li class="siteFooter-list-item bolder">
+								</li>
+								<li class="siteFooter-list-item bolder">
+									<a href="{{ pathTo }}/make-sense-of-your-data/">
+										{{__ 'connect main title'}}
+									</a>
+								</li>
+								<li class="siteFooter-list-item bolder">
+									<a href="{{ pathTo }}/learn-web-development/">
+										{{__ 'webdev main title'}}
+									</a>
+								</li>
+							</ul>
+						</div>
 
-            <div class="col-xs-8 col-lg-4">
-              <ul class="siteFooter-list">
-                <li class="siteFooter-list-item muted">
-                  <a href="http://docs.cozy.io/en/host/install/">
-                    {{__ 'nav installation title'}}</a>
-                </li>
-                <li class="siteFooter-list-item muted">
-                  <a href="http://docs.cozy.io/">
-                    {{__ 'nav documentation title'}}
-                  </a>
-                </li>
-                <li class="siteFooter-list-item muted">
-                  <a href="http://dev.cozy.io/">
-                    {{__ 'nav devdocs title'}}
-                  </a>
-                </li>
-                <li class="siteFooter-list-item muted">
-                    <a href="http://github.com/cozy/cozy">
-                    {{__ 'nav source title'}}
-                    </a>
-                </li>
-                <li class="siteFooter-list-item muted">
-                  <a href="https://trello.com/b/6gaQFuSu/public-roadmap">
-                    {{__ 'nav roadmap title'}}
-                  </a>
-                </li>
-                <li class="siteFooter-list-item muted">
-                  <a href="https://blog.cozycloud.cc">
-                    {{__ 'nav blog title'}}
-                  </a>
-                </li>
-                <li class="siteFooter-list-item muted">
-                  <a href="https://play.google.com/store/apps/details?id=io.cozy.files_client">
-                    {{__ 'nav mobile title'}}
-                  </a>
-                </li>
-                <li class="siteFooter-list-item muted">
-                  <a href="mailto:contact@cozycloud.cc">
-                    {{__ 'nav contact title'}}
-                  </a>
-                </li>
-              </ul>
-            </div>
+						<div class="col-xs-7 col-offset-xs-1 col-lg-4 col-offset-lg-1">
+							<ul class="siteFooter-list">
+								<li class="siteFooter-list-item bolder">
+										<a href="/{{locale}}/apps/">{{__ 'nav apps title'}}</a>
+								</li>
+								<li class="siteFooter-list-item bolder">
+										<a href="/{{locale}}/about/">{{__ 'nav about title'}}</a>
+								</li>
+								<li class="siteFooter-list-item bolder">
+									<a href="/{{locale}}/faq">{{__ 'nav faq title'}}</a>
+								</li>
+								<li class="siteFooter-list-item bolder">
+									<a href="/{{locale}}/community">{{__ 'nav community title'}}</a>
+								</li>
+								<li class="siteFooter-list-item bolder">
+									<a href="/{{locale}}/comparison">{{__ 'nav comparison title'}}</a>
+								</li>
+								<li class="siteFooter-list-item bolder">
+									<a href="/{{locale}}/architecture">{{__ 'nav architecture title'}}</a>
+								</li>
+								<li class="siteFooter-list-item bolder">
+									<a href="/{{locale}}/legal">{{__ 'nav legal title'}}</a>
+								</li>
+								<li class="siteFooter-list-item bolder">
+									<a href="/{{locale}}/press">{{__ 'nav press title'}}</a>
+								</li>
+							</ul>
+						</div>
 
-            <div class="col-xs-24 col-lg-5 col-offset-lg-1">
-              <div class="siteFooter-listTitle hidden-to-lg">
-                 {{__ 'footer followus'}}
-              </div>
-              <ul class="siteFooter-list social">
-                <li class="siteFooter-list-item muted">
-                  <a href="https://twitter.com/mycozycloud" class="socialLink twitter">Twitter</a>
-                </li>
-                <li class="siteFooter-list-item muted">
-                  <a href="https://www.facebook.com/Cozyio-1147781958584135/" class="socialLink facebook">Facebook</a>
-                </li>
-                <li class="siteFooter-list-item muted">
-                  <a href="https://blog.cozycloud.cc/feed/atom" class="socialLink rss">RSS</a>
-                </li>
-                <li class="siteFooter-list-item muted">
-                  <a href="https://diaspora-fr.org/people/ce1528a0f88b013197aa01beea1f31e2" class="socialLink diaspora">Diaspora</a>
-                </li>
-              </ul>
-              <div class="siteFooter-listTitle newsletter">
-                 {{__ 'footer subscribe'}}
-              </div>
-              <!-- Begin MailChimp Signup Form -->
-              <div id="mc_embed_signup">
-                <form action="//cozy.us4.list-manage.com/subscribe/post?u=e25ec3b4f8c222291f7d77997&amp;id=e3091db2ef"
-                      method="post" id="mc-embedded-subscribe-form"
-                      name="mc-embedded-subscribe-form" 
-                      class="validate subsribe-form" target="_blank" novalidate>
-                  <input type="email" placeholder="E-mail" value="" 
-                         name="EMAIL" 
-                         class="required email siteFooter-subscribeEmail" 
-                         id="mce-EMAIL">
-                  <input type="submit" value="{{__ 'footer subscribe button'}}" 
-                         name="subscribe" id="mc-embedded-subscribe" 
-                         class="button siteFooter-subscribeButton btn btn-primary">
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                    <input type="text" tabindex="-1" value=""
-                           name="b_e25ec3b4f8c222291f7d77997_e3091db2ef">
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+						<div class="col-xs-8 col-lg-4">
+							<ul class="siteFooter-list">
+								<li class="siteFooter-list-item muted">
+									<a href="http://docs.cozy.io/en/host/install/">
+										{{__ 'nav installation title'}}</a>
+								</li>
+								<li class="siteFooter-list-item muted">
+									<a href="http://docs.cozy.io/">
+										{{__ 'nav documentation title'}}
+									</a>
+								</li>
+								<li class="siteFooter-list-item muted">
+									<a href="http://dev.cozy.io/">
+										{{__ 'nav devdocs title'}}
+									</a>
+								</li>
+								<li class="siteFooter-list-item muted">
+										<a href="http://github.com/cozy/cozy">
+										{{__ 'nav source title'}}
+										</a>
+								</li>
+								<li class="siteFooter-list-item muted">
+									<a href="https://trello.com/b/6gaQFuSu/public-roadmap">
+										{{__ 'nav roadmap title'}}
+									</a>
+								</li>
+								<li class="siteFooter-list-item muted">
+									<a href="https://blog.cozycloud.cc">
+										{{__ 'nav blog title'}}
+									</a>
+								</li>
+								<li class="siteFooter-list-item muted">
+									<a href="https://play.google.com/store/apps/details?id=io.cozy.files_client">
+										{{__ 'nav mobile title'}}
+									</a>
+								</li>
+								<li class="siteFooter-list-item muted">
+									<a href="mailto:contact@cozycloud.cc">
+										{{__ 'nav contact title'}}
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-xs-24 col-lg-5 col-offset-lg-1">
+							<div class="siteFooter-listTitle hidden-to-lg">
+								 {{__ 'footer followus'}}
+							</div>
+							<ul class="siteFooter-list social">
+								<li class="siteFooter-list-item muted">
+									<a href="https://twitter.com/mycozycloud" class="socialLink twitter">Twitter</a>
+								</li>
+								<li class="siteFooter-list-item muted">
+									<a href="https://www.facebook.com/Cozyio-1147781958584135/" class="socialLink facebook">Facebook</a>
+								</li>
+								<li class="siteFooter-list-item muted">
+									<a href="https://blog.cozycloud.cc/feed/atom" class="socialLink rss">RSS</a>
+								</li>
+								<li class="siteFooter-list-item muted">
+									<a href="https://diaspora-fr.org/people/ce1528a0f88b013197aa01beea1f31e2" class="socialLink diaspora">Diaspora</a>
+								</li>
+							</ul>
+							<div class="siteFooter-listTitle newsletter">
+								 {{__ 'footer subscribe'}}
+							</div>
+							<!-- Begin MailChimp Signup Form -->
+							<div id="mc_embed_signup">
+								<form action="//cozy.us4.list-manage.com/subscribe/post?u=e25ec3b4f8c222291f7d77997&amp;id=e3091db2ef"
+											method="post" id="mc-embedded-subscribe-form"
+											name="mc-embedded-subscribe-form" 
+											class="validate subsribe-form" target="_blank" novalidate>
+									<input type="email" placeholder="E-mail" value="" 
+												 name="EMAIL" 
+												 class="required email siteFooter-subscribeEmail" 
+												 id="mce-EMAIL">
+									<input type="submit" value="{{__ 'footer subscribe button'}}" 
+												 name="subscribe" id="mc-embedded-subscribe" 
+												 class="button siteFooter-subscribeButton btn btn-primary">
+									<div style="position: absolute; left: -5000px;" aria-hidden="true">
+										<input type="text" tabindex="-1" value=""
+													 name="b_e25ec3b4f8c222291f7d77997_e3091db2ef">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
