@@ -423,5 +423,8 @@
     "offers scaleway name": "Scaleway - 6.00€ / mois",
     "offers scaleway text": "Serveurs dédiés à bas prix",
     "offers sw name": "SWhosting - 45$ / mois",
-    "offers sw text": "Serveurs virtuels à haute disponibilité"
+    "offers sw text": "Serveurs virtuels à haute disponibilité",
+	  "synccal main title": "Synchronizez vos agendas et contacts",
+	  "synccal title": "Synchronisez vos agendas et contacts",
+	  "synccal introduction": "Consultez et éditez vos agendas sur tous vos périphériques et applications"
 }
