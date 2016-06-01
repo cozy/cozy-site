@@ -11,587 +11,615 @@ from: apps
 ---
 
 {{> header }}
-  <header class="introduction contrast apps">
-    <div class="container">
-      <div class="row row-justify-center">
-        <div class="col-xs-22 col-lg-14">
-          <h1 class="introduction-title">{{__ 'apps title'}}</h1>
-        </div>
-      </div>
-      <div class="row row-justify-center">
-        <div class="col-xs-22 col-lg-16">
-          <p class="introduction-content-alt">
-            {{__ 'apps introduction'}}
-          </p>
-        </div>
-      </div>
-    </div>
-  </header>
+	<header class="introduction contrast apps">
+		<div class="container">
+			<div class="row row-justify-center">
+				<div class="col-xs-22 col-lg-14">
+					<h1 class="introduction-title">{{__ 'apps title'}}</h1>
+				</div>
+			</div>
+			<div class="row row-justify-center">
+				<div class="col-xs-22 col-lg-16">
+					<p class="introduction-content-alt">
+						{{__ 'apps introduction'}}
+					</p>
+				</div>
+			</div>
+		</div>
+	</header>
 
-  <div class="container">
-    <div class="row row-justify-center">
+	<div class="container">
+		<div class="row row-justify-center">
 
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/calendar.svg"
-             style="background: #EC7E63"/>
-      </div>
-      <div>
-        <h3 class="app-title">Calendar 
-        <a class="app-demo" title="{{__ 'apps go demo' }} calendar" target="_blank"
-                            href="https://demo.cozycloud.cc/#apps/calendar/">
-          {{__ 'demo' }}
-        </a></h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/cozy">Cozy</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps calendar description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=cozy&repo=cozy-calendar&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Calendar -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/calendar.svg"
+						 style="background: #EC7E63"/>
+			</div>
+			<div>
+				<h3 class="app-title">Calendar</h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/cozy">Cozy</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps calendar description'}}
+					<br />
+					<a class="btn btn-primary btn-sm" 
+															title="{{__ 'apps go demo' }} calendar" target="_blank"
+															href="https://demo.cozycloud.cc/#apps/calendar/">
+						{{__ '→ live demo' }}
+					</a>
+					<iframe src="https://ghbtns.com/github-btn.html?user=cozy&repo=cozy-calendar&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/contacts.svg"
-             style="background: #8cec56"/>
-      </div>
-      <div>
-        <h3 class="app-title">Contacts 
-        <a class="app-demo" title="{{__ 'apps go demo' }} contacts" target="_blank"
-                            href="https://demo.cozycloud.cc/#apps/contacts/">
-          {{__ 'demo' }}
-        </a></h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/cozy">Cozy</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps contacts description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=cozy&repo=cozy-contacts&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Contacts -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/contacts.svg"
+						 style="background: #8cec56"/>
+			</div>
+			<div>
+				<h3 class="app-title">Contacts</h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/cozy">Cozy</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps contacts description'}}
+					<br />
+					<a class="btn btn-primary btn-sm" 
+															title="{{__ 'apps go demo' }} contacts" target="_blank"
+															href="https://demo.cozycloud.cc/#apps/contacts/">
+						{{__ '→ live demo' }}
+					</a>
+					<iframe src="https://ghbtns.com/github-btn.html?user=cozy&repo=cozy-contacts&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/cozic.svg"
-             style="background: #bbcaA9"/>
-      </div>
-      <div>
-        <h3 class="app-title">Cozic </h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/rdubigny">Raphaël</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps cozic description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=rdubigny&repo=cozy-music&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Emails -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/emails.svg"
+						 style="background: #8BEE8C"/>
+			</div>
+			<div>
+				<h3 class="app-title">Emails</h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/cozy">Cozy</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps emails description'}}
+					<br />
+					<a class="btn btn-primary btn-sm" 
+															title="{{__ 'apps go demo' }} emails" target="_blank"
+															href="https://demo.cozycloud.cc/#apps/emails/account/new">
+						{{__ '→ live demo' }}
+					</a>
+					<iframe src="https://ghbtns.com/github-btn.html?user=cozy&repo=cozy-emails&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/databrowser.svg"
-             style="background: #EC7E63"/>
-      </div>
-      <div>
-        <h3 class="app-title">Data Browser </h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/doubleface">Christophe</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps databrowser description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=doubleface&repo=cozy-databrowser&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Files -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/files.svg"
+						 style="background: #8CB1FF"/>
+			</div>
+			<div>
+				<h3 class="app-title">Files</h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/cozy">Cozy</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps files description'}}
+					<br />
+					<a class="btn btn-primary btn-sm" 
+															title="{{__ 'apps go demo' }} files" target="_blank"
+															href="https://demo.cozycloud.cc/#apps/files/">
+						{{__ '→ live demo' }}
+					</a>
+					<iframe src="https://ghbtns.com/github-btn.html?user=cozy&repo=cozy-files&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/emails.svg"
-             style="background: #8BEE8C"/>
-      </div>
-      <div>
-        <h3 class="app-title">Emails 
-        <a class="app-demo" title="{{__ 'apps go demo' }} emails" target="_blank"
-                            href="https://demo.cozycloud.cc/#apps/emails/account/new">
-          {{__ 'demo' }}
-        </a></h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/cozy">Cozy</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps emails description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=cozy&repo=cozy-emails&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Cozic -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/cozic.svg"
+						 style="background: #bbcaA9"/>
+			</div>
+			<div>
+				<h3 class="app-title">Cozic </h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/rdubigny">Raphaël</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps cozic description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=rdubigny&repo=cozy-music&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/files.svg"
-             style="background: #8CB1FF"/>
-      </div>
-      <div>
-        <h3 class="app-title">Files 
-        <a class="app-demo" title="{{__ 'apps go demo' }} files" target="_blank"
-                            href="https://demo.cozycloud.cc/#apps/files/">
-          {{__ 'demo' }}
-        </a></h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/cozy">Cozy</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps files description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=cozy&repo=cozy-files&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- data browser -->
+		</div>
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/databrowser.svg"
+						 style="background: #EC7E63"/>
+			</div>
+			<div>
+				<h3 class="app-title">Data Browser </h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/doubleface">Christophe</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps databrowser description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=doubleface&repo=cozy-databrowser&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
+		<!-- Frost -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/frost.png"
+						 style="background: #bbcaA9"/>
+			</div>
+			<div>
+				<h3 class="app-title">Frost</h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/y-lohse">Yannick</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps frost description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=y-lohse&repo=cozy-frost&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    <!-- Frost -->
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/frost.png"
-             style="background: #bbcaA9"/>
-      </div>
-      <div>
-        <h3 class="app-title">Frost</h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/y-lohse">Yannick</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps frost description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=y-lohse&repo=cozy-frost&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
-    </div>
+		<!-- Ghost -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/blog.svg"
+						 style="background: #ffbe56"/>
+			</div>
+			<div>
+				<h3 class="app-title">Blog (Ghost Platform)</h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/tryghost">Ghost</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps blog description'}}
+					<br />
+					<a class="btn btn-primary btn-sm" 
+															title="{{__ 'apps go demo' }} blog" target="_blank"
+															href="https://demo.cozycloud.cc/#apps/blog/">
+						{{__ '→ live demo' }}
+					</a>
+					<iframe src="https://ghbtns.com/github-btn.html?user=cozy-labs&repo=cozy-ghost&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/blog.svg"
-             style="background: #ffbe56"/>
-      </div>
-      <div>
-        <h3 class="app-title">Blog (Ghost Platform) 
-        <a class="app-demo" title="{{__ 'apps go demo' }} blog" target="_blank"
-                            href="https://demo.cozycloud.cc/#apps/blog/">
-          {{__ 'demo' }}
-        </a></h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/tryghost">Ghost</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps blog description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=cozy-labs&repo=cozy-ghost&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Hastebin -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/hastebin.svg"
+						 style="background: #ffb1be"/>
+			</div>
+			<div>
+				<h3 class="app-title">HasteBin </h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/clochix">Clochix</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps hastebin description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=clochix&repo=haste-server&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/hastebin.svg"
-             style="background: #ffb1be"/>
-      </div>
-      <div>
-        <h3 class="app-title">HasteBin </h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/clochix">Clochix</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps hastebin description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=clochix&repo=haste-server&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Import from Google -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/import-from-google.svg"
+						 style="background: #C4BEE9"/>
+			</div>
+			<div>
+				<h3 class="app-title">Import from Google </h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/cozy-labs">Cozy Labs</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps import-from-google description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=cozy-labs&repo=import-from-google&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/import-from-google.svg"
-             style="background: #C4BEE9"/>
-      </div>
-      <div>
-        <h3 class="app-title">Import from Google </h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/cozy-labs">Cozy Labs</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps import-from-google description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=cozy-labs&repo=import-from-google&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Konnectors -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/konnectors.svg"
+						 style="background: #EC7E63"/>
+			</div>
+			<div>
+				<h3 class="app-title">Konnectors</h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/cozy-labs">Cozy Labs</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps konnectors description'}}
+					<br />
+					<a class="btn btn-primary btn-sm" 
+															title="{{__ 'apps go demo' }} konnectors" target="_blank"
+															href="https://demo.cozycloud.cc/#apps/konnectors/">
+						{{__ '→ live demo' }}
+					</a>
+					<iframe src="https://ghbtns.com/github-btn.html?user=cozy-labs&repo=konnectors&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/konnectors.svg"
-             style="background: #EC7E63"/>
-      </div>
-      <div>
-        <h3 class="app-title">Konnectors 
-        <a class="app-demo" title="{{__ 'apps go demo' }} konnectors" target="_blank"
-                            href="https://demo.cozycloud.cc/#apps/konnectors/">
-          {{__ 'demo' }}
-        </a></h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/cozy-labs">Cozy Labs</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps konnectors description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=cozy-labs&repo=konnectors&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Kresus -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/kresus.svg"
+						 style="background: #8FBAff"/>
+			</div>
+			<div>
+				<h3 class="app-title">Kresus </h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/bnjbvr">Benjamin</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps kresus description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=bnjbvr&repo=kresus&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/kresus.svg"
-             style="background: #8FBAff"/>
-      </div>
-      <div>
-        <h3 class="app-title">Kresus </h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/bnjbvr">Benjamin</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps kresus description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=bnjbvr&repo=kresus&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Kyou -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/kyou.svg"
+						 style="background: #ffb1be"/>
+			</div>
+			<div>
+				<h3 class="app-title">KYou </h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/frankrousseau">Frank</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps kyou description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=frankrousseau&repo=kyou&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/kyou.svg"
-             style="background: #ffb1be"/>
-      </div>
-      <div>
-        <h3 class="app-title">KYou </h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/frankrousseau">Frank</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps kyou description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=frankrousseau&repo=kyou&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- mstsc -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/mstsc.svg"
+						 style="background: #E26987"/>
+			</div>
+			<div>
+				<h3 class="app-title">Mstsc </h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/citronneur">Sylvain</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps mstsc description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=citronneur&repo=mstsc&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/mstsc.svg"
-             style="background: #E26987"/>
-      </div>
-      <div>
-        <h3 class="app-title">Mstsc </h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/citronneur">Sylvain</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps mstsc description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=citronneur&repo=mstsc&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- nIRC -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/nirc.svg"
+						 style="background: #C4BEE9"/>
+			</div>
+			<div>
+				<h3 class="app-title">nIRC </h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/cjstewart88">Cody</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps nirc description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=frankrousseau&repo=cozy-nirc&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/nirc.svg"
-             style="background: #C4BEE9"/>
-      </div>
-      <div>
-        <h3 class="app-title">nIRC </h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/cjstewart88">Cody</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps nirc description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=frankrousseau&repo=cozy-nirc&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Notes -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/notes.svg"
+						 style="background: #fbf0c2"/>
+			</div>
+			<div>
+				<h3 class="app-title">Notes </h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/cozy-labs">Cozy Labs</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps notes description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=cozy&repo=notes&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/notes.svg"
-             style="background: #fbf0c2"/>
-      </div>
-      <div>
-        <h3 class="app-title">Notes </h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/cozy-labs">Cozy Labs</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps notes description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=cozy&repo=notes&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Weather -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/pr-owm.svg"
+						 style="background: #ec7e63"/>
+			</div>
+			<div>
+				<h3 class="app-title">Weather</h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/pierrerousseau">Pierre</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps pr-owm description'}}
+					<br />
+					<a class="btn btn-primary btn-sm" 
+															title="{{__ 'apps go demo' }} pr-owm" target="_blank"
+															href="https://demo.cozycloud.cc/#apps/pr-owm/">
+						{{__ '→ live demo' }}
+					</a>
+					<iframe src="https://ghbtns.com/github-btn.html?user=pierrerousseau&repo=owm&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/pr-owm.svg"
-             style="background: #ec7e63"/>
-      </div>
-      <div>
-        <h3 class="app-title">Weather 
-        <a class="app-demo" title="{{__ 'apps go demo' }} pr-owm" target="_blank"
-                            href="https://demo.cozycloud.cc/#apps/pr-owm/">
-          {{__ 'demo' }}
-        </a></h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/pierrerousseau">Pierre</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps pr-owm description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=pierrerousseau&repo=owm&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Photos -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/photos.svg"
+						 style="background: #cdb19b"/>
+			</div>
+			<div>
+				<h3 class="app-title">Photos</h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/cozy-labs">Cozy Labs</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps photos description'}}
+					<br />
+					<a class="btn btn-primary btn-sm" 
+															title="{{__ 'apps go demo' }} photos" target="_blank"
+															href="https://demo.cozycloud.cc/#apps/photos/">
+						{{__ '→ live demo' }}
+					</a>
+					<iframe src="https://ghbtns.com/github-btn.html?user=cozy&repo=cozy-photos&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/photos.svg"
-             style="background: #cdb19b"/>
-      </div>
-      <div>
-        <h3 class="app-title">Photos 
-        <a class="app-demo" title="{{__ 'apps go demo' }} photos" target="_blank"
-                            href="https://demo.cozycloud.cc/#apps/photos">
-          {{__ 'demo' }}
-        </a></h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/cozy-labs">Cozy Labs</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps photos description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=cozy&repo=cozy-photos&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Quickmarks -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/quickmarks.svg"
+						 style="background: #cdb19b"/>
+			</div>
+			<div>
+				<h3 class="app-title">Quickmarks </h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/pierrerousseau">Pierre</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps quickmarks description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=pierrerousseau&repo=quickmarks&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/quickmarks.svg"
-             style="background: #cdb19b"/>
-      </div>
-      <div>
-        <h3 class="app-title">Quickmarks </h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/pierrerousseau">Pierre</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps quickmarks description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=pierrerousseau&repo=quickmarks&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Remote Storage -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/remotestorage.svg"
+						 style="background: #78dc9a"/>
+			</div>
+			<div>
+				<h3 class="app-title">Remote Storage </h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/aenario">Romain</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps remotestorage description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=aenario&repo=cozy-remotestorage&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/remotestorage.svg"
-             style="background: #78dc9a"/>
-      </div>
-      <div>
-        <h3 class="app-title">Remote Storage </h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/aenario">Romain</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps remotestorage description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=aenario&repo=cozy-remotestorage&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Sync -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/sync.svg"
+						 style="background: #6EE1C8"/>
+			</div>
+			<div>
+				<h3 class="app-title">Sync </h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/cozy">Cozy</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps sync description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=cozy&repo=cozy-sync&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
+		<!-- Tasky -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/tasky.svg"
+						 style="background: #B4AED9"/>
+			</div>
+			<div>
+				<h3 class="app-title">Tasky </h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/jsilvestre">Joseph</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps tasky description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=jsilvestre&repo=tasky&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/sync.svg"
-             style="background: #6EE1C8"/>
-      </div>
-      <div>
-        <h3 class="app-title">Sync </h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/cozy">Cozy</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps sync description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=cozy&repo=cozy-sync&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Term -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/term.svg"
+						 style="background: #C4BEE9"/>
+			</div>
+			<div>
+				<h3 class="app-title">Term </h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/alpha14">Alexandre</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps term description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=alpha14&repo=cozy-term&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/tasky.svg"
-             style="background: #B4AED9"/>
-      </div>
-      <div>
-        <h3 class="app-title">Tasky </h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/jsilvestre">Joseph</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps tasky description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=jsilvestre&repo=tasky&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- The Lounge -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/thelounge.svg"
+						 style="background: #8BEE8C"/>
+			</div>
+			<div>
+				<h3 class="app-title">The Lounge</h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/y-lohse">Yannick</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps thelounge description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=y-lohse&repo=cozy-thelounge&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
 
-    </div>
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/term.svg"
-             style="background: #C4BEE9"/>
-      </div>
-      <div>
-        <h3 class="app-title">Term </h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/alpha14">Alexandre</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps term description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=alpha14&repo=cozy-term&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
+		<!-- Zero Feeds -->
+		<div class="col-xs-24 col-lg-12 app">
+			<div class="app-img">
+				<img src="../images/spinner.svg"
+						 data-src="../images/apps/zero-feeds.svg"
+						 style="background: #bbcaA9"/>
+			</div>
+			<div>
+				<h3 class="app-title">Zero-Feeds </h3>
+				<p class="app-type">{{__ 'apps built by'}}
+					<a href="https://github.com/pierrerousseau">Pierre</a>
+				</p>
+				<p class="app-description">
+					{{__ 'apps zero-feeds description'}}
+					<br />
+					<iframe src="https://ghbtns.com/github-btn.html?user=pierrerousseau&repo=zero-feeds&type=star&count=true"
+									frameborder="0" scrolling="0" width="170px" height="20px">
+					</iframe>
+				</p>
+			</div>
+		</div>
+	</div>
 
-    </div>
-
-    <!-- The Lounge -->
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/thelounge.svg"
-             style="background: #8BEE8C"/>
-      </div>
-      <div>
-        <h3 class="app-title">The Lounge</h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/y-lohse">Yannick</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps thelounge description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=y-lohse&repo=cozy-thelounge&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
-    </div>
-
-    <div class="col-xs-24 col-lg-12 app">
-      <div class="app-img">
-        <img src="../images/spinner.svg"
-             data-src="../images/apps/zero-feeds.svg"
-             style="background: #bbcaA9"/>
-      </div>
-      <div>
-        <h3 class="app-title">Zero-Feeds </h3>
-        <p class="app-type">{{__ 'apps built by'}}
-          <a href="https://github.com/pierrerousseau">Pierre</a>
-        </p>
-        <p class="app-description">
-          {{__ 'apps zero-feeds description'}}
-          <br />
-          <iframe src="https://ghbtns.com/github-btn.html?user=pierrerousseau&repo=zero-feeds&type=star&count=true"
-                  frameborder="0" scrolling="0" width="170px" height="20px">
-          </iframe>
-        </p>
-      </div>
-
-    </div></div>
-  </div>
 {{> footer }}
