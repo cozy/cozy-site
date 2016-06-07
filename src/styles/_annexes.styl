@@ -171,6 +171,10 @@ body.is-annexe
   color darken(#06608D, 20%)
   text-align center
 
+.businessModel-providers img
+  width 4em
+  height 4em
+  margin-right 0.125em
 
 // Timeline
 .timeline
@@ -321,6 +325,12 @@ body.is-annexe
     margin-bottom 4.5rem
     display flex
     align-items center
+    
+    +bp-max(md)
+      flex-direction column
+      margin-left 1.5rem
+      margin-right 1.5rem
+      text-align center
 
     img
       width 7.5rem
@@ -330,11 +340,11 @@ body.is-annexe
       border-radius 50%
       box-shadow 0 2px 6px rgba(0,0,0,0.16)
 
-      @media (max-width: 800px)
-        width 6rem
-        padding 1.25rem
-        margin-right 1.5rem
-        margin-left 1.5rem
+      +bp-max(md)
+        width 5rem
+        padding .875rem
+        margin-right 1rem
+        margin-left 1rem
 
     .app-img
       flex none
@@ -344,23 +354,18 @@ body.is-annexe
       margin-bottom 0
       text-transform none
 
-      @media (max-width: 800px)
+      +bp-max(md)
+        margin-top .5rem
         font-size (20/16)em
+        text-align center
 
     p.app-type
       font-style italic
       margin-bottom 0.5rem
-
-    .app-demo
-      top: -10px
-      position: relative
-      font-size: 0.5em
-      text-transform: uppercase
-      background-color: yellow
-      color: black
-      padding: 0.1em 0.3em
+      
+      +bp-max(md)
+        font-size $fs-sm
+        text-align center
 
     p:last-child
       margin 0
-
-

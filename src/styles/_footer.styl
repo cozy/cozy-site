@@ -101,19 +101,29 @@
 
 		margin-top 2em
 
+.subsribe-form
+	display flex
+
 .siteFooter-subscribeEmail
-	width 70%
-	padding 0.4em
-	border 0
+	padding 0.25em 0.4em
+	margin-right 0.125em
+	border 0.0625rem solid lighten($clr-base, 67%)
+	border-radius 3px
+	
+	+bp-max(lg)
+		width 100%
+
+	&:focus
+		border-color lighten($clr-base, 30%)
 
 .siteFooter-subscribeButton
-	background-color grey + 30%
-	border-color grey + 30%
-	padding 0.4em
+	padding 0.125rem 0.4rem
+	background-color lighten($clr-base, 30%)
+	border-color lighten($clr-base, 30%)
 
 	&:hover
-			background-color grey
-			border-color grey
+			background-color $clr-base
+			border-color $clr-base
 
 .siteFooter-listTitle.newsletter
 		margin-top 2em

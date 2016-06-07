@@ -407,5 +407,7 @@
 	"locale english": "English",
 	"locale french": "French",
 	"demo": "demo",
-	"apps go demo": "Go to demo of"
+	"apps go demo": "Go to demo of",
+	"testimonials title": "testimonials",
+	"→ live demo": "→ live demo"
 }
