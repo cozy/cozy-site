@@ -109,6 +109,9 @@ textarea
   display: flex
   justify-content: center
   margin-bottom: $form-group-mb
+  
+  +bp-max(md)
+    flex-direction column
 
   .form-group
     margin-left: $spacer-x
@@ -116,6 +119,10 @@ textarea
     vertical-align: middle
     &:first-child
       margin-left: 0
+      
+    +bp-max(md)
+      margin-left 0
+      margin-bottom .5rem
 
   .form-control
     display: inline-block;
