@@ -1,6 +1,6 @@
 {
-	"try main title": "Enjoy a free Cozy",
-	"try description": "We'll provide you with a Cozy and 60GB of disk space (hosted in France), in exchange of your feedback and contribution to the Cozy Project. A lot of people are eager to try out Cozy and they are available in limited number, so expect to wait before getting yours.",
+	"try main title": "Enjoy Cozy for Free",
+	"try description": "In return, we just ask you one thing: help us build the best Personal Cloud solution!",
 	"try description start": "We'll provide you with a Cozy and 60GB of disk space (hosted in France), ",
 	"try description link title": "in exchange of your feedback and contribution to the Cozy Project.",
 	"try description end": "A lot of people are eager to try out Cozy and they are available in limited number, so expect to wait before getting yours.",
@@ -407,5 +407,12 @@
 	"locale english": "English",
 	"locale french": "French",
 	"demo": "demo",
-	"apps go demo": "Go to demo of"
+	"apps go demo": "Go to demo of",
+	"testimonials title": "testimonials title",
+	"try community": "Be involved with the community.",
+	"try bugs": "Report Bugs or anything wrong with the plateform.",
+	"try improve": "Suggest improvements on applications.",
+	"try mission": "Be a part of the mission to build a better web.",
+	"try cta title": "join the cozy community now!",
+	"try free cozy": "And get a Cozy with 60GB of disk space (hosted in France)"
 }
