@@ -1,0 +1,199 @@
+---
+layout: base.html
+
+metaTitle: business title
+metaDescription: business introduction content subtitle
+
+fullHeightIntroduction: true
+colorscheme: business
+
+locale:
+pathTo: ..
+---
+
+{{> header }}
+
+  <header class="introduction">
+    <div class="container">
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-14">
+          <h1 class="introduction-title">{{__ 'business title'}}</h1>
+        </div>
+      </div>
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-14">
+          <p class="introduction-content">
+            {{__ 'business introduction content subtitle'}}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="introduction-goTo hidden-to-lg">
+      <a href="#article" class="direction">
+        <img src="{{ pathTo }}/images/direction.svg" alt="{{__ 'landing jump'}}">
+      </a>
+    </div>
+  </header>
+
+  <article id="article">
+    <section class="panel hangs">
+      <div class="container">
+        <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-18">
+            <ul class="hangsList">
+              <li class="hangsList-item">
+                <div>
+                  <img src="{{ pathTo }}/images/icon-smiley.svg" class="hangsList-item-icon" alt="">
+                </div>
+                <div>
+                  {{__ 'business benefits relationship'}}
+                </div>
+              </li>
+              <li class="hangsList-item">
+                <div>
+                  <img src="{{ pathTo }}/images/icon-folder.svg" class="hangsList-item-icon" alt="">
+                </div>
+                <div>
+                  {{__ 'business benefits access'}}
+                </div>
+              </li>
+              <li class="hangsList-item">
+                <div>
+                  <img src="{{ pathTo }}/images/icon-medal-md.svg" class="hangsList-item-icon" alt="">
+                </div>
+                <div>
+                  {{__ 'business benefits customer'}}
+                </div>
+              </li>
+              <li class="hangsList-item">
+                <div>
+                  <img src="{{ pathTo }}/images/icon-rocket-dark.svg" class="hangsList-item-icon" alt="">
+                </div>
+                <div>
+                  {{__ 'business benefits use case'}}
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="presentation panel">
+      <div class="container">
+        <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-20">
+            <h2 class="panel-title">{{__ 'landing tellmemore'}}</h2>
+
+            <div class="row">
+              <div class="col-xs-24 col-lg-11">
+                <div class="dropcaps">
+                  <p>
+                    {{__ 'business tellmemore one'}}
+                  </p>
+                  <p>
+                    <strong class="highlight">{{__ 'business tellmemore two one'}}</strong>.
+                    {{__ 'business tellmemore two two'}}
+                  </p>
+                  <p>
+                     {{__ 'business tellmemore three'}}
+                  </p>
+                </div>
+              </div>
+              <div class="col-xs-24 col-lg-11 col-offset-lg-2">
+                <p>
+                  <em class="hang">{{__ 'business tellmemore hang'}}</em>
+                </p>
+                <p>
+                   {{__ 'business tellmemore four'}}
+                </p>
+                <p>
+                   <strong class="highlight">{{__ 'business tellmemore five one'}}</strong>.
+                   {{__ 'business tellmemore five two'}}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel contrast features">
+      <div class="container">
+        <h2 class="panel-title">{{__ 'landing features title'}}</h2>
+
+        <div class="featuresList light">
+          <div class="row row-justify-center">
+            <div class="col-xs-12 col-lg-6">
+              <div class="align-center featuresList-item-light">
+                <div class="featuresList-item-link-icon-xl">
+                    <div class="featuresIcons flex"></div>
+                </div>
+                <p>{{__ 'business features ecosystem'}}</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-lg-6">
+              <div class="align-center featuresList-item-light">
+                <span class="featuresList-item-link-icon-xl">
+                    <div class="featuresIcons sun"></div>
+                </span>
+                <p>{{__ 'business features app'}}</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-lg-6">
+              <div class="align-center featuresList-item-light">
+                <span class="featuresList-item-link-icon-xl">
+                    <div class="featuresIcons opensource"></div>
+                </span>
+                <p>{{__ 'business features open source'}}</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-lg-6">
+              <div class="align-center featuresList-item-light">
+                <div class="featuresList-item-link-icon-xl">
+                    <div class="featuresIcons thumbup"></div>
+                </div>
+                <p>{{__ 'business features trust'}}</p>
+              </div>
+            </div>
+            <!-- div class="col-xs-12 col-lg-6">
+              <div class="align-center featuresList-item-light">
+                <span class="featuresList-item-link-icon-xl">
+                  <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g fill="evenodd"><path d="M12.71 40h22.639c5.884-.032 10.651-4.753 10.651-10.526 0-5.443-4.252-10-9.744-10.485-.939-.083-1.693-.811-1.809-1.747-.292-2.368-1.383-4.545-3.131-6.231-2.014-1.943-4.673-3.011-7.5-3.011-2.828 0-5.485 1.068-7.5 3.012-1.756 1.694-2.849 3.883-3.134 6.261-.11.919-.836 1.642-1.755 1.749-2.427.282-4.659 1.365-6.383 3.1-1.966 1.98-3.044 4.585-3.044 7.351 0 5.797 4.799 10.527 10.71 10.527zm0 2c-7.01 0-12.71-5.62-12.71-12.527 0-3.294 1.287-6.406 3.625-8.761 2.048-2.061 4.701-3.343 7.572-3.677.339-2.829 1.639-5.445 3.732-7.463 2.389-2.305 5.545-3.572 8.888-3.572 3.342 0 6.499 1.267 8.888 3.571 2.084 2.01 3.38 4.611 3.728 7.425 6.475.572 11.568 5.949 11.568 12.477 0 6.884-5.665 12.489-12.64 12.526h-22.65z"/><path d="M28.243 32.243c1.112-1.111 1.757-2.623 1.757-4.243 0-3.314-2.686-6-6-6v-2c4.418 0 8 3.582 8 8 0 2.159-.862 4.177-2.343 5.657l1.631 1.631c.393.393.261.712-.279.712h-4.018c-.547 0-.991-.451-.991-.991v-4.018c0-.547.323-.668.712-.279l1.531 1.531zm-8.486-8.486l1.531 1.531c.389.389.712.268.712-.279v-4.018c0-.54-.444-.991-.991-.991h-4.018c-.54 0-.672.319-.279.712l1.631 1.631c-1.481 1.48-2.343 3.498-2.343 5.657 0 4.418 3.582 8 8 8v-2c-3.314 0-6-2.686-6-6 0-1.62.645-3.132 1.757-4.243z"/></g></svg>
+                </span>
+                <p>{{__ 'selfhosting features backup'}}</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-lg-6">
+              <div class="align-center featuresList-item-light">
+                <span class="featuresList-item-link-icon-xl">
+                  <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g fill="evenodd"><path d="M15.532 26h16.934c4.141 0 7.533-3.466 7.533-7.743 0-4.018-3.007-7.36-6.859-7.713-.94-.086-1.692-.818-1.804-1.755-.209-1.752-.985-3.358-2.224-4.598-1.417-1.417-3.276-2.192-5.252-2.192s-3.835.774-5.252 2.192c-1.246 1.246-2.023 2.861-2.226 4.62-.106.919-.829 1.645-1.747 1.756-1.696.204-3.26.991-4.474 2.258-1.396 1.457-2.163 3.382-2.163 5.431 0 4.278 3.39 7.744 7.532 7.744zm0 2c-5.257 0-9.532-4.371-9.532-9.744 0-2.562.965-4.982 2.719-6.814 1.536-1.603 3.526-2.6 5.679-2.86.254-2.2 1.229-4.235 2.799-5.804 1.792-1.793 4.159-2.778 6.666-2.778 2.506 0 4.874.985 6.666 2.778 1.563 1.563 2.535 3.586 2.796 5.775 4.856.445 8.676 4.627 8.676 9.705 0 5.372-4.278 9.743-9.533 9.743h-16.934z"/><path d="M12.829 39c-.412 1.165-1.523 2-2.829 2-1.657 0-3-1.343-3-3s1.343-3 3-3c1.306 0 2.417.835 2.829 2h2.671c1.378 0 2.5-1.121 2.5-2.5v-3.5c0-.552.448-1 1-1s1 .448 1 1v3.5c0 2.484-2.017 4.5-4.5 4.5h-2.671zm-2.829 0c.552 0 1-.448 1-1s-.448-1-1-1-1 .448-1 1 .448 1 1 1z"/><path d="M35.171 37c.412-1.165 1.523-2 2.829-2 1.657 0 3 1.343 3 3s-1.343 3-3 3c-1.306 0-2.417-.835-2.829-2h-2.671c-2.483 0-4.5-2.016-4.5-4.5v-3.5c0-.552.448-1 1-1s1 .448 1 1v3.5c0 1.379 1.122 2.5 2.5 2.5h2.671zm2.829 2c.552 0 1-.448 1-1s-.448-1-1-1-1 .448-1 1 .448 1 1 1z"/><path d="M24.987 42.166c1.172.408 2.013 1.523 2.013 2.834 0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.311.841-2.426 2.014-2.834l-.014-.164v-11.003c0-.551.444-.999 1-.999.552 0 1 .447 1 .999v11.003l-.013.165zm-.987 3.834c.552 0 1-.448 1-1s-.448-1-1-1-1 .448-1 1 .448 1 1 1z"/></g></svg>
+                </span>
+                <p>{{__ 'selfhosting features dyndns'}}</p>
+              </div>
+            </div-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel landingCTA">
+      <div class="container">
+        <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-18">
+            <h2 class="panel-title">{{__ 'business cta title'}}</h2>
+
+            <div class="align-center">
+              <a href="mailto:contact@cozycloud.cc?subject=[business] "
+                 class="btn btn-primary btn-xl btn-bounce">
+                 {{__ 'business cta button'}}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </article>
+
+{{> footer }}
