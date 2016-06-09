@@ -111,6 +111,35 @@
     background-color #EFAA47 + 90%
 
 
+// Business
+.business
+  .introduction
+    padding-top "calc(38vh + %s)" % $header-height !important
+    color $clr-lighter
+    background #F3F3F3 url(../images/bkg-business@2x.jpg) no-repeat 50% 100% / cover
+    color #3D3D3D
+
+  .introduction-title
+    color #3D3D3D
+
+  .hangs
+    color $clr-darker
+    background-color #F3F3F3
+  .features
+    background-color #86888b
+  .featuresList-item-link
+    +hover-state()
+      .featuresList-item-link-icon
+        fill: #EFAA47
+
+  .landingCTA
+    background-color #86888b + 90%
+    
+    .panel-title
+      +bp-min(lg)
+        max-width 50rem // 800px
+
+
 
 // Panels
 //
