@@ -4,52 +4,123 @@ layout: base.html
 metaTitle: try main title
 metaDescription: try description
 
+fullHeightIntroduction: true
+colorscheme: tryCozy
 
+locale:
 pathTo: ../
 ---
 
 {{> header }}
 
-  <header class="introduction">
+  <header class="introduction contrast">
     <div class="container">
       <div class="row row-justify-center">
-        <div class="col-xs-22">
+        <div class="col-xs-22 col-lg-14">
           <h1 class="introduction-title">{{__ 'try main title'}}</h1>
         </div>
       </div>
       <div class="row row-justify-center">
-        <div class="col-xs-16">
-          <p class="align-center">
-            {{__ 'try description start'}}
-            <a href="{{__ 'try description link'}}" target="_blank">{{__ 'try description link title'}}</a>
-            {{__ 'try description end'}}
+        <div class="col-xs-22 col-lg-14">
+          <p class="introduction-content">
+            {{__ 'try description'}}
           </p>
         </div>
       </div>
     </div>
+
+    <div class="introduction-goTo hidden-to-lg">
+      <a href="#article" class="direction">
+        <img src="{{ pathTo }}/images/direction.svg" 
+             alt="{{__ 'landing jump'}}">
+      </a>
+    </div>
   </header>
 
-  <article>
+  <article id="article">
+    <section class="panel hangs">
+      <div class="container">
+        <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-18">
+            <ul class="hangsList">
+              <li class="hangsList-item">
+                <div>
+                  <img src="{{ pathTo }}/images/icon-group.svg" 
+                       class="hangsList-item-icon" 
+                       alt="">
+                </div>
+                <div>
+                  {{__ 'try community'}}
+                </div>
+              </li>
+              <li class="hangsList-item">
+                <div>
+                  <img src="{{ pathTo }}/images/icon-report.svg" class="hangsList-item-icon" alt="">
+                </div>
+                <div>
+                  {{__ 'try bugs'}}
+                </div>
+              </li>
+              <li class="hangsList-item">
+                <div>
+                  <img src="{{ pathTo }}/images/icon-thumb-up.svg" class="hangsList-item-icon" alt="">
+                </div>
+                <div>
+                  {{__ 'try improve'}}
+                </div>
+              </li>
+              <li class="hangsList-item">
+                <div>
+                  <img src="{{ pathTo }}/images/icon-rocket.svg" class="hangsList-item-icon" alt="">
+                </div>
+                <div>
+                  {{__ 'try mission'}}
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel landingCTA">
+      <div class="container">
+        <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-14">
+            <h2 class="panel-title withLead">{{__ 'try cta title'}}</h2>
+            <p class="panel-lead lead">
+              {{__ 'try free cozy'}} 
+            </p>
+
+            <div class="align-center">
+              <form id="sign-me-up" action="//cozy.us4.list-manage.com/subscribe/post?u=e25ec3b4f8c222291f7d77997&amp;id=a9da8da0de" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+                <div class="form-inline">
+                  <p class="form-group">
+                    <label for="mce-signmeup-EMAIL" class="sr-only">{{__ 'try form email address'}}</label>
+                    <input id="mce-signmeup-EMAIL" type="email" class="form-control form-control-lg" name="EMAIL" placeholder="{{__ 'try form email address'}}">
+                    <span style="display: none;">
+                      <input type="text" name="b_e25ec3b4f8c222291f7d77997_a9da8da0de" tabindex="-1" value="">
+                    </span>
+                  </p>
+                  <p class="form-group">
+                    <button type="submit" name="subscribe" class="btn btn-primary btn-lg">
+                      {{__ 'try form sign up'}}
+                    </button>
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <div class="container">
       <div class="row row-justify-center">
         <div class="col-xs-22">
 
-          <form id="sign-me-up" action="//cozy.us4.list-manage.com/subscribe/post?u=e25ec3b4f8c222291f7d77997&amp;id=a9da8da0de" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
-            <div class="form-inline">
-              <p class="form-group">
-                <label for="mce-signmeup-EMAIL" class="sr-only">{{__ 'try form email address'}}</label>
-                <input id="mce-signmeup-EMAIL" type="email" class="form-control form-control-lg" name="EMAIL" placeholder="{{__ 'try form email address'}}">
-                <span style="display: none;">
-                  <input type="text" name="b_e25ec3b4f8c222291f7d77997_a9da8da0de" tabindex="-1" value="">
-                </span>
-              </p>
-              <p class="form-group">
-                <button type="submit" name="subscribe" class="btn btn-primary btn-lg">
-                  {{__ 'try form sign up'}}
-                </button>
-              </p>
-            </div>
-          </form>
+          
 
         </div>
       </div>
@@ -57,7 +128,7 @@ pathTo: ../
 
   </article>
   <script type="text/javascript">
-    document.getElementById('mce-signmeup-EMAIL').focus();
+    document.getElementById('mce-signmeup-EMAIL');
   </script>
 
 {{> footer }}
