@@ -152,7 +152,7 @@
 	"faq question seven.": "Can I create accounts for my family and friends on my Cozy server?",
 	"faq answer seven.": "Since Cozy is a personal server, it doesn't support multiple user accounts. This makes Cozy more secure and dramatically simplifies server administration.",
 	"faq question eight.": "Can I sync files between my computer and Cozy?",
-	"faq answer eight.": "Right now, to store files on your Cozy server, you need to upload them to the Files app. We are working on a multi-platform (Windows, Mac OS X, and Linux) tool that will make it possible to automatically sync files between a desktop machine or laptop and the Cozy server. You can use the Cozy mobile app to sync files, photos, and contacts between the Cozy server and an Android device.",
+	"faq answer eight.": "To store files on your Cozy server, you can upload them to the Files app. You can automatically sync files between a Linux desktop machine or laptop and the Cozy server. We are working on OSX and Windows version. You can also use the Cozy mobile app to sync files, photos, and contacts between the Cozy server and an Android device.",
 	"faq question nine.": "Is there a Cozy app for iOS?",
 	"faq answer nine.": "We plan to start working on it very soon.",
 	"faq question ten.": "Can I share a calendar with a friend?",
