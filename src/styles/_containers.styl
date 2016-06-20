@@ -17,6 +17,9 @@ body
     .introduction
       padding-top "calc(30vh + %s)"  % $header-height
       height 100vh
+      +bp-max(md)
+        padding-top "calc(25vh + %s)"  % $header-height
+        height 70vh
 
   &.is-annexe
     .introduction
