@@ -17,6 +17,9 @@ body
     .introduction
       padding-top "calc(30vh + %s)"  % $header-height
       height 100vh
+      +bp-max(md)
+        padding-top "calc(20vh + %s)"  % $header-height
+        height 70vh
 
   &.is-annexe
     .introduction
@@ -44,7 +47,7 @@ body
   text-align center
   font-size 16px
   font-weight bold
-  +bp-min(lg)
+  +bp-min(md)
     font-size 1.4rem
 
 .introduction-content-alt

@@ -13,3 +13,10 @@ bp-max($name, $breakpoints = $grid-breakpoints)
     if $name == $bp
       @media (max-width: $value)
         {block}
+
+// Media of at most the maximum breakpoint height.
+bp-max-height($name, $breakpoints = $grid-breakpoints)
+  for $bp, $value in breakpoints
+    if $name == $bp
+      @media (max-height: $value)
+        {block}

@@ -29,9 +29,11 @@
 .connectMyData
   .introduction
     color $clr-lighter
+    text-shadow 0 2px 8px #00011D
     background #00011D url(../images/bkg-connectmydata@2x.jpg) no-repeat 50% 100% / cover
   .hangs
     color $clr-lighter
+    text-shadow 0 2px 8px #00011D
     background-color #00011D
   .features
     background-color #5AA885
@@ -49,11 +51,16 @@
 // Self hosting
 .selfHosting
   .introduction
+    height 120vh
     color $clr-darker
     background url(../images/bkg-selfhosting.jpg) no-repeat 50% 100% / cover
+  .introduction-goTo
+    +bp-max-height(lg-hg)
+      display none 
   .hangs
     color $clr-darker
     background-color #F3F3F3
+    padding-top ($spacer * 2)
   .features
     background-color #0367AC
   .featuresList-item-link
@@ -68,11 +75,13 @@
 .syncFiles
   .introduction
     color $clr-lighter
+    text-shadow 0 2px 8px rgba(23,30,34,.5)
     background #171E22 url(../images/bkg-syncfiles@2x.jpg) no-repeat 50% 100% / cover
   .introduction.introduction-sync
     padding-top 24vh
   .hangs
     color $clr-lighter
+    text-shadow 0 2px 8px rgba(23,30,34,.5)
     background-color #171E22
   .features
     background-color #FA915D
@@ -89,17 +98,19 @@
 // Computer science student
 .student
   .introduction
-    padding-top "calc(53vh + %s)" % $header-height !important
     color $clr-lighter
-    background #F3F3F3 url(../images/bkg-student@2x.jpg) no-repeat 50% 100% / cover
-    color #3D3D3D
+    text-shadow 0 2px 8px #333
+    background #333 url(../images/bkg-student@2x.jpg) no-repeat 50% 100% / cover
+    +bp-max-height(md-hg)
+      padding-top "calc(20vh + %s)" % $header-height !important
 
   .introduction-title
-    color #3D3D3D
+    color $clr-lighter
+    text-shadow 0 2px 8px #333
 
   .hangs
-    color $clr-darker
-    background-color #F3F3F3
+    color $clr-lighter
+    background-color #333
   .features
     background-color #EFAA47
   .featuresList-item-link
@@ -142,9 +153,10 @@
 .business
   .introduction
     padding-top "calc(38vh + %s)" % $header-height !important
-    color $clr-lighter
+    color $clr-darker
     background #F3F3F3 url(../images/bkg-business@2x.jpg) no-repeat 50% 100% / cover
-    color #3D3D3D
+    +bp-max-height(md-hg)
+      padding-top "calc(20vh + %s)" % $header-height !important
 
   .introduction-title
     color #3D3D3D
@@ -210,6 +222,8 @@
   +bp-min(lg)
     padding-left 50px
     width 50%
+  +bp-max(md)
+    margin-bottom $spacer
 
   .hangsList-item-icon
     margin-right ($spacer / 2)
