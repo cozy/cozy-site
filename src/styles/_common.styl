@@ -144,9 +144,10 @@
 .business
   .introduction
     padding-top "calc(38vh + %s)" % $header-height !important
-    color $clr-lighter
+    color $clr-darker
     background #F3F3F3 url(../images/bkg-business@2x.jpg) no-repeat 50% 100% / cover
-    color #3D3D3D
+    +bp-max-height(md-hg)
+      padding-top "calc(20vh + %s)" % $header-height !important
 
   .introduction-title
     color #3D3D3D
