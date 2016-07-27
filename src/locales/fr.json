@@ -440,5 +440,7 @@
     "home business CTA": "en savoir plus",
     "nav business title": "Business",
     "announcement popup label": "Cozy lève 4 millions € auprès de MAIF et Innovacom pour accélérer son développement",
-    "announcement popup url": "https://blog.cozycloud.cc/post/2016/06/10/Cozy-Cloud-leve-4M-Eur-avec-MAIF-et-Innovacom"
+    "announcement popup url": "https://blog.cozycloud.cc/post/2016/06/10/Cozy-Cloud-leve-4M-Eur-avec-MAIF-et-Innovacom",
+		"footer subscribe language en": " ",
+		"footer subscribe language fr": "checked"      
 }
