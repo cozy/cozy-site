@@ -444,5 +444,9 @@
 	"announcement popup url": "https://blog.cozycloud.cc/post/2016/06/10/Cozy-Cloud-raises-4-million-EUR-with-MAIF-and-Innovacom",
 	"footer subscribe language en": "checked",
 	"footer subscribe language fr": " ",
-	"about team marketing": "Online Marketer"
+	"about team marketing": "Online Marketer",
+	"apps downloader description": "apps downloader description",
+	"apps map description": "apps map description",
+	"apps cozy-music description": "apps cozy-music description",
+	"apps tiddlywiki description": "apps tiddlywiki description"
 }
