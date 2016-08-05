@@ -447,10 +447,10 @@
 	"announcement popup label": "Cozy raises €4 million from MAIF and Innovacom to fuel its growth",
 	"announcement popup url": "https://blog.cozycloud.cc/post/2016/06/10/Cozy-Cloud-raises-4-million-EUR-with-MAIF-and-Innovacom",
 	"footer subscribe language en": "checked",
-	"footer subscribe language fr": " ",
+	"footer subscribe language fr": ".",
 	"about team marketing": "Online Marketer",
-	"apps downloader description": "apps downloader description",
-	"apps map description": "apps map description",
-	"apps cozy-music description": "apps cozy-music description",
-	"apps tiddlywiki description": "apps tiddlywiki description"
+	"apps downloader description": "Download a file from the internet to your Cozy.",
+	"apps map description": "Open Street Map in your Cozy.",
+	"apps cozy-music description": "Listen to your favorite Music in your Cozy.",
+	"apps tiddlywiki description": "A non-linear personal web notebook."
 }
