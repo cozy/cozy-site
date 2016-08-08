@@ -53,6 +53,7 @@
     "about team mobile developer": "Développeur mobile",
     "about team developer": "Développeur",
     "about team administrative finance": "Administration & Finance",
+    "about team marketing": "Online Marketeur",
     "about bmodel title": "Business Model",
     "about bmodel introduction": "Nous travaillons en étroite collaboration avec des entreprises reconnues et avec de multiples fournisseurs de services pour intégrer Cozy à leur offre de produits. Notre expertise, le soin que nous mettons à développer des produits basés sur Cozy, et l'intégration de Cozy dans l'offre d'entreprises extérieures nous assurent un revenu fixe via des royalties et des encaissements réguliers.",
     "about bmodel subtitle": "Nos clients sont répartis en trois groupes",
@@ -447,6 +448,5 @@
     "announcement popup label": "Cozy lève 4 millions € auprès de MAIF et Innovacom pour accélérer son développement",
     "announcement popup url": "https://blog.cozycloud.cc/post/2016/06/10/Cozy-Cloud-leve-4M-Eur-avec-MAIF-et-Innovacom",
     "footer subscribe language en": ".",
-    "footer subscribe language fr": "checked",
-    "about team marketing": "Online Marketeur"
-}
+    "footer subscribe language fr": "checked"
+  }
