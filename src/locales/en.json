@@ -53,6 +53,7 @@
 	"about team mobile developer": "Mobile Developer",
 	"about team developer": "Developer",
 	"about team administrative finance": "Administrative & Finance",
+	"about team marketing": "Online Marketer",
 	"about bmodel title": "Business Model",
 	"about bmodel introduction": "We work closely with established businesses and service providers to make Cozy part of their offerings. Our expertise and help in building new Cozy-based products and including Cozy into other companies product portfolios generate a steady revenue stream via regular billings and royalties.",
 	"about bmodel subtitle": "Our clients can be divided in three main group ",
@@ -353,6 +354,10 @@
 	"apps map description": "Open Street Map in your Cozy.",
 	"apps cozy-music description": "Listen to your favorite music in your Cozy",
 	"apps tiddlywiki description": "A non-linear personal web notebook.",
+	"apps downloader description": "Download a file from the internet to your Cozy.",
+	"apps map description": "Open Street Map in your Cozy.",
+	"apps cozy-music description": "Listen to your favorite Music in your Cozy.",
+	"apps tiddlywiki description": "A non-linear personal web notebook.",
 	"apps built by": "Built by",
 	"press title": "Press media kit",
 	"press introduction": "Thank you for your interest in Cozy Cloud! This kit provides essential information about the platform and its functionality.",
@@ -447,10 +452,5 @@
 	"announcement popup label": "Cozy raises €4 million from MAIF and Innovacom to fuel its growth",
 	"announcement popup url": "https://blog.cozycloud.cc/post/2016/06/10/Cozy-Cloud-raises-4-million-EUR-with-MAIF-and-Innovacom",
 	"footer subscribe language en": "checked",
-	"footer subscribe language fr": ".",
-	"about team marketing": "Online Marketer",
-	"apps downloader description": "Download a file from the internet to your Cozy.",
-	"apps map description": "Open Street Map in your Cozy.",
-	"apps cozy-music description": "Listen to your favorite Music in your Cozy.",
-	"apps tiddlywiki description": "A non-linear personal web notebook."
+	"footer subscribe language fr": " "
 }
