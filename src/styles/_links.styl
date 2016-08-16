@@ -21,33 +21,3 @@ a
   transition transform $transition-duration $transition-bounce
   +hover-state()
     transform: scale(1.5)
-
-// Social Links
-//
-// Add icons to respectives social medias links
-.socialLink
-  position relative
-  padding-left 2.5rem
-  
-  &::before
-    content ""
-    position absolute
-    left 0
-    width .875rem
-    height .875rem
-
-  &.facebook
-    &::before
-      background: url(../images/icon-facebook.svg) no-repeat 50% 50% / contain
-
-  &.twitter
-    &::before
-      background: url(../images/icon-twitter.svg) no-repeat 50% 50% / contain
-
-  &.diaspora
-    &::before
-      background: url(../images/icon-diaspora.svg) no-repeat 50% 50% / contain
-
-  &.rss
-    &::before
-      background: url(../images/icon-rss.svg) no-repeat 50% 50% / contain
