@@ -450,6 +450,6 @@
 	"footer subscribe language en": "checked",
 	"footer subscribe language fr": ".",
 	"lost title": "You lost!",
-	"lost introduction": "On attendait mieux de toi !",
-	"lost": "lost"
+	"lost introduction": "You could do better than that! Because we really like you, click below to discover the right answer.",
+	"lost cta": "I want to see the #truenews"
 }

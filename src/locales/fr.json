@@ -417,7 +417,7 @@
     "→ live demo": "→ voir démo",
     "testimonials title": "témoignages",
     "try community": "Impliquez-vous dans la communauté.",
-    "try bugs": "Rapportez les bugs et les erreurs de la plateforme.",
+    "try bugs": "Report Bugs or anything wrong with the plateform.",
     "try improve": "Proposez des améliorations d'applications.",
     "try mission": "Faites partie de ceux qui améliorent le Web.",
     "try cta title": "rejoignez la communauté Cozy !",
@@ -448,5 +448,8 @@
     "announcement popup label": "Cozy lève 4 millions € auprès de MAIF et Innovacom pour accélérer son développement",
     "announcement popup url": "https://blog.cozycloud.cc/post/2016/06/10/Cozy-Cloud-leve-4M-Eur-avec-MAIF-et-Innovacom",
     "footer subscribe language en": ".",
-    "footer subscribe language fr": "checked"
+    "footer subscribe language fr": "checked",
+    "lost title": "Perdu !",
+    "lost introduction": "Nous attendions mieux de vous ! Heureusement c'est votre jour de chance, cliquez sur le bouton ci-dessous pour découvrir la bonne réponse.",
+    "lost cta": "Je veux découvrir la #vraienews"
 }
