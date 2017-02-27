@@ -1,0 +1,40 @@
+---
+layout: base.html
+
+metaTitle: lost title
+metaDescription: lost introduction
+
+annexe: true
+
+locale:
+pathTo: ..
+from: legal
+---
+
+{{> header }}
+
+	<header class="introduction legal">
+		<div class="container">
+			<div class="row row-justify-center">
+				<div class="col-xs-22 col-lg-14">
+					<h1 class="introduction-title">{{__ 'lost title'}}</h1>
+				</div>
+			</div>
+			<div class="row row-justify-center">
+				<div class="col-xs-22 col-lg-16">
+					<iframe width="640" height="360" src="https://www.youtube.com/embed/zS11Lvi9_xQ" frameborder="0" allowfullscreen></iframe>
+					<p class="introduction-content-alt">
+						{{__ 'lost introduction'}}
+					</p>
+				</div>
+			</div>
+			<div class="row row-justify-center">
+				<a href="/{{ locale }}/try-it/?from={{from}}" class="btn btn-primary">
+					{{__ 'nav signup title'}}
+				</a>
+			</div>
+		</div>
+	</header>
+
+
+{{> footer }}
