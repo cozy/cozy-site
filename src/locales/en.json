@@ -7,7 +7,8 @@
 	"try description link": "https://forum.cozy.io/t/some-words-about-the-free-cozy-test-servers/2256",
 	"try form email address": "Email address",
 	"try form sign up": "Sign up",
-	"home main title": "Entrez Julien, vous êtes chez vous",
+	"home main title": "Entrez Romain",
+	"home secondary title": "Vous êtes vraiment chez vous !",
 	"home sub title": "Cozy est votre assistant personnel ",
 	"ungoogle main title": "Ungoogle Your Digital Life ",
 	"selfhosting main title": "Collectez automatiquement une facture ou un document",
@@ -453,5 +454,14 @@
 	"lost title": "You lost!",
 	"lost introduction": "You could do better than that! Because we really like you, click below to discover the right answer.",
 	"lost cta": "I want to see the #truenews",
-	"home first usecase title": "Mais Cozy c'est encore plus que ça. Un exemple ? Vos remboursements santé."
+	"home first usecase title": "Ils sont déjà passé chez Cozy ! (Et vous ?)",
+	"home why cozy title": "Pourquoi Cozy ?",
+	"home why cozy 1": "Vous êtes chez vous",
+	"home why cozy 2": "Vos données vous appartiennent",
+	"home why cozy 3": "Vous êtes responsables de vos données",
+	"home why cozy 4": "Nous garantissons la transparence de vos données",
+	"home why cozy 5": "Vous décidez de l'utilisation de vos données",
+	"home why cozy 6": "Cozy est plus qu'une plateforme, c'est aussi une communauté",
+	"home get app title": "Avez-vous l'application ?",
+	"home get app description": "Emportez Cozy dans votre poche ! Disponible sur l'App Store et le Google Play dès maintenant."
 }
