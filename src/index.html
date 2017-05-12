@@ -14,7 +14,7 @@ from: home
 
 {{> header }}
 
-  <header class="introduction contrast">
+  <header class="introduction">
     <div class="container">
       <div class="row">
         <div class="col-xs-20 col-lg-12">
@@ -28,13 +28,18 @@ from: home
           </p>
         </div>
       </div>
+      <div class="row ">
+        <div class="btn btn-primary btn-xl btn-bounce">
+          {{__ 'nav signup title'}}
+        </div>
+      </div>
     </div>
   </header>
-  <nav class="standFor contrast">
+  <nav class="standFor">
     <div class="container">
-      <div class="row row-justify-center">
+      <div class="row">
 
-        <div class="col-xs-24 col-lg-7">
+        <div class="col-xs-24 col-lg-12">
           <a href="{{ pathTo }}/run-your-cloud-at-home/" class="standFor-item">
             <figure class="standFor-figure">
               <img src="images/stand-for-selfhosting.svg" class="img-responsive" alt="">
@@ -42,10 +47,13 @@ from: home
             <h2 class="h4 standFor-title">
               {{__ 'selfhosting main title'}}
             </h2>
+            <p class="standFor-title">
+              {{__ 'selfhosting paragraph'}}
+            </p>
           </a>
         </div>
 
-        <div class="col-xs-24 col-lg-7">
+        <div class="col-xs-24 col-lg-12">
           <a href="{{ pathTo }}/ungoogle-your-life/" class="standFor-item">
             <figure class="standFor-figure">
               <img src="images/stand-for-ungoogleyourlife.svg" class="img-responsive" alt="">
@@ -55,7 +63,7 @@ from: home
             </h2>
           </a>
         </div>
-        <div class="col-xs-24 col-lg-7">
+        <div class="col-xs-24 col-lg-12">
           <a href="{{ pathTo }}/make-sense-of-your-data/" class="standFor-item">
             <figure class="standFor-figure">
               <img src="images/stand-for-aggregate.svg" class="img-responsive" alt="">
@@ -66,7 +74,7 @@ from: home
           </a>
         </div>
 
-        <div class="col-xs-24 col-lg-7">
+        <div class="col-xs-24 col-lg-12">
           <a href="{{ pathTo }}/backup-and-share-your-photos/" class="standFor-item">
             <figure class="standFor-figure">
               <img src="images/stand-for-files.svg" class="img-responsive" alt="">
@@ -76,7 +84,7 @@ from: home
             </h2>
           </a>
         </div>
-        <div class="col-xs-24 col-lg-7">
+        <div class="col-xs-24 col-lg-12">
           <a href="{{ pathTo }}/learn-web-development/" class="standFor-item">
             <figure class="standFor-figure">
               <img src="images/stand-for-tinkerers.svg" class="img-responsive" alt="">
@@ -90,7 +98,44 @@ from: home
       </div>
     </div>
   </nav>
-
+<section class="businessModel" id="business-model">
+  <div class="panel blueBackground contrast">
+    <div class="container">
+      <div class="businessModel-introduction">
+        <div class="row">
+          <div class="col-xs-22 col-lg-18">
+            <h2>{{__ 'home first usecase title'}}</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row row-justify-center">
+        <div class="col-lg-6 col-center">
+          <figure class="align-center">
+            <img src="{{ pathTo }}/images/business-server.svg" alt="">
+          </figure>
+        </div>
+        <div class="col-xs-22 col-lg-12">
+          <h4>{{__ 'about bmodel hproviders title'}}</h4>
+          <p>{{__ 'about bmodel hproviders content'}}</p>
+          <p class="businessModel-providers">
+            <a href="https://gandi.net">
+              <img src="{{ pathTo }}/images/hosting-gandi.png" alt="">
+            </a>
+            <a href="https://docs.cozy.io/en/host/install/install-on-ovh.html">
+              <img src="{{ pathTo }}/images/hosting-ovh.png" alt="">
+            </a>
+            <a href="https://docs.cozy.io/en/host/install/install-on-scaleway.html">
+              <img src="{{ pathTo }}/images/hosting-scaleway.png" alt="">
+            </a>
+            <a href="https://www.swhosting.com">
+              <img src="{{ pathTo }}/images/hosting-sw.png" alt="">
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="banner">
   <a href="/{{ locale }}/business/" class="container">
     <div class="row row-justify-center align-center">

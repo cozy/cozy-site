@@ -10,7 +10,8 @@
 	"home main title": "Entrez Julien, vous êtes chez vous",
 	"home sub title": "Cozy est votre assistant personnel ",
 	"ungoogle main title": "Ungoogle Your Digital Life ",
-	"selfhosting main title": "Run Your Cloud At Home",
+	"selfhosting main title": "Collectez automatiquement une facture ou un document",
+	"selfhosting paragraph": "Gagnez du temps dans votre organisation administrative.",
 	"photos main title": "Backup and Share your Photos ",
 	"connect main title": "Make Sense Of Your Data ",
 	"webdev main title": "Learn web development",
@@ -20,7 +21,7 @@
 	"nav forum title": "Forum",
 	"nav blog title": "Blog",
 	"nav source title": "Source Code",
-	"nav signup title": "Try it for free",
+	"nav signup title": "Get Cozy",
 	"nav faq title": "FAQ",
 	"nav comparison title": "Comparison",
 	"nav architecture title": "Architecture",
@@ -451,5 +452,6 @@
 	"footer subscribe language fr": ".",
 	"lost title": "You lost!",
 	"lost introduction": "You could do better than that! Because we really like you, click below to discover the right answer.",
-	"lost cta": "I want to see the #truenews"
+	"lost cta": "I want to see the #truenews",
+	"home first usecase title": "Mais Cozy c'est encore plus que ça. Un exemple ? Vos remboursements santé."
 }
