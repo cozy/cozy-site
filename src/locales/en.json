@@ -466,5 +466,17 @@
 	"home get app description": "Emportez Cozy dans votre poche ! Disponible sur l'App Store et le Google Play dès maintenant.",
 	"nav features title": "Product",
 	"nav desktop app title": "Download desktop app",
-	"nav mobile app title": "Download mobile app"
+	"nav mobile app title": "Download mobile app",
+	"home press title": "They talk about us",
+	"home value proposition 1": "Synchronisez vos fichiers et photos",
+	"home value proposition text 1": "Et retrouvez les partout, sur tous vos appareils.",
+	"home value proposition 2": "Téléchargez automatiquement toutes vos factures",
+	"home value proposition text 2": "La phobie administrative est maintenant de l'histoire ancienne.",
+	"home value proposition 3": "Suivez vos dépenses",
+	"home value proposition text 3": "Et même vos remboursements de santé.",
+	"home value proposition 4": "Respectez enfin votre vie privée",
+	"home value proposition text 4": "Cozy Cloud ne revends pas vos données, juré craché.",
+	"home features CTA": "Learn more about Cozy features",
+	"home cta title": "Reprenez en main votre vie numérique",
+	"nav support title": "Support"
 }
