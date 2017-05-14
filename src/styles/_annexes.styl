@@ -9,6 +9,9 @@
 // Ungoogle your life
 .introduction
   // Set backgrounds
+  &.home-pierre
+    background #fff url(../images/bkg-home@2x.png) no-repeat 50% 100% / cover
+
   &.about
     background #a19c8b url(../images/bkg-about.jpg) no-repeat 50% 0 / cover
 
@@ -325,7 +328,7 @@ body.is-annexe
     margin-bottom 4.5rem
     display flex
     align-items center
-    
+
     +bp-max(md)
       flex-direction column
       margin-left 1.5rem
@@ -362,7 +365,7 @@ body.is-annexe
     p.app-type
       font-style italic
       margin-bottom 0.5rem
-      
+
       +bp-max(md)
         font-size $fs-sm
         text-align center
