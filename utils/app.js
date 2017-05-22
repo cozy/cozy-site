@@ -9,17 +9,6 @@ var colorPicker = require('./color');
 client = request.newClient("https://api.github.com/");
 clientFile = request.newClient("https://raw.githubusercontent.com/");
 
-var repos_with_demo = {
-  'contacts': 'https://demo.cozycloud.cc/#apps/contacts/',
-  'calendar': 'https://demo.cozycloud.cc/#apps/calendar/',
-  'emails': 'https://demo.cozycloud.cc/#apps/emails/account/new',
-  'files': 'https://demo.cozycloud.cc/#apps/files/',
-  'blog': 'https://demo.cozycloud.cc/#apps/blog/',
-  'konnectors': 'https://demo.cozycloud.cc/#apps/konnectors/',
-  'pr-owm': 'https://demo.cozycloud.cc/#apps/pr-owm/',
-  'photos': 'https://demo.cozycloud.cc/#apps/photos'};
-
-//var repos_with_demo = ['cozy-contact', 'cozy-calendar'];
 var html = `---
 layout: base.html
 
@@ -70,17 +59,6 @@ client.get("repos/cozy/cozy-registry/contents/apps", (req, res, body) => {
 
       var color = colorPicker.getColor(app.slug, 'cozy');
 
-      var demo_tag = '';
-      if (repos_with_demo.hasOwnProperty(app.slug)){
-        var demo_url = repos_with_demo[app.slug];
-        var demo_title = `{{__ 'apps go demo' }} ${app.slug}`;
-        var demo_tag = `
-        <a class="app-demo" title="${demo_title}" target="_blank"
-                            href="${demo_url}">
-          {{__ 'demo' }}
-        </a>`;
-      };
-
       html += `
     <div class="col-xs-24 col-lg-12 app">
       <div>
@@ -89,7 +67,7 @@ client.get("repos/cozy/cozy-registry/contents/apps", (req, res, body) => {
              style="background: ${color}"/>
       </div>
       <div>
-        <h3 class="app-title">${app.displayName} ${demo_tag}</h3>
+        <h3 class="app-title">${app.displayName}</h3>
         <p class="app-type">{{__ 'apps built by'}}
           <a href="${app.author.url}">${app.author.name}</a>
         </p>
