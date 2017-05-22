@@ -1,0 +1,40 @@
+---
+layout: base.html
+
+metaTitle: lost title
+metaDescription: lost introduction
+
+annexe: true
+
+locale:
+pathTo: ..
+from: legal
+---
+
+{{> header }}
+
+	<header class="introduction legal">
+		<div class="container">
+			<div class="row row-justify-center">
+				<div class="col-xs-22 col-lg-14">
+					<h1 class="introduction-title">{{__ 'lost title'}}</h1>
+				</div>
+			</div>
+			<div class="row row-justify-center">
+				<div class="col-xs-22 col-lg-16">
+						<iframe width="780" height="439" src="https://www.youtube.com/embed/1xZ83Yi7n9g" frameborder="0" allowfullscreen></iframe>
+					<p class="introduction-content-alt">
+						<p>{{__ 'lost introduction'}}</p>
+					</p>
+				</div>
+			</div>
+			<div class="row row-justify-center">
+				<a href="https://blog.cozycloud.cc/post/2017/02/28/Rendez-nous-nos-donnees" class="btn btn-primary">
+					{{__ 'lost cta'}}
+				</a>
+			</div>
+		</div>
+	</header>
+
+
+{{> footer }}
