@@ -4,11 +4,6 @@
 .home-pierre
 	height 94vh
 
-+bp-min(lg)
-	.is-homepage .siteHeader
-		background-color #ddd
-		box-shadow none
-
 .panel
 	padding 2rem 0
 
@@ -38,26 +33,7 @@
 			height .25rem // 4px
 			background-color $clr-lighter
 
-	.siteHeader.contrast
-		.siteNavigation
-			.btn-link
-				color $nav-link-clr-contrast
-				transition border 0.4s ease
-
-				+hover-state()
-					border-bottom 1px solid rgba(0,0,0,.33)
-
-			.siteNavigation-ctaContainer
-					.btn.btn-primary
-						background-color $clr-darker
-
-						+hover-state()
-							background-color darken($clr-darker, 25%)
-							border-color darken($clr-darker, 25%)
-
-
-		.siteLogo
-			fill $clr-lighter
+	
 
 
 
