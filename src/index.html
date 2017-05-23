@@ -14,7 +14,7 @@ from: home
 
 {{> header }}
 
-  <header class="introduction">
+  <header class="introduction home-pierre">
     <div class="container">
       <div class="row">
         <div class="col-xs-20 col-lg-14">
@@ -22,14 +22,14 @@ from: home
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-20 col-lg-13">
+        <div class="col-xs-20 col-lg-10">
           <p class="introduction-content">
             {{__ 'home sub title'}}
           </p>
         </div>
       </div>
       <div class="row">
-        <div class="btn btn-primary btn-xl  col-xs-6 col-lg-6">
+        <div class="btn btn-primary btn-xl col-xs-18 col-lg-8">
           {{__ 'nav signup title'}}
         </div>
       </div>
@@ -98,87 +98,59 @@ from: home
       </div>
     </div>
   </nav> -->
-  <section class="businessModel" id="business-model">
-    <div class="panel">
+
+  <section class="media" id="media">
+    <div class="panel grey-background">
       <div class="container">
-        <div class="businessModel-introduction row-justify-center align-center">
+        <div class="row-justify-center align-center">
           <div class="row row-justify-center">
             <div class="col-xs-24 col-lg-24">
-              <h2>{{__ 'home why cozy title'}}</h2>
+              <h2>{{__ 'home press title'}}</h2>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-24 col-lg-8 align-center">
+          <div class="col-xs-24 col-lg-4 align-center">
             <figure class="">
-              <img src="{{ pathTo }}/images/business-server.svg" alt="">
+              <a href="http://bfmbusiness.bfmtv.com/mediaplayer/video/coup-de-pouce-a-une-start-up-cozy-cloud-0110-872705.html">
+                <img src="{{ pathTo }}/images/bfm-business_dark.svg" alt="">
+              </a>
             </figure>
-            <h4>{{__ 'home why cozy 1'}}</h4>
           </div>
-          <div class="col-xs-24 col-lg-8 align-center">
+          <div class="col-xs-24 col-lg-4 align-center">
             <figure class="">
-              <img src="{{ pathTo }}/images/business-server.svg" alt="">
+              <a href="http://www.lefigaro.fr/secteur/high-tech/start-up/2016/06/10/32004-20160610ARTFIG00253-cozy-cloud-la-start-up-qui-protege-vos-donnees-leve-4-millions-d-euros.php">
+                <img src="{{ pathTo }}/images/figaro-desktop_dark.svg" alt="">
+              </a>
             </figure>
-            <h4>{{__ 'home why cozy 2'}}</h4>
           </div>
-          <div class="col-xs-24 col-lg-8 align-center">
+          <div class="col-xs-24 col-lg-4 align-center">
             <figure class="">
-              <img src="{{ pathTo }}/images/business-server.svg" alt="">
+              <a href="https://www.lesechos.fr/05/06/2014/LesEchos/21702-119-ECH_cozy-cloud-permet-a-chacun-de-creer-son---personal-cloud--.htm?texte=mozilla%27foundation">
+                <img src="{{ pathTo }}/images/les-echos_dark.svg" alt="">
+              </a>
             </figure>
-            <h4>{{__ 'home why cozy 3'}}</h4>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-24 col-lg-8 align-center">
+          <div class="col-xs-24 col-lg-4 align-center">
             <figure class="">
-              <img src="{{ pathTo }}/images/business-server.svg" alt="">
+              <a href="https://www.wired.com/2013/12/open-bank-manager">
+                <img src="{{ pathTo }}/images/wired_logo_dark.svg" alt="">
+              </a>
             </figure>
-            <h4>{{__ 'home why cozy 4'}}</h4>
           </div>
-          <div class="col-xs-24 col-lg-8 align-center">
+          <div class="col-xs-24 col-lg-4 align-center">
             <figure class="">
-              <img src="{{ pathTo }}/images/business-server.svg" alt="">
+              <a href="http://www.journaldunet.com/solutions/cloud-computing/1179983-cloud-personnel-cozy-cloud-leve-4-millions-d-euros/">
+                <img src="{{ pathTo }}/images/logo_jdn_dark.svg" alt="">
+              </a>
             </figure>
-            <h4>{{__ 'home why cozy 5'}}</h4>
           </div>
-          <div class="col-xs-24 col-lg-8 align-center">
+          <div class="col-xs-24 col-lg-4 align-center">
             <figure class="">
-              <img src="{{ pathTo }}/images/business-server.svg" alt="">
+              <a href="http://www.numerama.com/magazine/33461-cozy-cloud-version.html">
+                <img src="{{ pathTo }}/images/numerama_dark.svg" alt="">
+              </a>
             </figure>
-            <h4>{{__ 'home why cozy 6'}}</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="businessModel" id="business-model">
-    <div class="panel blueBackground contrast">
-      <div class="container">
-        <div class="businessModel-introduction row-justify-center align-center">
-          <div class="row row-justify-center">
-            <div class="col-xs-24 col-lg-18">
-              <h2>{{__ 'home first usecase title'}}</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-24 col-lg-8 align-center">
-            <figure class="">
-              <img src="{{ pathTo }}/images/business-server.svg" alt="">
-            </figure>
-            <h4>{{__ 'about bmodel hproviders title'}}</h4>
-          </div>
-          <div class="col-xs-24 col-lg-8 align-center">
-            <figure class="">
-              <img src="{{ pathTo }}/images/business-server.svg" alt="">
-            </figure>
-            <h4>{{__ 'about bmodel hproviders title'}}</h4>
-          </div>
-          <div class="col-xs-24 col-lg-8 align-center">
-            <figure class="">
-              <img src="{{ pathTo }}/images/business-server.svg" alt="">
-            </figure>
-            <h4>{{__ 'about bmodel hproviders title'}}</h4>
           </div>
           <!-- <div class="col-xs-22 col-lg-12">
             <h4>{{__ 'about bmodel hproviders title'}}</h4>
@@ -202,6 +174,61 @@ from: home
       </div>
     </div>
   </section>
+
+  <section class="" id="">
+    <div class="panel">
+      <div class="container">
+        <div class="row-justify-center align-center">
+          <div class="row row-justify-center">
+            <div class="col-xs-24 col-lg-24">
+              <h2 class="makeitbreathe">{{__ 'home why cozy title'}}</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-lg-6 align-center">
+            <figure class="">
+              <img src="{{ pathTo }}/images/business-server.svg" alt="">
+            </figure>
+            <h3>{{__ 'home value proposition 1'}}</h3>
+            <p>{{__ 'home value proposition text 1'}}</p>
+            <a href="{{ pathTo }}/features">En savoir plus ></a>
+          </div>
+          <div class="col-xs-12 col-lg-6 align-center">
+            <figure class="">
+              <img src="{{ pathTo }}/images/business-server.svg" alt="">
+            </figure>
+            <h3>{{__ 'home value proposition 2'}}</h3>
+            <p>{{__ 'home value proposition text 2'}}</p>
+            <a href="{{ pathTo }}/features">En savoir plus ></a>
+          </div>
+          <div class="col-xs-12 col-lg-6 align-center">
+            <figure class="">
+              <img src="{{ pathTo }}/images/business-server.svg" alt="">
+            </figure>
+            <h3>{{__ 'home value proposition 3'}}</h3>
+            <p>{{__ 'home value proposition text 3'}}</p>
+            <a href="{{ pathTo }}/features">En savoir plus ></a>
+          </div>
+          <div class="col-xs-12 col-lg-6 align-center">
+            <figure class="">
+              <img src="{{ pathTo }}/images/business-server.svg" alt="">
+            </figure>
+            <h3>{{__ 'home value proposition 4'}}</h3>
+            <p>{{__ 'home value proposition text 4'}}</p>
+            <a href="{{ pathTo }}/privacy">En savoir plus ></a>
+          </div>
+        </div>
+<!--        <div class="row row-justify-center align-center">
+          <div class="col-xs-12 col-lg-24 align-center">
+            <div class="btn btn-outlined-primary">
+              {{__ 'home features CTA'}}
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
 <!--  <section class="banner">
     <a href="/{{ locale }}/business/" class="container">
       <div class="row row-justify-center align-center">
@@ -221,7 +248,7 @@ from: home
       </div>
     </a>
   </section> -->
-  <section class="businessModel">
+<!--  <section class="businessModel">
     <div class="row row-justify-center align-center">
       <div class="col-xs-22 col-lg-18">
         <figure class="">
@@ -234,6 +261,45 @@ from: home
           <p>{{__ 'home get app description'}}</p>
         </div>
       </div>
+    </div>
+  </section> -->
+
+  <section class="panel landingCTA">
+    <div class="container">
+      <h2 class="panel-title">
+          {{__ 'home cta title'}}
+      </h2>
+
+      <div class="row row-justify-center align-center">
+        <div class="align-center">
+          <a href="mailto:contact@cozycloud.cc" class="btn btn-primary btn-xl btn-bounce">
+            {{__ 'nav signup title'}}
+          </a>
+        </div>
+      </div>
+
+<!--      <div class="row row-justify-center align-center">
+        <div class="col-xs-24 col-lg-4 align-center">
+          <figure class="">
+            <img src="{{ pathTo }}/images/app-store-badge.svg" alt="App Store Badge">
+          </figure>
+        </div>
+        <div class="col-xs-24 col-lg-4 align-center">
+          <figure class="">
+            <img src="{{ pathTo }}/images/google-play-badge.svg" class="" alt="Google Play Badge">
+          </figure>
+        </div>
+        <div class="col-xs-24 col-lg-4 align-center">
+          <figure class="">
+            <img src="{{ pathTo }}/images/mac-app-store.svg" alt="Mac App Store Badge">
+          </figure>
+        </div>
+        <div class="col-xs-24 col-lg-4 align-center">
+          <figure class="">
+            <img src="{{ pathTo }}/images/windows-store-logo.svg" alt="Windows Store Badge">
+          </figure>
+        </div>
+      </div> -->
     </div>
   </section>
 
