@@ -30,7 +30,7 @@ from: home
       </div>
       <div class="row">
         <div class="btn btn-primary btn-xl col-xs-18 col-lg-8">
-          {{__ 'nav signup title'}}
+          <a href="/{{ locale }}/try-it?from={{from}}">{{__ 'nav signup title'}}</a>
         </div>
       </div>
     </div>
@@ -272,7 +272,7 @@ from: home
 
       <div class="row row-justify-center align-center">
         <div class="align-center">
-          <a href="mailto:contact@cozycloud.cc" class="btn btn-primary btn-xl btn-bounce">
+          <a href="/{{ locale }}/try-it?from={{from}}" class="btn btn-primary btn-xl btn-bounce">
             {{__ 'nav signup title'}}
           </a>
         </div>

@@ -1,0 +1,220 @@
+---
+layout: base.html
+
+metaTitle: features title
+metaDescription: features introduction
+
+annexe: true
+
+locale:
+pathTo: ..
+from: features
+---
+
+{{> header }}
+
+  <header class="introduction features">
+    <div class="container">
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-14">
+          <h1 class="introduction-title">{{__ 'features title'}}</h1>
+        </div>
+      </div>
+      <div class="row row-justify-center hidden-to-lg">
+        <div class="col-xs-22 col-lg-16">
+          <p class="introduction-content-alt">
+            {{__ 'features introduction'}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <article class="communityContent">
+    <div class="container">
+      <div class="row row-justify-center">
+        <div class="col-xs-22">
+          <div class="hidden-from-lg">
+            <p class="introduction-content-duplicated">
+              {{__ 'features introduction'}}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <section class="communityContent-item">
+        <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-11 col-center">
+            <div class="featuresList-screenshots col-offset-xs-1">
+              <img src="{{ pathTo }}/images/features/connectyourdata/features-konnectors.png" alt="">
+            </div>
+          </div>
+          <div class="col-xs-22 col-lg-10 col-offset-lg-1 col-center">
+            <div class="communityContent-item-desc">
+              <h2>
+                {{__ 'features gather data title'}}
+              </h2>
+              <ul>
+                <li>
+                  {{__ 'features gather data content'}}
+                </li>
+                <li>
+                  {{__ 'features gather data content'}}
+                </li>
+                <li>
+                  {{__ 'features gather data content'}}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="hidden-to-lg">
+
+      <section class="communityContent-item">
+        <div class="row row-justify-center row-row-reverse">
+          <div class="col-xs-22 col-lg-11 col-center">
+            <div class="communityContent-item-titleIcon">
+              <span class="icon-rounded xl">
+                <img src="{{ pathTo }}/images/icon-note.svg" alt="">
+              </span>
+            </div>
+          </div>
+          <div class="col-xs-22 col-lg-10 col-offset-lg-1 col-center">
+            <div class="communityContent-item-desc">
+              <h2>
+                {{__ 'features sync share title'}}
+              </h2>
+              <ul>
+                <li>
+                  {{__ 'features sync share content'}}
+                </li>
+                <li>
+                  {{__ 'features sync share content'}}
+                </li>
+                <li>
+                  {{__ 'features sync share content'}}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="hidden-to-lg">
+
+      <section class="communityContent-item">
+        <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-11 col-center">
+            <div class="communityContent-item-titleIcon">
+              <span class="icon-rounded xl">
+                <img src="{{ pathTo }}/images/icon-develop.svg" alt="">
+              </span>
+            </div>
+          </div>
+          <div class="col-xs-22 col-lg-10 col-offset-lg-1 col-center">
+            <div class="communityContent-item-desc">
+              <h2>
+                 {{__ 'features collect title'}}
+              </h2>
+              <ul>
+                <li>
+                  {{__ 'features collect content'}}
+                </li>
+                <li>
+                  {{__ 'features collect content'}}
+                </li>
+                <li>
+                  {{__ 'features collect content'}}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="hidden-to-lg">
+
+      <section class="communityContent-item">
+        <div class="row row-justify-center row-row-reverse">
+          <div class="col-xs-22 col-lg-11 col-center">
+            <div class="communityContent-item-titleIcon">
+              <span class="icon-rounded xl">
+                <img src="{{ pathTo }}/images/icon-headphone.svg" alt="">
+              </span>
+            </div>
+          </div>
+          <div class="col-xs-22 col-lg-10 col-offset-lg-1 col-center">
+            <div class="communityContent-item-desc">
+              <h2>
+                {{__ 'features bank title'}}
+              </h2>
+              <ul>
+                <li>
+                  {{__ 'features bank content'}}
+                </li>
+                <li>
+                  {{__ 'features bank content'}}
+                </li>
+                <li>
+                  {{__ 'features bank content'}}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="hidden-to-lg">
+
+      <section class="communityContent-item">
+        <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-11 col-center">
+            <div class="communityContent-item-titleIcon">
+              <span class="icon-rounded xl">
+                <img src="{{ pathTo }}/images/icon-smiley.svg" alt="">
+              </span>
+            </div>
+          </div>
+          <div class="col-xs-22 col-lg-10 col-offset-lg-1 col-center">
+            <div class="communityContent-item-desc">
+              <h2>
+                {{__ 'features sante title'}}
+              </h2>
+              <ul>
+                <li>
+                  {{__ 'features sante content'}}
+                </li>
+                <li>
+                  {{__ 'features sante content'}}
+                </li>
+                <li>
+                  {{__ 'features sante content'}}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </article>
+
+  <section class="panel landingCTA">
+    <div class="container">
+      <h2 class="panel-title">
+          {{__ 'features cta title'}}
+      </h2>
+
+      <div class="row row-justify-center align-center">
+        <div class="align-center">
+          <a href="/{{ locale }}/try-it?from={{from}}" class="btn btn-primary btn-xl btn-bounce">
+            {{__ 'nav signup title'}}
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{{> footer }}
