@@ -32,7 +32,8 @@ $(function() {
     }).resize();
   });
 
-  $featuresLink.on('click', function() {
+  $featuresLink.on('mouseover', function() {
+
     $featuresLink.filter('.active').removeClass('active');
     $(this).addClass('active');
 
