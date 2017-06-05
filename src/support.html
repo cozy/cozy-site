@@ -1,0 +1,138 @@
+---
+layout: base.html
+
+metaTitle: features title
+metaDescription: features introduction
+annexe: true
+
+colorscheme: support
+
+locale:
+pathTo: ..
+from: support
+---
+
+{{> header }}
+
+  <header class="introduction contrast support">
+    <div class="container">
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-14">
+          <h1 class="introduction-title">{{__ 'support title'}}</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <article class="aboutContent">
+
+    <section class="" id="">
+      <div class="panel">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a href="{{__ 'url forum'}}">
+                <figure class="">
+                  <img src="{{ pathTo }}/images/icon-site-sync.svg" alt="">
+                </figure>
+                <h3>{{__ 'support forum'}}</h3>
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a href="https://twitter.com/MyCozyCloud">
+                <figure class="">
+                  <img src="{{ pathTo }}/images/icon-site-bills.svg" alt="">
+                </figure>
+                <h3>{{__ 'support twitter'}}</h3>
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a href="mailto:contact@cozycloud.cc">
+                <figure class="">
+                  <img src="{{ pathTo }}/images/icon-site-expenses.svg" alt="">
+                </figure>
+                <h3>{{__ 'support email'}}</h3>
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a href="https://mesinfos.fing.org/forum/">
+                <figure class="container">
+                  <img src="{{ pathTo }}/images/mesinfos-logo.png" alt="">
+                </figure>
+                <h3>{{__ 'support mesinfos'}}</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="dash-primary">
+
+    <section class="" id="">
+      <div class="panel">
+        <div class="container">
+          <div class="row-justify-center align-center">
+            <div class="row row-justify-center">
+              <div class="col-xs-24 col-lg-24">
+                <h2 class="makeitbreathe">{{__ 'support apps title'}}</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a href="https://forum.cozy.io/c/cozy-v3/general">
+                <figure class="">
+                  <svg alt="Cozy Cloud" class="siteLogo" viewBox="0 0 60 46" xmlns="http://www.w3.org/2000/svg"><g><path d="M44.113 46h-28.225c-8.762 0-15.887-7.181-15.887-16.007 0-4.209 1.608-8.185 4.531-11.194 2.56-2.633 5.877-4.272 9.464-4.698.424-3.615 2.049-6.957 4.664-9.536 2.986-2.946 6.932-4.564 11.11-4.564 4.177 0 8.124 1.618 11.11 4.563 2.605 2.568 4.225 5.892 4.66 9.487 8.094.731 14.46 7.602 14.46 15.943 0 8.826-7.13 16.006-15.889 16.006h.001zm.054-3.001h.122c7.01 0 12.712-5.777 12.712-12.879 0-7.1-5.702-12.878-12.712-12.878h-.128c-.915 0-1.665-.738-1.686-1.667-.158-6.936-5.858-12.575-12.707-12.575-6.849 0-12.551 5.642-12.708 12.577-.021.912-.746 1.648-1.648 1.669-6.844.16-12.413 5.935-12.413 12.875 0 7.102 5.702 12.879 12.712 12.879h.103l.04-.002.109.002h28.199l.004-.001zm-6.249-13.965c-1.002-.658-1.051-1.867-1.054-1.92-.007-.329-.274-.587-.6-.582-.326.006-.586.278-.58.604.002.043.019.611.288 1.28-3.567 3.401-9.173 3.406-12.747.021.276-.679.294-1.256.294-1.3.006-.326-.252-.595-.576-.604-.32-.01-.593.254-.604.58 0 .048-.048 1.262-1.053 1.92-.274.181-.35.55-.172.824.113.174.3.269.495.269.11 0 .222-.031.322-.097.258-.169.474-.362.655-.568 1.985 1.8 4.494 2.699 7.003 2.699 2.515 0 5.029-.903 7.018-2.712.182.208.401.406.666.58.098.065.211.097.322.097.192 0 .38-.097.495-.271.178-.275.101-.645-.172-.824v.002z"/></g></svg>
+                </figure>
+                <h4>{{__ 'support apps general'}}</h4>
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a href="https://forum.cozy.io/c/cozy-v3/drive">
+                <figure class="">
+                  <img src="{{ pathTo }}/images/apps/cozy-drive.svg" alt="">
+                </figure>
+                <h4>{{__ 'support apps drive'}}</h4>
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a href="https://forum.cozy.io/c/cozy-v3/photos">
+                <figure class="">
+                  <img src="{{ pathTo }}/images/apps/cozy-photos.svg" alt="">
+                </figure>
+                <h4>{{__ 'support apps photos'}}</h4>
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a href="https://forum.cozy.io/c/cozy-v3/parametres">
+                <figure class="">
+                  <img src="{{ pathTo }}/images/apps/cozy-settings.svg" alt="">
+                </figure>
+                <h4>{{__ 'support apps settings'}}</h4>
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a href="https://forum.cozy.io/c/cozy-v3/mobile">
+                <figure class="">
+                  <img src="{{ pathTo }}/images/apps/cozy-phone.svg" alt="">
+                </figure>
+                <h4>{{__ 'support apps mobile'}}</h4>
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a href="https://forum.cozy.io/c/cozy-v3/macos">
+                <figure class="">
+                  <img src="{{ pathTo }}/images/apps/icon-laptop-32.svg" alt="">
+                </figure>
+                <h4>{{__ 'support apps macOS'}}</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </article>
+
+{{> footer }}
