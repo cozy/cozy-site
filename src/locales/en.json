@@ -513,7 +513,7 @@
 	"support forum": "Premiers pas",
 	"support twitter": "Support Twitter",
 	"support email": "Envoyer un email",
-	"support mesinfos": "Support et forum MesInfos",
+	"support mesinfos": "Forum MesInfos",
 	"support apps title": "Autres options pour obtenir de l'aide",
 	"support apps general": "Plateforme",
 	"support apps drive": "Cozy Drive",
@@ -526,5 +526,9 @@
 	"support ideas": "Boîte à idées",
 	"support FAQ": "Foire aux questions",
 	"url forum support": "https://forum.cozy.io/c/francais/assistance",
-	"url forum ideas": "https://forum.cozy.io/c/francais/general"
+	"url forum ideas": "https://forum.cozy.io/c/francais/general",
+	"support get started text": "Découvrez comment prendre en main Cozy",
+	"support bugs text": "Venez rapporter les bugs et ",
+	"support ideas text": "support ideas text",
+	"support mesinfos text": "support mesinfos text"
 }

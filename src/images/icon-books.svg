@@ -1,20 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
-    <title>Group</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="Group" stroke="#000000">
-            <polygon id="Stroke-2339" points="10.5 23.5 4.5 23.5 4.5 0.5 10.5 0.5"></polygon>
-            <polygon id="Stroke-2340" points="16.5 23.5 10.5 23.5 10.5 8.5 16.5 8.5"></polygon>
-            <path d="M12.5,21.5 L14.5,21.5" id="Stroke-2341"></path>
-            <path d="M7.5,2.5 L7.5,15.5" id="Stroke-2342"></path>
-            <polygon id="Stroke-2343" points="8.5 21.5 6.5 21.5 6.5 17.5 8.5 17.5"></polygon>
-            <path d="M13.5,10.5 L13.5,19.5" id="Stroke-2344"></path>
-            <path d="M2.5,6.5 L2.5,20.5" id="Stroke-2345"></path>
-            <polygon id="Stroke-2346" points="0.5 23.5 4.5 23.5 4.5 3.5 0.5 3.5"></polygon>
-            <polygon id="Stroke-2347" points="23.4043 22.75 20.5003 23.5 15.4993 4.135 18.4043 3.385"></polygon>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+<g id="Page-1">
+	<g id="Group">
+		
+			<polygon id="Stroke-2339" fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" points="
+			178.7,368.8 90.6,368.8 90.6,31.2 178.7,31.2 		"/>
+		
+			<polygon id="Stroke-2340" fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" points="
+			266.8,368.8 178.7,368.8 178.7,148.6 266.8,148.6 		"/>
+		<path id="Stroke-2341" fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="
+			M208,339.5h29.4"/>
+		<path id="Stroke-2342" fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="
+			M134.6,60.5v190.8"/>
+		
+			<polygon id="Stroke-2343" fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" points="
+			149.3,339.5 120,339.5 120,280.7 149.3,280.7 		"/>
+		<path id="Stroke-2344" fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="
+			M222.7,178v132.1"/>
+		<path id="Stroke-2345" fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" d="
+			M61.2,119.3v205.5"/>
+		
+			<polygon id="Stroke-2346" fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" points="
+			31.9,368.8 90.6,368.8 90.6,75.2 31.9,75.2 		"/>
+		
+			<polygon id="Stroke-2347" fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" points="
+			368.1,357.8 325.5,368.8 252.1,84.5 294.7,73.5 		"/>
+	</g>
+</g>
 </svg>
