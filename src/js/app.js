@@ -54,6 +54,11 @@ $(function() {
 		return false;
 	});
 
+	// Prevent a click from moving the screen to the top of the page.
+	$featuresLink.on('click', function(event) {
+		return false;
+	});
+
 
 	// Smooth scrolling on click on anchor link
 	//
