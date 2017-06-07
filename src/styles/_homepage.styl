@@ -2,10 +2,10 @@
 //
 
 .homepage
-	height 94vh
-	min-height 800px
-	max-height 1050px
-	max-width 2000px
+	// height 94vh
+	// min-height 800px
+	// max-height 1050px
+	// max-width 2000px
 	margin auto
 
 .panel
@@ -13,33 +13,42 @@
 
 .is-homepage
 
-	h1
-		color #111
-		font-size 3.375rem
-
 	.grey-background
 		background-color $clr-light
 
 	.introduction
-		padding-top 13vh
-		padding-bottom 4rem
+		padding-top 12vh
+		padding-bottom 8vh
 
 	.introduction-title
-		text-align justify
+		text-align left
 
 	.introduction-content
-		text-align justify
+		text-align left
 		font-weight normal
 		font-size 1.1rem
 
-		&::after
-			content: ""
-			display block
-			margin ($spacer-y + 0.05rem) auto 1rem
-			width 6.25rem // 100px
-			height .25rem // 4px
-			background-color $clr-lighter
+		// &::after
+		// 	content: ""
+		// 	display block
+		// 	margin ($spacer-y + 0.05rem) auto 1rem
+		// 	width 6.25rem // 100px
+		// 	height .25rem // 4px
+		// 	background-color $clr-lighter
 
+
+// Features list on homepage
+//
+
+.featuresList-item-home
+	margin-bottom 3rem
+
+	h3
+		margin-bottom .5rem
+
+	p
+		line-height 1.25rem
+		margin-bottom .5rem
 
 
 // "Stand for" icons
@@ -48,7 +57,7 @@
 .standFor,
 .standFor-item
 	display block
-	margin-bottom $spacer
+	// margin-bottom $spacer
 
 .standFor-item
 	+hover-state()
