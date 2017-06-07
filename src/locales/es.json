@@ -459,13 +459,13 @@
     "home get app description": "¡Lleve Cozy en su bolsillo! A partir de ahora está disponible en App Store y en Google Play.",
     "nav features title": "Características",
     "nav desktop app title": "Descargue la aplicación para su computador",
-    "nav mobile app title": "Download mobile app",
-    "home press title": "Already showcased by the media",
-    "home value proposition 1": "Synchronize and share your files and photos",
-    "home value proposition text 1": "And access them anywhere, on all your devices.",
-    "home value proposition 2": "Automatically import your bills",
-    "home value proposition text 2": "Save time and manage them like never before.",
-    "home value proposition 3": "Follow your daily spendings",
+    "nav mobile app title": "Descargue la aplicación para su celular",
+    "home press title": "Ya mostrado favorablemente por los medios de comunicación",
+    "home value proposition 1": "Sincronice y comparta sus archivos y fotos",
+    "home value proposition text 1": "Y acceda a ellos desde cualquier parte, en todos sus aparatos.",
+    "home value proposition 2": "Importe automáticamente sus facturas",
+    "home value proposition text 2": "Ahorre tiempo y adminístrelo como nunca antes.",
+    "home value proposition 3": "Controle sus gastos día a día",
     "home value proposition text 3": "Never miss anything, not even your healthcare reimbursements.",
     "home value proposition 4": "Take control on your privacy",
     "home value proposition text 4": "We will never sell or share your data, pinky swear.",
@@ -534,5 +534,5 @@
     "home why cozy 5": "home why cozy 5",
     "home why cozy 6": "home why cozy 6",
     "home first usecase title": "home first usecase title",
-    "footer love text": "Made with ❤️ in Paris not in San Francisco."
+    "footer love text": "Made with ❤️ in France not in California."
 }
