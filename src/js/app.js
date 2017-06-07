@@ -1,66 +1,76 @@
 $(function() {
 
-  // Small screens hamburger icon
-  var linkToMenu  = $('#siteHeader-toggleMenu'),
-      $menu       = $(linkToMenu.data('toggle'));
+	// Small screens hamburger icon
+	var linkToMenu  = $('#siteHeader-toggleMenu'),
+			$menu       = $(linkToMenu.data('toggle'));
 
-  linkToMenu.on('click', function() {
+	linkToMenu.on('click', function() {
 		$(this).toggleClass('is-active');
 
-    if($menu.hasClass('is-open')) {
-      $menu.removeClass('is-open');
-    }
-    else {
-      $menu.addClass('is-open');
-    }
+		if($menu.hasClass('is-open')) {
+			$menu.removeClass('is-open');
+		}
+		else {
+			$menu.addClass('is-open');
+		}
 
-    return false;
+		return false;
 	});
 
-  // Features
-  //
-  // Config features screenshot switching
-  var $featuresLink         = $('.featuresList-item-link'),
-      $screenshotsContainer = $('.featuresList-screenshots'),
-      $featuresScreenshot   = $('.featuresList-screenshotOutter');
+	// Features
+	//
+	// Config features screenshot switching
+	var $featuresLink         = $('.featuresList-item-link'),
+			$screenshotsContainer = $('.featuresList-screenshots'),
+			$featuresScreenshot   = $('.featuresList-screenshotOutter');
 
-  // Set height of screenshots container, from the first slide at launch
-  $('.featuresList-screenshot').load(function() {
-    $(window).on('resize', function(){
-      var firstScreenshotHeight = $featuresScreenshot.filter('.active').find('.featuresList-screenshot').height();
-      $screenshotsContainer.height(firstScreenshotHeight + 'px');
-    }).resize();
-  });
+	// Set height of screenshots container, from the first slide at launch
+	$('.featuresList-screenshot').load(function() {
+		$(window).on('resize', function(){
+			var firstScreenshotHeight = $featuresScreenshot.filter('.active').find('.featuresList-screenshot').height();
+			$screenshotsContainer.height(firstScreenshotHeight + 'px');
+		}).resize();
+	});
 
-  $featuresLink.on('click', function() {
-    $featuresLink.filter('.active').removeClass('active');
-    $(this).addClass('active');
+	$featuresLink.on('mouseover', function() {
 
-    var target = $(this).data('target');
+		// Disable active state on the previously hovered element
+		var previousActiveElement = $(this).parents('ul').find('li a.active')
+		previousActiveElement.removeClass('active')
 
-    $('.featuresList-screenshotOutter.active').removeClass('active');
-    $('#feature-' + target).addClass('active');
+		// Make current element (the one hovered) active
+		var currentElement = $(this)
+		currentElement.addClass('active');
 
-    return false;
-  });
+		// Get previous and current target value to toggle active state on the right
+		// element of the right slideshow
+		var previousTarget = previousActiveElement.data('target')
+		var currentTarget = currentElement.data('target');
 
+		// Toggle the active state on the right element of the right slideshow
+		$('#feature-' + previousTarget).removeClass('active')
+		$('#feature-' + currentTarget).addClass('active')
 
-  // Smooth scrolling on click on anchor link
-  //
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top - $('.siteHeader').outerHeight()
-        }, 500);
-        return false;
-      }
-    }
-  });
+		return false;
+	});
 
 
-  // Lazy load images
-  $("img").unveil();
+	// Smooth scrolling on click on anchor link
+	//
+	$('a[href*=#]:not([href=#])').click(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			if (target.length) {
+				$('html,body').animate({
+					scrollTop: target.offset().top - $('.siteHeader').outerHeight()
+				}, 500);
+				return false;
+			}
+		}
+	});
+
+
+	// Lazy load images
+	$("img").unveil();
 });

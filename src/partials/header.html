@@ -9,14 +9,26 @@
           </div>
 
           <div class="col-xs-3 col-center align-center">
+            <a href="/{{ locale }}/features/" class="btn btn-link">
+              {{__ 'nav features title'}}
+            </a>
+          </div>
+
+          <div class="col-xs-3 col-center align-center">
+            <a href="/{{ locale }}/privacy/" class="btn btn-link">
+              {{__ 'nav privacy title'}}
+            </a>
+          </div>
+
+          <div class="col-xs-3 col-center align-center">
             <a href="/{{ locale }}/about/" class="btn btn-link">
               {{__ 'nav about title'}}
             </a>
           </div>
 
           <div class="col-xs-3 col-center align-center">
-            <a href="https://forum.cozy.io" class="btn btn-link" target="_blank">
-              {{__ 'nav forum title'}}
+            <a href="/{{ locale }}/support/" class="btn btn-link">
+              {{__ 'nav support title'}}
             </a>
           </div>
 
@@ -26,17 +38,12 @@
             </a>
           </div>
 
-          <div class="col-xs-3 col-center align-center">
-            <a href="/{{ locale }}/community/" class="btn btn-link">
-              {{__ 'nav community title'}}
-            </a>
-          </div>
-
           <div class="siteNavigation-ctaContainer">
             <a href="/{{ locale }}/try-it/?from={{from}}" class="btn btn-primary">
               {{__ 'nav signup title'}}
             </a>
           </div>
+
         </div>
       </div>
     </nav>
@@ -57,27 +64,29 @@
       </div>
       <ul id="menu" class="siteNavigation-sm">
         <li class="siteNavigation-sm-item">
-          <a href="/{{ locale }}/apps/">
-            {{__ 'nav apps title'}}
+          <a href="/{{ locale }}/features/">
+            {{__ 'nav features title'}}
           </a>
+        <li class="siteNavigation-sm-item">
+          <a href="/{{ locale }}/privacy/">
+            {{__ 'nav privacy title'}}
+          </a>
+        </li>
         <li class="siteNavigation-sm-item">
           <a href="/{{ locale }}/about/">
             {{__ 'nav about title'}}
           </a>
         </li>
-      <li class="siteNavigation-sm-item">
-          <a href="https://forum.cozy.io" target="_blank">
-            {{__ 'nav forum title'}}
+        <li class="siteNavigation-sm-item">
+          <a href="/{{ locale }}/support/">
+            {{__ 'nav support title'}}
           </a>
         </li>
-          <li class="siteNavigation-sm-item">
+        <li class="siteNavigation-sm-item">
           <a href="https://blog.cozycloud.cc/" target="_blank">
             {{__ 'nav blog title'}}
           </a>
-        <li class="siteNavigation-sm-item">
-          <a href="https://docs.cozy.io/en/host/install/" target="_blank">
-            {{__ 'nav installation title'}}
-          </a>
+        </li>
         <li class="siteNavigation-sm-item highlighted">
           <a href="/{{locale }}/try-it/?from={{from}}">
             {{__ 'nav signup title'}}

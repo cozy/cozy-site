@@ -13,7 +13,6 @@ h1, h2, h3, h4, h5, h6,
   font-family: $headings-ff-base
   line-height: $headings-lh
   color: $headings-clr
-  text-transform: uppercase
   a
     +hover-state()
       text-decoration: none
@@ -29,6 +28,12 @@ h1, .h1,
 h2, .h2,
 h3, .h3
   text-align center
+
+// Extra margin needed
+
+.makeitbreathe
+  margin-top 2rem
+  margin-bottom ($headings-mrg-bottom + 2rem)
 
 // bottom margins
 h1, .h1,
@@ -151,7 +156,6 @@ dl
 // Horizontal rules
 //
 hr
-  margin-bottom: ($spacer * 1.5)
   border: 0
   border-top: $hr-border-width solid $hr-border-clr
 
@@ -160,6 +164,12 @@ hr
     margin-left auto
     width 3.75rem
     border-top ($hr-border-width * 3) solid $clr-primary
+
+  &.dash-grey
+    margin-right auto
+    margin-left auto
+    width 3.75rem
+    border-top ($hr-border-width * 3) solid $clr-base
 
 
 // Contrast color managing

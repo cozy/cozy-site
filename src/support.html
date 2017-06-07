@@ -1,0 +1,118 @@
+---
+layout: base.html
+
+metaTitle: features title
+metaDescription: features introduction
+annexe: true
+
+colorscheme: support
+
+locale:
+pathTo: ..
+from: support
+---
+
+{{> header }}
+
+  <header class="support">
+    <div class="container">
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-14">
+          <h1 class="introduction-title">{{__ 'support title'}}</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <article class="aboutContent">
+
+    <section>
+      <div class="panel">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a class="supportList" href="{{__ 'url forum'}}">
+                <figure class="">
+                  <img src="{{ pathTo }}/images/icon-site-first-step.svg" alt="">
+                </figure>
+                <h3>{{__ 'support get started'}}</h3>
+                <p>{{__ 'support get started text'}}</p>
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a class="supportList" href="{{__ 'url forum support'}}">
+                <figure class="">
+                  <img src="{{ pathTo }}/images/icon-site-bug.svg" alt="">
+                </figure>
+                <h3>{{__ 'support bugs'}}</h3>
+                <p>{{__ 'support bugs text'}}</p>
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a class="supportList" href="{{__ 'url forum ideas'}}">
+                <figure class="">
+                  <img src="{{ pathTo }}/images/icon-site-ideas.svg" alt="">
+                </figure>
+                <h3>{{__ 'support ideas'}}</h3>
+                <p>{{__ 'support ideas text'}}</p>
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a class="supportList" href="https://mesinfos.fing.org/forum/" target="_blank">
+                <figure class="container">
+                  <img src="{{ pathTo }}/images/mesinfos-logo.png" alt="">
+                </figure>
+                <h3>{{__ 'support mesinfos'}}</h3>
+                <p>{{__ 'support mesinfos text'}}</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="dash-grey">
+
+    <section>
+      <div class="panel">
+        <div class="container">
+          <div class="row-justify-center align-center">
+            <div class="row row-justify-center">
+              <div class="col-xs-24 col-lg-24">
+                <h2 class="makeitbreathe">{{__ 'support apps title'}}</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row row-justify-center align-center">
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a class="supportList" href="https://twitter.com/MyCozyCloud">
+                <figure class="supportIcons">
+                  <img src="{{ pathTo }}/images/icon-twitter-blue.svg">
+                </figure>
+                <h4>{{__ 'support twitter'}}</h4>
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a class="supportList" href="mailto:support@cozycloud.cc">
+                <figure class="supportIcons">
+                  <img src="{{ pathTo }}/images/icon-color-email.svg">
+                </figure>
+                <h4>{{__ 'support email'}}</h4>
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-6 align-center">
+              <a class="supportList" href="https://forum.cozy.io/c/faq">
+                <figure class="supportIcons">
+                  <img src="{{ pathTo }}/images/icon-color-question-mark.svg">
+                </figure>
+                <h4>{{__ 'support FAQ'}}</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </article>
+
+{{> footer }}

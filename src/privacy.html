@@ -1,0 +1,107 @@
+---
+layout: base.html
+
+metaTitle: privacy title
+metaDescription: privacy introduction
+annexe: true
+
+colorscheme: privacy
+
+locale:
+pathTo: ..
+from: privacy
+---
+
+{{> header }}
+
+  <header class="introduction contrast privacy">
+    <div class="container">
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-14">
+          <h1 class="introduction-title">{{__ 'privacy title'}}</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <article class="aboutContent">
+    <section class="ourVision">
+      <div class="container">
+        <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-20">
+            <h2>{{__ 'about privacy title'}}</h2>
+
+            <div class="row row-justify-center">
+              <div class="col-xs-24 col-lg-16">
+                <div class="dropcaps">
+                  <p>{{__ 'about privacy content one'}}</p>
+                </div>
+                <p>{{__ 'about privacy content two'}}</p>
+                <p>{{__ 'about privacy content three'}}</p>
+                <p>{{__ 'about privacy content four'}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="dash-grey">
+
+    <section class="ourEngagements">
+      <div class="panel">
+        <div class="row row-justify-center">
+          <div class="col-xs-20 col-lg-20">
+            <h2>{{__ 'about our engagements title'}}</h2>
+          </div>
+        </div>
+        <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-1">
+            <figure class="align-center">
+              <img src="{{ pathTo }}/images/icons/icon-house.svg" alt="">
+            </figure>
+          </div>
+          <div class="col-xs-20 col-lg-12">
+            <h4>{{__ 'about our engagements subtitle one'}}</h4>
+            <p>{{__ 'about our engagements content one'}}</p>
+          </div>
+        </div>
+        <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-1">
+            <figure class="align-center">
+              <img src="{{ pathTo }}/images/icons/icon-lock.svg" alt="">
+            </figure>
+          </div>
+          <div class="col-xs-20 col-lg-12">
+            <h4>{{__ 'about our engagements subtitle two'}}</h4>
+            <p>{{__ 'about our engagements content two'}}</p>
+          </div>
+        </div>
+        <div class="row row-justify-center">
+          <div class="col-xs-20 col-lg-1">
+            <figure class="align-center">
+              <img src="{{ pathTo }}/images/icons/icon-magnifying-glass.svg" alt="">
+            </figure>
+          </div>
+          <div class="col-xs-20 col-lg-12">
+            <h4>{{__ 'about our engagements subtitle three'}}</h4>
+            <p>{{__ 'about our engagements content three'}}</p>
+          </div>
+        </div>
+        <div class="row row-justify-center">
+          <div class="col-xs-20 col-lg-1">
+            <figure class="align-center">
+              <img src="{{ pathTo }}/images/icons/icon-touch.svg" alt="">
+            </figure>
+          </div>
+          <div class="col-xs-20 col-lg-12">
+            <h4>{{__ 'about our engagements subtitle four'}}</h4>
+            <p>{{__ 'about our engagements content four'}}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </article>
+
+{{> footer }}

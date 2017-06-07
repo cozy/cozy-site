@@ -9,6 +9,12 @@
 // Ungoogle your life
 .introduction
   // Set backgrounds
+  &.homepage
+    background #fff url(../images/bkg-home@2x.jpg) no-repeat 50% 100% / cover
+    
+    +bp-max(md)
+      background none
+
   &.about
     background #a19c8b url(../images/bkg-about.jpg) no-repeat 50% 0 / cover
 
@@ -27,6 +33,15 @@
   &.apps
     background #D0C2A7 url(../images/bkg-apps.jpg) no-repeat 50% 100% / cover
 
+  &.support
+    background #D0C2A7 url(../images/bkg-support.jpg) no-repeat 50% 100% / cover
+
+  &.privacy
+    background #F3F3F3 url(../images/bkg-privacy@2x.png) no-repeat 50% 100% / cover
+
+  &.featuresPage
+    background #F3F3F3 url(../images/bkg-features@2x.jpg) no-repeat 50% 100% / cover
+    background-position top
 
 body.is-annexe
   .introduction.legal
@@ -325,7 +340,7 @@ body.is-annexe
     margin-bottom 4.5rem
     display flex
     align-items center
-    
+
     +bp-max(md)
       flex-direction column
       margin-left 1.5rem
@@ -362,7 +377,7 @@ body.is-annexe
     p.app-type
       font-style italic
       margin-bottom 0.5rem
-      
+
       +bp-max(md)
         font-size $fs-sm
         text-align center

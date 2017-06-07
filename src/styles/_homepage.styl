@@ -1,49 +1,58 @@
 // Homepage content specifics styles
 //
 
-+bp-min(lg)
-	.is-homepage .siteHeader
-		background-color transparent
-		box-shadow none
+.homepage
+	// height 94vh
+	// min-height 800px
+	// max-height 1050px
+	// max-width 2000px
+	margin auto
 
+.panel
+	padding 4rem 0
 
 .is-homepage
 
+	.grey-background
+		background-color $clr-light
+
 	.introduction
-		padding-top 13vh
+		padding-top 12vh
+		padding-bottom 8vh
+
+	.introduction-title
+		text-align left
 
 	.introduction-content
-		color lighten($clr-primary, 80%)
+		text-align left
+		font-weight normal
+		font-size 1.1rem
+		background rgba(255,255,255,.9)
 
-		&::after
-			content: ""
-			display block
-			margin ($spacer-y + 1.625rem) auto 4rem
-			width 6.25rem // 100px
-			height .25rem // 4px
-			background-color $clr-lighter
-
-	.siteHeader.contrast
-		.siteNavigation
-			.btn-link
-				color $nav-link-clr-contrast
-				transition border 0.4s ease
-
-				+hover-state()
-					border-bottom 1px solid rgba(0,0,0,.33)
-
-			.siteNavigation-ctaContainer
-					.btn.btn-primary
-						background-color $clr-darker
-
-						+hover-state()
-							background-color darken($clr-darker, 25%)
-							border-color darken($clr-darker, 25%)
+		// &::after
+		// 	content: ""
+		// 	display block
+		// 	margin ($spacer-y + 0.05rem) auto 1rem
+		// 	width 6.25rem // 100px
+		// 	height .25rem // 4px
+		// 	background-color $clr-lighter
 
 
-		.siteLogo
-			fill $clr-lighter
+// Features list on homepage
+//
 
+.featuresList-item-home
+	margin-bottom 3rem
+
+	img
+		width 5rem
+
+	h3
+		margin-bottom .5rem
+
+	p
+		line-height 1.25rem
+		margin-bottom .5rem
 
 // "Stand for" icons
 //
@@ -51,12 +60,15 @@
 .standFor,
 .standFor-item
 	display block
-	margin-bottom $spacer
+	// margin-bottom $spacer
 
 .standFor-item
 	+hover-state()
 		.standFor-figure
 			transform scale(1.125)
+	
+	img
+		width 100%
 
 .standFor-figure
 	width 100%

@@ -38,9 +38,10 @@ $header-height = .938rem + 3.375rem // top header margin + header height
 //
 // Cozy brand colors
 
-$clr-primary        = #33A6FF
+$clr-primary        = #297ef2
 
-$clr-darker         = #3D3D3D
+$clr-darker         = #0b61d6
+$clr-darkgrey       = #32363f
 $clr-base           = #86888B
 $clr-light          = #F8F9F9
 $clr-lighter        = #fff
@@ -55,7 +56,7 @@ $clr-error          = FireBrick
 // Settings for the `<body>` element.
 
 $body-bkg          = $clr-lighter
-$body-bkg-alt      = #33A6FF
+$body-bkg-alt      = #297ef2
 
 
 // Links
@@ -73,11 +74,11 @@ $link-hover-decoration = none
 
 $txt-clr-base          = $clr-base
 $txt-muted             = lighten($txt-clr-base, 30%)
-$txt-clr-highlight     = $clr-darker
+$txt-clr-highlight     = $clr-darkgrey
 $txt-clr-base-contrast = $clr-lighter
 
-$ff-common           = "merriweather", Georgia, serif
-$ff-emphasis         = "source-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif
+$ff-common           = "lato", "Helvetica Neue", Helvetica, Arial, sans-serif
+$ff-emphasis         = "lato", "Helvetica Neue", Helvetica, Arial, sans-serif
 
 $fs-root             = 16px
 
@@ -94,8 +95,8 @@ $fs-xs               = .625rem
 
 $fs-h1               = 4.375rem
 $fs-h2               = 2rem
-$fs-h3               = 1.875rem
-$fs-h4               = 1.5rem    // 24px
+$fs-h3               = 1.5rem   // 24px
+$fs-h4               = 1.2rem
 $fs-h5               = .875rem
 $fs-h6               = .625rem
 
@@ -110,7 +111,7 @@ $heading-bkg           = transparent
 $headings-mrg-bottom   = ($spacer - .625rem)
 $headings-ff-base      = $ff-emphasis
 $headings-lh           = 1
-$headings-clr          = $clr-darker
+$headings-clr          = $clr-darkgrey
 $headings-clr-contrast = $clr-lighter
 
 $dt-ff-base = $ff-emphasis
@@ -126,7 +127,7 @@ $hr-border-width     = $border-width
 //
 // Define common padding and border radius sizes and more.
 
-$border-radius       = 4px
+$border-radius       = 2px
 $border-radius-lg    = $border-radius
 $border-radius-sm    = $border-radius
 
