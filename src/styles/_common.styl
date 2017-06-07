@@ -189,13 +189,13 @@
       padding-top 20vh !important
 
 // Features page
-.featuresPage
-  .introduction
-    padding-top "calc(10vh + %s)" % $header-height !important
-    height 120vh
+// .featuresPage
+//   .introduction
+//     padding-top "calc(10vh + %s)" % $header-height !important
+//     height 120vh
 
-  .lead-img
-    height 45vh
+//   .lead-img
+//     height 45vh
 
 // Privacy
 .privacy
@@ -295,7 +295,7 @@
   margin-top $spacer
   width 49%
   vertical-align top
-  min-height 3rem
+  min-height 4rem
 
   &:last-child
     margin-bottom 0
@@ -310,18 +310,18 @@
     &:first-child
       margin-top 0
 
-    &::after
-      content ""
-      position absolute
-      bottom -(($spacer - 0.625rem) / 2) - (0.938rem / 2) // half of item margin bottom - half of the component height
-      left (2.813rem / 2) // 50% of icon size
-      width .125rem
-      height .938rem
-      background-color $clr-lighter
+    // &::after
+    //   content ""
+    //   position absolute
+    //   bottom -(($spacer - 0.625rem) / 2) - (0.938rem / 2) // half of item margin bottom - half of the component height
+    //   left (2.813rem / 2) // 50% of icon size
+    //   width .125rem
+    //   height .938rem
+    //   background-color $clr-lighter
 
-    &:last-child
-      &::after
-        display none
+    // &:last-child
+    //   &::after
+    //     display none
 
 .featuresList-item-light
   position relative
@@ -342,10 +342,10 @@
     transform translateY(-50%)
     padding-left 4.063rem // 65px
     text-align left
+    padding 1rem 1rem 1rem 5rem
+    border-radius 4px
     +hover-state()
-      .featuresList-item-link-icon
-        background-color $clr-lighter
-        transform: translateY(-50%) scale(0.9)
+      background-color $clr-light
     &.active
       .featuresList-item-link-icon
         transform: translateY(-50%) scale(1)
@@ -370,7 +370,7 @@
     display block
     position absolute
     top 50%
-    left 0
+    left 1rem
     transform translateY(-50%)
     width 44px
     height 44px
