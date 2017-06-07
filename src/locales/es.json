@@ -7,12 +7,12 @@
     "try description link": "https://forum.cozy.io/t/some-words-about-the-free-cozy-test-servers/2256",
     "try form email address": "Dirección email",
     "try form sign up": "Registrese",
-    "home main title": "Choose simplicity,",
-    "home secondary title": "get Cozy.",
+    "home main title": "Escoja la simplicidad.",
+    "home secondary title": "adopte Cozy.",
     "home sub title": "We all have a life and a digital life. Cozy gathers them. In your Cozy, you have all your personal data: pictures, health, bank, holidays, accessible only by you. Welcome in your new digital home.",
     "ungoogle main title": "Desgooguelice su vida numérica",
-    "selfhosting main title": "Automatically collect a bill or a document",
-    "selfhosting paragraph": "Save time on your administrative organisation.",
+    "selfhosting main title": "Colecte automáticamente una factura o un documento",
+    "selfhosting paragraph": "Gane tiempo en su organización administrativa.",
     "photos main title": "Guarde y comparta sus Fotos",
     "connect main title": "Dé sentido a sus datos",
     "webdev main title": "Aprenda a desarrollar en el web",
@@ -534,5 +534,5 @@
     "home why cozy 5": "home why cozy 5",
     "home why cozy 6": "home why cozy 6",
     "home first usecase title": "home first usecase title",
-    "footer love text": "Made with 🍷🥖🧀 in Paris not in San Francisco."
+    "footer love text": "Made with ❤️ in Paris not in San Francisco."
 }
