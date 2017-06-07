@@ -454,14 +454,7 @@
 	"lost title": "You lost!",
 	"lost introduction": "You could do better than that! Because we really like you, click below to discover the right answer.",
 	"lost cta": "I want to see the #truenews",
-	"home first usecase title": "Ils sont déjà passé chez Cozy ! (Et vous ?)",
 	"home why cozy title": "Why get Cozy?",
-	"home why cozy 1": "You are at home",
-	"home why cozy 2": "Your data belongs to you",
-	"home why cozy 3": "Vous êtes responsables de vos données",
-	"home why cozy 4": "Nous garantissons la transparence de vos données",
-	"home why cozy 5": "Vous décidez de l'utilisation de vos données",
-	"home why cozy 6": "Cozy est plus qu'une plateforme, c'est aussi une communauté",
 	"home get app title": "Do you have the app?",
 	"home get app description": "Bring Cozy in your pocket! Available now on the App Store and the Play Store.",
 	"nav features title": "Features",
@@ -533,5 +526,12 @@
 	"sync share feature timeline photo screenshot": "sync share feature timeline photo screenshot",
 	"sync share features drive screenshot": "sync share features drive screenshot",
 	"features collect content 3": "features collect content 3",
-	"Learn more": "Learn more"
+	"Learn more": "Learn more",
+	"home why cozy 1": "home why cozy 1",
+	"home why cozy 2": "home why cozy 2",
+	"home why cozy 3": "home why cozy 3",
+	"home why cozy 4": "home why cozy 4",
+	"home why cozy 5": "home why cozy 5",
+	"home why cozy 6": "home why cozy 6",
+	"home first usecase title": "home first usecase title"
 }
