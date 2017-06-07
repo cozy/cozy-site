@@ -460,7 +460,7 @@
     "nav features title": "Fonctionnalités",
     "nav desktop app title": "Download desktop app",
     "nav mobile app title": "Download mobile app",
-    "home press title": "Déjà plébicité par les médias",
+    "home press title": "Déjà plébiscité par les médias",
     "home value proposition 1": "Synchronisez et partagez vos fichiers et photos",
     "home value proposition text 1": "Et retrouvez les partout, sur tous vos appareils.",
     "home value proposition 2": "Importez vos factures automatiquement",
@@ -471,7 +471,7 @@
     "home value proposition text 4": "Nous ne revendons pas vos données, juré craché.",
     "home features CTA": "Learn more about Cozy features",
     "home cta title": "L'essayer ? C'est l'adopter !",
-    "nav support title": "Aide",
+    "nav support title": "Aide en ligne",
     "features title": "Déconnectez-vous, Cozy s’occupe de tout.",
     "features cta title": "Prêt à déconnecter ? Choisissez Cozy !",
     "features sync share title": "Souriez ! Vos photos sont synchronisées et partagées avec qui vous voulez quand vous le souhaitez!",
@@ -533,5 +533,6 @@
     "home why cozy 4": "home why cozy 4",
     "home why cozy 5": "home why cozy 5",
     "home why cozy 6": "home why cozy 6",
-    "home first usecase title": "home first usecase title"
+    "home first usecase title": "home first usecase title",
+    "footer love text": "Fait avec 🍷🥖🧀  à Paris, pas à San Francisco."
 }
