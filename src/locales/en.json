@@ -484,10 +484,10 @@
 	"features bank title": "When managing your budget is easy, everything is tidy! ",
 	"features bank content 1": "Save time and money: all your daily expenses are sorted to find them easily.",
 	"features bank content 2": "Visualize the statistics of your expenses sorted weekly, monthly or anually to analyse them in no time.",
-	"features bank content 3": "Access in one clic to your bills from your bank statement.",
-	"features sante title": "Finies les allergies aux décomptes de remboursement de santé",
-	"features sante content 1": "Visualisez en un coup d’œil les remboursements de santé de votre CPAM et de votre mutuelle parce que votre santé et celle de votre famille sont précieuses.",
-	"features sante content 2": "Avec Cozy Santé, accédez en un clic au suivi détaillé de tous les membres de votre famille même lors de votre rendez-vous médical.",
+	"features bank content 3": "Access in one click to your bills from your bank statement.",
+	"features sante title": "Keep calm and get healthy",
+	"features sante content 1": "Be aware at any time of your family healthcare reimbursements status.",
+	"features sante content 2": "With Cozy Health, everything is crystal clear!",
 	"nav privacy title": "Privacy",
 	"privacy title": "Privacy and Cozy Cloud",
 	"support title": "Hi. How can we help you?",
@@ -533,5 +533,6 @@
 	"home why cozy 4": "home why cozy 4",
 	"home why cozy 5": "home why cozy 5",
 	"home why cozy 6": "home why cozy 6",
-	"home first usecase title": "home first usecase title"
+	"home first usecase title": "home first usecase title",
+	"footer love text": "Made with 🍷🥖🧀 in Paris not in San Francisco."
 }
