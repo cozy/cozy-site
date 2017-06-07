@@ -15,358 +15,374 @@ from: featuresPage
 
 {{> header }}
 
-  <header class="introduction featuresPage contrast">
-    <div class="container">
-      <div class="row row-justify-center">
-        <div class="col-xs-22 col-lg-14">
-          <h1 class="introduction-title">{{__ 'features title'}}</h1>
-        </div>
-      </div>
+	<header class="introduction featuresPage contrast">
+		<div class="container">
+			<div class="row row-justify-center">
+				<div class="col-xs-22 col-lg-14">
+					<h1 class="introduction-title">{{__ 'features title'}}</h1>
+				</div>
+			</div>
 <!-- 
-      <div class="row row-justify-center lead-img">
-        <img src="{{ pathTo }}/images/features/give-tomorrow.svg" class="lead-img">
-      </div>
-       -->
-    </div>
-  </header>
+			<div class="row row-justify-center lead-img">
+				<img src="{{ pathTo }}/images/features/give-tomorrow.svg" class="lead-img">
+			</div>
+			 -->
+		</div>
+	</header>
 
-      <section id="collector" class="panel features">
-        <div class="container">
-          <h2 class="panel-title">{{__ 'features collect title'}}</h2>
+			<section id="collector" class="panel features">
+				<div class="container">
+					<div class="row row-justify-center">
+						<div class="col-xs-22">
+							<h2 class="panel-title">{{__ 'features collect title'}}</h2>
+						</div>
+					</div>
 
-          <div class="row row-justify-center row-row-reverse">
-            <div class="col-xs-22 col-lg-7 col-center">
-              <ul class="featuresList">
-                <li class="featuresList-item">
-                  <a href="#" class="featuresList-item-link active" data-target="calendar">
-                    <span class="featuresList-item-link-icon-sm">
-                      <div class="featuresIcons files"></div>
-                    </span>
-                    <span class="featuresList-item-link-icon">
-                      <img src="{{ pathTo }}/images/icon-files.svg">
-                    </span>
-                    {{__ 'features collect content 1'}}
-                  </a>
-                </li>
-                <li class="featuresList-item">
-                  <a href="#" class="featuresList-item-link" data-target="contacts">
-                    <span class="featuresList-item-link-icon-sm">
-                      <div class="featuresIcons lock"></div>
-                    </span>
-                    <span class="featuresList-item-link-icon">
-                      <img src="{{ pathTo }}/images/icon-lock.svg">
-                    </span>
-                    {{__ 'features collect content 2'}}
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-xs-16 col-offset-xs-1 hidden-to-lg featuresList-screenshots">
-              <figure id="feature-calendar" class="featuresList-screenshotOutter active">
-                <img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozycollect/collect-all.png"
-                      class="featuresList-screenshot img-responsive"
-                      alt="{{__ 'ungoogle features calendars screenshot'}}">
-              </figure>
-              <figure id="feature-contacts" class="featuresList-screenshotOutter">
-                <img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozycollect/collect-password.png"
-                      class="featuresList-screenshot img-responsive"
-                      alt="{{__ 'ungoogle features contacts screenshot'}}">
-              </figure>
-            </div>
-          </div>
-        </div>
-      </section>
+					<div class="row row-justify-center row-row-reverse">
+						<div class="col-xs-22 col-lg-7 col-center">
+							<ul class="featuresList">
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link active" data-target="calendar">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons files"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-files.svg">
+										</span>
+										{{__ 'features collect content 1'}}
+									</a>
+								</li>
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link" data-target="contacts">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons lock"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-lock.svg">
+										</span>
+										{{__ 'features collect content 2'}}
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xs-16 col-offset-xs-1 hidden-to-lg featuresList-screenshots">
+							<figure id="feature-calendar" class="featuresList-screenshotOutter active">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozycollect/collect-all.png"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features calendars screenshot'}}">
+							</figure>
+							<figure id="feature-contacts" class="featuresList-screenshotOutter">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozycollect/collect-password.png"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features contacts screenshot'}}">
+							</figure>
+						</div>
+					</div>
+				</div>
+			</section>
 
-      <hr class="dash-grey">
+			<hr class="dash-grey">
 
-      <section id="bank" class="panel features">
-  			<div class="container">
-  				<h2 class="panel-title">{{__ 'features bank title'}}</h2>
+			<section id="bank" class="panel features">
+				<div class="container">
+					<div class="row row-justify-center">
+						<div class="col-xs-22">
+							<h2 class="panel-title">{{__ 'features bank title'}}</h2>
+						</div>
+					</div>
 
-  				<div class="row row-justify-center">
-  					<div class="col-xs-22 col-lg-7 col-center">
-  						<ul class="featuresList">
-  							<li class="featuresList-item">
-  								<a href="#" class="featuresList-item-link active" data-target="bank-overview">
-  									<span class="featuresList-item-link-icon-sm">
-  										<div class="featuresIcons calculator"></div>
-  									</span>
-  									<span class="featuresList-item-link-icon">
-  										<img src="{{ pathTo }}/images/icon-calc.svg">
-  									</span>
-  									{{__ 'features bank content 1'}}
-  								</a>
-  							</li>
-  							<li class="featuresList-item">
-  								<a href="#" class="featuresList-item-link" data-target="bank-all-accounts">
-  									<span class="featuresList-item-link-icon-sm">
-  										<div class="featuresIcons euro"></div>
-  									</span>
-  									<span class="featuresList-item-link-icon">
-  										<img src="{{ pathTo }}/images/icon-euro.svg">
-  									</span>
-  									{{__ 'features bank content 2'}}
-  								</a>
-  							</li>
-  							<li class="featuresList-item">
-  								<a href="#" class="featuresList-item-link" data-target="bank-linked-bills">
-  									<span class="featuresList-item-link-icon-sm">
-  										<div class="featuresIcons touch"></div>
-  									</span>
-  									<span class="featuresList-item-link-icon">
-  										<img src="{{ pathTo }}/images/icon-touch.svg">
-  									</span>
-  									{{__ 'features bank content 3'}}
-  								</a>
-  							</li>
-  						</ul>
-  					</div>
-  					<div class="col-xs-16 col-offset-xs-1 hidden-to-lg featuresList-screenshots">
-  						<figure id="feature-bank-overview" class="featuresList-screenshotOutter active">
-  							<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozybank/bank-overview.png"
-  										class="featuresList-screenshot img-responsive"
-  										alt="{{__ 'ungoogle features calendars screenshot'}}">
-  						</figure>
-  						<figure id="feature-bank-all-accounts" class="featuresList-screenshotOutter">
-  							<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozybank/bank-all-accounts.png"
-  										class="featuresList-screenshot img-responsive"
-  										alt="{{__ 'ungoogle features contacts screenshot'}}">
-  						</figure>
-  						<figure id="feature-bank-linked-bills" class="featuresList-screenshotOutter">
-  							<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozybank/bank-linked-bills.png"
-  										class="featuresList-screenshot img-responsive"
-  										alt="{{__ 'ungoogle features webmail screenshot'}}">
-  						</figure>
-  					</div>
-  				</div>
-  			</div>
-  		</section>
+					<div class="row row-justify-center">
+						<div class="col-xs-22 col-lg-7 col-center">
+							<ul class="featuresList">
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link active" data-target="bank-overview">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons calculator"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-calc.svg">
+										</span>
+										{{__ 'features bank content 1'}}
+									</a>
+								</li>
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link" data-target="bank-all-accounts">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons euro"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-euro.svg">
+										</span>
+										{{__ 'features bank content 2'}}
+									</a>
+								</li>
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link" data-target="bank-linked-bills">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons touch"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-touch.svg">
+										</span>
+										{{__ 'features bank content 3'}}
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xs-16 col-offset-xs-1 hidden-to-lg featuresList-screenshots">
+							<figure id="feature-bank-overview" class="featuresList-screenshotOutter active">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozybank/bank-overview.png"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features calendars screenshot'}}">
+							</figure>
+							<figure id="feature-bank-all-accounts" class="featuresList-screenshotOutter">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozybank/bank-all-accounts.png"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features contacts screenshot'}}">
+							</figure>
+							<figure id="feature-bank-linked-bills" class="featuresList-screenshotOutter">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozybank/bank-linked-bills.png"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features webmail screenshot'}}">
+							</figure>
+						</div>
+					</div>
+				</div>
+			</section>
 
-      <hr class="dash-grey">
+			<hr class="dash-grey">
 
-      <section id="health" class="panel features">
-  			<div class="container">
-  				<h2 class="panel-title">{{__ 'features sante title'}}</h2>
+			<section id="health" class="panel features">
+				<div class="container">
+					<div class="row row-justify-center">
+						<div class="col-xs-22">
+							<h2 class="panel-title">{{__ 'features sante title'}}</h2>
+						</div>
+					</div>
 
-  				<div class="row row-justify-center row-row-reverse">
-  					<div class="col-xs-22 col-lg-7 col-center">
-  						<ul class="featuresList">
-  							<li class="featuresList-item">
-  								<a href="#" class="featuresList-item-link active" data-target="sante-overview">
-  									<span class="featuresList-item-link-icon-sm">
-  										<div class="featuresIcons people"></div>
-  									</span>
-  									<span class="featuresList-item-link-icon">
-  										<img src="{{ pathTo }}/images/icon-people.svg">
-  									</span>
-  									{{__ 'features sante content 1'}}
-  								</a>
-  							</li>
-  							<li class="featuresList-item">
-  								<a href="#" class="featuresList-item-link" data-target="sante-family">
-  									<span class="featuresList-item-link-icon-sm">
-  										<div class="featuresIcons health"></div>
-  									</span>
-  									<span class="featuresList-item-link-icon">
-  										<img src="{{ pathTo }}/images/icon-health.svg">
-  									</span>
-  									{{__ 'features sante content 2'}}
-  								</a>
-  							</li>
-  						</ul>
-  					</div>
-  					<div class="col-xs-16 col-offset-xs-1 hidden-to-lg featuresList-screenshots">
-  						<figure id="feature-sante-overview" class="featuresList-screenshotOutter active">
-  							<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozysante/sante-overview.png"
-  										class="featuresList-screenshot img-responsive"
-  										alt="{{__ 'ungoogle features calendars screenshot'}}">
-  						</figure>
-  						<figure id="feature-sante-family" class="featuresList-screenshotOutter">
-  							<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozysante/sante-family.png"
-  										class="featuresList-screenshot img-responsive"
-  										alt="{{__ 'ungoogle features contacts screenshot'}}">
-  						</figure>
-  					</div>
-  				</div>
-  			</div>
-  		</section>
+					<div class="row row-justify-center row-row-reverse">
+						<div class="col-xs-22 col-lg-7 col-center">
+							<ul class="featuresList">
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link active" data-target="sante-overview">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons people"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-people.svg">
+										</span>
+										{{__ 'features sante content 1'}}
+									</a>
+								</li>
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link" data-target="sante-family">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons health"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-health.svg">
+										</span>
+										{{__ 'features sante content 2'}}
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xs-16 col-offset-xs-1 hidden-to-lg featuresList-screenshots">
+							<figure id="feature-sante-overview" class="featuresList-screenshotOutter active">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozysante/sante-overview.png"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features calendars screenshot'}}">
+							</figure>
+							<figure id="feature-sante-family" class="featuresList-screenshotOutter">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozysante/sante-family.png"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features contacts screenshot'}}">
+							</figure>
+						</div>
+					</div>
+				</div>
+			</section>
 
-      <hr class="dash-grey">
+			<hr class="dash-grey">
 
-      <section id="synchronise" class="panel features">
-  			<div class="container">
-  				<h2 class="panel-title">{{__ 'features sync share title'}}</h2>
+			<section id="synchronise" class="panel features">
+				<div class="container">
+					<div class="row row-justify-center">
+						<div class="col-xs-22">
+							<h2 class="panel-title">{{__ 'features sync share title'}}</h2>
+						</div>
+					</div>
 
-  				<div class="row row-justify-center">
-  					<div class="col-xs-22 col-lg-7 col-center">
-  						<ul class="featuresList">
-  							<li class="featuresList-item">
-  								<a href="#" class="featuresList-item-link active" data-target="photo-timeline">
-  									<span class="featuresList-item-link-icon-sm">
-  										<div class="featuresIcons tick"></div>
-  									</span>
-  									<span class="featuresList-item-link-icon">
-  										<img src="{{ pathTo }}/images/icon-tick.svg">
-  									</span>
-  									{{__ 'features sync share content 1'}}
-  								</a>
-  							</li>
-  							<li class="featuresList-item">
-  								<a href="#" class="featuresList-item-link" data-target="drive">
-  									<span class="featuresList-item-link-icon-sm">
-  										<div class="featuresIcons sync"></div>
-  									</span>
-  									<span class="featuresList-item-link-icon">
-  										<img src="{{ pathTo }}/images/icon-sync.svg">
-  									</span>
-  									{{__ 'features sync share content 2'}}
-  								</a>
-  							</li>
-  							<li class="featuresList-item">
-  								<a href="#" class="featuresList-item-link" data-target="photo-sharing">
-  									<span class="featuresList-item-link-icon-sm">
-  										<div class="featuresIcons images"></div>
-  									</span>
-  									<span class="featuresList-item-link-icon">
-  										<img src="{{ pathTo }}/images/icon-images.svg">
-  									</span>
-  									{{__ 'features sync share content 3'}}
-  								</a>
-  							</li>
-  						</ul>
-  					</div>
-  					<div class="col-xs-16 col-offset-xs-1 hidden-to-lg featuresList-screenshots">
-  						<figure id="feature-photo-timeline" class="featuresList-screenshotOutter active">
-  							<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozydrivephoto/photo-timeline.png"
-  										class="featuresList-screenshot img-responsive"
-  										alt="{{__ 'sync share feature timeline photo screenshot'}}">
-  						</figure>
-  						<figure id="feature-drive" class="featuresList-screenshotOutter">
-  							<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozydrivephoto/drive-home.png"
-  										class="featuresList-screenshot img-responsive"
-  										alt="{{__ 'sync share features drive screenshot'}}">
-  						</figure>
-  						<figure id="feature-photo-sharing" class="featuresList-screenshotOutter">
-  							<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozydrivephoto/photo-sharing.png"
-  										class="featuresList-screenshot img-responsive"
-  										alt="{{__ 'ungoogle features webmail screenshot'}}">
-  						</figure>
-  					</div>
-  				</div>
-  			</div>
-  		</section>
+					<div class="row row-justify-center">
+						<div class="col-xs-22 col-lg-7 col-center">
+							<ul class="featuresList">
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link active" data-target="photo-timeline">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons tick"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-tick.svg">
+										</span>
+										{{__ 'features sync share content 1'}}
+									</a>
+								</li>
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link" data-target="drive">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons sync"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-sync.svg">
+										</span>
+										{{__ 'features sync share content 2'}}
+									</a>
+								</li>
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link" data-target="photo-sharing">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons images"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-images.svg">
+										</span>
+										{{__ 'features sync share content 3'}}
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xs-16 col-offset-xs-1 hidden-to-lg featuresList-screenshots">
+							<figure id="feature-photo-timeline" class="featuresList-screenshotOutter active">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozydrivephoto/photo-timeline.png"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'sync share feature timeline photo screenshot'}}">
+							</figure>
+							<figure id="feature-drive" class="featuresList-screenshotOutter">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozydrivephoto/drive-home.png"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'sync share features drive screenshot'}}">
+							</figure>
+							<figure id="feature-photo-sharing" class="featuresList-screenshotOutter">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozydrivephoto/photo-sharing.png"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features webmail screenshot'}}">
+							</figure>
+						</div>
+					</div>
+				</div>
+			</section>
 
-    </div>
-  </article>
+		</div>
+	</article>
 
-  <section class="panel standoutCTA landingCTA">
-    <div class="container">
-      <h2 class="panel-title">
-          {{__ 'features cta title'}}
-      </h2>
+	<section class="panel standoutCTA landingCTA">
+		<div class="container">
+			<h2 class="panel-title">
+					{{__ 'features cta title'}}
+			</h2>
 
-      <div class="row row-justify-center align-center">
-        <div class="align-center">
-          <a href="/{{ locale }}/try-it?from={{from}}" class="btn btn-primary btn-xl btn-bounce">
-            {{__ 'nav signup title'}}
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+			<div class="row row-justify-center align-center">
+				<div class="align-center">
+					<a href="/{{ locale }}/try-it?from={{from}}" class="btn btn-primary btn-xl btn-bounce">
+						{{__ 'nav signup title'}}
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
 
-  <!--
-        <section class="communityContent-item">
-          <div class="row row-justify-center row-row-reverse">
-            <div class="col-xs-22 col-lg-11 col-center">
-              <div class="communityContent-item-titleIcon">
-                <span class="icon-rounded xl">
-                  <img src="{{ pathTo }}/images/icon-note.svg" alt="">
-                </span>
-              </div>
-            </div>
-            <div class="col-xs-22 col-lg-10 col-offset-lg-1 col-center">
-              <div class="communityContent-item-desc">
-                <h2>
-                  {{__ 'features sync share title'}}
-                </h2>
-                <ul>
-                  <li>
-                    {{__ 'features sync share content 1'}}
-                  </li>
-                  <li>
-                    {{__ 'features sync share content 2'}}
-                  </li>
-                  <li>
-                    {{__ 'features sync share content 3'}}
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-  -->
-  <!--
-        <section class="communityContent-item">
-          <div class="row row-justify-center">
-            <div class="col-xs-22 col-lg-11 col-center">
-              <div class="communityContent-item-titleIcon">
-                <span class="icon-rounded xl">
-                  <img src="{{ pathTo }}/images/icon-develop.svg" alt="">
-                </span>
-              </div>
-            </div>
-            <div class="col-xs-22 col-lg-10 col-offset-lg-1 col-center">
-              <div class="communityContent-item-desc">
-                <h2>
-                   {{__ 'features collect title'}}
-                </h2>
-                <ul>
-                  <li>
-                    {{__ 'features collect content 1'}}
-                  </li>
-                  <li>
-                    {{__ 'features collect content 2'}}
-                  </li>
-                  <li>
-                    {{__ 'features collect content 3'}}
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-  -->
-  <!--
-        <section class="communityContent-item">
-          <div class="row row-justify-center row-row-reverse">
-            <div class="col-xs-22 col-lg-11 col-center">
-              <div class="communityContent-item-titleIcon">
-                <span class="icon-rounded xl">
-                  <img src="{{ pathTo }}/images/icon-headphone.svg" alt="">
-                </span>
-              </div>
-            </div>
-            <div class="col-xs-22 col-lg-10 col-offset-lg-1 col-center">
-              <div class="communityContent-item-desc">
-                <h2>
-                  {{__ 'features bank title'}}
-                </h2>
-                <ul>
-                  <li>
-                    {{__ 'features bank content 1'}}
-                  </li>
-                  <li>
-                    {{__ 'features bank content 2'}}
-                  </li>
-                  <li>
-                    {{__ 'features bank content 3'}}
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-  -->
+	<!--
+				<section class="communityContent-item">
+					<div class="row row-justify-center row-row-reverse">
+						<div class="col-xs-22 col-lg-11 col-center">
+							<div class="communityContent-item-titleIcon">
+								<span class="icon-rounded xl">
+									<img src="{{ pathTo }}/images/icon-note.svg" alt="">
+								</span>
+							</div>
+						</div>
+						<div class="col-xs-22 col-lg-10 col-offset-lg-1 col-center">
+							<div class="communityContent-item-desc">
+								<h2>
+									{{__ 'features sync share title'}}
+								</h2>
+								<ul>
+									<li>
+										{{__ 'features sync share content 1'}}
+									</li>
+									<li>
+										{{__ 'features sync share content 2'}}
+									</li>
+									<li>
+										{{__ 'features sync share content 3'}}
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+	-->
+	<!--
+				<section class="communityContent-item">
+					<div class="row row-justify-center">
+						<div class="col-xs-22 col-lg-11 col-center">
+							<div class="communityContent-item-titleIcon">
+								<span class="icon-rounded xl">
+									<img src="{{ pathTo }}/images/icon-develop.svg" alt="">
+								</span>
+							</div>
+						</div>
+						<div class="col-xs-22 col-lg-10 col-offset-lg-1 col-center">
+							<div class="communityContent-item-desc">
+								<h2>
+									 {{__ 'features collect title'}}
+								</h2>
+								<ul>
+									<li>
+										{{__ 'features collect content 1'}}
+									</li>
+									<li>
+										{{__ 'features collect content 2'}}
+									</li>
+									<li>
+										{{__ 'features collect content 3'}}
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+	-->
+	<!--
+				<section class="communityContent-item">
+					<div class="row row-justify-center row-row-reverse">
+						<div class="col-xs-22 col-lg-11 col-center">
+							<div class="communityContent-item-titleIcon">
+								<span class="icon-rounded xl">
+									<img src="{{ pathTo }}/images/icon-headphone.svg" alt="">
+								</span>
+							</div>
+						</div>
+						<div class="col-xs-22 col-lg-10 col-offset-lg-1 col-center">
+							<div class="communityContent-item-desc">
+								<h2>
+									{{__ 'features bank title'}}
+								</h2>
+								<ul>
+									<li>
+										{{__ 'features bank content 1'}}
+									</li>
+									<li>
+										{{__ 'features bank content 2'}}
+									</li>
+									<li>
+										{{__ 'features bank content 3'}}
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+	-->
 
 {{> footer }}

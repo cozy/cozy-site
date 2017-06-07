@@ -200,8 +200,12 @@
     +bp-max-height(md-hg)
       padding-top 20vh !important
       
-  .ourEngagements p
-    margin-bottom 3rem
+  .ourEngagements 
+    p
+      margin-bottom 3rem
+    
+    figure img
+      width 2rem
 
 // Support page
 //
@@ -309,6 +313,7 @@
   width 49%
   vertical-align top
   min-height 4rem
+  padding 0 .5rem
 
   &:last-child
     margin-bottom 0
@@ -367,11 +372,8 @@
   position relative
   display block
   margin 0 auto $spacer-x
-  width 100px
-  height 100px
-  box-shadow inset 0 0 0 2px $clr-darkgrey
-  border-radius 50px
-  fill $clr-darkgrey
+  width 3rem
+  height 3rem
 
   +bp-min(lg)
     display none
@@ -385,12 +387,13 @@
     top 50%
     left 1rem
     transform translateY(-50%)
-    width 44px
-    height 44px
-    box-shadow: inset 0 0 0 1px $clr-darkgrey
-    border-radius 22px
+    width 32px
+    height 32px
     fill $clr-darkgrey
     transition background-color $transition-duration $transition-easing, fill $transition-duration $transition-easing, transform $transition-duration $transition-bounce
+    
+    img
+      width 100%
 
 .featuresList-item-link-icon-xl
   position relative
@@ -399,9 +402,6 @@
   margin-bottom $spacer-x
   width 100px
   height 100px
-  box-shadow: inset 0 0 0 2px $clr-darkgrey
-  border-radius 50%
-  fill $clr-darkgrey
 
 .featuresList-item-link-icon-sm
 .featuresList-item-link-icon
