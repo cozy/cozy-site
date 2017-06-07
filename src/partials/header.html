@@ -27,21 +27,23 @@
           </div>
 
           <div class="col-xs-3 col-center align-center">
+            <a href="/{{ locale }}/support/" class="btn btn-link">
+              {{__ 'nav support title'}}
+            </a>
+          </div>
+
+          <div class="col-xs-3 col-center align-center">
             <a href="https://blog.cozycloud.cc/" class="btn btn-link" target="_blank">
               {{__ 'nav blog title'}}
             </a>
           </div>
 
-          <div class="col-xs-3 col-center align-center">
-            <a href="/{{ locale }}/support/" class="btn btn-link">
-              {{__ 'nav support title'}}
-            </a>
-          </div>
           <div class="siteNavigation-ctaContainer">
             <a href="/{{ locale }}/try-it/?from={{from}}" class="btn btn-primary">
               {{__ 'nav signup title'}}
             </a>
           </div>
+
         </div>
       </div>
     </nav>
@@ -70,19 +72,21 @@
             {{__ 'nav privacy title'}}
           </a>
         </li>
-      <li class="siteNavigation-sm-item">
+        <li class="siteNavigation-sm-item">
           <a href="/{{ locale }}/about/">
             {{__ 'nav about title'}}
           </a>
         </li>
-          <li class="siteNavigation-sm-item">
-          <a href="https://blog.cozycloud.cc/" target="_blank">
-            {{__ 'nav blog title'}}
-          </a>
         <li class="siteNavigation-sm-item">
           <a href="/{{ locale }}/support/">
             {{__ 'nav support title'}}
           </a>
+        </li>
+        <li class="siteNavigation-sm-item">
+          <a href="https://blog.cozycloud.cc/" target="_blank">
+            {{__ 'nav blog title'}}
+          </a>
+        </li>
         <li class="siteNavigation-sm-item highlighted">
           <a href="/{{locale }}/try-it/?from={{from}}">
             {{__ 'nav signup title'}}
