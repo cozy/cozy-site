@@ -9,6 +9,7 @@
 	"try form sign up": "Sign up",
 	"home main title": "Choose simplicity,",
 	"home secondary title": "get Cozy.",
+	"home main title & home secondary title": "Choose simplicity, get Cozy.",
 	"home sub title": "We all have a life and a digital life. Cozy gathers them. In your Cozy, you have all your personal data: pictures, health, bank, holidays, accessible only by you. Welcome in your new digital home.",
 	"ungoogle main title": "Ungoogle Your Digital Life",
 	"selfhosting main title": "Automatically collect a bill or a document",
@@ -490,7 +491,7 @@
 	"nav privacy title": "Privacy",
 	"privacy title": "Privacy and Cozy Cloud",
 	"support title": "Hi. How can we help you?",
-	"url forum": "https://forum.cozy.io/",
+	"url forum": "https://forum.cozy.io/c/english",
 	"support forum": "First steps",
 	"support twitter": "Twitter support",
 	"support email": "Send an email",
@@ -500,8 +501,8 @@
 	"support bugs": "Bug hunt",
 	"support ideas": "Idea box",
 	"support FAQ": "Frequently asked questions",
-	"url forum support": "https://forum.cozy.io/c/support",
-	"url forum ideas": "https://forum.cozy.io/c/discuss",
+	"url forum support": "https://forum.cozy.io/c/english",
+	"url forum ideas": "https://forum.cozy.io/c/english/discuss",
 	"support get started text": "Discover how to start with your Cozy.",
 	"support bugs text": "You found a bug? You are in the right place.",
 	"support ideas text": "You have a feature idea? We can't wait to hear about it!",
@@ -524,5 +525,6 @@
 	"Learn more": "Learn more",
 	"footer love text": "Made with ❤️ in France not in California.",
 	"sync share feature timeline photo screenshot": "Timeline of Cozy Photos",
-	"sync share features drive screenshot": "View of Cozy Drive"
+	"sync share features drive screenshot": "View of Cozy Drive",
+	"support introduction": "You need help with your Cozy ? We are here to help."
 }

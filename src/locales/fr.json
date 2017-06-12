@@ -9,6 +9,7 @@
     "try form sign up": "S'enregistrer",
     "home main title": "Choisissez la simplicité,",
     "home secondary title": "adoptez Cozy.",
+    "home main title & home secondary title": "Choisissez la simplicité, adoptez Cozy.",
     "home sub title": "Nous avons tous une vie et une vie numérique. Cozy les réunit. Dans votre Cozy, vous mettez toutes vos données personnelles : photos, santé, bancaire, vacances, alors inaccessibles aux autres et aux entreprises. C’est votre nouveau domicile numérique.",
     "ungoogle main title": "Dégooglisez votre vie numérique",
     "selfhosting main title": "Collectez automatiquement une facture ou un document",
@@ -490,7 +491,7 @@
     "nav privacy title": "Nos engagements",
     "privacy title": "Cozy Cloud et la vie privée",
     "support title": "Bonjour. Comment pouvons-nous vous aider ?",
-    "url forum": "https://forum.cozy.io/c/francais",
+    "url forum": "https://forum.cozy.io/c/francais#ember2741",
     "support forum": "Premiers pas",
     "support twitter": "Support Twitter",
     "support email": "Envoyer un email",
@@ -500,8 +501,8 @@
     "support bugs": "Chasse aux bugs",
     "support ideas": "Boîte à idées",
     "support FAQ": "Foire aux questions",
-    "url forum support": "https://forum.cozy.io/c/francais/assistance",
-    "url forum ideas": "https://forum.cozy.io/c/francais/general",
+    "url forum support": "https://forum.cozy.io/c/francais",
+    "url forum ideas": "https://forum.cozy.io/c/francais/discussions",
     "support get started text": "Découvrez comment prendre en main votre Cozy.",
     "support bugs text": "Vous avez trouvé un bug ? C’est la rubrique qu’il vous faut.",
     "support ideas text": "Une idée de fonctionnalité ? Votre avis compte, exprimez-vous !",
@@ -524,5 +525,6 @@
     "Learn more": "En savoir plus",
     "footer love text": "Fait avec ❤️ en France, pas en Californie.",
     "sync share feature timeline photo screenshot": "Timeline de Cozy Photos",
-    "sync share features drive screenshot": "Vue de Cozy Drive"
+    "sync share features drive screenshot": "Vue de Cozy Drive",
+    "support introduction": "Vous avez besoin d'aide avec votre Cozy ? Nous sommes à votre service."
 }
