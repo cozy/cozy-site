@@ -1,5 +1,5 @@
 {
-	"try main title": "Enjoy Cozy for Free",
+	"try main title": "Inscrivez-vous et recevez un Cozy Bêta lors de sa sortie fin juin 2017 ",
 	"try description": "In return, we just ask you one thing: help us build the best Personal Cloud solution!",
 	"try description start": "We'll provide you with a Cozy and 60GB of disk space (hosted in France),",
 	"try description link title": "in exchange of your feedback and contribution to the Cozy Project.",
@@ -526,5 +526,6 @@
 	"footer love text": "Made with ❤️ in France not in California.",
 	"sync share feature timeline photo screenshot": "Timeline of Cozy Photos",
 	"sync share features drive screenshot": "View of Cozy Drive",
-	"support introduction": "You need help with your Cozy ? We are here to help."
+	"support introduction": "You need help with your Cozy ? We are here to help.",
+	"try main introduction": "try main introduction"
 }
