@@ -22,14 +22,59 @@ pathTo: ../
     </div>
   </header>
 
+  <section class="panel hangs">
+    <div class="container">
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-22">
+          <ul class="hangsList">
+            <li class="hangsList-item">
+              <div>
+                <img src="{{ pathTo }}/images/icon-thumb-up.svg" class="hangsList-item-icon" alt="">
+              </div>
+              <div>
+                {{__ 'try improve'}}
+              </div>
+            </li>
+            <li class="hangsList-item">
+              <div>
+                <img src="{{ pathTo }}/images/icon-rocket.svg" class="hangsList-item-icon" alt="">
+              </div>
+              <div>
+                {{__ 'try mission'}}
+              </div>
+            </li>
+            <li class="hangsList-item">
+              <div>
+                <img src="{{ pathTo }}/images/icon-group.svg"
+                     class="hangsList-item-icon"
+                     alt="">
+              </div>
+              <div>
+                {{__ 'try community'}}
+              </div>
+            </li>
+            <li class="hangsList-item">
+              <div>
+                <img src="{{ pathTo }}/images/icon-report.svg" class="hangsList-item-icon" alt="">
+              </div>
+              <div>
+                {{__ 'try bugs'}}
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <article id="article">
     <section class="panel landingCTA" id="subscribe">
       <div class="container">
         <div class="row row-justify-center">
           <div class="col-xs-22 col-lg-14">
-            <h2 class="panel-title withLead">{{__ 'try cta title'}}</h2>
+            <!--<h2 class="panel-title withLead">{{__ 'try cta title'}}</h2>-->
             <p class="panel-lead lead">
-              {{__ 'try free cozy'}}
+              {{__ 'try cta title'}}
             </p>
 
             <div class="align-center">
@@ -52,51 +97,6 @@ pathTo: ../
                 </div>
               </form>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="panel hangs">
-      <div class="container">
-        <div class="row row-justify-center">
-          <div class="col-xs-22 col-lg-18">
-            <ul class="hangsList">
-              <li class="hangsList-item">
-                <div>
-                  <img src="{{ pathTo }}/images/icon-thumb-up.svg" class="hangsList-item-icon" alt="">
-                </div>
-                <div>
-                  {{__ 'try improve'}}
-                </div>
-              </li>
-              <li class="hangsList-item">
-                <div>
-                  <img src="{{ pathTo }}/images/icon-rocket.svg" class="hangsList-item-icon" alt="">
-                </div>
-                <div>
-                  {{__ 'try mission'}}
-                </div>
-              </li>
-              <li class="hangsList-item">
-                <div>
-                  <img src="{{ pathTo }}/images/icon-group.svg"
-                       class="hangsList-item-icon"
-                       alt="">
-                </div>
-                <div>
-                  {{__ 'try community'}}
-                </div>
-              </li>
-              <li class="hangsList-item">
-                <div>
-                  <img src="{{ pathTo }}/images/icon-report.svg" class="hangsList-item-icon" alt="">
-                </div>
-                <div>
-                  {{__ 'try bugs'}}
-                </div>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
