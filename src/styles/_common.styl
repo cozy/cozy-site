@@ -125,17 +125,18 @@
 // Try it
 .tryCozy
 	.introduction
-		color $clr-lighter
-		background #171E22 url(../images/bkg-try.jpg) no-repeat 50% 100% / cover
+		color $clr-darkgrey
+		background #fff  no-repeat 50% 100% / cover
+		background-position top
+		min-height 40vh
 	.introduction.introduction-sync
 		padding-top 24vh
 	.hangs
-		color $clr-lighter
-		background-color #171E22
+		color $clr-darkgrey
 	.landingCTA
 		background-color $clr-primary
 		h2
-			color white
+			color $clr-darker
 		.panel-lead
 			color white
 			max-width 80%
@@ -199,11 +200,11 @@
 		color $clr-darker
 		+bp-max-height(md-hg)
 			padding-top 20vh !important
-			
-	.ourEngagements 
+
+	.ourEngagements
 		p
 			margin-bottom 3rem
-		
+
 		figure img
 			width 2rem
 
@@ -288,6 +289,36 @@
 	.hangsList-item-icon
 		margin-right ($spacer / 2)
 
+// Hangs list tryCozy
+//
+// 4 columns list with icons for presentation hangs on a list
+.tryCozy
+	.hangs
+		padding $spacer 0 0
+
+	.hangsList
+		@extend .list-unstyled
+		display flex
+		flex-wrap wrap
+		font-family $ff-emphasis
+		line-height $lh-sm
+
+	.hangsList-item
+		display table
+		margin-bottom ($spacer)
+		padding-left 0
+		width 100%
+		> div
+			display table-cell
+			vertical-align middle
+		+bp-min(lg)
+			padding-left 50px
+			width 25%
+		+bp-max(md)
+			margin-bottom $spacer
+
+		.hangsList-item-icon
+			margin-right ($spacer / 2)
 
 // Features list
 //
@@ -391,7 +422,7 @@
 		height 32px
 		fill $clr-darkgrey
 		transition background-color $transition-duration $transition-easing, fill $transition-duration $transition-easing, transform $transition-duration $transition-bounce
-		
+
 		img
 			width 100%
 

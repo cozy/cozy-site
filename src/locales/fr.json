@@ -1,5 +1,6 @@
 {
-    "try main title": "Profitez d'un Cozy gratuit",
+    "try main title": "Adoptez Cozy Bêta",
+    "try main introduction": "Rejoignez la liste d'attente dès aujourd'hui et recevez prochainement votre Cozy Bêta !",
     "try description": "En retour, nous ne vous demandons qu'une chose : aidez nous à construire la meilleure plateforme de cloud personnel !",
     "try description start": "Nous vous fournissons un serveur Cozy (hébergé en France) avec 60 Go d'espace de stockage",
     "try description link title": "en échange de votre contribution au projet Cozy Cloud",
@@ -419,12 +420,10 @@
     "apps go demo": "Voir la démo de",
     "→ live demo": "→ voir démo",
     "testimonials title": "témoignages",
-    "try community": "Impliquez-vous dans la communauté.",
-    "try bugs": "Rapportez des bugs ou toute anomalie avec la plateforme.",
-    "try improve": "Proposez des améliorations d'applications.",
-    "try mission": "Faites partie de ceux qui améliorent le Web.",
-    "try cta title": "Rejoignez la communauté Cozy !",
-    "try free cozy": "Abonnez-vous à la newsletter et recevez un Cozy 3.0 Beta lors de sa sortie en Juin 2017 (hébergé en France)",
+    "try improve": "Découvrez en exclusivité les 1ères fonctionnalités de Cozy.",
+    "try mission": "Cozy est 100% gratuit pendant le programme Bêta.",
+    "try community": "Rejoignez notre communauté de Bêta-Testeurs.",
+    "try bugs": "Aidez-nous à construire le futur du cloud en partageant vos retours.",
     "business title": "Transformation numérique",
     "business introduction content subtitle": "Cozy Cloud aide les grands comptes à réinventer le service client en court-circuitant les GAFAs",
     "business benefits relationship": "Réinventez votre relation client",
@@ -518,7 +517,7 @@
     "about our engagements subtitle two": "Vos données vous appartiennent et nous n'y toucherons pas",
     "about our engagements content two": "Vos photos, vos données bancaires ou l'historique de votre poids, vous seul choisissez les données que vous souhaitez récupérer auprès des tiers qui aujourd'hui les détiennent. Vous êtes l’unique propriétaire des données de votre service Cozy et des sauvegardes que Cozy Cloud réalise automatiquement. Toute utilisation de vos données par un tiers suppose votre accord explicite et préalable. Vous êtes libre de supprimer, modifier, copier, partager vos données grâce au service Cozy, et ce aussi longtemps que vous êtes utilisateur du service.",
     "about our engagements subtitle three": "Nous garantissons la transparence de notre plateforme",
-    "about our engagements content three": "Cozy est et restera un service reposant sur un logiciel libre : vous pouvez utiliser, copier, modifier (et améliorer !) le code source. Le choix de l’approche logiciel libre garantit la transparence du service Cozy, qui est auditable en toute circonstance, conformément à la licence libre du logiciel utilisé par Cozy Cloud.",
+    "about our engagements content three": "Cozy est et restera un service reposant sur un logiciel libre : vous pouvez utiliser, copier, modifier (et améliorer !) le code source. Le choix de l’approche logiciel libre garantit la transparence du service Cozy, qui est auditable en toutes circonstances, conformément à la licence libre du logiciel utilisé par Cozy Cloud.",
     "about our engagements subtitle four": "Vous décidez de l'utilisation de vos données",
     "about our engagements content four": "La plateforme Cozy est conçue pour vous permettre de contrôler les données sortantes de votre Cozy. Ce contrôle des applications tierces est partagé par les utilisateurs de la communauté des Cozynautes, et Cozy Cloud s’engage à faciliter pour tous les utilisateurs de Cozy le signalement d’applications malicieuses. Notre objectif : ce qui est dans votre Cozy reste dans votre Cozy.",
     "features introduction": "Cozy réuni toutes vos données dans un seul cloud, pour vous aider à gérer votre vie numérique.",
@@ -526,5 +525,8 @@
     "footer love text": "Fait avec ❤️ en France, pas en Californie.",
     "sync share feature timeline photo screenshot": "Timeline de Cozy Photos",
     "sync share features drive screenshot": "Vue de Cozy Drive",
-    "support introduction": "Vous avez besoin d'aide avec votre Cozy ? Nous sommes à votre service."
+    "support introduction": "Vous avez besoin d'aide avec votre Cozy ? Nous sommes à votre service.",
+    "nav jobs title": "Emploi",
+    "try cta title": "try cta title",
+    "try free cozy": "try free cozy"
 }
