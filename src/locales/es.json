@@ -528,5 +528,8 @@
     "sync share feature timeline photo screenshot": "Cronograma de Cozy Fotos",
     "sync share features drive screenshot": "Una mirada a Cozy Drive",
     "support introduction": "¿Necesita ayuda con su Cozy? Estamos aquí para eso.",
-    "nav jobs title": "Jobs"
+    "nav jobs title": "Jobs",
+    "thank main title": "Thank you!",
+    "thank main introduction": "To finish your subscription you need to confirm your web address. We sent you an email, please click on the link inside. Thanks!",
+    "thank secondary title": "You're almost done, one more step is required."
 }
