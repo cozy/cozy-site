@@ -1,5 +1,6 @@
 {
-    "try main title": "Adoptez Cozy Bêta",
+    "try main title": "Try Cozy for free",
+    "try main introduction": "Join the waiting list today and receive a Cozy Beta when it is available!",
     "try description": "A cambio, sólo le pedimos una cosa: ayúdenos a construir la mejor solución para una Cloud Personal.",
     "try description start": "Le facilitaremos un servidor Cozy (localizado en Francia) con 60Go de espacio de almacenamiento.",
     "try description link title": "A cambio de sus comentarios y contribución al proyecto Cozy.",
@@ -419,12 +420,10 @@
     "apps go demo": "Ver la demostración de",
     "→ live demo": "→ Ver demostración",
     "testimonials title": "testimonios",
-    "try community": "Rejoignez notre communanuté de Bêta-Testeurs.",
-    "try bugs": "Profitez de l'offre d'essai 100% gratuite.",
-    "try improve": "Découvrez en exclusivité les 1ères fonctionnalités de Cozy.",
-    "try mission": "Aidez-nous à construire le futur du cloud en partageant vos retours.",
-    "try cta title": "Inscrivez-vous et recevez un Cozy Bêta lors de sa sortie fin juin 2017",
-    "try free cozy": "Rejoignez la liste d'attente",
+    "try improve": "Discover Cozy's 1st features before everyone else.",
+    "try mission": "Cozy is 100% free during the beta test.",
+    "try community": "Join our Beta-testers community.",
+    "try bugs": "Help us build the future of the cloud with your feedback.",
     "business title": "Transformación numérica",
     "business introduction content subtitle": "Cozy Cloud ayuda a grandes marcas a reinventar su servicio al cliente",
     "business benefits relationship": "Reinvente su relación cliente",
@@ -527,6 +526,7 @@
     "sync share feature timeline photo screenshot": "Cronograma de Cozy Fotos",
     "sync share features drive screenshot": "Una mirada a Cozy Drive",
     "support introduction": "¿Necesita ayuda con su Cozy? Estamos aquí para eso.",
-    "try main introduction": "try main introduction",
-    "nav jobs title": "Jobs"
+    "nav jobs title": "Jobs",
+    "try cta title": "try cta title",
+    "try free cozy": "try free cozy"
 }

@@ -1,5 +1,6 @@
 {
-	"try main title": "Adoptez Cozy Bêta",
+	"try main title": "Try Cozy for free",
+	"try main introduction": "Join the waiting list today and receive a Cozy Beta when it is available!",
 	"try description": "In return, we just ask you one thing: help us build the best Personal Cloud solution!",
 	"try description start": "We'll provide you with a Cozy and 60GB of disk space (hosted in France),",
 	"try description link title": "in exchange of your feedback and contribution to the Cozy Project.",
@@ -419,12 +420,10 @@
 	"apps go demo": "Go to demo of",
 	"→ live demo": "→ live demo",
 	"testimonials title": "testimonials",
-	"try improve": "Découvrez en exclusivité les 1ères fonctionnalités de Cozy.",
-	"try mission": "Profitez de l'offre d'essai 100% gratuite.",
-	"try community": "Rejoignez notre communanuté de Bêta-Testeurs.",
-	"try bugs": "Aidez-nous à construire le futur du cloud en partageant vos retours.",
-	"try cta title": "Rejoignez la liste d'attente dès aujourd'hui et recevez prochainement votre Cozy Bêta !",
-	"try free cozy": "Rejoignez la liste d'attente",
+	"try improve": "Discover Cozy's 1st features before everyone else.",
+	"try mission": "Cozy is 100% free during the beta test.",
+	"try community": "Join our Beta-testers community.",
+	"try bugs": "Help us build the future of the cloud with your feedback.",
 	"business title": "Digital transformation",
 	"business introduction content subtitle": "Cozy Cloud helps major brands reinvent their customer service",
 	"business benefits relationship": "A disruptive approach to Customer Service.",
@@ -527,6 +526,7 @@
 	"sync share feature timeline photo screenshot": "Timeline of Cozy Photos",
 	"sync share features drive screenshot": "View of Cozy Drive",
 	"support introduction": "You need help with your Cozy ? We are here to help.",
-	"try main introduction": "try main introduction",
-	"nav jobs title": "Jobs"
+	"nav jobs title": "Jobs",
+	"try free cozy": "try free cozy",
+	"try cta title": "try cta title"
 }
