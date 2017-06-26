@@ -8,6 +8,8 @@
     "try description link": "https://forum.cozy.io/t/quelques-mots-a-propos-des-serveurs-gratuits-pour-tester-cozy/2255",
     "try form email address": "Adresse e-mail",
     "try form sign up": "S'enregistrer",
+    "try free cozy": "Abonnez-vous à la newsletter et recevez un Cozy 3.0 Beta lors de sa sortie en Juin 2017 (hébergé en France)",
+    "try cta title": "Inscrivez-vous et recevez un Cozy Bêta lors de sa sortie fin juin 2017",
     "home main title": "Choisissez la simplicité,",
     "home secondary title": "adoptez Cozy.",
     "home main title & home secondary title": "Choisissez la simplicité, adoptez Cozy.",
@@ -526,7 +528,5 @@
     "sync share feature timeline photo screenshot": "Timeline de Cozy Photos",
     "sync share features drive screenshot": "Vue de Cozy Drive",
     "support introduction": "Vous avez besoin d'aide avec votre Cozy ? Nous sommes à votre service.",
-    "nav jobs title": "Emploi",
-    "try cta title": "try cta title",
-    "try free cozy": "try free cozy"
+    "nav jobs title": "Emploi"
 }

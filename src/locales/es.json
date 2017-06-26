@@ -8,6 +8,8 @@
     "try description link": "https://forum.cozy.io/t/some-words-about-the-free-cozy-test-servers/2256",
     "try form email address": "Dirección email",
     "try form sign up": "Registrese",
+    "try free cozy": "Subscribe to the newsletter and get a Cozy 3.0 Beta when it will launch in June 2017 (hosted in France)",
+    "try cta title": "Join the Cozy community now!",
     "home main title": "Escoja la simplicidad.",
     "home secondary title": "adopte Cozy.",
     "home main title & home secondary title": "Escoja la simplicidad, adopte Cozy.",
@@ -421,9 +423,9 @@
     "→ live demo": "→ Ver demostración",
     "testimonials title": "testimonios",
     "try improve": "Discover Cozy's 1st features before everyone else.",
-    "try mission": "Cozy is 100% free during the beta test.",
+    "try mission": "Try Cozy Beta for free.",
     "try community": "Join our Beta-testers community.",
-    "try bugs": "Help us build the future of the cloud with your feedback.",
+    "try bugs": "Help us build the future of the Cloud by sharing your feedback.",
     "business title": "Transformación numérica",
     "business introduction content subtitle": "Cozy Cloud ayuda a grandes marcas a reinventar su servicio al cliente",
     "business benefits relationship": "Reinvente su relación cliente",
@@ -526,7 +528,5 @@
     "sync share feature timeline photo screenshot": "Cronograma de Cozy Fotos",
     "sync share features drive screenshot": "Una mirada a Cozy Drive",
     "support introduction": "¿Necesita ayuda con su Cozy? Estamos aquí para eso.",
-    "nav jobs title": "Jobs",
-    "try cta title": "try cta title",
-    "try free cozy": "try free cozy"
+    "nav jobs title": "Jobs"
 }
