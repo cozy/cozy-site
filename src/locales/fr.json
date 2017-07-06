@@ -450,7 +450,7 @@
     "home business CTA": "en savoir plus",
     "nav business title": "Business",
     "announcement popup label": "Une maintenance est planifiée ce soir de 22h30 à 00h00. Toutes nos excuses, Cozy sera indisponible pendant ce temps là.",
-    "announcement popup url": "/en/try-it/?from=popup#subscribe",
+    "announcement popup url": "https://forum.cozy.io/t/maintenance-du-forum-prevue-maintenance-scheduled-tonight/4787/",
     "footer subscribe language en": ".",
     "footer subscribe language fr": "checked",
     "lost title": "Perdu !",
@@ -531,5 +531,7 @@
     "nav jobs title": "Emploi",
     "thank main title": "Merci !",
     "thank main introduction": "Pour finir votre inscription, nous avons besoin de confirmer votre adresse email. Nous vous avons envoyé un email, merci de cliquer sur le lien qu'il contient. Merci !",
-    "thank secondary title": "Vous faites maintenant partie de la communauté de Cozy."
+    "thank secondary title": "Vous faites maintenant partie de la communauté de Cozy.",
+    "https://forum.cozy.io/t/maintenance-du-forum-prevue-maintenance-scheduled-tonight/4787/": "https://forum.cozy.io/t/maintenance-du-forum-prevue-maintenance-scheduled-tonight/4787/",
+    "press ios link app": "App Cozy pour iOS"
 }
