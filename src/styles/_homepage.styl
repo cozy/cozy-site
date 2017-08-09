@@ -20,6 +20,10 @@
 		padding-top 12vh
 		padding-bottom 8vh
 
+		+bp-max(md)
+			padding-top 4vh
+			height 110vh
+
 	.introduction-title
 		text-align left
 
@@ -28,6 +32,9 @@
 		font-weight normal
 		font-size 1.1rem
 		background rgba(255,255,255,.9)
+
+		+bp-max(md)
+			display none
 
 		// &::after
 		// 	content: ""
@@ -66,7 +73,7 @@
 	+hover-state()
 		.standFor-figure
 			transform scale(1.125)
-	
+
 	img
 		width 100%
 
