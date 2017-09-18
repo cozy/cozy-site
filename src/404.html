@@ -1,0 +1,32 @@
+---
+layout: base.html
+
+metaTitle: 404 title
+metaDescription: 404 introduction
+annexe: true
+
+locale:
+pathTo: ..
+from: 404
+---
+
+{{> header }}
+
+  <header class="introduction contrast 404">
+    <div class="container">
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-14">
+          <h1 class="introduction-title">{{__ '404 title'}}</h1>
+        </div>
+      </div>
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-16">
+          <p class="introduction-content-alt">
+            {{__ '404 introduction'}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+{{> footer }}
