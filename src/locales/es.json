@@ -449,7 +449,7 @@
     "home business title": "CDO, CMO: ¡Descubra la manera como Cozy Cloud puede ayudarle a administrar su transformación digital!",
     "home business CTA": "más información sobre",
     "nav business title": "Negocios",
-    "announcement popup label": "Come find us at the Cozy meetup Thursday night at Snips' office in Paris!",
+    "announcement popup label": "Come and meet us on Thursday October 12th at 7pm at the Cozy meetup in Snips' offices in Paris!",
     "announcement popup url": "https://forum.cozy.io/t/maintenance-du-forum-prevue-maintenance-scheduled-tonight/4787/",
     "footer subscribe language en": "revisado",
     "footer subscribe language fr": ".",
@@ -535,5 +535,7 @@
     "https://forum.cozy.io/t/maintenance-du-forum-prevue-maintenance-scheduled-tonight/4787/": "https://forum.cozy.io/t/maintenance-du-forum-prevue-maintenance-scheduled-tonight/4787/",
     "press ios link app": "Aplicación Cozy para iOS",
     "press whatiscozy coverage": "Ellos han escrito sobre Cozy",
-    "support get started url": "https://docs.cozy.io/es/use/"
+    "support get started url": "https://docs.cozy.io/es/use/",
+    "404 title": "404 title",
+    "404 introduction": "404 introduction"
 }
