@@ -1,0 +1,101 @@
+---
+layout: base.html
+
+metaTitle: download title
+metaDescription: download introduction
+annexe: true
+
+colorscheme: support
+
+locale:
+pathTo: ..
+from: download
+---
+
+{{> header }}
+
+  <header class="support">
+    <div class="container">
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-14">
+          <h1 class="introduction-title">{{__ 'download title'}}</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <article class="aboutContent">
+
+    <section>
+      <div class="panel">
+        <div class="container">
+          <div class="row-justify-center align-center">
+            <div class="row row-justify-center">
+              <div class="col-xs-24 col-lg-24">
+                <h2 class="makeitbreathe">{{__ 'download mobile title'}}</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-lg-12 align-center">
+              <a class="supportList" href="{{__ 'download iOS url'}}">
+                <figure class="">
+                  <img src="{{ pathTo }}/images/app-store-badge.svg" alt="">
+                </figure>
+                <h3>{{__ 'download iOS title'}}</h3>
+                <p>{{__ 'download iOS text'}}</p>
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-12 align-center">
+              <a class="supportList" href="{{__ 'download Android support'}}">
+                <figure class="">
+                  <img src="{{ pathTo }}/images/google-play-badge.svg" alt="">
+                </figure>
+                <h3>{{__ 'download Android title'}}</h3>
+                <p>{{__ 'download Android text'}}</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="dash-grey">
+
+    <section>
+      <div class="panel">
+        <div class="container">
+          <div class="row-justify-center align-center">
+            <div class="row row-justify-center">
+              <div class="col-xs-24 col-lg-24">
+                <h2 class="makeitbreathe">{{__ 'download desktop title'}}</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row row-justify-center align-center">
+            <div class="col-xs-12 col-lg-12 align-center">
+              <a class="supportList" href="{{__ 'support get started url'}}">
+                <figure class="">
+                  <img src="{{ pathTo }}/images/icon-48-apple.svg" alt="">
+                </figure>
+                <h3>{{__ 'download MacOS title'}}</h3>
+                <p>{{__ 'download MacOS text'}}</p>
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-12 align-center">
+              <a class="supportList" href="{{__ 'url forum support'}}">
+                <figure class="">
+                  <img src="{{ pathTo }}/images/icon-48-windows.svg" alt="">
+                </figure>
+                <h3>{{__ 'download Windows title'}}</h3>
+                <p>{{__ 'download Windows text'}}</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </article>
+
+{{> footer }}
