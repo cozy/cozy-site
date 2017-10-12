@@ -537,5 +537,19 @@
     "press whatiscozy coverage": "Ils ont parlé de Cozy",
     "support get started url": "https://docs.cozy.io/fr/use/index_fr/",
     "404 title": "404 title",
-    "404 introduction": "404 introduction"
+    "404 introduction": "404 introduction",
+    "download title": "Installer Cozy Drive sur tous vos appareils",
+    "download introduction": "download introduction",
+    "download mobile title": "Cozy Drive sur votre ordinateur",
+    "download iOS title": "Cozy Drive pour iOS",
+    "download iOS text": "Nécessite iOS 10 ou supérieur",
+    "download Android title": "Cozy Drive pour Android",
+    "download Android text": "Nécessite Android 5.0.0 ou supérieur",
+    "download desktop title": "Cozy Drive sur votre ordinateur",
+    "download MacOS title": "Cozy Drive pour macOS",
+    "download MacOS text": "Nécessite macOS 10.12 ou supérieur",
+    "download Windows title": "Cozy Drive pour Windows",
+    "download Windows text": "Nécessite Windows 7 ou supérieur",
+    "download iOS url": "https://itunes.apple.com/fr/app/cozy-drive/id1224102389?mt=8\n",
+    "download Android support": "https://play.google.com/store/apps/details?id=io.cozy.drive.mobile&hl=fr\n"
 }
