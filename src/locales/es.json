@@ -572,5 +572,7 @@
     "download MacOS title": "Cazy Drive para macOS",
     "download MacOS text": "Requiere macOS 10.12 Sierra o posterior",
     "download Windows title": "Cozy Drive para Windows",
-    "download Windows text": "Requiere Windows 7 o posterior"
+    "download Windows text": "Requiere Windows 7 o posterior",
+    "download iOS logo": "../images/app-store-badge.svg",
+    "download Android logo": "../images/google-play-badge.svg"
 }
