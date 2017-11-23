@@ -574,5 +574,6 @@
 	"download Windows title": "Cozy Drive for Windows",
 	"download Windows text": "Requires Windows 7 or later",
 	"download iOS logo": "../images/app-store-badge.svg",
-	"download Android logo": "../images/google-play-badge.svg"
+	"download Android logo": "../images/google-play-badge.svg",
+	"support FAQ text": "You have a question about Cozy? You should find an answer here."
 }

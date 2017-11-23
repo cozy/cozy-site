@@ -539,7 +539,7 @@
     "support get started url": "https://docs.cozy.io/es/use/",
     "404 title": "404 título",
     "404 introduction": "404 introducción",
-    "press ambition title": "Notre ambition",
+    "press ambition title": "Nuestro anhelo",
     "press ambition content one": "Chaque jour, le numérique et la donnée occupent une place grandissante dans nos vies. Pour que les individus conservent leurs libertés dans ce nouveau contexte, il est essentiel de disposer de la maitrise de leurs données. Actuellement, les utilisateurs ont tendance à centraliser leurs données au sein de silos de données (le Cloud) opérés par des entreprises utilisant des logiciels sur lesquels les utilisateurs n'ont pas le contrôle.",
     "press ambition content two": "Chez Cozy Cloud, nous croyons que cette approche ne peut être que transitoire et que chacun a vocation à disposer de son propre domicile numérique pour y stocker ses données. L'ambition du projet de Cozy Cloud est de construire le service numérique à domicile à travers sa plateforme de cloud personnel, Cozy.",
     "press manifesto content one": "À cet effet, voici notre manifeste :",
@@ -574,5 +574,6 @@
     "download Windows title": "Cozy Drive para Windows",
     "download Windows text": "Requiere Windows 7 o posterior",
     "download iOS logo": "../images/app-store-badge.svg",
-    "download Android logo": "../images/google-play-badge.svg"
+    "download Android logo": "../images/google-play-badge.svg",
+    "support FAQ text": "You have a question about Cozy? You should find an answer here."
 }
