@@ -6,6 +6,29 @@
 		min-width auto !important
 		margin 0 !important
 
+.announcement
+	display flex
+	align-items: center
+	justify-content center
+	background-color $clr-primary
+	color $clr-light
+	padding .5rem
+	box-shadow 0 3px 10px rgba(0, 0, 0, .23)
+	font-size $fs-sm
+
+	a
+		color $clr-light
+		
+.announcement-image
+	font-size 2rem
+	margin-right 1rem
+		
+.announcement-text
+	font-weight bold
+
+@media (max-width: 980px)
+	.announcement
+		display none
 
 .siteNavigation
 	display none
