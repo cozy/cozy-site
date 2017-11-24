@@ -1,37 +1,9 @@
 // App main footer
 //
 
-.poll-popup
-	position fixed
-	bottom 0
-	right 2.5em
-	z-index 999
-
-	max-width 33%
-
-	background-color #4F5B69
-	color $clr-light
-	border-radius 4px 4px 0 0
-	padding 1em
-	box-shadow 0 3px 10px rgba(0, 0, 0, .23)
-	font-size $fs-sm
-
-	display flex
-
-	a
-		color $clr-light
-
-	> img
-		margin-right 15px
-
-@media (max-width: 980px)
-	.poll-popup
-		display none
-
-
 .siteFooter
 	padding-top $spacer
-	padding-bottom $spacer + 2rem // height of .poll-popup
+	padding-bottom $spacer
 	font-family $ff-emphasis
 	font-size $fs-sm
 	background-color $footer-bkg
