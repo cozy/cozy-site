@@ -575,5 +575,6 @@
 	"download Windows text": "Requires Windows 7 or later",
 	"download iOS logo": "../images/app-store-badge.svg",
 	"download Android logo": "../images/google-play-badge.svg",
-	"support FAQ text": "You have a question about Cozy? You should find an answer here."
+	"support FAQ text": "You have a question about Cozy? You should find an answer here.",
+	"calendar image 1": "/en/images/features/cozycollect/collect-all.png"
 }
