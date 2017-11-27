@@ -11,3 +11,7 @@ node_modules
 
 # build folder
 build
+
+# locales
+src/locales/*
+!src/locales/en.json
