@@ -1,11 +1,6 @@
 {
 	"try main title": "Welcome! 👋",
 	"try main introduction": "Join the Cozy community and start taking back control over your personal data!",
-	"try description": "try description",
-	"try description start": "",
-	"try description link title": "",
-	"try description end": "",
-	"try description link": "",
 	"try form email address": "Email address",
 	"try form sign up": "Let's start now!",
 	"try free cozy": "Subscribe to the newsletter and get a Cozy 3.0 Beta when it will launch in June 2017 (hosted in France)",
@@ -582,5 +577,6 @@
 	"ungoogle features cozysante family": "/en/images/features/cozysante/sante-family-beta-en.png",
 	"features cozybank overview screenshot": "/en/images/features/cozybank/bank-overview-beta-en.png",
 	"features cozybank allaccounts screenshot": "/en/images/features/cozybank/bank-all-accounts-beta-en.png",
-	"features cozybank linkedbills screenshot": "/en/images/features/cozybank/bank-linked-bills-beta-en.png"
+	"features cozybank linkedbills screenshot": "/en/images/features/cozybank/bank-linked-bills-beta-en.png",
+	"try description": "try description"
 }
