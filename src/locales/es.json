@@ -576,5 +576,11 @@
     "download Windows text": "Requiere Windows 7 o posterior",
     "download iOS logo": "../images/app-store-badge.svg",
     "download Android logo": "../images/google-play-badge.svg",
-    "support FAQ text": "You have a question about Cozy? You should find an answer here."
+    "support FAQ text": "You have a question about Cozy? You should find an answer here.",
+    "calendar image 1": "/en/images/features/cozycollect/collect-all.png",
+    "ungoogle features cozysante overview": "/en/images/features/cozysante/sante-overview-beta-en.png",
+    "ungoogle features cozysante family": "/en/images/features/cozysante/sante-family-beta-en.png",
+    "features cozybank overview screenshot": "/en/images/features/cozybank/bank-overview-beta-en.png",
+    "features cozybank allaccounts screenshot": "/en/images/features/cozybank/bank-all-accounts-beta-en.png",
+    "features cozybank linkedbills screenshot": "/en/images/features/cozybank/bank-linked-bills-beta-en.png"
 }
