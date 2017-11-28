@@ -1,13 +1,8 @@
 {
-	"try main title": "Try Cozy for free",
-	"try main introduction": "Join the waiting list today and receive a Cozy Beta when it is available!",
-	"try description": "In return, we just ask you one thing: help us build the best Personal Cloud solution!",
-	"try description start": "We'll provide you with a Cozy and 60GB of disk space (hosted in France),",
-	"try description link title": "in exchange of your feedback and contribution to the Cozy Project.",
-	"try description end": "A lot of people are eager to try out Cozy and they are available in limited number, so expect to wait before getting yours.",
-	"try description link": "https://forum.cozy.io/t/some-words-about-the-free-cozy-test-servers/2256",
+	"try main title": "Welcome! 👋",
+	"try main introduction": "Join the Cozy community and start taking back control over your personal data!",
 	"try form email address": "Email address",
-	"try form sign up": "Sign up",
+	"try form sign up": "Let's start now!",
 	"try free cozy": "Subscribe to the newsletter and get a Cozy 3.0 Beta when it will launch in June 2017 (hosted in France)",
 	"try cta title": "Join the Cozy community now!",
 	"home main title": "Choose simplicity,",
@@ -582,5 +577,6 @@
 	"ungoogle features cozysante family": "/en/images/features/cozysante/sante-family-beta-en.png",
 	"features cozybank overview screenshot": "/en/images/features/cozybank/bank-overview-beta-en.png",
 	"features cozybank allaccounts screenshot": "/en/images/features/cozybank/bank-all-accounts-beta-en.png",
-	"features cozybank linkedbills screenshot": "/en/images/features/cozybank/bank-linked-bills-beta-en.png"
+	"features cozybank linkedbills screenshot": "/en/images/features/cozybank/bank-linked-bills-beta-en.png",
+	"try description": "try description"
 }
