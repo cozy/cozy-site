@@ -14,6 +14,15 @@ var Metalsmith   = require('metalsmith'),
     stylus       = require('metalsmith-stylus'),
     autoprefixer = require('metalsmith-autoprefixer'),
     assets       = require('metalsmith-assets');
+    handlebars   = require('handlebars');
+
+handlebars.registerHelper('ifequals', function (item, comparison, options) {
+    if (item == comparison) {
+        return options.fn(this);
+    } else {
+        return options.inverse(this);
+    }
+});
 
 
 module.exports = {

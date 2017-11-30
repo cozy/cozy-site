@@ -87,7 +87,29 @@
               {{__ 'nav signup title'}}
             </a>
           </div>
-
+		      <div class="col-center align-center">
+		        <div class="btn btn-link switchLang">
+          		{{#ifequals locale "en"}}
+		            	<span>
+		            	  EN
+		            	</span>
+		          {{else}}
+		          		<a href="/en">
+		            	  EN
+		            	</a>
+		          {{/ifequals}}
+		            	&nbsp;/&nbsp;
+		          {{#ifequals locale "fr"}}
+		          		<span>
+		            	  FR
+		            	</span>
+		          {{else}}
+		            	<a href="/fr">
+		            	  FR
+		            	</a>
+		        	{{/ifequals}}
+            </div>
+          </div>
         </div>
       </div>
     </nav>
