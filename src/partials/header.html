@@ -79,14 +79,6 @@
             </a>
           </div> -->
 
-					<div class="siteNavigation-ctaContainer">
-            <a href="https://manager.cozycloud.cc/cozy/login" class="btn btn-outlined-primary-grey">
-              {{__ 'nav signin title'}}
-            </a>
-            <a href="/{{ locale }}/try-it/?from={{from}}" class="btn btn-primary">
-              {{__ 'nav signup title'}}
-            </a>
-          </div>
 		      <div class="col-center align-center">
 		        <div class="btn btn-link switchLang">
           		{{#ifequals locale "en"}}
@@ -109,6 +101,15 @@
 		            	</a>
 		        	{{/ifequals}}
             </div>
+          </div>
+          
+					<div class="siteNavigation-ctaContainer">
+            <a href="https://manager.cozycloud.cc/cozy/login" class="btn btn-outlined-primary-grey">
+              {{__ 'nav signin title'}}
+            </a>
+            <a href="/{{ locale }}/try-it/?from={{from}}" class="btn btn-primary">
+              {{__ 'nav signup title'}}
+            </a>
           </div>
         </div>
       </div>
