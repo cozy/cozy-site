@@ -1,14 +1,14 @@
   <header class="siteHeader {{#if homepage}}contrast{{/if}} {{#if fullHeightIntroduction}}contrast{{/if}} {{#if annexe}}contrast{{/if}}">
 
   	<!-- Bandeau d'annonce -->
-  	<!--<aside class="announcement">
+  	<aside class="announcement">
 			<div class="announcement-image">
 				📆
 			</div>
 			<div class="announcement-text">
 				<a href="https://www.meetup.com/fr-FR/preview/Meetup-des-utilisateurs-de-Cozy-Cloud-en-France/events/244377262" target="_blank">{{__ 'announcement popup label'}} →</a>
 			</div>
-		</aside>-->
+		</aside>
 
     <nav class="siteNavigation">
       <div class="container">
@@ -25,28 +25,28 @@
             </span>
 						<div class="submenu-level">
 							<a href="/{{ locale }}/features/#collector">
-								<div class="submenu-itemIcon"><img src="./images/apps/cozy-data-connect.svg" alt=""></div>
+								<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-data-connect.svg" alt=""></div>
 								<div>
 									<h2 class="submenu-itemTitle">{{__ 'features collect name'}}</h2>
 									<p class="submenu-itemDesc">{{__ 'features collect title'}}</p>
 								</div>
 							</a>
 							<a href="/{{ locale }}/features/#bank">
-								<div class="submenu-itemIcon"><img src="./images/apps/cozy-bank.svg" alt=""></div>
+								<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-bank.svg" alt=""></div>
 								<div>
 									<h2 class="submenu-itemTitle">{{__ 'features bank name'}}</h2>
 									<p class="submenu-itemDesc">{{__ 'features bank title'}}</p>
 								</div>
 							</a>
 							<a href="/{{ locale }}/features/#sante">
-								<div class="submenu-itemIcon"><img src="./images/apps/cozy-health.svg" alt=""></div>
+								<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-health.svg" alt=""></div>
 								<div>
 									<h2 class="submenu-itemTitle">{{__ 'features sante name'}}</h2>
 									<p class="submenu-itemDesc">{{__ 'features sante title'}}</p>
 								</div>
 							</a>
 							<a href="/{{ locale }}/features/#photos">
-								<div class="submenu-itemIcon"><img src="./images/apps/cozy-photos.svg" alt=""></div>
+								<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-photos.svg" alt=""></div>
 								<div>
 									<h2 class="submenu-itemTitle">{{__ 'features sync share name'}}</h2>
 									<p class="submenu-itemDesc">{{__ 'features sync share title'}}</p>
@@ -102,7 +102,7 @@
 		        	{{/ifequals}}
             </div>
           </div>
-          
+
 					<div class="siteNavigation-ctaContainer">
             <a href="https://manager.cozycloud.cc/cozy/login" class="btn btn-outlined-primary-grey">
               {{__ 'nav signin title'}}

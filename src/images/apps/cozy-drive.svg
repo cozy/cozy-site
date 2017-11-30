@@ -1,6 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <g fill="none" fill-rule="evenodd" transform="translate(0 2)">
-    <rect width="32" height="26" y="2" fill="#B2D3FF" rx="2"/>
-    <path fill="#197BFF" d="M0,0.990777969 C0,0.443586406 0.449948758,0 1.00684547,0 L12.9931545,0 C13.5492199,0 14.3125,0.3125 14.7107565,0.71075654 L15.2892435,1.28924346 C15.6817835,1.68178346 16.4446309,2 17.0008717,2 L30.0059397,2 C31.1072288,2 32,2.89470506 32,4 L32,4 L17.0008717,4 C16.4481055,4 15.6875,4.3125 15.2892435,4.71075654 L14.7107565,5.28924346 C14.3182165,5.68178346 13.5500512,6 12.9931545,6 L1.00684547,6 C0.450780073,6 0,5.54902482 0,5.00922203 L0,0.990777969 Z"/>
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon" fill-rule="nonzero">
+            <g id="cozy-drive" transform="translate(0.000000, 3.000000)">
+                <rect id="Rectangle-path" fill="#B2D3FF" x="0" y="3" width="48" height="39" rx="2"></rect>
+                <path d="M0,1.48616695 C0,0.665379609 0.674923137,0 1.51026821,0 L19.4897317,0 C20.3238299,0 21.46875,0.46875 22.0661347,1.06613481 L22.9338653,1.93386519 C23.5226752,2.52267519 24.6669463,3 25.5013075,3 L45.0089095,3 C46.6608432,3 48,4.34205759 48,6 L48,6 L25.5013075,6 C24.6721583,6 23.53125,6.46875 22.9338653,7.06613481 L22.0661347,7.93386519 C21.4773248,8.52267519 20.3250768,9 19.4897317,9 L1.51026821,9 C0.67617011,9 0,8.32353723 0,7.51383305 L0,1.48616695 Z" id="Shape" fill="#197BFF"></path>
+            </g>
+        </g>
+    </g>
 </svg>

@@ -446,7 +446,7 @@
     "home business title": "CDO, CMO : Découvrez comment Cozy Cloud peut vous aider dans votre transformation numérique !",
     "home business CTA": "en savoir plus",
     "nav business title": "Business",
-    "announcement popup label": "Séance supplémentaire pour l'excellent documentaire Nothing to Hide ! Retrouvez-nous au MAIF Social Club jeudi 2 novembre à partir de 19h !",
+    "announcement popup label": "Événement ! Gagnez 5 places pour assister au procès 'Faut-il démanteler Google ?' organisé par Usbek & Rica le 4 décembre à Paris.",
     "announcement popup url": "https://forum.cozy.io/t/maintenance-du-forum-prevue-maintenance-scheduled-tonight/4787/",
     "footer subscribe language en": ".",
     "footer subscribe language fr": "checked",
@@ -583,6 +583,6 @@
     "features cozybank allaccounts screenshot": "/fr/images/features/cozybank/bank-all-accounts-beta-fr.png",
     "features cozybank linkedbills screenshot": "/fr/images/features/cozybank/bank-linked-bills-beta-fr.png",
     "try description": "try description",
-    "download Linux title": "Cozy Drive pour Linux",
-    "download Linux text": "Bientôt disponible"
+    "download Linux title": "Cozy Drive for Linux",
+    "download Linux text": "Coming soon"
 }

@@ -1,14 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <g fill="none" fill-rule="evenodd">
-    <path fill="#855CEA" fill-rule="nonzero" d="M32,17.3818748 C38.4788008,17.3818748 43.7310547,22.7384047 43.7310547,29.3455954 C43.7310547,35.9527861 38.4788008,41.3093161 32,41.3093161 C25.5211992,41.3093161 20.2689453,35.9527861 20.2689453,29.3455954 C20.2689453,22.7384047 25.5211992,17.3818748 32,17.3818748 Z M32,58.9450016 C24.97375,58.9450016 18.6050907,56.0787139 14,51.4547232 C17.8412687,47.7235961 24.4673594,45.2587711 32,45.2587711 C39.5326406,45.2587711 46.1587313,47.7235961 50,51.4547232 C45.3949093,56.0787139 39.02625,58.9450016 32,58.9450016 Z"/>
-    <g transform="translate(3)">
-      <circle cx="29" cy="32" r="27" stroke="#C2ADF4" stroke-width="4"/>
-      <circle cx="29" cy="6" r="6" fill="#C2ADF4"/>
-      <circle cx="29" cy="58" r="6" fill="#C2ADF4"/>
-      <circle cx="52" cy="47" r="6" fill="#C2ADF4"/>
-      <circle cx="6" cy="47" r="6" fill="#C2ADF4"/>
-      <circle cx="52" cy="18" r="6" fill="#C2ADF4"/>
-      <circle cx="6" cy="18" r="6" fill="#C2ADF4"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon">
+            <g id="cozy-data-connect" transform="translate(2.000000, 0.000000)">
+                <path d="M21.5,13 C26.3591006,13 30.298291,16.9951861 30.298291,21.9231818 C30.298291,26.8511776 26.3591006,30.8463638 21.5,30.8463638 C16.6408994,30.8463638 12.701709,26.8511776 12.701709,21.9231818 C12.701709,16.9951861 16.6408994,13 21.5,13 Z M21.5,44 C16.2303125,44 11.453818,41.8621695 8,38.4133503 C10.8809515,35.6304764 15.8505195,33.7920783 21.5,33.7920783 C27.1494805,33.7920783 32.1190485,35.6304764 35,38.4133503 C31.546182,41.8621695 26.7696875,44 21.5,44 Z" id="Shape" fill="#855CEA" fill-rule="nonzero"></path>
+                <g id="Group">
+                    <ellipse id="Oval" stroke="#C2ADF4" stroke-width="4" cx="22" cy="24" rx="20.4827586" ry="20.25"></ellipse>
+                    <ellipse id="Oval" fill="#C2ADF4" fill-rule="nonzero" cx="22" cy="4.5" rx="4.55172414" ry="4.5"></ellipse>
+                    <ellipse id="Oval" fill="#C2ADF4" fill-rule="nonzero" cx="22" cy="43.5" rx="4.55172414" ry="4.5"></ellipse>
+                    <ellipse id="Oval" fill="#C2ADF4" fill-rule="nonzero" cx="39.4482759" cy="35.25" rx="4.55172414" ry="4.5"></ellipse>
+                    <ellipse id="Oval" fill="#C2ADF4" fill-rule="nonzero" cx="4.55172414" cy="35.25" rx="4.55172414" ry="4.5"></ellipse>
+                    <ellipse id="Oval" fill="#C2ADF4" fill-rule="nonzero" cx="39.4482759" cy="13.5" rx="4.55172414" ry="4.5"></ellipse>
+                    <ellipse id="Oval" fill="#C2ADF4" fill-rule="nonzero" cx="4.55172414" cy="13.5" rx="4.55172414" ry="4.5"></ellipse>
+                </g>
+            </g>
+        </g>
     </g>
-  </g>
 </svg>
