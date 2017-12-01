@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ locale }}">
 
   <head>
     <meta charset="utf-8">
@@ -27,6 +27,9 @@
     <meta name="twitter:image" content="https://cozy.io/en/images/logo-cozy-cloud.jpg">
 
     <link rel="stylesheet" href="{{ pathTo }}/{{ fingerprint.[styles/main.css] }}" media="all">
+    {{#if homepage}}
+    <link rel="stylesheet" href="{{ pathTo }}/styles/plugins/slick.css">
+    {{/if}}
 
     <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="b35f5596-c313-4529-bff4-8cf274c03cf0";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
   </head>
@@ -35,6 +38,9 @@
     {{{ contents }}}
 
     <script src="{{ pathTo }}/js/main.min.js"></script>
+    {{#if homepage}}
+    <script src="{{ pathTo }}/js/plugins/slick.min.js"></script>
+    {{/if}}
     <script type="text/javascript">
       var _paq = _paq || [];
       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */

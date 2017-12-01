@@ -49,7 +49,7 @@ module.exports = {
 
        //Javascript
       .use(uglify({
-        filter: ['js/**/*.js'],
+        filter: ['js/vendors/*.js', 'js/*.js'],
         removeOriginal: true,
         sourceMap: true,
         order: ['js/vendors/**/*.js', 'js/*.js'],
