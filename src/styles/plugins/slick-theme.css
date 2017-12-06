@@ -1,20 +1,19 @@
 @charset 'UTF-8';
 /* Slider */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
 .slick-loading .slick-list
 {
-    background: #fff url('./ajax-loader.gif') center center no-repeat;
+    background: #fff url('./spinner.svg') center center no-repeat;
+    animation: spin 1s linear infinite;
 }
 
-/* Icons */
-@font-face
-{
-    font-family: 'slick';
-    font-weight: normal;
-    font-style: normal;
-
-    src: url('./fonts/slick.eot');
-    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
-}
 /* Arrows */
 .slick-prev,
 .slick-next
@@ -27,8 +26,8 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -66,12 +65,18 @@
 .slick-prev:before,
 .slick-next:before
 {
-    font-family: 'slick';
+    content: '';
+    display: block;
+
     font-size: 20px;
     line-height: 1;
 
+    width: 2rem;
+    height: 2rem;
+
     opacity: .75;
     color: white;
+    background-size: contain;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -88,7 +93,7 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    background-image: url(../../images/icon-back.svg);
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -106,7 +111,7 @@
 }
 .slick-next:before
 {
-    content: '→';
+    background-image: url(../../images/icon-forward.svg);
 }
 [dir='rtl'] .slick-next:before
 {
@@ -154,8 +159,8 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 1rem;
+    height: 1rem;
     padding: 5px;
 
     cursor: pointer;
@@ -177,7 +182,6 @@
 }
 .slick-dots li button:before
 {
-    font-family: 'slick';
     font-size: 6px;
     line-height: 20px;
 
@@ -185,10 +189,12 @@
     top: 0;
     left: 0;
 
-    width: 20px;
-    height: 20px;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #32363f;
+    border-radius: 50%;
 
-    content: '•';
+    content: '';
     text-align: center;
 
     opacity: .25;
@@ -201,4 +207,8 @@
 {
     opacity: .75;
     color: black;
+}
+
+.slick-slide {
+		padding: 1rem .5rem 1rem 2.5rem;
 }
