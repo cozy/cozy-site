@@ -585,16 +585,22 @@
     "try description": "try description",
     "download Linux title": "Cozy Drive for Linux",
     "download Linux text": "Coming soon",
+    "home press article1 link": "http://bfmbusiness.bfmtv.com/mediaplayer/video/coup-de-pouce-a-une-start-up-cozy-cloud-0110-872705.html",
     "home press article1 title": "Coup de pouce à une start-up : Cozy Cloud",
     "home press article1 text": "Tristan Nitot a été reçu par Frédéric Simottel pour parler d'une solution libre de cloud. Créée en 2012, la start-up Cozy Cloud propose en effet de vous réapproprier vos données personnelles afin de les héberger à un seul endroit. En d'autres termes, elle veut redonner le pouvoir aux internautes sur leurs données.",
+    "home press article2 link": "https://www.lesechos.fr/idees-debats/editos-analyses/030924883748-donnees-personnelles-une-nouvelle-regle-qui-ne-fait-pas-que-des-malheureux-2133108.php",
     "home press article2 title": "Données personnelles: une nouvelle règle qui ne fait pas que des malheureux",
     "home press article2 text": "A l’approche de la réglementation européenne sur les données (RGPD), quelques start-up comme Cozy Cloud et Qwant se positionnent comme des alternatives au service de l’individu. ",
+    "home press article3 link": "http://www.lefigaro.fr/secteur/high-tech/start-up/2016/06/10/32004-20160610ARTFIG00253-cozy-cloud-la-start-up-qui-protege-vos-donnees-leve-4-millions-d-euros.php",
     "home press article3 title": "Cozy Cloud, la start-up qui protège vos données, lève 4 millions d'euros",
     "home press article3 text": "Enregistrez, synchronisez, stockez vos données comme vous voulez. Cozy Cloud propose à ses utilisateurs de « se réapproprier leurs données ». Plutôt que de laisser aux géants du Web le soin d'exploiter les données personnelles, cette start-up française a imaginé une solution pour importer dans un espace personnel ces informations.",
+    "home press article4 link": "https://usbeketrica.com/article/faut-il-demanteler-google",
     "home press article4 title": "Cozy Cloud & Tristan Nitot , acteurs du procès 'Faut-il démanteler Google?'",
     "home press article4 text": "Devant Audrey Pulvar, journaliste, Laurent Alexandre, Axelle Lemaire et surtout la porte-parole de Google France, Anne-Gabrielle Dauba-Pantanacce, Tristan Nitot a porté haut et fort la voix de Cozy Cloud et partagé devant 1000 personnes leur mission 'Re-donner à l’individu le contrôle de ses données personnelles'. ",
+    "home press article5 link": "http://www.ladn.eu/tech-a-suivre/data-big-et-smart/doit-on-se-resigner-a-la-surveillance-numerique-de-masse/",
     "home press article5 title": "Doit-on se résigner à la surveillance numérique de masse ?",
     "home press article5 text": "Projection privée du documentaire “Nothing to Hide” organisée par Cozy Cloud au MAIF Social Club . Pour reprendre le contrôle, on peut donc utiliser son serveur à soi, qui fonctionne avec du logiciel libre et chiffre les communications : c’est le graal de l’autonomie numérique.",
+    "home press article6 link": "https://www.franceinter.fr/emissions/c-est-deja-demain/c-est-deja-demain-07-decembre-2017",
     "home press article6 title": "Accusé Google, levez-vous !",
-    "home press article6 text": "Tristan Nitot, a fervent defender of personal data, has evoked a form of mass surveillance: \"Google is the useful fool of the NSA\"."
+    "home press article6 text": "Tristan Nitot, ardent defender of personal data, has evoked a form of mass surveillance: 'Google is the useful fool of the NSA'."
 }

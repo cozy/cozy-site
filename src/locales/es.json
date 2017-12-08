@@ -585,16 +585,22 @@
     "try description": "try description",
     "download Linux title": "Cozy Drive for Linux",
     "download Linux text": "Coming soon",
+    "home press article1 link": "http://bfmbusiness.bfmtv.com/mediaplayer/video/coup-de-pouce-a-une-start-up-cozy-cloud-0110-872705.html",
     "home press article1 title": "[FR] Coup de pouce à une start-up : Cozy Cloud",
     "home press article1 text": "Tristan Nitot talk about Cozy Cloud on the French TV. With Cozy Cloud you can get back control on your data.",
+    "home press article2 link": "https://www.lesechos.fr/idees-debats/editos-analyses/030924883748-donnees-personnelles-une-nouvelle-regle-qui-ne-fait-pas-que-des-malheureux-2133108.php",
     "home press article2 title": "[FR] Données personnelles: une nouvelle règle qui ne fait pas que des malheureux",
     "home press article2 text": "Upon arrival of the European data regulation (GDPR), some start-ups like Cozy Cloud and Qwant are positioning themselves as alternatives to the service of the individual.",
+    "home press article3 link": "http://www.lefigaro.fr/secteur/high-tech/start-up/2016/06/10/32004-20160610ARTFIG00253-cozy-cloud-la-start-up-qui-protege-vos-donnees-leve-4-millions-d-euros.php",
     "home press article3 title": "[FR] Cozy Cloud, la start-up qui protège vos données, lève 4 millions d'euros",
     "home press article3 text": "Save, sync, store your data the way you want. Cozy Cloud offers its users the opportunity to 'reclaim their data'. Rather than allowing the giants of the Web to exploit personal data, this French start-up has devised a solution to import this information into a personal space.",
+    "home press article4 link": "https://usbeketrica.com/article/faut-il-demanteler-google",
     "home press article4 title": "[FR] Cozy Cloud & Tristan Nitot , acteurs du procès 'Faut-il démanteler Google?'",
     "home press article4 text": "Tristan Nitot explained to a prestigious audience composed by Audrey Pulvar, Laurent Alexandre, Axelle Lemaire, Anne-Gabrielle Dauba-Pantanacce and more than 1000 people concerned by personal data issues how Cozy Cloud is changing the paradigm and empower people to get back there data with less friction and more services by using a personnal cloud.",
+    "home press article5 link": "http://www.ladn.eu/tech-a-suivre/data-big-et-smart/doit-on-se-resigner-a-la-surveillance-numerique-de-masse/",
     "home press article5 title": "[FR] Doit-on se résigner à la surveillance numérique de masse ?",
     "home press article5 text": "Private screening of the documentary 'Nothing to Hide' organized by Cozy Cloud at the MAIF Social Club. To regain control, we can use its own server, which works with free software and encrypts communications: it is the grail of digital autonomy.",
+    "home press article6 link": "https://www.franceinter.fr/emissions/c-est-deja-demain/c-est-deja-demain-07-decembre-2017",
     "home press article6 title": "[FR] Accusé Google, levez-vous !",
-    "home press article6 text": "Tristan Nitot, a fervent defender of personal data, has evoked a form of mass surveillance: 'Google is the useful fool of the NSA'."
+    "home press article6 text": "Tristan Nitot, ardent defender of personal data, has evoked a form of mass surveillance: 'Google is the useful fool of the NSA'."
 }
