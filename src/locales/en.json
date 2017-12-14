@@ -36,6 +36,10 @@
 	"nav docs title": "Docs",
 	"nav press title": "Press",
 	"about title": "About Cozy Cloud",
+	"nav company title": "Company",
+	"nav partners title": "Become partner",
+	"nav partners text": "You are a startup, a corporate or a journalist? We should talk!",
+	"nav about text": "Discover Cozy Cloud story and team",
 	"about introduction": "Curious about the people behind Cozy Cloud, about our history, business model, and vision? You're in the right place! Let's start with the most important and the most exciting part.",
 	"about vision title": "Our vision",
 	"about vision content one": "We see Cozy evolving from a personal private cloud and app platform into a universal tool that can help you organize your life and make you more productive by automating routine tasks. It will act as your own personal assistant, providing the information you're looking for and offering advice when you need it. We want Cozy to be of use to both individual users and certain businesses as a solid foundation for building a vendor-neutral cloud platform.",
@@ -461,7 +465,7 @@
 	"nav features title": "Features",
 	"nav desktop app title": "Download desktop app",
 	"nav mobile app title": "Download mobile app",
-	"home press title": "Mentionned by",
+	"home press title": "Mentioned by",
 	"home value proposition 1": "Synchronize and share your files and photos",
 	"home value proposition text 1": "And access them anywhere, on all your devices.",
 	"home value proposition 2": "Automatically import your bills",
@@ -604,5 +608,7 @@
 	"home press article5 text": "Private screening of the documentary 'Nothing to Hide' organized by Cozy Cloud at the MAIF Social Club. To regain control, we can use its own server, which works with free software and encrypts communications: it is the grail of digital autonomy.",
 	"home press article6 link": "https://www.franceinter.fr/emissions/c-est-deja-demain/c-est-deja-demain-07-decembre-2017",
 	"home press article6 title": "[FR] Accusé Google, levez-vous !",
-	"home press article6 text": "Tristan Nitot, ardent defender of personal data, has evoked a form of mass surveillance: 'Google is the useful fool of the NSA'."
+	"home press article6 text": "Tristan Nitot, ardent defender of personal data, has evoked a form of mass surveillance: 'Google is the useful fool of the NSA'.",
+	"partners main title": "Become our partner!",
+	"partners secondary title": "You are a startup, a corporate or a journalist? We should talk!"
 }

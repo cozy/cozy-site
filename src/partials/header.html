@@ -61,10 +61,26 @@
             </a>
           </div>
 
-          <div class="col-center align-center">
+          <div class="col-center align-center submenu">
             <a href="/{{ locale }}/about/" class="btn btn-link">
-              {{__ 'nav about title'}}
+              {{__ 'nav company title'}}
             </a>
+            <div class="submenu-level">
+							<a href="/{{ locale }}/about/">
+								<!--<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-data-connect.svg" alt=""></div>-->
+								<div>
+									<h2 class="submenu-itemTitle">{{__ 'about title'}}</h2>
+									<p class="submenu-itemDesc">{{__ 'nav about text'}}</p>
+								</div>
+							</a>
+							<a href="/{{ locale }}/partners/">
+								<!--<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-bank.svg" alt=""></div>-->
+								<div>
+									<h2 class="submenu-itemTitle">{{__ 'partners main title'}}</h2>
+									<p class="submenu-itemDesc">{{__ 'partners secondary title'}}</p>
+								</div>
+							</a>
+						</div>
           </div>
 
           <div class="col-center align-center">

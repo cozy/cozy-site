@@ -36,6 +36,10 @@
     "nav docs title": "Documents",
     "nav press title": "Presse",
     "about title": "À propos de Cozy Cloud",
+    "nav company title": "Entreprise",
+    "nav partners title": "Devenez partenaire",
+    "nav partners text": "Vous êtes une startup, un corporate ou un journaliste ? Nous devons parler !",
+    "nav about text": "Découvrez l'équipe et l'histoire de Cozy Cloud",
     "about introduction": "Envie d'en savoir plus sur Cozy Cloud, notre histoire, notre business model et notre vision ? Vous êtes au bon endroit ! Commençons par le plus important.",
     "about vision title": "Notre vision",
     "about vision content one": "Cozy est actuellement un simple serveur personnel, mais il a vocation à devenir votre assistant personnel. Pilote de vos périphériques et de vos objets connectés, Cozy vous permettra de mieux vous organiser et d'automatiser vos tâches habituelles pour mieux gérer votre productivité et votre vie numérique. Fort des informations fournies par le croisement de vos données, vous êtes sûr de toujours prendre les bonnes décisions ! Et tout cela dans le plus total respect de votre vie privée, puisque vos données sont stockées dans un espace que vous contrôlez.",
@@ -88,7 +92,7 @@
     "about timeline pine64": "Pine64, un microboard à 15$, ajoute Cozy à sa liste d'OS pris en charge.",
     "about timeline gandi": "Cozy Cloud et Gandi annoncent un partenariat d'offre commerciale. Ce projet remporta le Concours d'Innovation Numérique.",
     "about timeline hosting providers": "4 hébergeurs proposent une installation de Cozy en 1 click.",
-    "about timeline launching beta": "La nouvelle version de Cozy est disponible en Bêta",
+    "about timeline launching beta": "La nouvelle version de Cozy est disponible en Bêta.",
     "months january": "Janvier",
     "months february": "Février",
     "months march": "Mars",
@@ -461,7 +465,7 @@
     "nav features title": "Fonctionnalités",
     "nav desktop app title": "Télécharger l'app PC",
     "nav mobile app title": "Télécharger l'app mobile",
-    "home press title": "Ils parlent de nous",
+    "home press title": "Mentioned by",
     "home value proposition 1": "Synchronisez et partagez vos fichiers et photos",
     "home value proposition text 1": "Et retrouvez les partout, sur tous vos appareils.",
     "home value proposition 2": "Importez vos factures automatiquement",
@@ -604,5 +608,7 @@
     "home press article5 text": "Projection privée du documentaire “Nothing to Hide” organisée par Cozy Cloud au MAIF Social Club . Pour reprendre le contrôle, on peut donc utiliser son serveur à soi, qui fonctionne avec du logiciel libre et chiffre les communications : c’est le graal de l’autonomie numérique.",
     "home press article6 link": "https://www.franceinter.fr/emissions/c-est-deja-demain/c-est-deja-demain-07-decembre-2017",
     "home press article6 title": "Accusé Google, levez-vous !",
-    "home press article6 text": "Appelé à témoigner contre Google au procès “Faut-il démanteler Google?” Tristan Nitot, Cozy Cloud, fervent défenseur des données personnelles a évoqué une forme de surveillance de masse : « Google c’est l’idiot utile de la NSA »\n"
+    "home press article6 text": "Appelé à témoigner contre Google au procès “Faut-il démanteler Google?” Tristan Nitot, Cozy Cloud, fervent défenseur des données personnelles a évoqué une forme de surveillance de masse : « Google c’est l’idiot utile de la NSA »\n",
+    "partners main title": "Devenez notre partenaire",
+    "partners secondary title": "Vous êtes une startup, un corporate ou un journaliste ? Nous devons parler !"
 }

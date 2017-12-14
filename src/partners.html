@@ -1,0 +1,86 @@
+---
+layout: base.html
+
+metaTitle: partners main title
+metaDescription: partners secondary title
+annexe: true
+
+colorscheme: tryCozy
+
+locale:
+pathTo: ../
+from: partners
+
+---
+
+{{> header }}
+
+  <header class="partners">
+    <div class="container">
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-14">
+          <h1 class="introduction-title">{{__ 'partners main title'}}</h1>
+          <h2 class="introduction-title">{{__ 'partners secondary title'}}</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <article class="aboutContent">
+    <section class="ourVision">
+      <div class="container">
+        <div class="row row-justify-center">
+          <!-- Begin Typeform Signup Form -->
+          <div class="typeform-widget" data-url="https://pierrecozy.typeform.com/to/HWapY8" style="width: 100%; height: 500px;" > </div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;" > powered by <a href="https://www.typeform.com//?utm_campaign=HWapY8&amp;utm_source=typeform.com-11491468-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+          <!--End Typeform Signup Form-->
+        </div>
+      </div>
+    </section>
+  </article>
+
+  <!--<section class="panel hangs">
+    <div class="container">
+      <div class="row row-justify-center">
+        <div class="col-xs-22 col-lg-24">
+          <ul class="hangsList">
+            <li class="hangsList-item">
+              <div class="icon">
+                <img src="{{ pathTo }}/images/icons/icon-medal.svg" class="hangsList-item-icon" alt="medal icon">
+              </div>
+              <div>
+                {{__ 'try improve'}}
+              </div>
+            </li>
+            <li class="hangsList-item">
+              <div class="icon">
+                <img src="{{ pathTo }}/images/icons/icon-euro.svg" class="hangsList-item-icon" alt="euro icon">
+              </div>
+              <div>
+                {{__ 'try mission'}}
+              </div>
+            </li>
+            <li class="hangsList-item">
+              <div class="icon">
+                <img src="{{ pathTo }}/images/icons/icon-people.svg"
+                     class="hangsList-item-icon"
+                     alt="people icon">
+              </div>
+              <div>
+                {{__ 'try community'}}
+              </div>
+            </li>
+            <li class="hangsList-item">
+              <div class="icon">
+                <img src="{{ pathTo }}/images/icons/icon-rocket.svg" class="hangsList-item-icon" alt="rocket icon">
+              </div>
+              <div>
+                {{__ 'try bugs'}}
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>-->
+
+{{> footer }}
