@@ -465,7 +465,7 @@
     "nav features title": "Fonctionnalités",
     "nav desktop app title": "Télécharger l'app PC",
     "nav mobile app title": "Télécharger l'app mobile",
-    "home press title": "Mentioned by",
+    "home press title": "Ils parlent de nous",
     "home value proposition 1": "Synchronisez et partagez vos fichiers et photos",
     "home value proposition text 1": "Et retrouvez les partout, sur tous vos appareils.",
     "home value proposition 2": "Importez vos factures automatiquement",
@@ -565,7 +565,7 @@
     "press contact title": "Et vous alors ?",
     "press contact content one": "Vous êtes journaliste, vous souhaitez des informations complémentaires, envoyez un mail à nitot@cozycloud.cc (avons-nous un mail pour presse@cozycloud.cc).",
     "press contact content two": "Vous pouvez aussi faire un tour sur notre blog, notre page Facebook ou jeter un œil à ce que nos clients disent de nous sur Twitter.",
-    "download title": "Téléchargez Cozy Drive sur tous vos appareils",
+    "download title": "Synchronisez votre Cozy avec tous vos appareils",
     "download introduction": "Synchronisez et partagez vos fichiers et photos en tous vos appareils",
     "download mobile title": "Cozy Drive sur votre téléphone",
     "download iOS url": "https://itunes.apple.com/fr/app/cozy-drive/id1224102389?mt=8\n",
@@ -588,7 +588,6 @@
     "features cozybank overview screenshot": "/fr/images/features/cozybank/bank-overview-beta-fr.png",
     "features cozybank allaccounts screenshot": "/fr/images/features/cozybank/bank-all-accounts-beta-fr.png",
     "features cozybank linkedbills screenshot": "/fr/images/features/cozybank/bank-linked-bills-beta-fr.png",
-    "try description": "try description",
     "download Linux title": "Cozy Drive pour Linux",
     "download Linux text": "Disponible pour Noël",
     "home press article1 link": "http://bfmbusiness.bfmtv.com/mediaplayer/video/coup-de-pouce-a-une-start-up-cozy-cloud-0110-872705.html",
@@ -616,5 +615,6 @@
     "about timeline launching konnector program": "Cozy Cloud lance son programme communautaire à l'intention des développeurs de connecteurs.",
     "about timeline VIVA Tech": "Cozy Cloud est présent sur le stand d'Orange à Viva Technology.",
     "about timeline self-hosting available": "L'auto-hébergement est disponible sur la nouvelle version de Cozy.",
-    "about timeline Cozy Google trial": "Cozy Cloud participe au grand tribunal des générations futures \"Faut-il démanteler Google?\" organisé par Usbek&Rica."
+    "about timeline Cozy Google trial": "Cozy Cloud participe au grand tribunal des générations futures \"Faut-il démanteler Google?\" organisé par Usbek&Rica.",
+    "download content": "Avec Cozy Drive pour votre téléphone et votre ordinateur, vous pouvez accéder à vos données personnelles où que vous soyez."
 }

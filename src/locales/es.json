@@ -565,7 +565,7 @@
     "press contact title": "Et vous alors ?",
     "press contact content one": "Vous êtes journaliste, vous souhaitez des informations complémentaires, envoyez un mail à nitot@cozycloud.cc (avons-nous un mail pour presse@cozycloud.cc).",
     "press contact content two": "Vous pouvez aussi faire un tour sur notre blog, notre page Facebook ou jeter un œil à ce que nos clients disent de nous sur Twitter.",
-    "download title": "Instale Cozy Drive en todos sus periféricos",
+    "download title": "Synchronize your Cozy with all your devices",
     "download introduction": "Sincronice y comparta sus archivos y fotos en todos sus periféricos",
     "download mobile title": "Cozy Drive en su teléfono",
     "download iOS url": "https://itunes.apple.com/us/app/cozy-drive/id1224102389?mt=8",
@@ -588,7 +588,6 @@
     "features cozybank overview screenshot": "/en/images/features/cozybank/bank-overview-beta-en.png",
     "features cozybank allaccounts screenshot": "/en/images/features/cozybank/bank-all-accounts-beta-en.png",
     "features cozybank linkedbills screenshot": "/en/images/features/cozybank/bank-linked-bills-beta-en.png",
-    "try description": "descripción de prueba",
     "download Linux title": "Cozy Drive para Linux",
     "download Linux text": "Available for Christmas",
     "home press article1 link": "http://bfmbusiness.bfmtv.com/mediaplayer/video/coup-de-pouce-a-une-start-up-cozy-cloud-0110-872705.html",
@@ -616,5 +615,6 @@
     "about timeline launching konnector program": "Cozy Cloud launches a new developer program to foster connectors development.",
     "about timeline VIVA Tech": "Cozy Cloud in on the Orange booth at Viva Technology 2017 in Paris.",
     "about timeline self-hosting available": "Cozy's self-hosting version is available to everyone.",
-    "about timeline Cozy Google trial": "Cozy Cloud participates to a entertainment version of Google's trial organized by Usbek&Rica."
+    "about timeline Cozy Google trial": "Cozy Cloud participates to a entertainment version of Google's trial organized by Usbek&Rica.",
+    "download content": "With Cozy Drive for your smartphone and computer, you can access to your personal data where ever you are."
 }
