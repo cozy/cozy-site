@@ -610,5 +610,11 @@
     "home press article6 title": "Accusé Google, levez-vous !",
     "home press article6 text": "Appelé à témoigner contre Google au procès “Faut-il démanteler Google?” Tristan Nitot, Cozy Cloud, fervent défenseur des données personnelles a évoqué une forme de surveillance de masse : « Google c’est l’idiot utile de la NSA »\n",
     "partners main title": "Devenez notre partenaire",
-    "partners secondary title": "Vous êtes une startup, un corporate ou un journaliste ? Nous devons parler !"
+    "partners secondary title": "Vous êtes une startup, un corporate ou un journaliste ? Nous devons parler !",
+    "about timeline rewrite cozy in Go": "Une réécriture du back-end de Cozy en langage Go est décidée.",
+    "about timeline launching beta FENS": "La nouvelle version de Cozy \"est présentée à l'occasion du Festival Futur en Seine 2017.",
+    "about timeline launching konnector program": "Cozy Cloud lance son programme communautaire à l'intention des développeurs de connecteurs.",
+    "about timeline VIVA Tech": "Cozy Cloud est présent sur le stand d'Orange à Viva Technology.",
+    "about timeline self-hosting available": "L'auto-hébergement est disponible sur la nouvelle version de Cozy.",
+    "about timeline Cozy Google trial": "Cozy Cloud participe au grand tribunal des générations futures \"Faut-il démanteler Google?\" organisé par Usbek&Rica."
 }
