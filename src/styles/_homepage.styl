@@ -101,20 +101,20 @@
 .carousel-articleTitle a:before
 	content ''
 	position absolute
-	left -1.5rem
+	left -2.5rem
 	top 2px
-	width 16px
-	height 16px
+	width 24px
+	height 24px
 	background-size contain
 
 .press-echos:before
 	background url('../images/press/lesechos.ico')
 .press-figaro:before
-	background url('../images/press/figaro.ico')
+	background url('../images/press/figaro.png')
 .press-wired:before
 	background url('../images/press/wired.ico')
 .press-bfm:before
-	background url('../images/press/bfm.ico')
+	background url('../images/press/bfm.png')
 .press-jdn:before
 	background url('../images/press/jdn.ico')
 .press-numerama:before
@@ -131,9 +131,10 @@
 .carousel-articleContent
 	font-style italic
 	font-size .9rem
+	
+	p
+		margin-bottom 1rem
 
-.carousel-articleContent p:first-child:before
-	content '“'
-
-.carousel-articleContent p:last-child:after
-	content '”'
+.carousel-articleDate
+	font-size .8rem
+	font-weight bold
