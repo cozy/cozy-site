@@ -17,7 +17,7 @@
     "webdev main title": "Apprenez le développement web",
     "nav apps title": "Applications",
     "nav about title": "À propos",
-    "nav community title": "Contribuer au projet",
+    "nav community title": "Communauté",
     "nav forum title": "Forum",
     "nav blog title": "Blog",
     "nav source title": "Code source",
@@ -635,5 +635,6 @@
     "about timeline Cozy Google trial": "Cozy Cloud participe au grand tribunal des générations futures \"Faut-il démanteler Google?\" organisé par Usbek&Rica.",
     "download content": "Cozy centralise tous vos fichiers au même endroit : que vous soyez nomade ou sédentaire, accédez à vos données personnelles partout et à tout moment. Ajoutés et mis à jour automatiquement sans le moindre effort, vos documents seront ainsi sauvegardés en lieu sûr pour ne plus jamais disparaître.",
     "partners form": "https://pierrecozy.typeform.com/to/nwR9Sl",
-    "download Linux link": "https://docs.cozy.io/fr/sync/linux"
+    "download Linux link": "https://docs.cozy.io/fr/sync/linux",
+    "nav contribute title": "Contribuer au projet"
 }

@@ -17,7 +17,7 @@
     "webdev main title": "Aprenda a desarrollar en el web",
     "nav apps title": "Aplicaciones",
     "nav about title": "Acerca de",
-    "nav community title": "Contribute",
+    "nav community title": "Community",
     "nav forum title": "Foro",
     "nav blog title": "Blog",
     "nav source title": "Código fuente",
@@ -635,5 +635,6 @@
     "about timeline Cozy Google trial": "Cozy Cloud participates to a entertainment version of Google's trial organized by Usbek&Rica.",
     "download content": "With Cozy Drive for your smartphone and computer, you can access to your personal data where ever you are.",
     "partners form": "https://pierrecozy.typeform.com/to/HWapY8",
-    "download Linux link": "https://docs.cozy.io/es/sync/linux\n"
+    "download Linux link": "https://docs.cozy.io/es/sync/linux\n",
+    "nav contribute title": "Contribute"
 }
