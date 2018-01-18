@@ -1,0 +1,92 @@
+---
+layout: base.html
+
+metaTitle: pricing title
+metaDescription: pricing desc
+annexe: true
+
+colorscheme: pricing
+
+locale:
+pathTo: ..
+from: pricing
+---
+
+{{> header }}
+
+
+  <article class="pricing">
+    <section>
+      <div class="container">
+        <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-20">
+          	<div class="cozy-logo">
+          		<svg width="512" height="388" viewBox="0 0 512 388" xmlns="http://www.w3.org/2000/svg"><title>Cozy</title><path d="M376.453 387.847H135.66C60.908 387.847.123 327.305.123 252.882c0-35.49 13.72-69.015 38.656-94.382 21.84-22.2 50.134-36.02 80.74-39.615 3.616-30.48 17.48-58.658 39.794-80.4C184.79 13.644 218.45 0 254.094 0c35.637 0 69.306 13.646 94.783 38.474 22.22 21.65 36.045 49.676 39.75 79.993 69.05 6.16 123.363 64.097 123.363 134.425 0 74.413-60.826 134.955-135.547 134.955h.01zm-1.024-28.31h1.023c59.064 0 107.11-47.844 107.11-106.655 0-58.8-48.046-106.644-107.11-106.644h-1.075c-7.71 0-14.03-6.11-14.203-13.81-1.33-57.435-49.357-104.138-107.07-104.138-57.712 0-105.758 46.723-107.08 104.16-.173 7.556-6.286 13.646-13.885 13.82-57.67 1.323-104.59 49.146-104.59 106.622 0 58.812 48.045 106.655 107.11 106.655h.87l.338-.02c.307 0 .614 0 .92.02H375.4l.03-.01zm-51.826-114.74c-8.55-5.55-8.97-15.745-8.99-16.193a5.018 5.018 0 0 0-5.12-4.908c-2.786.05-4.997 2.342-4.946 5.092.02.366.164 5.153 2.457 10.794-30.433 28.678-78.254 28.718-108.748.173 2.355-5.723 2.508-10.59 2.508-10.957.052-2.75-2.15-5.02-4.915-5.092-2.734-.082-5.058 2.14-5.15 4.888 0 .407-.41 10.642-8.98 16.192-2.336 1.528-2.99 4.634-1.465 6.946a5.023 5.023 0 0 0 4.22 2.27c.94 0 1.893-.264 2.743-.814a27.528 27.528 0 0 0 5.59-4.787c16.938 15.175 38.34 22.762 59.74 22.762 21.454 0 42.907-7.617 59.874-22.862a27.765 27.765 0 0 0 5.684 4.888c.84.55 1.802.815 2.744.815a5.073 5.073 0 0 0 4.22-2.282 5.014 5.014 0 0 0-1.466-6.944v.02z" fill-rule="evenodd"/></svg>
+          	</div>
+            <h2 class="pricing-title">{{__ 'pricing title'}}</h2>
+            <p class="pricing-desc align-center">{{__ 'pricing desc'}}</p>
+						<div class="pricing-box">
+							<h3>{{__ 'pricing basic title'}}</h3>
+							<div class="basic">
+								<div class="basic-perks">
+									<div class="basic-data">
+										<div class="basic-image">
+											<img src="../images/pricing/illu-recuperation-data.svg" alt="">
+										</div>
+										<div>
+											<h4 class="align-center">{{__ 'pricing basic data title'}}</h4>
+											<p class="align-center">{{__ 'pricing basic data desc'}}</p>
+										</div>
+									</div>
+									<div class="basic-storage">
+										<div class="basic-image">
+											<img src="../images/pricing/illu-stockage-data.svg" alt="">
+										</div>
+										<div>
+											<h4 class="align-center">{{__ 'pricing basic storage title'}}</h4>
+											<p class="align-center">{{__ 'pricing basic storage desc'}}</p>
+										</div>
+									</div>
+								</div>
+								<div class="basic-price align-center">
+									<p>{{__ 'pricing basic price'}}</p>
+									<button class="btn btn-outlined-primary-grey">{{__ 'pricing basic CTA'}}</button>
+								</div>
+							</div>
+						</div>
+						
+						<h2 class="pricing-title">{{__ 'pricing offers title'}}</h2>
+						<div class="pricing-box pricing-box--narrow">
+							<div class="offer">
+								<div class="offer-desc align-center">
+									<h4>{{__ 'pricing offer cozy title'}}</h4>
+									<p class="offer-storage">{{__ 'pricing offer cozy storage'}}</p>
+									<p class="offer-info">{{__ 'pricing offer cozy desc'}}</p>
+								</div>
+								<div class="offer-price">{{__ 'pricing offer cozy price'}}</div>
+								<div class="offer-cta">
+									<a href="#" class="btn btn-primary">{{__ 'pricing offer cozy CTA'}}</a>
+								</div>
+							</div>
+						</div>
+						<div class="pricing-box pricing-box--narrow">
+							<div class="offer">
+								<div class="offer-desc align-center">
+									<h4>{{__ 'pricing offer supercozy title'}}</h4>
+									<p class="offer-storage">{{__ 'pricing offer supercozy storage'}}</p>
+									<p class="offer-info">{{__ 'pricing offer supercozy desc'}}</p>
+								</div>
+								<div class="offer-price">{{__ 'pricing offer supercozy price'}}</div>
+								<div class="offer-cta">
+									<a href="#" class="btn btn-primary">{{__ 'pricing offer supercozy CTA'}}</a>
+								</div>
+							</div>
+						</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </article>
+
+{{> footer }}
