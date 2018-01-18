@@ -1,14 +1,14 @@
   <header class="siteHeader {{#if homepage}}contrast{{/if}} {{#if fullHeightIntroduction}}contrast{{/if}} {{#if annexe}}contrast{{/if}}">
 
   	<!-- Bandeau d'annonce -->
-  	<aside class="announcement">
+  	<!--<aside class="announcement">
 			<div class="announcement-image">
 				📆
 			</div>
 			<div class="announcement-text">
 				<a href="https://www.meetup.com/fr-FR/Meetup-des-utilisateurs-de-Cozy-Cloud-en-France/events/" target="_blank">{{__ 'announcement popup label'}} →</a>
 			</div>
-		</aside>
+		</aside>-->
 
     <nav class="siteNavigation">
       <div class="container">
@@ -21,7 +21,7 @@
 
           <div class="col-center align-center submenu">
             <span class="btn btn-link">
-              <a href="/{{locale}}/features">{{__ 'nav features title'}}</a>
+              <a href="/{{locale}}/features" class="btn btn-link">{{__ 'nav features title'}}</a>
             </span>
 						<div class="submenu-level">
 							<a href="/{{ locale }}/features/#collector">
@@ -63,7 +63,7 @@
 
           <div class="col-center align-center submenu">
             <span class="btn btn-link">
-              <a href="/{{ locale }}/about/">{{__ 'nav company title'}}</a>
+              <a href="/{{ locale }}/about/" class="btn btn-link">{{__ 'nav company title'}}</a>
             </span>
             <div class="submenu-level">
 							<a href="/{{ locale }}/about/">
