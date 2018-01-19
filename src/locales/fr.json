@@ -635,5 +635,10 @@
 	"pricing offer supercozy storage": "1 000 Go",
 	"pricing offer supercozy desc": "Sauvegardez tous vos documents sans compter (vidéos, photos, etc). ",
 	"pricing offer supercozy price": "9,99€/mois",
-	"pricing offer supercozy CTA": "Choisir l'offre"
+	"pricing offer supercozy CTA": "Choisir l'offre",
+	"pricing pro title": "Vous êtes une entreprise, une startup ou un grand compte ?",
+	"pricing pro subtitle": "Transformez une contrainte légale en opportunité commerciale ! ",
+	"pricing pro desc one": "Votre entreprise doit se mettre en conformité avec la RGDP avant le 25 mai 2018 et vous n’avez pas encore trouvé une solution simple et rapide pour atteindre cet objectif ?",
+	"pricing pro desc two": "Cozy rend la RGDP simple et accessible à toutes les entreprises quelle qu’en soit la taille.",
+	"pricing pro CTA": "Nous contacter"
 }
