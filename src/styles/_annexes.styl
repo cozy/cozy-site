@@ -512,41 +512,41 @@ body.is-annexe
 
 
 .offer-desc
-	max-width 20rem
-	margin-right auto
+	flex 1 1 auto
 	+bp-max(lg)
-		max-width 100%
-		margin-right 0
 		margin-bottom 1rem
 
 	.h4
 		margin-bottom .5rem
 
 .offer-storage
+	flex 0 0 14rem
+	margin-bottom .5rem
 	font-size $fs-h2
 	font-weight bold
-	margin-bottom .5rem
+	text-align center
+	+bp-max(lg)
+		flex-basis auto
 
 .offer-info
 	font-size $fs-h5
 	margin-bottom 0
 
 .offer-price
-	flex 0 0 25%
-	padding-left 3rem
 	font-size $fs-h2
 	font-weight bold
-	+bp-max(lg)
-		padding-left 0
+	margin-bottom .75rem
 
 .offer-cta
 	flex 0 0 25%
 	padding-left 3rem
+	text-align center
 	+bp-max(lg)
 		padding-left 0
 
 	.btn
 		width 11.25rem
+		white-space normal
 
 .pricing-pro
 	margin-bottom 4rem
