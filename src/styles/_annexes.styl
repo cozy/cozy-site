@@ -417,19 +417,21 @@ body.is-annexe
 	height 6rem
 	padding 1rem
 	background-color $clr-primary
-	
+
 	svg
 		fill $clr-lighter
 		width 100%
 		height 100%
-	
+
 .pricing
 	padding-top 5rem
 	color $clr-darkgrey
+	+bp-max(lg)
+		padding-top 3rem
 
 .pricing-title
 	margin-bottom .5rem
-	
+
 .pricing-desc
 	font-size $fs-lg
 	color $clr-darkgrey
@@ -438,28 +440,32 @@ body.is-annexe
 	margin 3rem 0 4rem
 	padding 3rem
 	border .0625rem solid $clr-lightgrey
-	
+	+bp-max(md-hg)
+		padding 1.5rem
+
 	h3
 		margin-bottom 0
-		
+
 .pricing-box--narrow
 	padding 2rem 3rem
 	margin-bottom 0
-	
+
 	& + &
 		margin 0 0 4rem
 		border-top 0
-	
+
 .basic
 	display flex
 	flex-direction row
 	align-items center
 	justify-content space-between
-	
+	+bp-max(lg)
+		flex-direction column
+
 .basic-perks h4
 	font-size $fs-base
 	margin-bottom .6875rem
-	
+
 .basic-perks p
 	font-size $fs-h5
 	color $clr-lightbase
@@ -469,33 +475,50 @@ body.is-annexe
 	display flex
 	align-items top
 	margin-top 3.25rem
+	+bp-max(md-hg)
+		flex-direction column
+		margin-top 2rem
 
 .basic-image
 	flex 0 0 14rem
 	height 5rem
-	
+	+bp-max(md-hg)
+		flex-basis auto
+		margin-bottom .5rem
+
 	img
 		display block
 		margin 0 auto
-		
+
 .basic-price
 	flex 0 0 17rem
 	padding-left 3rem
 	font-size $fs-h2
 	font-weight bold
-	
+	+bp-max(lg)
+		flex-basis auto
+		padding-left 0
+
 	.btn
 		width 100%
 		font-weight bold
-		
+
 .offer
 	display flex
 	flex-direction row
 	align-items center
+	+bp-max(lg)
+		flex-direction column
+
 
 .offer-desc
-	padding-right 7.375rem
-	
+	max-width 20rem
+	margin-right auto
+	+bp-max(lg)
+		max-width 100%
+		margin-right 0
+		margin-bottom 1rem
+
 	h4
 		margin-bottom .5rem
 
@@ -513,10 +536,21 @@ body.is-annexe
 	padding-left 3rem
 	font-size $fs-h2
 	font-weight bold
+	+bp-max(lg)
+		padding-left 0
 
 .offer-cta
 	flex 0 0 25%
 	padding-left 3rem
-	
+	+bp-max(lg)
+		padding-left 0
+
 	.btn
 		width 11.25rem
+
+.pricing-pro
+	margin-bottom 4rem
+	padding 2rem
+	background-color $clr-light
+
+
