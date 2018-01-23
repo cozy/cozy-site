@@ -27,7 +27,7 @@
     <meta name="twitter:image" content="https://cozy.io/en/images/logo-cozy-cloud.jpg">
 
     <link rel="stylesheet" href="{{ pathTo }}/{{ fingerprint.[styles/main.css] }}" media="all">
-    {{#if homepage}}
+    {{#if carousel}}
     <link rel="stylesheet" href="{{ pathTo }}/styles/plugins/slick.css">
     <link rel="stylesheet" href="{{ pathTo }}/styles/plugins/slick-theme.css">
     {{/if}}
@@ -51,7 +51,7 @@
     {{{ contents }}}
 
     <script src="{{ pathTo }}/js/main.min.js"></script>
-    {{#if homepage}}
+    {{#if carousel}}
     <script src="{{ pathTo }}/js/plugins/slick.min.js"></script>
     <script>
     	$(document).ready(function(){

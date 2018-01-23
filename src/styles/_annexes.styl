@@ -44,6 +44,10 @@
   &.featuresPage
     background #F3F3F3 url(../images/bkg-features@2x.jpg) no-repeat 50% 100% / cover
     background-position top
+    
+  &.press
+    background #F3F3F3 url(../images/bkg-press@2x.png) no-repeat 50% 100% / cover
+    background-position top
 
   &.404
     background #fff url(../images/bkg-404@2x.jpg) no-repeat 50% 100% / cover
@@ -60,6 +64,13 @@ body.is-annexe
 
   .introduction.partners
     margin-bottom: 0
+
+
+.panel
+	padding 4rem 0
+	
+.grey-background
+	background-color $clr-light
 
 // Annexe page specifics styles
 //
@@ -554,4 +565,62 @@ body.is-annexe
 	padding 2rem
 	background-color $clr-light
 
+//Press
+.press
+	color $clr-darkgrey
 
+	section
+		margin-bottom 3.75rem
+
+.press-intro
+	margin 0 auto
+	+bp-min(lg)
+		padding-right 3rem
+
+.press-id
+	+bp-min(lg)
+		padding-left 2rem
+		border-left 1px solid $clr-lightgrey
+
+.contact-title
+	line-height 2
+
+.press-releases
+	list-style none
+
+	a:after
+		content ' >'
+
+.press-manifesto
+	counter-reset item
+	list-style none
+
+	li
+		position relative
+		margin-bottom 1rem
+
+		&:before
+			content counter(item)". "
+			counter-increment item
+			position absolute
+			left -2rem
+			top -.35rem
+			font-size 1.375rem
+			font-weight bold
+
+.press-carousel-wrapper
+	padding 2rem 0
+
+.press-cozyteam
+	img
+		width 100%
+		max-width 100%
+		
+		&.press-lg-img
+			max-width 35.625rem
+		
+	.h5
+		font-weight bold
+		
+	.btn
+		margin 1.875rem 0 3rem
