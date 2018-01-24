@@ -97,8 +97,8 @@
 	position absolute
 	left -2.5rem
 	top 2px
-	width 24px
-	height 24px
+	width 32px
+	height 32px
 	background-size contain
 
 .press-echos:before
@@ -121,14 +121,50 @@
 	background url('../images/press/usbeketrica.ico')
 .press-franceinter:before
 	background url('../images/press/franceinter.png')
+.press-canalplus:before
+	background url('../images/press/canal-plus-icon-152x152.png')
+.press-nextimpact:before
+	background url('../images/press/nextimpact.ico')
+
 
 .carousel-articleContent
 	font-style italic
 	font-size .9rem
-	
+
 	p
 		margin-bottom 1rem
 
 .carousel-articleDate
 	font-size .8rem
+	font-weight bold
+
+.testimony
+	margin-bottom 1.75rem
+	justify-content center
+	
+.testimony-item
+	margin-bottom 2rem
+	border 1px solid $clr-lightgrey
+	border-radius .5rem
+	padding 2rem 1rem
+	
+.testimony-text
+	font-size 1.25rem
+	font-style italic
+	line-height 1.2
+	color $clr-darkgrey
+	
+	&::before
+		content '« '
+		
+	&::after
+		content ' »'
+
+.testimony-desc
+	margin-top 3rem
+	
+.testimony-icon
+	font-size 1.875rem
+	
+.testimony-author
 	font-weight bold

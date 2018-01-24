@@ -5,8 +5,8 @@ var browserSync = require('metalsmith-browser-sync');
 var argv = require('minimist')(process.argv.slice(2));
 
 metalsmith = base.getMetalsmith('en');
-metalsmith = base.getMetalsmith('fr');
-metalsmith = base.getMetalsmith('es');
+//metalsmith = base.getMetalsmith('fr');
+//metalsmith = base.getMetalsmith('es');
 
 if(argv.dev) {
   metalsmith.use(browserSync({
