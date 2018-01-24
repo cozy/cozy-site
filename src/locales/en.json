@@ -581,9 +581,9 @@
 	"collect image 1": "/en/images/features/cozycollect/collect-all-en.png",
 	"ungoogle features cozysante overview": "/en/images/features/cozysante/sante-overview-beta-en.png",
 	"ungoogle features cozysante family": "/en/images/features/cozysante/sante-family-beta-en.png",
-	"features cozybank overview screenshot": "/en/images/features/cozybank/bank-overview-beta-en.png",
-	"features cozybank allaccounts screenshot": "/en/images/features/cozybank/bank-all-accounts-beta-en.png",
-	"features cozybank linkedbills screenshot": "/en/images/features/cozybank/bank-linked-bills-beta-en.png",
+	"features cozybank overview screenshot": "/en/images/features/cozybanks/bank-overview-beta-en.png",
+	"features cozybank allaccounts screenshot": "/en/images/features/cozybanks/bank-all-accounts-beta-en.png",
+	"features cozybank linkedbills screenshot": "/en/images/features/cozybanks/bank-linked-bills-beta-en.png",
 	"download Linux title": "Cozy Drive for GNU/Linux",
 	"download Linux text": "Download Linux",
 	"home press article1 link": "https://www.nextinpact.com/news/105883-mesinfos-cozy-cloud-et-fing-veulent-concretiser-portabilite-donnees-rgpd.htm",
@@ -702,5 +702,8 @@
 	"community forum link": "https://forum.cozy.io/c/english",
 	"home sub title": "We all have a life and a digital life. Cozy gathers them. In your Cozy, you have all your personal data: pictures, health, bank, holidays, accessible only by you. Welcome in your new digital home.",
 	"community hack url": "https://docs.cozy.io/en/dev/",
-	"home testimony title": "They use Cozy everyday"
+	"home testimony title": "They use Cozy everyday",
+	"photos image timeline": "/en/images/features/cozydrivephoto/photo-timeline-en.jpg",
+	"drive image sync": "/en/images/features/cozydrivephoto/drive-home-en.png",
+	"photos image sharing": "/en/images/features/cozydrivephoto/photo-sharing-en.jpg"
 }
