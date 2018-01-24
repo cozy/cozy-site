@@ -8,62 +8,62 @@
 // by using target classes on introduction container
 // Ungoogle your life
 .introduction
-  // Set backgrounds
-  &.homepage
-    background #fff url(../images/bkg-home@2x.jpg) no-repeat 50% 100% / cover
+	// Set backgrounds
+	&.homepage
+		background #fff url(../images/bkg-home@2x.jpg) no-repeat 50% 100% / cover
 
-    +bp-max(md)
-      background #fff url(../images/bkg-home@2x.jpg) no-repeat 78% 201px / cover
-      background-size 300%
+		+bp-max(md)
+			background #fff url(../images/bkg-home@2x.jpg) no-repeat 78% 201px / cover
+			background-size 300%
 
-  &.about
-    background #000 url(../images/about/bkg-team@2x.jpg) no-repeat 50% 0 / cover
-    opacity 1
+	&.about
+		background #000 url(../images/about/bkg-team@2x.jpg) no-repeat 50% 0 / cover
+		opacity 1
 
-  &.faq
-    background #aa4033 url(../images/bkg-faq.jpg) no-repeat 50% 100% / cover
+	&.faq
+		background #aa4033 url(../images/bkg-faq.jpg) no-repeat 50% 100% / cover
 
-  &.community
-    background #fff url(../images/bkg-community.jpg) no-repeat 50% 100% / cover
+	&.community
+		background #fff url(../images/bkg-community.jpg) no-repeat 50% 100% / cover
 
-  &.comparison
-    background #cad2d8 url(../images/bkg-comparison@2x.jpg) no-repeat 50% 100% / cover
+	&.comparison
+		background #cad2d8 url(../images/bkg-comparison@2x.jpg) no-repeat 50% 100% / cover
 
-  &.architecture
-    background #7E9DB5 url(../images/bkg-architecture@2x.jpg) no-repeat 50% 100% / cover
+	&.architecture
+		background #7E9DB5 url(../images/bkg-architecture@2x.jpg) no-repeat 50% 100% / cover
 
-  &.apps
-    background #D0C2A7 url(../images/bkg-apps.jpg) no-repeat 50% 100% / cover
+	&.apps
+		background #D0C2A7 url(../images/bkg-apps.jpg) no-repeat 50% 100% / cover
 
-  &.support
-    background #D0C2A7 url(../images/bkg-support.jpg) no-repeat 50% 100% / cover
+	&.support
+		background #D0C2A7 url(../images/bkg-support.jpg) no-repeat 50% 100% / cover
 
-  &.privacy
-    background #F3F3F3 url(../images/bkg-privacy@2x.png) no-repeat 50% 100% / cover
+	&.privacy
+		background #F3F3F3 url(../images/bkg-privacy@2x.png) no-repeat 50% 100% / cover
 
-  &.featuresPage
-    background #F3F3F3 url(../images/bkg-features@2x.jpg) no-repeat 50% 100% / cover
-    background-position top
-    
-  &.press
-    background #F3F3F3 url(../images/bkg-press@2x.png) no-repeat 50% 100% / cover
-    background-position top
+	&.featuresPage
+		background #F3F3F3 url(../images/bkg-features@2x.jpg) no-repeat 50% 100% / cover
+		background-position top
+		
+	&.press
+		background #F3F3F3 url(../images/bkg-press@2x.png) no-repeat 50% 100% / cover
+		background-position top
 
-  &.404
-    background #fff url(../images/bkg-404@2x.jpg) no-repeat 50% 100% / cover
+	&.404
+		background #fff url(../images/bkg-404@2x.jpg) no-repeat 50% 100% / cover
 
 body.is-annexe
-  .introduction.legal
-    padding-top 10vh
-    height 30vh
+	.introduction.legal
+		padding-top 10vh
+		height 30vh
 
-  .introduction.tryCozy
-    padding-top 20vh
-    min-height: "calc(45vh + %s)" % $header-height
-    height: auto
+	.introduction.tryCozy
+		padding-top 20vh
+		min-height: "calc(45vh + %s)" % $header-height
+		height: auto
 
-  .introduction.partners
-    margin-bottom: 0
+	.introduction.partners
+		margin-bottom: 0
 
 
 .panel
@@ -78,18 +78,18 @@ body.is-annexe
 // Community
 //
 .communityContent-item
-  margin-bottom $spacer
-  text-align center
+	margin-bottom $spacer
+	text-align center
 
 .communityContent-item-titleIcon
-  margin-bottom ($spacer / 2)
+	margin-bottom ($spacer / 2)
 
 .communityContent-item-aside
-  text-align center
-  +bp-min(lg)
-    p
-      display inline-block
-      margin-left $spacer-x
+	text-align center
+	+bp-min(lg)
+		p
+			display inline-block
+			margin-left $spacer-x
 
 
 // About
@@ -97,327 +97,327 @@ body.is-annexe
 
 // Introduction
 .contrast h1.introduction-title
-  text-shadow: 2px 2px rgba(17, 18, 19, 0.69)
+	text-shadow: 2px 2px rgba(17, 18, 19, 0.69)
 
 .contrast p.introduction-content-alt
-  text-shadow: 1px 1px rgba(17, 18, 19, 1)
+	text-shadow: 1px 1px rgba(17, 18, 19, 1)
 
 // Our vision
 .ourVision
-  margin-bottom $spacer
+	margin-bottom $spacer
 
 
 // Cozy team
 .cozyTeam-content
-  margin-bottom $spacer
+	margin-bottom $spacer
 
-  +bp-min(lg)
-    text-align center
+	+bp-min(lg)
+		text-align center
 
 .ourMembers
-  background-color darken($clr-light, 2%)
+	background-color darken($clr-light, 2%)
 
 .ourMembersList
-  @extend .list-unstyled
-  margin-top -($spacer-x)
-  margin-bottom $spacer
-  text-align center
+	@extend .list-unstyled
+	margin-top -($spacer-x)
+	margin-bottom $spacer
+	text-align center
 
 .ourMembersList-item
-  position relative
-  display inline-block
-  margin ($spacer-x * 2)
-  max-width 10rem
-  +bp-min(lg)
-    margin $spacer-x ($spacer / 5) $spacer-x ($spacer / 5)
-    transform scale(1)
-    transition all $transition-duration $transition-bounce
-    +hover-state()
-      transform scale(0.95)
+	position relative
+	display inline-block
+	margin ($spacer-x * 2)
+	max-width 10rem
+	+bp-min(lg)
+		margin $spacer-x ($spacer / 5) $spacer-x ($spacer / 5)
+		transform scale(1)
+		transition all $transition-duration $transition-bounce
+		+hover-state()
+			transform scale(0.95)
 
-      .ourMembersList-item-member
-        opacity 1
+			.ourMembersList-item-member
+				opacity 1
 
-  &.rounded
-    .ourMembersList-item-pic
-      border-radius 50%
-      overflow hidden
+	&.rounded
+		.ourMembersList-item-pic
+			border-radius 50%
+			overflow hidden
 
 // Specifics size for smaller screens on community page
 +bp-max(md)
-  .ourMembers.community
-    .ourMembersList-item
-      max-width 75px
+	.ourMembers.community
+		.ourMembersList-item
+			max-width 75px
 
 .ourMembersList-item-pic
-  margin-bottom $spacer-x
-  +bp-min(lg)
-    margin-bottom 0
+	margin-bottom $spacer-x
+	+bp-min(lg)
+		margin-bottom 0
 
 .ourMembersList-item-member
-  font-family $ff-emphasis
-  text-transform uppercase
-  color $clr-darker
-  +bp-min(lg)
-    position absolute
-    top 0
-    right 0
-    bottom 0
-    left 0
-    z-index 2
-    color $clr-lighter
-    background-color rgba(65,183,241, .7)
-    border-radius 50%
-    opacity 0
-    transition opacity $transition-duration $transition-easing
+	font-family $ff-emphasis
+	text-transform uppercase
+	color $clr-darker
+	+bp-min(lg)
+		position absolute
+		top 0
+		right 0
+		bottom 0
+		left 0
+		z-index 2
+		color $clr-lighter
+		background-color rgba(65,183,241, .7)
+		border-radius 50%
+		opacity 0
+		transition opacity $transition-duration $transition-easing
 
 .ourMembersList-item-member-inner
-  +bp-min(lg)
-    position absolute
-    top 50%
-    padding-right .625rem // 10px
-    padding-left .625rem
-    width 100%
-    text-align center
-    transform translateY(-50%)
+	+bp-min(lg)
+		position absolute
+		top 50%
+		padding-right .625rem // 10px
+		padding-left .625rem
+		width 100%
+		text-align center
+		transform translateY(-50%)
 
 .ourMembersList-item-member-job
-  display block
-  font-family $ff-common
-  font-size $fs-sm
-  text-transform none
-  &::before
-    content ""
-    display block
-    margin $spacer-x auto
-    width ($spacer / 2)
-    height 1px
-    background-color $clr-darker
-  +bp-min(lg)
-    &::before
-      background-color $clr-lighter
+	display block
+	font-family $ff-common
+	font-size $fs-sm
+	text-transform none
+	&::before
+		content ""
+		display block
+		margin $spacer-x auto
+		width ($spacer / 2)
+		height 1px
+		background-color $clr-darker
+	+bp-min(lg)
+		&::before
+			background-color $clr-lighter
 
 
 // Business model
 .businessModel
-  margin-bottom ($spacer * 1.5)
+	margin-bottom ($spacer * 1.5)
 
 // Business model
 .businessModel-introduction
-  margin-bottom ($spacer * 1.5)
+	margin-bottom ($spacer * 1.5)
 
 .businessModel-hangs
-  margin-bottom ($spacer * 1.5)
-  font-family $ff-emphasis
-  font-size $fs-xl
-  line-height $lh-sm
-  font-weight $fw-bold
-  font-style normal
-  color darken(#06608D, 20%)
-  text-align center
+	margin-bottom ($spacer * 1.5)
+	font-family $ff-emphasis
+	font-size $fs-xl
+	line-height $lh-sm
+	font-weight $fw-bold
+	font-style normal
+	color darken(#06608D, 20%)
+	text-align center
 
 .businessModel-providers img
-  width 4em
-  height 4em
-  margin-right 0.125em
+	width 4em
+	height 4em
+	margin-right 0.125em
 
 // Timeline
 .timeline
-  @extend .list-unstyled
-  position relative
-  margin-bottom ($spacer * 1.5)
-  padding-bottom ($spacer * 1.5)
-  &::before
-    content ""
-    position absolute
-    top 0
-    bottom 0
-    left 0
-    margin-left -.063rem
-    width .125rem
-    background-color lighten($clr-base, 20%)
-  &::after
-    content ""
-    position absolute
-    bottom 0
-    left 0
-    margin-left -7px
-    width 14px
-    height 14px
-    background $body-bkg url(../images/direction-arrow.svg) no-repeat 50% 50%
-    transform rotate(90deg)
-  +bp-min(lg)
-    &::before
-      left 50%
-    &::after
-      left 50%
-      margin-left -7px
+	@extend .list-unstyled
+	position relative
+	margin-bottom ($spacer * 1.5)
+	padding-bottom ($spacer * 1.5)
+	&::before
+		content ""
+		position absolute
+		top 0
+		bottom 0
+		left 0
+		margin-left -.063rem
+		width .125rem
+		background-color lighten($clr-base, 20%)
+	&::after
+		content ""
+		position absolute
+		bottom 0
+		left 0
+		margin-left -7px
+		width 14px
+		height 14px
+		background $body-bkg url(../images/direction-arrow.svg) no-repeat 50% 50%
+		transform rotate(90deg)
+	+bp-min(lg)
+		&::before
+			left 50%
+		&::after
+			left 50%
+			margin-left -7px
 
 
 
 .timeline-item
-  position relative
-  margin-bottom $spacer
+	position relative
+	margin-bottom $spacer
 
-  &:first-child
-    margin-left -5px
-    margin-bottom $spacer
-    padding-left 0
-  &:last-child
-    margin-bottom 0
+	&:first-child
+		margin-left -5px
+		margin-bottom $spacer
+		padding-left 0
+	&:last-child
+		margin-bottom 0
 
-  +bp-min(lg)
-    &:nth-child(odd)
-      padding-right 55%
-      text-align right
-    &:nth-child(even)
-      padding-left 55%
-    &:first-child
-      padding 0
-      text-align center
-      margin-bottom $spacer
-    &:last-child
-      margin-bottom 0
+	+bp-min(lg)
+		&:nth-child(odd)
+			padding-right 55%
+			text-align right
+		&:nth-child(even)
+			padding-left 55%
+		&:first-child
+			padding 0
+			text-align center
+			margin-bottom $spacer
+		&:last-child
+			margin-bottom 0
 
 
 .timeline-item-bullet
-  position absolute
-  top 50%
-  left 0
-  z-index 3
-  transform translate(-50%, -50%)
-  width 2.813rem  // 45px
-  height 2.813rem
-  text-align center
-  line-height (2.813rem - .313rem)
-  background-color $body-bkg
-  border .125rem solid lighten($clr-base, 20%)
-  border-radius 50%
-  +bp-min(lg)
-    left 50%
+	position absolute
+	top 50%
+	left 0
+	z-index 3
+	transform translate(-50%, -50%)
+	width 2.813rem  // 45px
+	height 2.813rem
+	text-align center
+	line-height (2.813rem - .313rem)
+	background-color $body-bkg
+	border .125rem solid lighten($clr-base, 20%)
+	border-radius 50%
+	+bp-min(lg)
+		left 50%
 
 
 .timeline-item-container
-  position relative
-  z-index 2
-  display inline-block
-  padding $spacer-y
-  text-align left
-  background-color darken($clr-light, 5%)
-  border-radius $border-radius
-  +bp-min(lg)
-    max-width 80%
+	position relative
+	z-index 2
+	display inline-block
+	padding $spacer-y
+	text-align left
+	background-color darken($clr-light, 5%)
+	border-radius $border-radius
+	+bp-min(lg)
+		max-width 80%
 
-  &.highlighted
-    color: $clr-lighter
-    background-color $clr-primary
+	&.highlighted
+		color: $clr-lighter
+		background-color $clr-primary
 
-    .timeline-item-date
-      color darken($clr-primary, 30%)
-    .timeline-item-content
-      color $clr-lighter
+		.timeline-item-date
+			color darken($clr-primary, 30%)
+		.timeline-item-content
+			color $clr-lighter
 
-  &.withCozyLogo
-    padding-left (1.875rem + 3.375rem + 1.25rem) // default padding + logo size + margin
-    background-image url(../images/cozy-smaller.svg);
-    background-repeat no-repeat
-    background-position 1.875rem 50%
+	&.withCozyLogo
+		padding-left (1.875rem + 3.375rem + 1.25rem) // default padding + logo size + margin
+		background-image url(../images/cozy-smaller.svg);
+		background-repeat no-repeat
+		background-position 1.875rem 50%
 
-  p:last-child
-    margin-bottom 0
+	p:last-child
+		margin-bottom 0
 
 .timeline-item-date
-  margin-bottom ($spacer-x * .5)
-  text-align left
-  font-family $ff-common
-  font-size $fs-base
-  font-weight $fw-bold
-  color $clr-base
-  text-transform none
+	margin-bottom ($spacer-x * .5)
+	text-align left
+	font-family $ff-common
+	font-size $fs-base
+	font-weight $fw-bold
+	color $clr-base
+	text-transform none
 
 .timeline-item-content
-  color $clr-darker
+	color $clr-darker
 
 // Try it page
 
 .offers-title
-  margin-bottom 0.2em
+	margin-bottom 0.2em
 
 .offers-description
-  margin-bottom 3rem
+	margin-bottom 3rem
 
 
 // Comparison
 //
 
 .comparisonContent-item
-  margin ($spacer * 1.5) 0
-  text-align center
+	margin ($spacer * 1.5) 0
+	text-align center
 
 
 // Architecture
 //
 
 .architectureContent-item
-  margin-bottom ($spacer * 4)
-  text-align center
+	margin-bottom ($spacer * 4)
+	text-align center
 
-  p:last-of-type
-    margin-bottom $spacer
+	p:last-of-type
+		margin-bottom $spacer
 
 
 .app
-    margin-bottom 4.5rem
-    display flex
-    align-items center
+		margin-bottom 4.5rem
+		display flex
+		align-items center
 
-    +bp-max(md)
-      flex-direction column
-      margin-left 1.5rem
-      margin-right 1.5rem
-      text-align center
+		+bp-max(md)
+			flex-direction column
+			margin-left 1.5rem
+			margin-right 1.5rem
+			text-align center
 
-    img
-      width 7.5rem
-      padding 1.5rem
-      margin-right 2rem
-      margin-left 2rem
-      border-radius 50%
-      box-shadow 0 2px 6px rgba(0,0,0,0.16)
+		img
+			width 7.5rem
+			padding 1.5rem
+			margin-right 2rem
+			margin-left 2rem
+			border-radius 50%
+			box-shadow 0 2px 6px rgba(0,0,0,0.16)
 
-      +bp-max(md)
-        width 5rem
-        padding .875rem
-        margin-right 1rem
-        margin-left 1rem
+			+bp-max(md)
+				width 5rem
+				padding .875rem
+				margin-right 1rem
+				margin-left 1rem
 
-    .app-img
-      flex none
+		.app-img
+			flex none
 
-    h3.app-title
-      text-align left
-      margin-bottom 0
-      text-transform none
+		h3.app-title
+			text-align left
+			margin-bottom 0
+			text-transform none
 
-      +bp-max(md)
-        margin-top .5rem
-        font-size (20/16)em
-        text-align center
+			+bp-max(md)
+				margin-top .5rem
+				font-size (20/16)em
+				text-align center
 
-    p.app-type
-      font-style italic
-      margin-bottom 0.5rem
+		p.app-type
+			font-style italic
+			margin-bottom 0.5rem
 
-      +bp-max(md)
-        font-size $fs-sm
-        text-align center
+			+bp-max(md)
+				font-size $fs-sm
+				text-align center
 
-    p:last-child
-      margin 0
+		p:last-child
+			margin 0
 
 // Download pages
 .downloadContent .panel
-  padding 0
+	padding 0
 
 // Pricing page
 .cozy-logo
@@ -571,6 +571,16 @@ body.is-annexe
 
 	section
 		margin-bottom 3.75rem
+	
+	.introduction-last
+		position absolute
+		bottom 0
+		right 0
+		margin 0
+		padding 0 .8rem
+		background-color rgba(255, 255, 255,.8)
+		line-height 2
+		font-size .875rem
 
 .press-intro
 	margin 0 auto
