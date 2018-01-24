@@ -9,10 +9,17 @@
 // Ungoogle your life
 .introduction
 	// Set backgrounds
-	&.homepage
+	&.homepage.fr
 		background #fff url(../images/bkg-home-fr@2x.png) no-repeat 50% 100% / cover
 
-		+bp-max(md)
+		+bp-max(md).fr
+			background #fff url(../images/bkg-home-fr@2x.png) no-repeat 78% 201px / cover
+			background-size 300%
+
+	&.homepage.en
+		background #fff url(../images/bkg-home-en@2x.png) no-repeat 50% 100% / cover
+
+		+bp-max(md).en
 			background #fff url(../images/bkg-home-fr@2x.png) no-repeat 78% 201px / cover
 			background-size 300%
 
