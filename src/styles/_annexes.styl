@@ -44,7 +44,7 @@
   &.featuresPage
     background #F3F3F3 url(../images/bkg-features@2x.jpg) no-repeat 50% 100% / cover
     background-position top
-    
+
   &.press
     background #F3F3F3 url(../images/bkg-press@2x.png) no-repeat 50% 100% / cover
     background-position top
@@ -68,7 +68,7 @@ body.is-annexe
 
 .panel
 	padding 4rem 0
-	
+
 .grey-background
 	background-color $clr-light
 
@@ -435,7 +435,7 @@ body.is-annexe
 		height 100%
 
 .pricing
-	padding-top 5rem
+	padding-top 3rem
 	color $clr-darkgrey
 	+bp-max(lg)
 		padding-top 3rem
@@ -465,6 +465,9 @@ body.is-annexe
 		margin 0 0 4rem
 		border-top 0
 
+h3.h4.align-left
+  text-align left
+
 .basic
 	display flex
 	flex-direction row
@@ -474,7 +477,6 @@ body.is-annexe
 		flex-direction column
 
 .basic-perks .h4
-	font-size $fs-base
 	margin-bottom .6875rem
 
 .basic-perks p
@@ -482,6 +484,7 @@ body.is-annexe
 	color $clr-lightbase
 
 .basic-data
+.basic-apps
 .basic-storage
 	display flex
 	align-items top
@@ -504,8 +507,6 @@ body.is-annexe
 .basic-price
 	flex 0 0 15rem
 	padding-left 3rem
-	font-size $fs-h2
-	font-weight bold
 	text-align center
 	+bp-max(lg)
 		flex-basis auto
@@ -514,6 +515,10 @@ body.is-annexe
 	.btn
 		width 100%
 		font-weight bold
+
+strong.highlight-basic
+  font-size $fs-h2
+  font-weight bold
 
 .offer
 	display flex
@@ -615,12 +620,12 @@ body.is-annexe
 	img
 		width 100%
 		max-width 100%
-		
+
 		&.press-lg-img
 			max-width 35.625rem
-		
+
 	.h5
 		font-weight bold
-		
+
 	.btn
 		margin 1.875rem 0 3rem
