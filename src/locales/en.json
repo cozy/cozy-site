@@ -8,7 +8,8 @@
 	"home main title": "Choose simplicity,",
 	"home secondary title": "get Cozy.",
 	"home main title & home secondary title": "Choose simplicity, get Cozy.",
-	"home sub title": "We all have a life and a digital life. Cozy gathers them. In your Cozy, you have all your personal data: pictures, health, bank, holidays, accessible only by you. Welcome in your new digital home.",
+	"home sub title 1": "We all have a life and a digital life. Cozy gathers them.",
+	"home sub title 2": "In your Cozy, you have all your personal data: pictures, health, bank, holidays, accessible only by you. Welcome in your new digital home.",
 	"ungoogle main title": "Ungoogle Your Digital Life",
 	"selfhosting main title": "Automatically collect a bill or a document",
 	"selfhosting paragraph": "Save time on your administrative organisation.",
@@ -698,5 +699,6 @@
 	"press branding preview href": "#",
 	"nav privacy text": "Respecting your privacy is our commitment",
 	"nav pricing title": "Pricing",
-	"community forum link": "https://forum.cozy.io/c/english"
+	"community forum link": "https://forum.cozy.io/c/english",
+	"home sub title": "home sub title"
 }

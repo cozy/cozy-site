@@ -8,7 +8,8 @@
     "home main title": "Escoja la simplicidad.",
     "home secondary title": "adopte Cozy.",
     "home main title & home secondary title": "Escoja la simplicidad, adopte Cozy.",
-    "home sub title": "Todos tenemos una vida y una vida numérica. Cozy las reúne. En su Cozy usted puede meter todos sus datos personales: fotos, salud, bancos, vacaciones, los cuales sólo serán accesibles a usted. Es su nuevo domicilio numérico.",
+    "home sub title 1": "We all have a life and a digital life. Cozy gathers them.",
+    "home sub title 2": "In your Cozy, you have all your personal data: pictures, health, bank, holidays, accessible only by you. Welcome in your new digital home.",
     "ungoogle main title": "Desgooguelice su vida numérica",
     "selfhosting main title": "Colecte automáticamente una factura o un documento",
     "selfhosting paragraph": "Gane tiempo en su organización administrativa.",
@@ -588,7 +589,7 @@
     "home press article1 link": "https://www.nextinpact.com/news/105883-mesinfos-cozy-cloud-et-fing-veulent-concretiser-portabilite-donnees-rgpd.htm",
     "home press article1 title": "[FR] Cozy Cloud et la Fing veulent concrétiser la portabilité des données du RGPD",
     "home press article1 text": "Cozy Cloud and the Fing are exploring the future of personal data on the verge of the game changing regulation on data: the GDPR.",
-    "home press article1 date": "NextImpact - December 2017",
+    "home press article1 date": "NextInpact - December 2017",
     "home press article1 datetime": "2017-12",
     "home press article2 link": "https://www.mycanal.fr/docus-infos/20h-l-evenement-l-info-du-vrai-du-11-01-smartphones-arnaques-programmees/p/1476707",
     "home press article2 title": "[FR] L'open source, une solution à l'obsolescence programmée",
@@ -698,5 +699,6 @@
     "press branding preview href": "#",
     "nav privacy text": "Respecting your privacy is our commitment",
     "nav pricing title": "Pricing",
-    "community forum link": "https://forum.cozy.io/c/english"
+    "community forum link": "https://forum.cozy.io/c/english",
+    "home sub title": "home sub title"
 }
