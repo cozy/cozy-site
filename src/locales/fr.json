@@ -705,5 +705,9 @@
     "home testimony title": "Ils utilisent Cozy au quotidien",
     "photos image timeline": "/en/images/features/cozydrivephoto/photo-timeline-fr.jpg",
     "drive image sync": "/en/images/features/cozydrivephoto/drive-home-fr.png",
-    "photos image sharing": "/en/images/features/cozydrivephoto/photo-sharing-fr.jpg"
+    "photos image sharing": "/en/images/features/cozydrivephoto/photo-sharing-fr.jpg",
+    "privacy tos title": "Nos conditions générales d'utilisation",
+    "privacy tos content": "privacy tos content",
+    "privacy tos url": "https://files.cozycloud.cc/cgu-201801.pdf",
+    "privacy tos CTA": "Télécharger les CGUs de Cozy"
 }
