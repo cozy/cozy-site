@@ -670,7 +670,7 @@
     "press intro three": "Freely yours,",
     "press intro four": "Tristan",
     "press contact title": "Your press contact",
-    "press contact job": "Chief Evangelist Officer",
+    "press contact job": "Chief Product Officer",
     "press release title": "Our press releases",
     "press release text one": "January 2018 - Press conference in Paris",
     "press release href one": "#",
@@ -700,5 +700,7 @@
     "nav privacy text": "Respecting your privacy is our commitment",
     "nav pricing title": "Pricing",
     "community forum link": "https://forum.cozy.io/c/english",
-    "home sub title": "home sub title"
+    "home sub title": "We all have a life and a digital life. Cozy gathers them. In your Cozy, you have all your personal data: pictures, health, bank, holidays, accessible only by you. Welcome in your new digital home.",
+    "community hack url": "https://docs.cozy.io/en/dev/",
+    "home testimony title": "They use Cozy everyday"
 }

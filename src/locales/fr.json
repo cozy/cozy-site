@@ -670,7 +670,7 @@
     "press intro three": "Librement vôtre,",
     "press intro four": "Tristan",
     "press contact title": "Votre contact Presse",
-    "press contact job": "Chief Evangelist Officer",
+    "press contact job": "Chief Product Officer",
     "press release title": "Nos communiqués",
     "press release text one": "Janvier 2018 - Cozy : le domicile numérique intelligent qui s'occupe de sauvegarder et organiser l'ensemble de votre vie en ligne dans un lieu unique",
     "press release href one": "#",
@@ -700,5 +700,7 @@
     "nav privacy text": "Respecter votre vie privée est notre engagement",
     "nav pricing title": "Tarifs",
     "community forum link": "https://forum.cozy.io/c/francais",
-    "home sub title": "Nous avons tous une vie et une vie numérique. Cozy les réunit. Dans votre Cozy, vous mettez toutes vos données personnelles : photos, santé, bancaire, vacances, alors inaccessibles aux autres et aux entreprises. C’est votre nouveau domicile numérique."
+    "home sub title": "Nous avons tous une vie et une vie numérique. Cozy les réunit. Dans votre Cozy, vous mettez toutes vos données personnelles : photos, santé, bancaire, vacances, alors inaccessibles aux autres et aux entreprises. C’est votre nouveau domicile numérique.",
+    "community hack url": "https://docs.cozy.io/fr/dev/",
+    "home testimony title": "Ils utilisent Cozy au quotidien"
 }
