@@ -56,12 +56,6 @@
           </div>
 
           <div class="col-center align-center">
-            <a href="/{{ locale }}/privacy/" class="btn btn-link">
-              {{__ 'nav privacy title'}}
-            </a>
-          </div>
-
-          <div class="col-center align-center">
             <a href="/{{ locale }}/community/" class="btn btn-link">
               {{__ 'nav community title'}}
             </a>
@@ -79,6 +73,13 @@
 									<p class="submenu-itemDesc">{{__ 'nav about text'}}</p>
 								</div>
 							</a>
+              <a href="/{{ locale }}/privacy/">
+								<!--<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-data-connect.svg" alt=""></div>-->
+								<div>
+									<h2 class="submenu-itemTitle">{{__ 'privacy title'}}</h2>
+									<p class="submenu-itemDesc">{{__ 'nav privacy text'}}</p>
+								</div>
+							</a>
 							<a href="/{{ locale }}/partners/">
 								<!--<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-bank.svg" alt=""></div>-->
 								<div>
@@ -87,6 +88,12 @@
 								</div>
 							</a>
 						</div>
+          </div>
+
+          <div class="col-center align-center">
+            <a href="/{{ locale }}/pricing/" class="btn btn-link">
+              {{__ 'nav pricing title'}}
+            </a>
           </div>
 
           <div class="col-center align-center">
@@ -129,9 +136,9 @@
             <a href="https://manager.cozycloud.cc/cozy/login" class="btn btn-outlined-primary-grey">
               {{__ 'nav signin title'}}
             </a>
-            <a href="/{{ locale }}/try-it/?from={{from}}" class="btn btn-primary">
+            <!--<a href="/{{ locale }}/try-it/?from={{from}}" class="btn btn-primary">
               {{__ 'nav signup title'}}
-            </a>
+            </a>-->
           </div>
         </div>
       </div>
