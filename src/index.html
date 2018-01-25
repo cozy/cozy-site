@@ -32,7 +32,7 @@ from: home
 			</div>
 			<div class="row">
 				<div class="col-xs-24 col-lg-8">
-					<a href="/{{ locale }}/try-it?from={{from}}" class="btn btn-primary btn-bounce btn-xl " >{{__ 'pricing basic CTA'}}</a>
+					<a href="{{__ 'pricing basic link'}}" class="btn btn-primary btn-bounce btn-xl " >{{__ 'pricing basic CTA'}}</a>
 				</div>
 			</div>
 		</div>
@@ -150,38 +150,9 @@ from: home
 			<h2 class="panel-title">
 					{{__ 'home cta title'}}
 			</h2>
-
-			<div class="row row-justify-center align-center">
-				<div class="align-center">
-					<a href="/{{ locale }}/try-it?from={{from}}" class="btn btn-primary btn-xl btn-bounce">
-						{{__ 'pricing basic CTA'}}
-					</a>
-				</div>
-			</div>
-
-<!--      <div class="row row-justify-center align-center">
-				<div class="col-xs-24 col-lg-4 align-center">
-					<figure class="">
-						<img src="{{ pathTo }}/images/app-store-badge.svg" alt="App Store Badge">
-					</figure>
-				</div>
-				<div class="col-xs-24 col-lg-4 align-center">
-					<figure class="">
-						<img src="{{ pathTo }}/images/google-play-badge.svg" class="" alt="Google Play Badge">
-					</figure>
-				</div>
-				<div class="col-xs-24 col-lg-4 align-center">
-					<figure class="">
-						<img src="{{ pathTo }}/images/mac-app-store.svg" alt="Mac App Store Badge">
-					</figure>
-				</div>
-				<div class="col-xs-24 col-lg-4 align-center">
-					<figure class="">
-						<img src="{{ pathTo }}/images/windows-store-logo.svg" alt="Windows Store Badge">
-					</figure>
-				</div>
-			</div> -->
+				{{> sign-in}}
 		</div>
 	</section>
+
 
 {{> footer }}
