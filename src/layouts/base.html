@@ -74,6 +74,20 @@
 			});
     </script>
     {{/if}}
+    <script>
+    	$(document).ready(function(){
+    		var windowHeight 	= $(window).outerHeight()
+    				el 						= $('.siteNavigation-ctaContainer');
+
+    		$(window).scroll(function() {
+    			if($(window).scrollTop() > windowHeight) {
+    				el.addClass('scrolled')
+    			} else {
+    				el.removeClass('scrolled')
+    			}
+    		})
+    	});
+    </script>
     <script type="text/javascript">
       var _paq = _paq || [];
       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
