@@ -558,7 +558,7 @@
     "https://forum.cozy.io/t/maintenance-du-forum-prevue-maintenance-scheduled-tonight/4787/": "https://forum.cozy.io/t/maintenance-du-forum-prevue-maintenance-scheduled-tonight/4787/",
     "press ios link app": "App Cozy pour iOS",
     "press whatiscozy coverage": "Ils ont parlé de Cozy",
-    "support get started url": "https://docs.cozy.io/fr/use/index_fr/",
+    "support get started url": "https://support.cozy.io/category/49-premiers-pas",
     "404 title": "Titre 404",
     "404 introduction": "Introduction 404",
     "download title": "Synchronisez votre Cozy avec tous vos appareils",
@@ -712,5 +712,6 @@
     "privacy tos CTA": "Télécharger les CGUs de Cozy",
     "pricing thank you title": "Merci pour votre confiance !",
     "pricing thank you desc": "Si vous souhaitez souscrire à plus de stockage, il faut le faire dans votre Cozy.",
-    "pricing thank you signup": "Vous n'avez pas encore de Cozy ?"
+    "pricing thank you signup": "Vous n'avez pas encore de Cozy ?",
+    "support FAQ url": "https://support.cozy.io"
 }

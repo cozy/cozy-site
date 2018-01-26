@@ -558,7 +558,7 @@
 	"https://forum.cozy.io/t/maintenance-du-forum-prevue-maintenance-scheduled-tonight/4787/": "https://forum.cozy.io/t/maintenance-du-forum-prevue-maintenance-scheduled-tonight/4787/",
 	"press ios link app": "Cozy App for iOS",
 	"press whatiscozy coverage": "They wrote about Cozy",
-	"support get started url": "https://docs.cozy.io/en/use/",
+	"support get started url": "http://cozy-cloud-help.helpscoutdocs.com/category/99-first-steps-for-the-new-users",
 	"404 title": "404 title",
 	"404 introduction": "404 introduction",
 	"download title": "With Cozy Drive synchronize your Cozy with all your devices",
@@ -712,5 +712,6 @@
 	"privacy tos CTA": "Download Cozy Terms of Services",
 	"pricing thank you title": "Thank you for your trust!",
 	"pricing thank you desc": "If you want to add more storage in your Cozy you have to subscribe to the option into your Cozy.",
-	"pricing thank you signup": "You don't have a Cozy yet?"
+	"pricing thank you signup": "You don't have a Cozy yet?",
+	"support FAQ url": "https://help.cozy.io"
 }
