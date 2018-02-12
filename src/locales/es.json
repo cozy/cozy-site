@@ -1,4 +1,6 @@
 {
+    "2017": "2017",
+    "2018": "2018",
     "try main title": "Bienvenido(a)",
     "try main introduction": "¡Únase a la comunidad Cozy y comience a recuperar el control de sus datos personales!",
     "try form email address": "Dirección email",
@@ -663,5 +665,17 @@
     "press branding preview cta": "Capturas de pantalla de Cozy",
     "press branding preview href": "/es/images/cozy-screenshots.zip",
     "nav feedback url": "https://claudecozycloud.typeform.com/to/imGbrC\n",
-    "nav feedback title": "Denos su opinión"
+    "nav feedback title": "Denos su opinión",
+    "press media detail title": "Cozy Cloud in the press in details",
+    "press 2018-02 franceinfo": "[FR] Cozy Cloud, un cloud « à la française » pour contrer les géants américains",
+    "press 2018-02 lefigaro": "[FR] Envoyer des messages après sa mort pour léguer un « héritage numérique »",
+    "press 2018-02 macgeneration": "[FR] Aperçu de Cozy Cloud, l'ambitieux « domicile numérique » français",
+    "press 2018-02 actumag": "[FR] Cozy Cloud : une application miracle pour les phobiques administratifs",
+    "press 2018-01 rtl": "[FR] 5 questions sur la protection des données personnelles",
+    "press 2018-02 franceinter": "[FR] Cozy Cloud nous aide à se réapproprier nos données",
+    "press 2018-01 tv5monde": "[FR] Données personnelles : peut-on lutter contre l'hégémonie des GAFAM ?",
+    "press 2018-01 techcrunch": "Cozy is building a personal cloud service that respects your privacy",
+    "press 2018-01 nextinpact": "[FR] Cozy Cloud ouvert à tous : on a testé la plateforme de stockage et de reprise en main des données",
+    "press 2018-01 usinedigitale": "[FR] Cozy Cloud lance un cloud personnel pour aider les particuliers à maîtriser leurs données",
+    "press 2018-01 lepoint": "[FR] Cozy, un cloud bien français !"
 }
