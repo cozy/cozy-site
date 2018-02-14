@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="40px" viewBox="0 0 135 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>computer-badge-en</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-FR" transform="translate(-741.000000, -1922.000000)">
+            <g id="computer-badge-en" transform="translate(741.000000, 1922.000000)">
+                <path d="M130.229,40 L4.76,40 C2.153,40 0,37.872 0,35.267 L0,4.726 C0,2.12 2.153,0 4.76,0 L130.228,0 C132.834,0 135,2.12 135,4.726 L135,35.267 C135,37.872 132.834,40 130.229,40 L130.229,40 Z" id="Shape" fill="#A6A6A6" fill-rule="nonzero"></path>
+                <path d="M134,35.1908501 C134,37.2953308 132.287828,39 130.170089,39 L4.83490559,39 C2.71816557,39 1,37.2953308 1,35.1908501 L1,4.8141227 C1,2.71063652 2.71816557,1 4.83490559,1 L130.16909,1 C132.287828,1 133.999001,2.71063652 133.999001,4.8141227 L134,35.1908501 L134,35.1908501 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                <text id="Download-for-your" font-family="Lato-Bold, Lato" font-size="9" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="39" y="15">Download for your</tspan>
+                </text>
+                <text id="Computer" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="39" y="31">Computer</tspan>
+                </text>
+                <g id="Stroke-2048-+-Stroke-2049-+-Stroke-2050-Copy" transform="translate(8.000000, 11.000000)" stroke-linecap="round" stroke="#FFFFFF" stroke-linejoin="round">
+                    <polygon id="Stroke-2048" points="20.5 12.5 12 12.5 3.5 12.5 3.5 2.5 20.5 2.5"></polygon>
+                    <path d="M1.5,14.5 L1.5,2 C1.5,1.172 2.172,0.5 3,0.5 L21,0.5 C21.828,0.5 22.5,1.172 22.5,2 L22.5,14.5" id="Stroke-2049"></path>
+                    <path d="M14.5,15.5 L14.5,16.5 L9.5,16.5 L9.5,15.5 L0.5,15.5 L0.5,17.5 C0.5,18.053 0.948,18.5 1.5,18.5 L22.5,18.5 C23.053,18.5 23.5,18.053 23.5,17.5 L23.5,15.5 L14.5,15.5 L14.5,15.5 Z" id="Stroke-2050"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
