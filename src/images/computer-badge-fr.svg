@@ -15,6 +15,11 @@
                 <text id="Ordinateur" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#FFFFFF">
                     <tspan x="39" y="31">Ordinateur</tspan>
                 </text>
+                <g id="Stroke-2048-+-Stroke-2049-+-Stroke-2050" transform="translate(8.000000, 11.000000)" stroke-linecap="round" stroke="#FFFFFF" stroke-linejoin="round">
+                    <polygon id="Stroke-2048" points="20.5 12.5 12 12.5 3.5 12.5 3.5 2.5 20.5 2.5"></polygon>
+                    <path d="M1.5,14.5 L1.5,2 C1.5,1.172 2.172,0.5 3,0.5 L21,0.5 C21.828,0.5 22.5,1.172 22.5,2 L22.5,14.5" id="Stroke-2049"></path>
+                    <path d="M14.5,15.5 L14.5,16.5 L9.5,16.5 L9.5,15.5 L0.5,15.5 L0.5,17.5 C0.5,18.053 0.948,18.5 1.5,18.5 L22.5,18.5 C23.053,18.5 23.5,18.053 23.5,17.5 L23.5,15.5 L14.5,15.5 L14.5,15.5 Z" id="Stroke-2050"></path>
+                </g>
             </g>
         </g>
     </g>
