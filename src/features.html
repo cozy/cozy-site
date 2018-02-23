@@ -147,59 +147,6 @@ from: features
 
 			<hr class="dash-grey">
 
-			<section id="health" class="panel features">
-				<div class="container">
-					<div class="row row-justify-center">
-						<div class="col-xs-22">
-							<h2 class="panel-title">{{__ 'features sante title'}}</h2>
-						</div>
-					</div>
-
-					<div class="row row-justify-center row-row-reverse">
-						<div class="col-xs-22 col-lg-7 col-center">
-							<ul class="featuresList">
-								<li class="featuresList-item">
-									<a href="#" class="featuresList-item-link active" data-target="sante-overview">
-										<span class="featuresList-item-link-icon-sm">
-											<div class="featuresIcons people"></div>
-										</span>
-										<span class="featuresList-item-link-icon">
-											<img src="{{ pathTo }}/images/icons/icon-people.svg">
-										</span>
-										{{__ 'features sante content 1'}}
-									</a>
-								</li>
-								<li class="featuresList-item">
-									<a href="#" class="featuresList-item-link" data-target="sante-family">
-										<span class="featuresList-item-link-icon-sm">
-											<div class="featuresIcons health"></div>
-										</span>
-										<span class="featuresList-item-link-icon">
-											<img src="{{ pathTo }}/images/icons/icon-health.svg">
-										</span>
-										{{__ 'features sante content 2'}}
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-xs-16 col-offset-xs-1 hidden-to-lg featuresList-screenshots">
-							<figure id="feature-sante-overview" class="featuresList-screenshotOutter active">
-								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{__ 'ungoogle features cozysante family'}}"
-											class="featuresList-screenshot img-responsive"
-											alt="{{__ 'ungoogle features calendars screenshot'}}">
-							</figure>
-							<figure id="feature-sante-family" class="featuresList-screenshotOutter">
-								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{__ 'ungoogle features cozysante overview'}}"
-											class="featuresList-screenshot img-responsive"
-											alt="{{__ 'ungoogle features contacts screenshot'}}">
-							</figure>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<hr class="dash-grey">
-
 			<section id="synchronise" class="panel features">
 				<div class="container">
 					<div class="row row-justify-center">
@@ -208,7 +155,7 @@ from: features
 						</div>
 					</div>
 
-					<div class="row row-justify-center">
+					<div class="row row-justify-center row-row-reverse">
 						<div class="col-xs-22 col-lg-7 col-center">
 							<ul class="featuresList">
 								<li class="featuresList-item">
@@ -277,7 +224,7 @@ from: features
 			</h2>
 
 			{{> sign-in}}
-			
+
 		</div>
 	</section>
 
