@@ -7,6 +7,8 @@
 	font-family $ff-emphasis
 	font-size $fs-sm
 	background-color $footer-bkg
+	+bp-max(md)
+		padding-top $spacer-y
 
 	.siteLogo
 		max-width 110px
@@ -26,6 +28,8 @@
 	color $clr-darker
 	+bp-max(lg)
 		text-align center
+	+bp-max(md)
+		display none
 
 .siteFooter-hangContent
 	margin-bottom 1rem
@@ -34,6 +38,8 @@
 	color $clr-primary
 	+bp-max(lg)
 		text-align center
+	+bp-max(md)
+		display none
 
 .siteFooter-copy
 	margin-top 4.375rem

@@ -240,6 +240,9 @@
 .panel-title
 	max-width 37.5rem // 600px
 	margin-bottom ($spacer * 1.5) // ~75px
+	+bp-max(md)
+		margin-top $spacer-y
+		margin-bottom $spacer-y
 
 	&.withLead
 		margin-bottom ($spacer / 4) // ~12
@@ -500,7 +503,7 @@
 .rounded
 	display inline-block
 	border-radius 50%
-	
+
 // Utils
 .nomargin
 	margin 0

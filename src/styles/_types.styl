@@ -32,8 +32,11 @@ h3, .h3
 // Extra margin needed
 
 .makeitbreathe
-  margin-top 2rem
-  margin-bottom ($headings-mrg-bottom + 2rem)
+  margin-top $spacer-y
+  margin-bottom ($headings-mrg-bottom + $spacer-y)
+  +bp-max(md)
+    margin-top $spacer-x
+    margin-bottom $spacer-x
 
 // bottom margins
 h1, .h1,
