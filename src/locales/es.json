@@ -11,7 +11,7 @@
     "home secondary title": "adopte Cozy.",
     "home main title & home secondary title": "Escoja la simplicidad, adopte Cozy.",
     "home sub title 1": "Todos tenemos una vida y una vida digital. Cozy las reúne.",
-    "home sub title 2": "En su Cozy, usted tiene todos sus datos personales: fotos, salud, banco, días festivos, accesibles sólo por usted. Bienvenido(a) a su nuevo hogar digital.",
+    "home sub title 2": "En su Cozy, usted tiene todos sus datos personales: fotos, salud, banco, días festivos, accesibles sólo para usted. Bienvenido(a) a su nuevo hogar digital.",
     "home sub title": "Todos tenemos una vida y una vida numérica. Cozy las reúne. En su Cozy usted puede meter todos sus datos personales: fotos, salud, bancos, vacaciones, los cuales sólo serán accesibles a usted. Bienvenido(a) a su nuevo domicilio numérico.",
     "home testimony title": "Ellos usan Cozy cotidianamente",
     "ungoogle main title": "Desgooguelice su vida numérica",
@@ -50,7 +50,7 @@
     "nav events link": "https://www.meetup.com/fr-FR/Meetup-des-utilisateurs-de-Cozy-Cloud-en-France",
     "nav download title": "Descargar",
     "nav product title": "Producto",
-    "nav features title": "Applications",
+    "nav features title": "Aplicaciones",
     "nav business title": "NegociosNegocios",
     "nav support title": "Ayuda en línea",
     "nav self-hosting title": "Auto-alojamiento",
@@ -440,7 +440,7 @@
     "home value proposition text 2": "Ahorre tiempo y adminístrelo como nunca antes.",
     "home value proposition 3": "Controle sus gastos día a día",
     "home value proposition text 3": "Que no le falte nada, ni siquiera sus pagos de salud.",
-    "home value proposition 4": "Take control of your privacy",
+    "home value proposition 4": "Cuide su vida privada",
     "home value proposition text 4": "Nunca venderemos ni compartiremos sus datos, lo juramos.",
     "home testimony 1": "Felicitaciones por la nueva versión, ¡es realmente increíble!",
     "home testimony 1 icon": "😎",
@@ -680,5 +680,8 @@
     "press 2018-01 techcrunch": "Cozy construye un servicio de nube personal que respeta su privacidad",
     "press 2018-01 nextinpact": "[FR] Cozy Cloud ouvert à tous : on a testé la plateforme de stockage et de reprise en main des données",
     "press 2018-01 usinedigitale": "[FR] Cozy Cloud lance un cloud personnel pour aider les particuliers à maîtriser leurs données",
-    "press 2018-01 lepoint": "[FR] Cozy, un cloud bien français !"
+    "press 2018-01 lepoint": "[FR] Cozy, un cloud bien français !",
+    "download Android APK text 1": "(Advanced users that don’t want to connect to Google Play can",
+    "download Android APK text 2": "use the APK",
+    "download Android APK text 3": ")"
 }

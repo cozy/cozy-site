@@ -680,5 +680,8 @@
 	"press 2018-01 techcrunch": "Cozy is building a personal cloud service that respects your privacy",
 	"press 2018-01 nextinpact": "[FR] Cozy Cloud ouvert à tous : on a testé la plateforme de stockage et de reprise en main des données",
 	"press 2018-01 usinedigitale": "[FR] Cozy Cloud lance un cloud personnel pour aider les particuliers à maîtriser leurs données",
-	"press 2018-01 lepoint": "[FR] Cozy, un cloud bien français !"
+	"press 2018-01 lepoint": "[FR] Cozy, un cloud bien français !",
+	"download Android APK text 1": "(Advanced users that don’t want to connect to Google Play can",
+	"download Android APK text 2": "use the APK",
+	"download Android APK text 3": ")"
 }
