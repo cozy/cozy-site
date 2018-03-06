@@ -30,29 +30,81 @@
             <span>
               <a href="/{{locale}}/features" class="btn btn-link">{{__ 'nav features title'}}</a>
             </span>
-						<div class="submenu-level">
-							<a href="/{{ locale }}/features/#collector">
-								<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-data-connect.svg" alt=""></div>
-								<div>
-									<h2 class="submenu-itemTitle">{{__ 'features collect name'}}</h2>
-									<p class="submenu-itemDesc">{{__ 'features collect title'}}</p>
+						<ul class="submenu-level">
+							<li class="submenu-listItem">
+								<a href="/{{ locale }}/features/#drive">
+									<div class="submenu-item">
+										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-drive.svg" alt=""></div>
+										<div>
+											<h2 class="submenu-itemTitle">{{__ 'features bank name'}}</h2>
+											<p class="submenu-itemDesc">{{__ 'features bank title'}}</p>
+										</div>
+									</div>
+								</a>
+								<div class="submenu-app">
+									<a href="{{__ 'download iOS url'}}" target="_blank">
+		                <figure>
+											<img src="{{ pathTo }}/{{__ 'download Android logo'}}" class="store-icons" alt="{{__ 'download Android title'}}">
+										</figure>
+									</a>
+									<a href="{{__ 'download iOS url'}}" target="_blank">
+		                <figure>
+											<img src="{{ pathTo }}/{{__ 'download iOS logo'}}" class="store-icons" alt="{{__ 'download iOS title'}}">
+										</figure>
+									</a>
+									<a href="{{__ 'download iOS url'}}" target="_blank">
+		                <figure>
+											<img src="{{ pathTo }}/{{__ 'download Computer logo'}}" class="store-icons" alt="{{__ 'download Computer title'}}">
+										</figure>
+									</a>
 								</div>
-							</a>
-							<a href="/{{ locale }}/features/#bank">
-								<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-banks-beta.svg" alt=""></div>
-								<div>
-									<h2 class="submenu-itemTitle">{{__ 'features bank name'}}</h2>
-									<p class="submenu-itemDesc">{{__ 'features bank title'}}</p>
+							</li>
+							<li class="submenu-listItem">
+								<a href="/{{ locale }}/features/#bank">
+									<div class="submenu-item">
+										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-banks-beta.svg" alt=""></div>
+										<div>
+											<h2 class="submenu-itemTitle">{{__ 'features bank name'}}</h2>
+											<p class="submenu-itemDesc">{{__ 'features bank title'}}</p>
+										</div>
+									</div>
+								</a>
+								<div class="submenu-app">
+									<a href="{{__ 'download iOS url'}}" target="_blank">
+		                <figure>
+											<img src="{{ pathTo }}/{{__ 'download Android logo'}}" class="store-icons" alt="{{__ 'download Android title'}}">
+										</figure>
+									</a>
+									<a href="{{__ 'download iOS url'}}" target="_blank">
+		                <figure>
+											<img src="{{ pathTo }}/{{__ 'download iOS logo'}}" class="store-icons" alt="{{__ 'download iOS title'}}">
+										</figure>
+									</a>
 								</div>
-							</a>
-							<a href="/{{ locale }}/features/#synchronise">
-								<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-photos.svg" alt=""></div>
-								<div>
-									<h2 class="submenu-itemTitle">{{__ 'features sync share name'}}</h2>
-									<p class="submenu-itemDesc">{{__ 'features sync share title'}}</p>
-								</div>
-							</a>
-						</div>
+							</li>
+							<li class="submenu-listItem">
+								<a href="/{{ locale }}/features/#collector">
+									<div class="submenu-item">
+										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-data-connect.svg" alt=""></div>
+										<div>
+											<h2 class="submenu-itemTitle">{{__ 'features collect name'}}</h2>
+											<p class="submenu-itemDesc">{{__ 'features collect title'}}</p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="submenu-listItem">
+								<a href="/{{ locale }}/features/#synchronise">
+									<div class="submenu-item">
+										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-photos.svg" alt=""></div>
+										<div>
+											<h2 class="submenu-itemTitle">{{__ 'features sync share name'}}</h2>
+											<p class="submenu-itemDesc">{{__ 'features sync share title'}}</p>
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
           </div>
 
           <div class="col-center align-center">
@@ -65,29 +117,41 @@
             <span >
               <a href="/{{ locale }}/about/" class="btn btn-link">{{__ 'nav company title'}}</a>
             </span>
-            <div class="submenu-level">
-							<a href="/{{ locale }}/about/">
-								<!--<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-data-connect.svg" alt=""></div>-->
-								<div>
-									<h2 class="submenu-itemTitle">{{__ 'about title'}}</h2>
-									<p class="submenu-itemDesc">{{__ 'nav about text'}}</p>
-								</div>
-							</a>
-              <a href="/{{ locale }}/privacy/">
-								<!--<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-data-connect.svg" alt=""></div>-->
-								<div>
-									<h2 class="submenu-itemTitle">{{__ 'privacy title'}}</h2>
-									<p class="submenu-itemDesc">{{__ 'nav privacy text'}}</p>
-								</div>
-							</a>
-							<a href="/{{ locale }}/partners/">
-								<!--<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-bank.svg" alt=""></div>-->
-								<div>
-									<h2 class="submenu-itemTitle">{{__ 'partners main title'}}</h2>
-									<p class="submenu-itemDesc">{{__ 'partners secondary title'}}</p>
-								</div>
-							</a>
-						</div>
+            <ul class="submenu-level">
+							<li class="submenu-listItem">
+								<a href="/{{ locale }}/about/">
+									<div class="submenu-item">
+										<!--<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-data-connect.svg" alt=""></div>-->
+										<div>
+											<h2 class="submenu-itemTitle">{{__ 'about title'}}</h2>
+											<p class="submenu-itemDesc">{{__ 'nav about text'}}</p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="submenu-listItem">
+	              <a href="/{{ locale }}/privacy/">
+	              	<div class="submenu-item">
+										<!--<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-data-connect.svg" alt=""></div>-->
+										<div>
+											<h2 class="submenu-itemTitle">{{__ 'privacy title'}}</h2>
+											<p class="submenu-itemDesc">{{__ 'nav privacy text'}}</p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="submenu-listItem">
+								<a href="/{{ locale }}/partners/">
+									<div class="submenu-item">
+										<!--<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-bank.svg" alt=""></div>-->
+										<div>
+											<h2 class="submenu-itemTitle">{{__ 'partners main title'}}</h2>
+											<p class="submenu-itemDesc">{{__ 'partners secondary title'}}</p>
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
           </div>
 
           <div class="col-center align-center">
