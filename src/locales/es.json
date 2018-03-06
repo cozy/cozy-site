@@ -536,9 +536,11 @@
     "download introduction": "Sincronice y comparta sus archivos y fotos en todos sus periféricos",
     "download mobile title": "Cozy Drive en su teléfono",
     "download iOS url": "https://itunes.apple.com/us/app/cozy-drive/id1224102389?mt=8",
+    "download iOS banks url": "",
     "download iOS title": "Cozy Drive para iOS",
     "download iOS text": "Requiere  iOS 8.0 o posterior",
     "download Android url": "https://play.google.com/store/apps/details?id=io.cozy.drive.mobile&hl=en",
+    "download Android banks url": "https://play.google.com/store/apps/details?id=io.cozy.banks.mobile&hl=en",
     "download Android title": "Cozy Drive para Android",
     "download Android text": "Requiere Android 4.1 o posterior",
     "download desktop title": "Cozy Drive en su ordenador",
@@ -681,7 +683,7 @@
     "press 2018-01 nextinpact": "[FR] Cozy Cloud ouvert à tous : on a testé la plateforme de stockage et de reprise en main des données",
     "press 2018-01 usinedigitale": "[FR] Cozy Cloud lance un cloud personnel pour aider les particuliers à maîtriser leurs données",
     "press 2018-01 lepoint": "[FR] Cozy, un cloud bien français !",
-    "download Android APK text 1": "(Advanced users that don’t want to connect to Google Play can",
-    "download Android APK text 2": "use the APK",
+    "download Android APK text 1": "(Usuarios que no quieran conectarse a Google Play pueden",
+    "download Android APK text 2": "usar la APK",
     "download Android APK text 3": ")"
 }
