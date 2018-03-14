@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-team</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon-site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-96.000000, -96.000000)">
+        <g id="slices" transform="translate(96.000000, 96.000000)"></g>
+        <g id="team-copy" transform="translate(96.000000, 96.000000)">
+            <path d="M8.001,26 C10.757,26 13,23.757 13,21 C13,18.244 10.757,16 8.001,16 C5.244,16 3,18.244 3,21 C3,23.757 5.244,26 8.001,26" id="Fill-1" fill="#197BFF"></path>
+            <path d="M0,29 C0,33.777 0.32,38.178 4,39.627 L4,48 L12,48 L12,39.627 C15.68,38.178 16,33.777 16,29 L16,28 L0,28 L0,29 Z" id="Fill-3" fill="#197BFF"></path>
+            <path d="M40.001,26 C42.757,26 45,23.757 45,21 C45,18.244 42.757,16 40.001,16 C37.244,16 35,18.244 35,21 C35,23.757 37.244,26 40.001,26" id="Fill-5" fill="#197BFF"></path>
+            <path d="M32,28 L32,29 C32,33.777 32.32,38.178 36,39.627 L36,48 L44,48 L44,39.627 C47.68,38.178 48,33.777 48,29 L48,28 L32,28 Z" id="Fill-7" fill="#197BFF"></path>
+            <path d="M24.001,10 C26.757,10 29,7.757 29,5 C29,2.244 26.757,0 24.001,0 C21.244,0 19,2.244 19,5 C19,7.757 21.244,10 24.001,10" id="Fill-9" fill="#B2D3FF"></path>
+            <path d="M32,12 L16,12 L16,13 C16,17.777 16.32,22.178 20,23.627 L20,32 L28,32 L28,23.627 C31.68,22.178 32,17.777 32,13 L32,12 Z" id="Fill-11" fill="#B2D3FF"></path>
+        </g>
+    </g>
+</svg>
