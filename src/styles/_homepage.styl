@@ -1,15 +1,27 @@
 // Homepage content specifics styles
 //
+
+// Catch phrase slider vars
+// Number of slides
+items = 5
+// Number of units of time (percentage)
+// (1 item = 2 units + 1 unit per item for transitions; so 1 item = 3 units)
+time-unit = 100% / (items * 3)
+// item size for scrolling the entire item
+item-size = 3.75rem
+
 @keyframes slide {
-	15.8% {top: 0}
-  21% {top: -3.75rem}
-  36.8% {top: -3.75rem}
-  42% {top: -7.5rem}
-  57.8% {top: -7.5rem}
-  63% {top: -11.25rem}
-  78.8% {top: -11.25rem}
-  84% {top: -15rem}
-  99.8% {top: -15rem}
+	0 {top: 0}
+	{2 * time-unit} {top: 0}
+  {3 * time-unit} {top: -(item-size)}
+  {5 * time-unit} {top: -(item-size)}
+  {6 * time-unit} {top: -(2 * item-size)}
+  {8 * time-unit} {top: -(2 * item-size)}
+  {9 * time-unit} {top: -(3* item-size)}
+  {11 * time-unit} {top: -(3* item-size)}
+  {12 * time-unit} {top: -(4 * item-size)}
+  {14 * time-unit} {top: -(4 * item-size)}
+  100% {top: 0}
 }
 
 .homepage
