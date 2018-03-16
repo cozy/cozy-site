@@ -34,12 +34,14 @@ NPM
 ```bash
 npm run dev
 npm run dev:fr
+npm run dev:es
 ```
 
 Yarn
 ```bash
 yarn dev
 yarn dev:fr
+yarn dev:es
 ```
 
 This command will run:

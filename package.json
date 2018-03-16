@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "node output.js --dev",
     "dev:fr": "node output-fr.js --dev",
+    "dev:es": "node output-es.js --dev",
     "build": "node output.js",
-    "build:fr": "node output-fr.js"
+    "build:fr": "node output-fr.js",
+    "build:es": "node output-es.js"
   },
   "author": "Cozy Cloud <frank@cozycloud.cc> (https://cozycloud.cc/)",
   "repository": "https://github.com/cozy/cozy-site",
