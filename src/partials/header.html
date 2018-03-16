@@ -1,21 +1,20 @@
   <!-- HOW TO: https://wiki-team.cozycloud.cc/doku.php?id=bandeau_d_annonce -->
 
   <!-- Header AVEC bandeau d'annonce -->
-  <header class="siteHeader announce {{#if homepage}}contrast{{/if}} {{#if fullHeightIntroduction}}contrast{{/if}} {{#if annexe}}contrast{{/if}}">
+  <!-- <header class="siteHeader announce {{#if homepage}}contrast{{/if}} {{#if fullHeightIntroduction}}contrast{{/if}} {{#if annexe}}contrast{{/if}}">-->
 
   <!-- Header SANS bandeau d'annonce -->
-  <!-- <header class="siteHeader {{#if homepage}}contrast{{/if}} {{#if fullHeightIntroduction}}contrast{{/if}} {{#if annexe}}contrast{{/if}}"> -->
+  <header class="siteHeader {{#if homepage}}contrast{{/if}} {{#if fullHeightIntroduction}}contrast{{/if}} {{#if annexe}}contrast{{/if}}">
 
   	<!-- Bandeau d'annonce -->
-    <aside class="announcement">
+    <!--<aside class="announcement">
 			<div class="announcement-image">
-				<!-- 📆 -->
-				<img src="{{ pathTo }}/images/apps/cozy-banks-beta.svg" alt="">
+			<img src="{{ pathTo }}/images/apps/cozy-banks-beta.svg" alt="">
 			</div>
 			<div class="announcement-text">
 				<a href="{{__ 'announcement popup url'}}" target="_blank">{{__ 'announcement popup label'}} →</a>
 			</div>
-		</aside>
+		</aside>-->
 
     <nav class="siteNavigation">
       <div class="container">
@@ -43,21 +42,21 @@
 									</div>
 								</a>
 								<div class="submenu-app">
-									<a href="{{__ 'download iOS url'}}" target="_blank">
+									<!--<a href="{{__ 'download Drive Android url'}}" target="_blank">
 		                <figure>
-											<img src="{{ pathTo }}/{{__ 'download Android logo'}}" class="store-icons" alt="{{__ 'download Android title'}}">
+											<img src="{{ pathTo }}/{{__ 'download Android logo'}}" class="store-icons" alt="{{__ 'download Drive Android title'}}">
 										</figure>
 									</a>
-									<a href="{{__ 'download iOS url'}}" target="_blank">
+									<a href="{{__ 'download Drive iOS url'}}" target="_blank">
 		                <figure>
-											<img src="{{ pathTo }}/{{__ 'download iOS logo'}}" class="store-icons" alt="{{__ 'download iOS title'}}">
+											<img src="{{ pathTo }}/{{__ 'download iOS logo'}}" class="store-icons" alt="{{__ 'download Drive iOS title'}}">
 										</figure>
 									</a>
-									<a href="{{__ 'download iOS url'}}" target="_blank">
+									<a href="{{__ 'download Computer url'}}" target="_blank">
 		                <figure>
 											<img src="{{ pathTo }}/{{__ 'download Computer logo'}}" class="store-icons" alt="{{__ 'download Computer title'}}">
 										</figure>
-									</a>
+									</a>-->
 								</div>
 							</li>
 							<li class="submenu-listItem">
@@ -71,14 +70,14 @@
 									</div>
 								</a>
 								<div class="submenu-app">
-									<a href="{{__ 'download Android banks url'}}" target="_blank">
+									<!-- <a href="{{__ 'download Banks Android url'}}" target="_blank">
 		                <figure>
-											<img src="{{ pathTo }}/{{__ 'download Android logo'}}" class="store-icons" alt="{{__ 'download Android title'}}">
+											<img src="{{ pathTo }}/{{__ 'download Android logo'}}" class="store-icons" alt="{{__ 'download Banks Android title'}}">
 										</figure>
 									</a>
-									<!-- <a href="{{__ 'download iOS url'}}" target="_blank">
+									<a href="{{__ 'download Banks iOS url'}}" target="_blank">
 		                <figure>
-											<img src="{{ pathTo }}/{{__ 'download iOS logo'}}" class="store-icons" alt="{{__ 'download iOS title'}}">
+											<img src="{{ pathTo }}/{{__ 'download iOS logo'}}" class="store-icons" alt="{{__ 'download Banks iOS title'}}">
 										</figure>
 									</a> -->
 								</div>
@@ -94,7 +93,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="submenu-listItem">
+							<!--<li class="submenu-listItem">
 								<a>
 									<div class="submenu-item">
 										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-contacts.svg" alt=""></div>
@@ -104,7 +103,7 @@
 										</div>
 									</div>
 								</a>
-							</li>
+							</li>-->
 						</ul>
           </div>
 
@@ -122,7 +121,7 @@
 							<li class="submenu-listItem">
 								<a href="/{{ locale }}/about/">
 									<div class="submenu-item">
-										<!--<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-data-connect.svg" alt=""></div>-->
+										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/icons/icon-team.svg" alt=""></div>
 										<div>
 											<h2 class="submenu-itemTitle">{{__ 'about title'}}</h2>
 											<p class="submenu-itemDesc">{{__ 'nav about text'}}</p>
@@ -133,7 +132,7 @@
 							<li class="submenu-listItem">
 	              <a href="/{{ locale }}/privacy/">
 	              	<div class="submenu-item">
-										<!--<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-data-connect.svg" alt=""></div>-->
+										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/icons/icon-privacy.svg" alt=""></div>
 										<div>
 											<h2 class="submenu-itemTitle">{{__ 'privacy title'}}</h2>
 											<p class="submenu-itemDesc">{{__ 'nav privacy text'}}</p>
@@ -144,7 +143,7 @@
 							<li class="submenu-listItem">
 								<a href="/{{ locale }}/partners/">
 									<div class="submenu-item">
-										<!--<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-bank.svg" alt=""></div>-->
+										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/icons/icon-partners.svg" alt=""></div>
 										<div>
 											<h2 class="submenu-itemTitle">{{__ 'partners main title'}}</h2>
 											<p class="submenu-itemDesc">{{__ 'partners secondary title'}}</p>

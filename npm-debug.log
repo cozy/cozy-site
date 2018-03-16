@@ -27,7 +27,7 @@
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid cozy-site@0.1.0
 16 verbose cwd /Users/pierrevandekerckhove/Documents/cozy/cozy-site
-17 error Darwin 17.3.0
+17 error Darwin 17.4.0
 18 error argv "/usr/local/Cellar/node/7.5.0/bin/node" "/usr/local/bin/npm" "run" "dev"
 19 error node v7.5.0
 20 error npm  v4.1.2
