@@ -69,7 +69,7 @@ module.exports = {
       // Translation
       .use(i18n({
         default: locale,
-        locales: ['en', 'fr'],
+        locales: ['en', 'fr', 'es'],
         directory: 'src/locales'
       }))
 
@@ -95,7 +95,7 @@ module.exports = {
       // Misc
       .use(mapsite({
         omitExtension: true,
-        hostname: "http://cozy.io/" + locale
+        hostname: "https://cozy.io/" + locale
       }))
       .use(permalinks({
         pattern: ':title',
