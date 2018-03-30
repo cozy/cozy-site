@@ -15,6 +15,13 @@
     "home sub title": "Todos tenemos una vida y una vida numérica. Cozy las reúne. En su Cozy usted puede meter todos sus datos personales: fotos, salud, bancos, vacaciones, los cuales sólo serán accesibles a usted. Bienvenido(a) a su nuevo domicilio numérico.",
     "home reassurance text": "Hospedado en Francia - Respetuoso de su privacidad - Gratuito de por vida",
     "home testimony title": "Ellos usan Cozy cotidianamente",
+    "home baseline 1": "1st French digital home",
+    "home baseline 2": "Take back control over your personal data",
+    "home baseline 3": "Respectful of your privacy",
+    "home baseline 4": "Free for life up to 5 GB of storage",
+    "home baseline 5": "Imagined, developed and hosted in France",
+    "home store apple": "https://itunes.apple.com/developer/cozy-cloud/id1131616091?mt=8",
+    "home store android": "https://play.google.com/store/apps/developer?id=Cozy+Cloud&hl=en",
     "ungoogle main title": "Desgooguelice su vida numérica",
     "selfhosting main title": "Colecte automáticamente una factura o un documento",
     "selfhosting paragraph": "Gane tiempo en su organización administrativa.",
@@ -697,4 +704,7 @@
     "press 2018-01 nextinpact": "[FR] Cozy Cloud ouvert à tous : on a testé la plateforme de stockage et de reprise en main des données",
     "press 2018-01 usinedigitale": "[FR] Cozy Cloud lance un cloud personnel pour aider les particuliers à maîtriser leurs données",
     "press 2018-01 lepoint": "[FR] Cozy, un cloud bien français !"
+    "download Android APK text 1": "(Usuarios que no quieran conectarse a Google Play pueden",
+    "download Android APK text 2": "usar la APK",
+    "download Android APK text 3": ")"
 }
