@@ -1,29 +1,6 @@
 // Homepage content specifics styles
 //
 
-// Catch phrase slider vars
-// Number of slides
-items = 5
-// Number of units of time (percentage)
-// (1 item = 2 units + 1 unit per item for transitions; so 1 item = 3 units)
-time-unit = 100% / (items * 3)
-// item size for scrolling the entire item
-item-size = 3.75rem
-
-@keyframes slide {
-	0 {top: 0}
-	{2 * time-unit} {top: 0}
-  {3 * time-unit} {top: -(item-size)}
-  {5 * time-unit} {top: -(item-size)}
-  {6 * time-unit} {top: -(2 * item-size)}
-  {8 * time-unit} {top: -(2 * item-size)}
-  {9 * time-unit} {top: -(3* item-size)}
-  {11 * time-unit} {top: -(3* item-size)}
-  {12 * time-unit} {top: -(4 * item-size)}
-  {14 * time-unit} {top: -(4 * item-size)}
-  100% {top: 0}
-}
-
 .homepage
 	// height 94vh
 	// min-height 800px
@@ -37,21 +14,25 @@ item-size = 3.75rem
 		padding-top 20vh
 		padding-bottom 24vh
 
+		+bp-max(lg)
+			text-align center
+			box-sizing content-box
+			padding-bottom 25rem
+			
 		+bp-max(md)
 			padding-top 12vh
-			height 110vh
 			text-align center
 
 		+bp-max(sm)
 			padding-top 12vh
-			height 120vh
+			padding-bottom 20rem
 			text-align center
 
 
 	.introduction-title
 		text-align left
 
-		+bp-max(md)
+		+bp-max(lg)
 			text-align center
 
 	.introduction-content
@@ -62,6 +43,10 @@ item-size = 3.75rem
 		background rgba(255,255,255,.9)
 		height 3.75rem
 		overflow hidden
+		
+		+bp-max(md)
+			height 5rem
+			margin-bottom .5rem
 		
 		&:before
 		&:after
@@ -82,18 +67,17 @@ item-size = 3.75rem
 			left 0
 			background-image linear-gradient(to top, rgba(255,255,255,1) 1%,rgba(255,255,255,1) 40%,rgba(255,255,255,0) 100%);
 
-	.introduction-slider
-		position relative
-		animation slide 19s ease infinite
+	.introduction-slide
+		box-sizing border-box
+		height 3.75rem
+		padding 1rem 0
 
-		span
-			box-sizing border-box
-			display block
-			height 3.75rem
-			padding 1rem 0
-
+		+bp-max(lg)
+			text-align center
+		
 		+bp-max(md)
-			display none
+			height 5rem!important
+			text-align center
 
 	.introduction-reassurance
 		font-size 0.875rem
@@ -111,8 +95,10 @@ item-size = 3.75rem
 		// 	background-color $clr-lighter
 			
 	.stores
-		position absolute
-		bottom 1.5rem
+		margin-top 1.5rem
+		
+		+bp-max(md)
+			margin-top .1rem
 
 	.btn-store
 		display inline-block
