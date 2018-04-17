@@ -31,56 +31,55 @@
 
 	.introduction-title
 		text-align left
-		margin-bottom 1rem
 
 		+bp-max(lg)
 			text-align center
-			margin-bottom 0.5rem
 
 	.introduction-content
-		position relative
 		text-align left
 		font-weight normal
 		font-size 1.1rem
 		background rgba(255,255,255,.9)
-		height 3.75rem
-		overflow hidden
-		margin-bottom 3rem
+		margin-bottom 1rem
+		// position relative
+		// height 3.75rem
+		// overflow hidden
 
 		+bp-max(md)
-			height 5rem
-			margin-bottom .5rem
+			display none
+			// height 5rem
+			// margin-bottom .5rem
 
-		&:before
-		&:after
-			position absolute
-			z-index 1
-			display block
-			content ''
-			height 1rem
-			width 100%
+	//	&:before
+	//	&:after
+	//		position absolute
+	//		z-index 1
+	//		display block
+	//		content ''
+	//		height 1rem
+	//		width 100%
 
-		&:before
-			top 0
-			left 0
-			background-image linear-gradient(to bottom, rgba(255,255,255,1) 1%,rgba(255,255,255,1) 40%,rgba(255,255,255,0) 100%);
+	//	&:before
+	//		top 0
+	//		left 0
+	//		background-image linear-gradient(to bottom, rgba(255,255,255,1) 1%,rgba(255,255,255,1) 40%,rgba(255,255,255,0) 100%);
 
-		&:after
-			bottom 0
-			left 0
-			background-image linear-gradient(to top, rgba(255,255,255,1) 1%,rgba(255,255,255,1) 40%,rgba(255,255,255,0) 100%);
+	//	&:after
+	//		bottom 0
+	//		left 0
+	//		background-image linear-gradient(to top, rgba(255,255,255,1) 1%,rgba(255,255,255,1) 40%,rgba(255,255,255,0) 100%);
 
-	.introduction-slide
-		box-sizing border-box
-		height 3.75rem
-		padding 1rem 0
+	// .introduction-slide
+	//	box-sizing border-box
+	//	height 3.75rem
+	//	padding 1rem 0
 
-		+bp-max(lg)
-			text-align center
+	//	+bp-max(lg)
+	//		text-align center
 
-		+bp-max(md)
-			height 5rem!important
-			text-align center
+	//	+bp-max(md)
+	//		height 5rem!important
+	//		text-align center
 
 	.introduction-reassurance
 		font-size 0.875rem
