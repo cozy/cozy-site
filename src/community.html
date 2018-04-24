@@ -20,7 +20,7 @@ from: community
     <div class="container">
       <div class="row row-justify-center">
         <div class="col-xs-22 col-lg-14">
-          <h1 class="introduction-title">{{__ 'community title'}}</h1>
+          <h1 class="introduction-title">{{__ 'developers title'}}</h1>
         </div>
       </div>
       <div class="row row-justify-center hidden-to-lg">
@@ -47,6 +47,38 @@ from: community
 
       <section class="communityContent-item">
         <div class="row row-justify-center">
+          <div class="col-xs-22 col-lg-11 col-center">
+            <div class="communityContent-item-titleIcon">
+              <span class="icon-rounded xl">
+                <img src="{{ pathTo }}/images/icon-develop.svg" alt="">
+              </span>
+            </div>
+            <h2>
+               {{__ 'community dev title'}}
+            </h2>
+            <aside class="communityContent-item-aside">
+              <p>
+                <a href="{{__ 'community hack url'}}"
+                   class="btn btn-primary" target="_blank">
+                  {{__ 'community hack button'}}
+                </a>
+              </p>
+            </aside>
+          </div>
+          <div class="col-xs-22 col-lg-10 col-offset-lg-1 col-center">
+            <div class="communityContent-item-desc">
+              <p>
+                 {{__ 'community dev content'}}
+               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="hidden-to-lg">
+
+      <section class="communityContent-item">
+        <div class="row row-justify-center row-row-reverse">
           <div class="col-xs-22 col-lg-11 col-center">
             <div class="communityContent-item-titleIcon">
               <span class="icon-rounded xl">
@@ -84,7 +116,7 @@ from: community
       <hr class="hidden-to-lg">
 
       <section class="communityContent-item">
-        <div class="row row-justify-center row-row-reverse">
+        <div class="row row-justify-center">
           <div class="col-xs-22 col-lg-11 col-center">
             <div class="communityContent-item-titleIcon">
               <span class="icon-rounded xl">
@@ -112,38 +144,6 @@ from: community
             <div class="communityContent-item-desc">
                <p>
                  {{__ 'community feedback content'}}
-               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <hr class="hidden-to-lg">
-
-      <section class="communityContent-item">
-        <div class="row row-justify-center">
-          <div class="col-xs-22 col-lg-11 col-center">
-            <div class="communityContent-item-titleIcon">
-              <span class="icon-rounded xl">
-                <img src="{{ pathTo }}/images/icon-develop.svg" alt="">
-              </span>
-            </div>
-            <h2>
-               {{__ 'community dev title'}}
-            </h2>
-            <aside class="communityContent-item-aside">
-              <p>
-                <a href="{{__ 'community hack url'}}"
-                   class="btn btn-primary" target="_blank">
-                  {{__ 'community hack button'}}
-                </a>
-              </p>
-            </aside>
-          </div>
-          <div class="col-xs-22 col-lg-10 col-offset-lg-1 col-center">
-            <div class="communityContent-item-desc">
-              <p>
-                 {{__ 'community dev content'}}
                </p>
             </div>
           </div>
