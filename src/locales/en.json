@@ -709,8 +709,8 @@
 	"press 2018-01 lepoint": "[FR] Cozy, un cloud bien français !",
 	"nav developers title": "Developers",
 	"developers title": "Developers",
-	"nav documentation text": "Everything you need to know about Cozy configuration and setup.",
-	"nav source text": "Cozy is Open Source. Here is the source code.",
-	"nav contribute text": "Learn how to contribute to the project.",
-	"nav self-hosting text": "Install Cozy on your own server."
+	"nav documentation text": "Find guides for developing apps and connectors",
+	"nav source text": "Cozy is Open Source, here is our GitHub",
+	"nav contribute text": "Share your feedback and find testimonies from users",
+	"nav self-hosting text": "Install Cozy on your own server"
 }
