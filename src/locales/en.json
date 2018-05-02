@@ -712,5 +712,9 @@
 	"nav documentation text": "Find guides for developing apps and connectors",
 	"nav source text": "Cozy is Open source, view our Github",
 	"nav contribute text": "Learn how to contribute to the project",
-	"nav self-hosting text": "Install Cozy on your own server"
+	"nav self-hosting text": "Install Cozy on your own server",
+	"about ben citation title": "« GDPR: the real game changer is Data Portability »",
+	"about portability content": "Data portability gives you the right to ask a service not only to restore your data in formats exploitable by algorithms but also to transfer data directly from one actor to another. Suddenly, doing so, you create the conditions of a virtuous digital ecosystem through a competition, alternatives, a mobility that is not possible when the data is locked in your bank, Google, Facebook, or Uber. All of a sudden we give back the power to the user to create the conditions of a market that is aligned with his interests.",
+	"about ben citation name": "Benjamin André",
+	"about ben citation job": "CEO, Cozy Cloud"
 }
