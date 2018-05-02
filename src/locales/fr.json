@@ -66,8 +66,8 @@
     "nav pricing title": "Tarifs",
     "about introduction": "Envie d'en savoir plus sur Cozy Cloud, notre histoire, notre business model et notre vision ? Vous êtes au bon endroit ! Commençons par le plus important.",
     "about vision title": "Notre vision",
-    "about vision content one": "Cozy est actuellement un simple serveur personnel, mais il a vocation à devenir votre assistant personnel. Pilote de vos périphériques et de vos objets connectés, Cozy vous permettra de mieux vous organiser et d'automatiser vos tâches habituelles pour mieux gérer votre productivité et votre vie numérique. Fort des informations fournies par le croisement de vos données, vous êtes sûr de toujours prendre les bonnes décisions ! Et tout cela dans le plus total respect de votre vie privée, puisque vos données sont stockées dans un espace que vous contrôlez.",
-    "about vision content two": "Cozy n'est pas seulement destiné aux particuliers : il peut également servir de base pour de nombreux types de business qui voudraient construire une plateforme cloud autour de leur produit. Cozy est également la solution idéale pour les fournisseurs de VPS qui veulent proposer une offre cloud. Il peut aussi fournir une alternative aux clouds propriétaires pour les systèmes d'exploitation mobiles. Enfin, Cozy permet aux grands comptes de construire l'avenir de leur relation client grâce à son système d'applications connectées.",
+    "about vision content one": "Cozy est le premier domicile numérique du marché. Il offre aux utilisateurs un espace de stockage intelligent, décentralisé et sécurisé qui permet de récupérer via des connecteurs ses informations (photos, relevés bancaires, factures d’opérateurs, d’e-commerçants, etc). Cet environnement privé et personnalisable est accessible depuis n’importe quel périphérique. En plus du stockage, les utilisateurs ont accès à des applications très simples à utiliser pour gérer et organiser automatiquement leurs données. La mission de Cozy Cloud s’inscrit dans la vision d’un numérique éthique.",
+    "about vision content two": "Alors que les grandes plateformes récoltent de plus en plus de données personnelles, un Cozy est pour l’individu une solution dont il peut prendre le contrôle: un logiciel libre, auto-hébergeable et protégeant ses données. L’économie européenne et «pré-numérique» en général a besoin d’un nouveau paradigme pour ne pas être vassalisée. Une plateforme comme Cozy propose aux entreprises «pré-numériques» un nouveau champ d’expression, hors de portée des GAFA, pour des interactions pertinentes. Cela permet de ré-inventer la relation client à l’ère de la RGPD avec des services innovants et respectueux de la vie privée. ",
     "about team title": "L'équipe Cozy Cloud",
     "about team content": "Nous sommes une équipe de passionnés de développement, qui croit fermement à la défense de la vie privée et des libertés individuelles. Nous sommes convaincus de l'importance de rendre le pouvoir aux utilisateurs en mettant à leur disposition des outils libres et open-source qui leur permettent d'améliorer leur quotidien. Nous sommes une organisation horizontale épaulée par un conseil d'administration composé d'entrepreneurs expérimentés.",
     "about team ceo": "Co-fondateur & CEO",
@@ -95,6 +95,10 @@
     "about bmodel cdo content": "Les CDO cherchent à créer des applications et des produits autour des données personnelles et Cozy leur permet d'accéder à une grande quantité de données tout en respectant leur vie privée. Nous intervenons sur l'intégralité du processus pour réaliser les prototypes et produits désirés : création du concept, développement, organisation des tests, jusqu'à réalisation d'un produit hardware ou en ligne.",
     "about bmodel school title": "Ecoles d'ingénieurs",
     "about bmodel school content": "Les écoles d'ingénieur peuvent utiliser Cozy comme plateforme pour leurs élèves. Cozy est un excellent environnement d'apprentissage au sein duquel les élèves peuvent s'initier au développement web dans de bonnes conditions et il existe déjà des apps Cozy qui permettent aux étudiants d'interagir avec les principaux systèmes d'information directement via leurs outils Cozy.",
+    "about ben citation title": "« RGPD : la portabilité des données change réellement la donne »",
+    "about portability content": "La portabilité des données vous donne le droit de demander à un service non seulement de vous restituer vos données dans des formats exploitables par des algorithmes mais en plus de transférer directement ces données d'un acteur à un autre. Vous créez les conditions d'un écosystème numérique par une mise en concurrence, des alternatives, une mobilité qui n'est pas possible quand les données sont enfermées dans votre votre banque, chez Google, chez Facebook ou chez Uber. Tout à coup, on redonne le pouvoir à l'utilisateur pour crée les conditions d'un marché qui soit aligné avec ses intérêts.",
+    "about ben citation name": "Benjamin André",
+    "about ben citation job": "Président et co-fondateur de Cozy Cloud",
     "about history title": "Notre histoire",
     "about cta title": "Envie de travailler avec nous ?",
     "about cta button": "Nous recrutons !",
@@ -712,9 +716,5 @@
     "nav documentation text": "Pour apprendre à développer des apps et des connecteurs",
     "nav source text": "Cozy est Open Source, voilà notre GitHub",
     "nav contribute text": "Découvrez comment contribuer au projet",
-    "nav self-hosting text": "Installez Cozy sur votre serveur",
-    "about ben citation title": "« RGPD : la portabilité des données change réellement la donne »",
-    "about portability content": "La portabilité des données vous donne le droit de demander à un service non seulement de vous restituer vos données dans des formats exploitables par des algorithmes mais en plus de transférer directement ces données d'un acteur à un autre. Vous créez les conditions d'un écosystème numérique par une mise en concurrence, des alternatives, une mobilité qui n'est pas possible quand les données sont enfermées dans votre votre banque, chez Google, chez Facebook ou chez Uber. Tout à coup, on redonne le pouvoir à l'utilisateur pour crée les conditions d'un marché qui soit aligné avec ses intérêts.",
-    "about ben citation name": "Benjamin André",
-    "about ben citation job": "Président et co-fondateur de Cozy Cloud"
+    "nav self-hosting text": "Installez Cozy sur votre serveur"
 }
