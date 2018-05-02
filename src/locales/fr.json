@@ -712,5 +712,9 @@
     "nav documentation text": "Pour apprendre à développer des apps et des connecteurs",
     "nav source text": "Cozy est Open Source, voilà notre GitHub",
     "nav contribute text": "Découvrez comment contribuer au projet",
-    "nav self-hosting text": "Installez Cozy sur votre serveur"
+    "nav self-hosting text": "Installez Cozy sur votre serveur",
+    "about ben citation title": "« RGPD : la portabilité des données change réellement la donne »",
+    "about portability content": "La portabilité des données vous donne le droit de demander à un service non seulement de vous restituer vos données dans des formats exploitables par des algorithmes mais en plus de transférer directement ces données d'un acteur à un autre. Vous créez les conditions d'un écosystème numérique par une mise en concurrence, des alternatives, une mobilité qui n'est pas possible quand les données sont enfermées dans votre votre banque, chez Google, chez Facebook ou chez Uber. Tout à coup, on redonne le pouvoir à l'utilisateur pour crée les conditions d'un marché qui soit aligné avec ses intérêts.",
+    "about ben citation name": "Benjamin André",
+    "about ben citation job": "Président et co-fondateur de Cozy Cloud"
 }
