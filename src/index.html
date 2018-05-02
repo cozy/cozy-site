@@ -56,7 +56,7 @@ from: home
 		</div>
 	</header>
 
-	<section class="media" id="media">
+	<!-- <section class="media" id="media">
 		<div class="panel grey-background">
 			<div class="container">
 				<div class="row-justify-center align-center">
@@ -69,52 +69,111 @@ from: home
 				{{> press-carousel}}
 			</div>
 		</div>
+	</section> -->
+
+	<section>
+		<div class="panel grey-background">
+			<div class="container">
+				<div class="row-justify-center reco">
+					<div class="col-xs-24 col-lg-hg-12 col-lg-8 align-center">
+						<h4>{{__ 'home reco title 1'}}</h4>
+						<div class="laurels ">
+							<div class="stars">
+								<img class="star" src="{{ pathTo }}/images/icon-starnote--full.svg" alt="1">
+								<img class="star" src="{{ pathTo }}/images/icon-starnote--full.svg" alt="2">
+								<img class="star" src="{{ pathTo }}/images/icon-starnote--full.svg" alt="3">
+								<img class="star" src="{{ pathTo }}/images/icon-starnote--full.svg" alt="4">
+								<img class="star" src="{{ pathTo }}/images/icon-starnote--half.svg" alt="5">
+							</div>
+							<div class="laurels-info">
+								{{__ 'home reco text 1'}}
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-24 col-lg-hg-12 col-lg-8 align-center">
+						<h4>{{__ 'home reco title 2'}}</h4>
+						<div class="row-justify-center reco-media">
+							<div class="col align-center">
+								<img src="{{ pathTo }}/images/press/logo-bfmtv-2017.svg" alt="BFM">
+								BFM TV
+							</div>
+							<div class="col align-center">
+								<img src="{{ pathTo }}/images/press/france-info.svg" alt="France Info">
+								France Info
+							</div>
+							<div class="col align-center">
+								<img src="{{ pathTo }}/images/press/tc.svg" alt="TechCrunch">
+								TechCrunch
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-24 col-lg-hg-12 col-lg-8 align-center">
+						<h4>{{__ 'home reco title 3'}}</h4>
+						<div class="row-justify-center reco-values">
+							<div class="col align-center">
+								<img src="{{ pathTo }}/images/icon-gdpr.svg" alt="GDPR">
+								{{__ 'home reco text 3-1'}}
+							</div>
+							<div class="col align-center">
+								<img src="{{ pathTo }}/images/icon-privacy.svg" alt="Privacy">
+								{{__ 'home reco text 3-2'}}
+							</div>
+							<div class="col align-center">
+								<img src="{{ pathTo }}/images/icon-open-source.svg" alt="Open source">
+								{{__ 'home reco text 3-3'}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<section>
 		<div class="panel">
 			<div class="container">
-				<div class="row-justify-center align-center">
-					<div class="row row-justify-center">
-						<div class="col-xs-24 col-lg-24">
-							<h2 class="makeitbreathe">{{__ 'home why cozy title'}}</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-24 col-md-12 col-lg-6 align-center featuresList-item-home">
+				<div class="row-justify-center">
+					<div class="col-xs-24 col-md-12 col-lg-8 align-center featuresList-item-home">
 						<figure class="">
-							<img src="{{ pathTo }}/images/icon-site-sync.svg" alt="">
+							<img src="{{ pathTo }}/images/icon-secure.svg" alt="">
 						</figure>
 						<h3>{{__ 'home value proposition 1'}}</h3>
 						<p>{{__ 'home value proposition text 1'}}</p>
-						<a href="{{ pathTo }}/features#synchronise">{{__ 'Learn more'}} ></a>
+						<a href="{{ pathTo }}/features#synchronise">{{__ 'Learn more'}} →</a>
 					</div>
-					<div class="col-xs-24 col-md-12 col-lg-6 align-center featuresList-item-home">
+					<div class="col-xs-24 col-md-12 col-lg-8 align-center featuresList-item-home">
 						<figure class="">
-							<img src="{{ pathTo }}/images/icon-site-bills.svg" alt="">
+							<img src="{{ pathTo }}/images/icon-cocorico.svg" alt="">
 						</figure>
 						<h3>{{__ 'home value proposition 2'}}</h3>
 						<p>{{__ 'home value proposition text 2'}}</p>
-						<a href="{{ pathTo }}/features#collector">{{__ 'Learn more'}} ></a>
+						<a href="{{ pathTo }}/features#collector">{{__ 'Learn more'}} →</a>
 					</div>
-					<div class="col-xs-24 col-md-12 col-lg-6 align-center featuresList-item-home">
+					<div class="col-xs-24 col-md-12 col-lg-8 align-center featuresList-item-home">
 						<figure class="">
-							<img src="{{ pathTo }}/images/icon-site-expenses.svg" alt="">
+							<img src="{{ pathTo }}/images/icon-piggy.svg" alt="">
 						</figure>
 						<h3>{{__ 'home value proposition 3'}}</h3>
 						<p>{{__ 'home value proposition text 3'}}</p>
-						<a href="{{ pathTo }}/features#bank">{{__ 'Learn more'}} ></a>
-					</div>
-					<div class="col-xs-24 col-md-12 col-lg-6 align-center featuresList-item-home">
-						<figure class="">
-							<img src="{{ pathTo }}/images/icon-site-privacy.svg" alt="">
-						</figure>
-						<h3>{{__ 'home value proposition 4'}}</h3>
-						<p>{{__ 'home value proposition text 4'}}</p>
-						<a href="{{ pathTo }}/privacy">{{__ 'Learn more'}} ></a>
+						<a href="{{ pathTo }}/features#bank">{{__ 'Learn more'}} →</a>
 					</div>
 				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="panel standoutCTA landingCTA">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-24 col-md-24 col-lg-12 align-center standout-panel">
+					<img src="{{ pathTo }}/images/nirvana_cozy.svg" alt="">
+				</div>
+				<div class="col-xs-24 col-md-24 col-lg-12 standout-panel">
+					<h2>
+							{{__ 'home cta title'}}
+					</h2>
+					<p>{{__ 'home cta text'}}</p>
+					{{> sign-in}}
 			</div>
 		</div>
 	</section>
@@ -162,15 +221,5 @@ from: home
 			</div>
 		</div>
 	</section>
-
-	<section class="panel standoutCTA landingCTA">
-		<div class="container">
-			<h2 class="panel-title">
-					{{__ 'home cta title'}}
-			</h2>
-				{{> sign-in}}
-		</div>
-	</section>
-
 
 {{> footer }}
