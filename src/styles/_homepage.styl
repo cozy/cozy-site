@@ -279,7 +279,7 @@
 
 		+bp-max(lg)
 			margin-bottom 2rem
-			
+
 			&:not(:first-child)
 				&:after
 					display none
@@ -312,3 +312,89 @@
 		margin 0 auto .5rem
 		width 3rem
 		height 3rem
+
+.usage-wrapper
+	display flex
+	flex-wrap wrap
+	align-items center
+
+.usage-reverse
+	.usage-text
+		order 1
+	
+	+bp-max(lg)
+		.usage-text
+			order 0
+
+.usage-text
+.usage-image
+	flex 1 0 50%
+	+bp-max(lg)
+		flex 1 1 100%
+
+.usage-text
+	max-width 40rem
+	padding 5rem 10rem 5rem 6.25rem
+	+bp-max(lg)
+		padding 5rem 3rem 3rem
+	
+	h3
+		position relative
+		text-align left
+		font-size 2.5rem
+		
+		span
+			position relative
+		
+		&:before
+			content attr(data-step)
+			position absolute
+			bottom -2rem
+			left -3rem
+			font-size 18rem
+			line-height .8
+			color #f2f8ff
+		
+	a
+		font-size 1.25rem
+		
+		img
+			display inline-block
+			margin-right 1rem
+			width 2.5rem
+			
+.usage-image
+	min-height 50vw
+	
+.usage-drive
+	background url('../images/drive.png') top left / cover no-repeat
+	
+.usage-bank
+	background url('../images/banks.png') top right / cover no-repeat
+	
+.usage-sync
+	background url('../images/synchro.png') top left / cover no-repeat
+
+.usage-title
+	position relative
+	margin-bottom 0
+	padding-bottom 4.6875rem
+	font-size 3rem
+	+bp-max(lg)
+		font-size 1.5rem
+	
+	&:after
+	&:before
+		content ''
+		position absolute
+		bottom -3rem
+		left 50%
+		height 6rem
+		width 6rem
+		background url('../images/icon-arrow.svg') top left / contain no-repeat
+		transform-origin center center
+		transform rotate(90deg) translateY(50%)
+	
+	&:after
+		opacity: .2
+		bottom -5rem

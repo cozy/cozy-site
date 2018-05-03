@@ -129,6 +129,57 @@ from: home
 		</div>
 	</section>
 
+	<section class="usage">
+		<div class="panel">
+			<h2 class="usage-title">{{__ 'home usage title'}}</h2> 
+		</div>
+		<div class="panel">
+			<div class="usage-wrapper">
+				<div class="usage-text">
+					<h3 class="h2" data-step="1">
+						<span>{{__ 'home usage title 1'}}</span>
+					</h3>
+					<p>{{__ 'home usage text 1'}}</p>
+					<a href="{{ pathTo }}/features#synchronise">
+						<img src="{{ pathTo }}/images/apps/cozy-drive.svg" alt="">
+						{{__ 'Learn more'}} →
+					</a>
+				</div>
+				<div class="usage-image usage-drive"></div>
+			</div>
+		</div>
+		<div class="panel">
+			<div class="usage-wrapper usage-reverse">
+				<div class="usage-text">
+					<h3 class="h2" data-step="2">
+						<span>{{__ 'home usage title 2'}}</span>
+					</h3>
+					<p>{{__ 'home usage text 2'}}</p>
+					<a href="{{ pathTo }}/features#bank">
+						<img src="{{ pathTo }}/images/apps/cozy-bank.svg" alt="">
+						{{__ 'Learn more'}} →
+					</a>
+				</div>
+				<div class="usage-image usage-bank"></div>
+			</div>
+		</div>
+		<div class="panel">
+			<div class="usage-wrapper">
+				<div class="usage-text">
+					<h3 class="h2" data-step="3">
+						<span>{{__ 'home usage title 3'}}</span>
+					</h3>
+					<p>{{__ 'home usage text 3'}}</p>
+					<a href="{{ pathTo }}/features#synchronise">
+						<img src="{{ pathTo }}/images/apps/cozy-sync.svg" alt="">
+						{{__ 'Learn more'}} →
+					</a>
+				</div>
+				<div class="usage-image usage-sync"></div>
+			</div>
+		</div>
+	</section>
+
 	<section>
 		<div class="panel">
 			<div class="container">
@@ -174,6 +225,7 @@ from: home
 					</h2>
 					<p>{{__ 'home cta text'}}</p>
 					{{> sign-in}}
+					<p class="standoutCTA-reassurance">{{__ 'home reassurance text'}}</p>
 			</div>
 		</div>
 	</section>
