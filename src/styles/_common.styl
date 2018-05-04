@@ -254,19 +254,38 @@
 //
 	.standoutCTA
 			background-color $clr-primary
+			padding 3.5rem 3rem
+			color white
+			margin-bottom 4.5rem
+
+			.row
+				align-items center
+			
+			+bp-max(lg)
+				img
+					margin-bottom 2rem
+
 			h2
+				margin-bottom 2rem
+				text-align left
 				color white
-			.panel-lead
-				color white
-				max-width 80%
-			.form-control
-				border none
+				font-size 3rem
+			
+			p
+				margin-bottom 2rem
+				font-size 1.25rem
+
 			.btn-primary
 				padding 1rem 2rem
-				background-color darken($clr-primary, 30%)
-				font-size 1rem
+				background-color white
+				font-size 1.125rem
+				color $clr-primary
 				+bp-max(md)
 					width 100%
+			
+			.standoutCTA-reassurance
+				margin .5rem 0 0
+				font-size .875rem
 
 // Hangs list
 //
