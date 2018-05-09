@@ -56,26 +56,11 @@ from: home
 		</div>
 	</header>
 
-	<!-- <section class="media" id="media">
-		<div class="panel grey-background">
-			<div class="container">
-				<div class="row-justify-center align-center">
-					<div class="row row-justify-center">
-						<div class="col-xs-24 col-lg-24">
-							<h2>{{__ 'home press title'}}</h2>
-						</div>
-					</div>
-				</div>
-				{{> press-carousel}}
-			</div>
-		</div>
-	</section> -->
-
 	<section>
 		<div class="panel grey-background">
 			<div class="container">
 				<div class="row-justify-center reco">
-					<div class="col-xs-24 col-lg-hg-12 col-lg-8 align-center">
+					<div class="col-xs-24 col-md-lg-8 align-center">
 						<h4>{{__ 'home reco title 1'}}</h4>
 						<div class="laurels ">
 							<div class="stars">
@@ -90,7 +75,7 @@ from: home
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-24 col-lg-hg-12 col-lg-8 align-center">
+					<div class="col-xs-24 col-md-lg-8 align-center">
 						<h4>{{__ 'home reco title 2'}}</h4>
 						<div class="row-justify-center reco-media">
 							<div class="col align-center">
@@ -103,11 +88,11 @@ from: home
 							</div>
 							<div class="col align-center">
 								<img src="{{ pathTo }}/images/press/tc.svg" alt="TechCrunch">
-								TechCrunch
+								Tech&thinsp;Crunch
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-24 col-lg-hg-12 col-lg-8 align-center">
+					<div class="col-xs-24 col-md-lg-8 align-center">
 						<h4>{{__ 'home reco title 3'}}</h4>
 						<div class="row-justify-center reco-values">
 							<div class="col align-center">
@@ -183,30 +168,36 @@ from: home
 	<section>
 		<div class="panel">
 			<div class="container">
-				<div class="row-justify-center">
-					<div class="col-xs-24 col-md-12 col-lg-8 align-center featuresList-item-home">
-						<figure class="">
+				<div class="row-justify-center values">
+					<div class="col-xs-24 col-md-lg-8 values-col align-center">
+						<figure>
 							<img src="{{ pathTo }}/images/icon-secure.svg" alt="">
 						</figure>
-						<h3>{{__ 'home value proposition 1'}}</h3>
-						<p>{{__ 'home value proposition text 1'}}</p>
-						<a href="{{ pathTo }}/privacy/">{{__ 'Learn more'}} →</a>
+						<div>
+							<h3>{{__ 'home value proposition 1'}}</h3>
+							<p>{{__ 'home value proposition text 1'}}</p>
+							<a href="{{ pathTo }}/privacy/">{{__ 'Learn more'}} →</a>
+						</div>
 					</div>
-					<div class="col-xs-24 col-md-12 col-lg-8 align-center featuresList-item-home">
-						<figure class="">
+					<div class="col-xs-24 col-md-lg-8 values-col align-center">
+						<figure>
 							<img src="{{ pathTo }}/images/icon-cocorico.svg" alt="">
 						</figure>
-						<h3>{{__ 'home value proposition 2'}}</h3>
-						<p>{{__ 'home value proposition text 2'}}</p>
-						<a href="https://support.cozy.io/article/11-ou-sont-heberges-vos-serveurs">{{__ 'Learn more'}} →</a>
+						<div>
+							<h3>{{__ 'home value proposition 2'}}</h3>
+							<p>{{__ 'home value proposition text 2'}}</p>
+							<a href="https://support.cozy.io/article/11-ou-sont-heberges-vos-serveurs">{{__ 'Learn more'}} →</a>
+						</div>
 					</div>
-					<div class="col-xs-24 col-md-12 col-lg-8 align-center featuresList-item-home">
-						<figure class="">
+					<div class="col-xs-24 col-md-lg-8 values-col align-center">
+						<figure>
 							<img src="{{ pathTo }}/images/icon-piggy.svg" alt="">
 						</figure>
-						<h3>{{__ 'home value proposition 3'}}</h3>
-						<p>{{__ 'home value proposition text 3'}}</p>
-						<a href="{{ pathTo }}/pricing/">{{__ 'Learn more'}} →</a>
+						<div>
+							<h3>{{__ 'home value proposition 3'}}</h3>
+							<p>{{__ 'home value proposition text 3'}}</p>
+							<a href="{{ pathTo }}/pricing/">{{__ 'Learn more'}} →</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -224,8 +215,10 @@ from: home
 							{{__ 'home cta title'}}
 					</h2>
 					<p>{{__ 'home cta text'}}</p>
-					{{> sign-in}}
-					<p class="standoutCTA-reassurance">{{__ 'home reassurance text'}}</p>
+					<div class="standoutCTA-CTA">
+						{{> sign-in}}
+						<p class="standoutCTA-reassurance">{{__ 'home reassurance text'}}</p>						
+					</div>
 			</div>
 		</div>
 	</section>

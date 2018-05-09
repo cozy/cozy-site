@@ -257,6 +257,8 @@
 			padding 3.5rem 3rem
 			color white
 			margin-bottom 4.5rem
+			+bp-max(md-hg)
+				padding 1rem
 
 			.row
 				align-items center
@@ -264,16 +266,26 @@
 			+bp-max(lg)
 				img
 					margin-bottom 2rem
+			
+			+bp-max(md-hg)
+				img
+					width 100%
 
 			h2
 				margin-bottom 2rem
 				text-align left
 				color white
 				font-size 3rem
+				
+				+bp-max(md-hg)
+					font-size 1.5rem
 			
 			p
 				margin-bottom 2rem
 				font-size 1.25rem
+				
+				+bp-max(md-hg)
+					font-size 1rem
 
 			.btn-primary
 				padding 1rem 2rem
@@ -282,7 +294,18 @@
 				color $clr-primary
 				+bp-max(md)
 					width 100%
+				
+				+bp-max(md-hg)
+					font-size 1rem
 			
+			.standoutCTA-CTA
+				display inline-flex
+				flex-direction column
+				align-items stretch
+				
+				.btn
+					width 100%
+				
 			.standoutCTA-reassurance
 				margin .5rem 0 0
 				font-size .875rem
