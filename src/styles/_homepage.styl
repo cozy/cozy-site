@@ -374,11 +374,18 @@
 	display flex
 	flex-wrap wrap
 	align-items center
-	justify-content center
-
+	
 .usage-reverse
 	.usage-text
 		order 1
+		justify-content flex-start
+		> div
+			padding 5rem 6.25rem 5rem 10rem
+			> div
+				padding 5rem 6.25rem
+		+bp-max(md-hg)
+			> div
+				padding 3rem
 	
 	+bp-max(lg)
 		.usage-text
@@ -439,14 +446,9 @@
 			margin-right 1rem
 			width 2.5rem
 
-.usage-reverse .usage-text
-	justify-content flex-start
-
 .usage-image
 	min-height 33.125rem
-	max-width 50%
-	+bp-max(lg)
-		max-width 100%
+	max-width 54.8125rem
 	+bp-max(md-hg)
 		min-height 13rem
 
