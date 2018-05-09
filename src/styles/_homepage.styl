@@ -374,6 +374,7 @@
 	display flex
 	flex-wrap wrap
 	align-items center
+	justify-content center
 
 .usage-reverse
 	.usage-text
@@ -390,14 +391,22 @@
 		flex 1 1 100%
 
 .usage-text
-	max-width 40rem
-	padding 5rem 10rem 5rem 6.25rem
+	max-width 50%
+	display flex
+	justify-content flex-end
+	> div
+		max-width 40rem
+		padding 5rem 10rem 5rem 6.25rem
 	+bp-max(lg)
-		padding 5rem 6.25rem
+		max-width 100%
 		margin 0 auto
+		> div
+			padding 5rem 6.25rem
+			max-width 40rem
 	+bp-max(md-hg)
 		flex-basis auto
-		padding 3rem
+		> div
+			padding 3rem
 	
 	h3
 		position relative
@@ -429,10 +438,15 @@
 			display inline-block
 			margin-right 1rem
 			width 2.5rem
-			
+
+.usage-reverse .usage-text
+	justify-content flex-start
+
 .usage-image
 	min-height 33.125rem
-	
+	max-width 50%
+	+bp-max(lg)
+		max-width 100%
 	+bp-max(md-hg)
 		min-height 13rem
 
