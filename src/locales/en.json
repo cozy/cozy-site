@@ -738,5 +738,11 @@
 	"nav documentation text": "Find guides for developing apps and connectors",
 	"nav source text": "Cozy is Open source, view our Github",
 	"nav contribute text": "Learn how to contribute to the project",
-	"nav self-hosting text": "Install Cozy on your own server"
+	"nav self-hosting text": "Install Cozy on your own server",
+	"collect free bill title": "collect free bill title",
+	"collect free bill desc": "collect free bill desc",
+	"collect free bill sub-title": "collect free bill sub-title",
+	"collect free bill subtitle": "collect free bill subtitle",
+	"collect free bill content one": "collect free bill content one",
+	"collect free bill content two": "collect free bill content two"
 }
