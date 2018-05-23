@@ -27,23 +27,25 @@ from: privacy
   <article class="privacyContent">
     <section class="ourPrivacyVision" id="ourPrivacyVision">
       <div class="container">
-        <div class="row row-justify-center">
-          <div class="col-xs-22 col-lg-20">
-            <img src="{{ pathTo }}/images/icon-code.svg" alt=""><h2>{{__ 'our privacy vision title'}}</h2>
+        <div class="row row-justify-left">
+          <div class="col-xs-22 col-lg-24">
+            <!-- <img src="{{ pathTo }}/images/icon-code.svg" alt=""> -->
+            <h2 class="">{{__ 'our privacy vision title'}}</h2>
 
-            <div class="row row-justify-center">
-              <div class="col-xs-24 col-lg-16">
+            <div class="row row-justify-left">
+              <div class="col-xs-24 col-lg-24">
+                <p>{{__ 'our privacy vision content 1'}}</p>
                 <h3>{{__ 'our privacy vision subtitle 1'}}</h3>
                 <ul>
-                  <li>{{__ 'our privacy vision content 1'}}</li>
                   <li>{{__ 'our privacy vision content 2'}}</li>
                   <li>{{__ 'our privacy vision content 3'}}</li>
+                  <li>{{__ 'our privacy vision content 4'}}</li>
                 </ul>
                 <h3>{{__ 'our privacy vision subtitle 2'}}</h3>
                 <ul>
-                  <li>{{__ 'our privacy vision content 4'}}</li>
                   <li>{{__ 'our privacy vision content 5'}}</li>
                   <li>{{__ 'our privacy vision content 6'}}</li>
+                  <li>{{__ 'our privacy vision content 7'}}</li>
                 </ul>
               </div>
             </div>
@@ -54,13 +56,16 @@ from: privacy
 
     <section class="dataWeCollect" id="dataWeCollect">
       <div class="container">
-        <div class="row row-justify-center">
-          <div class="col-xs-22 col-lg-20">
-            <img src="{{ pathTo }}/images/icon-code.svg" alt=""><h2>{{__ 'data we collect title'}}</h2>
+        <div class="row row-justify-left">
+          <div class="col-xs-22 col-lg-24">
+            <!-- <img src="{{ pathTo }}/images/icon-code.svg" alt=""> -->
+            <h2>{{__ 'data we collect title'}}</h2>
 
-            <div class="row row-justify-center">
-              <div class="col-xs-24 col-lg-16">
-                <img src="{{ pathTo }}/images/privacy/donnees-collectees.svg" alt="{{__ 'data we collect img alt'}}">
+            <div class="row row-justify-left">
+              <div class="col-xs-24 col-lg-24">
+                <div class="responsive-table">
+                  <img src="{{ pathTo }}/images/privacy/donnees-collectees.svg" alt="{{__ 'data we collect img alt'}}">
+                </div>
               </div>
             </div>
           </div>
@@ -70,12 +75,13 @@ from: privacy
 
     <section class="howUseData" id="howUseData">
       <div class="container">
-        <div class="row row-justify-center">
-          <div class="col-xs-22 col-lg-20">
-            <img src="{{ pathTo }}/images/icon-code.svg" alt=""><h2>{{__ 'how use data title'}}</h2>
+        <div class="row row-justify-left">
+          <div class="col-xs-22 col-lg-24">
+            <!-- <img src="{{ pathTo }}/images/icon-code.svg" alt=""> -->
+            <h2>{{__ 'how use data title'}}</h2>
 
-            <div class="row row-justify-center">
-              <div class="col-xs-24 col-lg-16">
+            <div class="row row-justify-left">
+              <div class="col-xs-24 col-lg-24">
                 <h3>{{__ 'how use data subtitle 1'}}</h3>
                 <p>{{__ 'how use data content 1'}}</p>
                 <h3>{{__ 'how use data subtitle 2'}}</h3>
@@ -93,20 +99,206 @@ from: privacy
 
     <section class="whoAccessData" id="whoAccessData">
       <div class="container">
-        <div class="row row-justify-center">
-          <div class="col-xs-22 col-lg-20">
-            <img src="{{ pathTo }}/images/icon-code.svg" alt=""><h2>{{__ 'who access data title'}}</h2>
+        <div class="row row-justify-left">
+          <div class="col-xs-22 col-lg-24">
+            <!-- <img src="{{ pathTo }}/images/icon-code.svg" alt=""> -->
+            <h2>{{__ 'data access title'}}</h2>
 
-            <div class="row row-justify-center">
-              <div class="col-xs-24 col-lg-16">
-                <h3>{{__ 'who access data subtitle 1'}}</h3>
-                <p>tableau 1</p>
-                <h3>{{__ 'who access data subtitle 2'}}</h3>
-                <p>tableau 2</p>
-                <h3>{{__ 'who access data subtitle 3'}}</h3>
-                <p>tableau 3</p>
-                <h3>{{__ 'who access data subtitle 4'}}</h3>
-                <p>tableau 4</p>
+            <div class="row row-justify-left">
+              <div class="col-xs-24 col-lg-24">
+                <h3>{{__ 'data access subtitle 1'}}</h3>
+                  <div class="responsive-table">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">{{__ 'data access table head 1'}}</th>
+                          <th scope="col">{{__ 'data access table head 2'}}</th>
+                          <th scope="col">{{__ 'data access table head 3'}}</th>
+                          <th scope="col">{{__ 'data access table head 4'}}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>{{__ 'data access table 1 line 1 col 1'}}</td>
+                          <td>
+                            <ul>
+                              <li>{{__ 'data access table 1 line 1 col 2'}}</li>
+                            <ul>
+                          </td>
+                          <td>{{__ 'data access table 1 line 1 col 3'}}</td>
+                          <td>{{__ 'data access table 1 line 1 col 4'}}</td>
+                        </tr>
+                        <tr>
+                          <td>{{__ 'data access table 1 line 2 col 1'}}</td>
+                          <td>
+                            <ul>
+                              <li>{{__ 'data access table 1 line 2 col 2'}}</li>
+                            <ul>
+                          </td>
+                          <td>{{__ 'data access table 1 line 2 col 3'}}</td>
+                          <td>{{__ 'data access table 1 line 2 col 4'}}</td>
+                        </tr>
+                        <tr>
+                          <td>{{__ 'data access table 1 line 3 col 1'}}</td>
+                          <td>
+                            <ul>
+                              <li>{{__ 'data access table 1 line 3 col 2'}}</li>
+                              <li>{{__ 'data access table 1 line 3 col 2 li 2'}}</li>
+                              <li>{{__ 'data access table 1 line 3 col 2 li 3'}}</li>
+                              <li>{{__ 'data access table 1 line 3 col 2 li 4'}}</li>
+                              <li>{{__ 'data access table 1 line 3 col 2 li 5'}}</li>
+                            <ul>
+                          </td>
+                          <td>{{__ 'data access table 1 line 3 col 3'}}</td>
+                          <td>{{__ 'data access table 1 line 3 col 4'}}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                <h3>{{__ 'data access subtitle 2'}}</h3>
+                  <div class="responsive-table">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">{{__ 'data access table head 1'}}</th>
+                          <th scope="col">{{__ 'data access table head 2'}}</th>
+                          <th scope="col">{{__ 'data access table head 3'}}</th>
+                          <th scope="col">{{__ 'data access table head 4'}}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>{{__ 'data access table 2 line 1 col 1'}}</td>
+                          <td>
+                            <ul>
+                              <li>{{__ 'data access table 2 line 1 col 2'}}</li>
+                              <li>{{__ 'data access table 2 line 1 col 2 li 2'}}</li>
+                            <ul>
+                          </td>
+                          <td>{{__ 'data access table 2 line 1 col 3'}}</td>
+                          <td>{{__ 'data access table 2 line 1 col 4'}}</td>
+                        </tr>
+                        <tr>
+                          <td>{{__ 'data access table 2 line 2 col 1'}}</td>
+                          <td>
+                            <ul>
+                              <li>{{__ 'data access table 2 line 2 col 2'}}</li>
+                              <li>{{__ 'data access table 2 line 2 col 2 li 2'}}</li>
+                            <ul>
+                          </td>
+                          <td>{{__ 'data access table 2 line 2 col 3'}}</td>
+                          <td>{{__ 'data access table 2 line 2 col 4'}}</td>
+                        </tr>
+                        <tr>
+                          <td>{{__ 'data access table 2 line 3 col 1'}}</td>
+                          <td>
+                            <ul>
+                              <li>{{__ 'data access table 2 line 3 col 2'}}</li>
+                              <li>{{__ 'data access table 2 line 3 col 2 li 2'}}</li>
+                              <li>{{__ 'data access table 2 line 3 col 2 li 3'}}</li>
+                            <ul>
+                          </td>
+                          <td>{{__ 'data access table 2 line 3 col 3'}}</td>
+                          <td>{{__ 'data access table 2 line 3 col 4'}}</td>
+                        </tr>
+                        <tr>
+                          <td>{{__ 'data access table 2 line 4 col 1'}}</td>
+                          <td>
+                            <ul>
+                              <li>{{__ 'data access table 2 line 4 col 2'}}</li>
+                              <li>{{__ 'data access table 2 line 4 col 2 li 2'}}</li>
+                            <ul>
+                          </td>
+                          <td>{{__ 'data access table 2 line 4 col 3'}}</td>
+                          <td>{{__ 'data access table 2 line 4 col 4'}}</td>
+                        </tr>
+                        <tr>
+                          <td>{{__ 'data access table 2 line 5 col 1'}}</td>
+                          <td>
+                            <ul>
+                              <li>{{__ 'data access table 2 line 5 col 2'}}</li>
+                              <li>{{__ 'data access table 2 line 5 col 2 li 2'}}</li>
+                            <ul>
+                          </td>
+                          <td>{{__ 'data access table 2 line 5 col 3'}}</td>
+                          <td>{{__ 'data access table 2 line 5 col 4'}}</td>
+                        </tr>
+                        <tr>
+                          <td>{{__ 'data access table 2 line 6 col 1'}}</td>
+                          <td>
+                            <ul>
+                              <li>{{__ 'data access table 2 line 6 col 2'}}</li>
+                              <li>{{__ 'data access table 2 line 6 col 2 li 2'}}</li>
+                            <ul>
+                          </td>
+                          <td>{{__ 'data access table 2 line 6 col 3'}}</td>
+                          <td>{{__ 'data access table 2 line 6 col 4'}}</td>
+                        </tr>
+                        <tr>
+                          <td>{{__ 'data access table 2 line 7 col 1'}}</td>
+                          <td>
+                            <ul>
+                              <li>{{__ 'data access table 2 line 7 col 2'}}</li>
+                            <ul>
+                          </td>
+                          <td>{{__ 'data access table 2 line 7 col 3'}}</td>
+                          <td>{{__ 'data access table 2 line 7 col 4'}}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                <h3>{{__ 'data access subtitle 3'}}</h3>
+                  <div class="responsive-table">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">{{__ 'data access table head 1'}}</th>
+                          <th scope="col">{{__ 'data access table head 2'}}</th>
+                          <th scope="col">{{__ 'data access table head 3'}}</th>
+                          <th scope="col">{{__ 'data access table head 4'}}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>{{__ 'data access table 3 line 1 col 1'}}</td>
+                          <td>
+                            <ul>
+                              <li>{{__ 'data access table 3 line 1 col 2'}}</li>
+                              <li>{{__ 'data access table 3 line 1 col 2 li 2'}}</li>
+                            <ul>
+                          </td>
+                          <td>{{__ 'data access table 3 line 1 col 3'}}</td>
+                          <td>{{__ 'data access table 3 line 1 col 4'}}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                <h3>{{__ 'data access subtitle 4'}}</h3>
+                <div class="responsive-table">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">{{__ 'data access table head 1'}}</th>
+                          <th scope="col">{{__ 'data access table head 2'}}</th>
+                          <th scope="col">{{__ 'data access table head 3'}}</th>
+                          <th scope="col">{{__ 'data access table head 4'}}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>{{__ 'data access table 4 line 1 col 1'}}</td>
+                          <td>
+                            <ul>
+                              <li>{{__ 'data access table 4 line 1 col 2'}}</li>
+                              <li>{{__ 'data access table 4 line 1 col 2 li 2'}}</li>
+                            <ul>
+                          </td>
+                          <td>{{__ 'data access table 4 line 1 col 3'}}</td>
+                          <td>{{__ 'data access table 4 line 1 col 4'}}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
               </div>
             </div>
           </div>
@@ -116,12 +308,13 @@ from: privacy
 
     <section class="cookies" id="cookies">
       <div class="container">
-        <div class="row row-justify-center">
-          <div class="col-xs-22 col-lg-20">
-            <img src="{{ pathTo }}/images/icon-code.svg" alt=""><h2>{{__ 'privacy cookies title'}}</h2>
+        <div class="row row-justify-left">
+          <div class="col-xs-22 col-lg-24">
+            <!-- <img src="{{ pathTo }}/images/icon-code.svg" alt=""> -->
+            <h2>{{__ 'privacy cookies title'}}</h2>
 
-            <div class="row row-justify-center">
-              <div class="col-xs-24 col-lg-16">
+            <div class="row row-justify-left">
+              <div class="col-xs-24 col-lg-24">
                 <script id="CookieDeclaration" src="https://consent.cookiebot.com/40e51e4f-2c7f-4aaf-b6dc-2c3ab2b2366c/cd.js" type="text/javascript" async></script>
               </div>
             </div>
@@ -132,12 +325,13 @@ from: privacy
 
     <section class="inspireGAFAs" id="inspireGAFAs">
       <div class="container">
-        <div class="row row-justify-center">
-          <div class="col-xs-22 col-lg-20">
-            <img src="{{ pathTo }}/images/icon-code.svg" alt=""><h2>{{__ 'inspire GAFAs title'}}</h2>
+        <div class="row row-justify-left">
+          <div class="col-xs-22 col-lg-24">
+            <!-- <img src="{{ pathTo }}/images/icon-code.svg" alt=""> -->
+            <h2>{{__ 'inspire GAFAs title'}}</h2>
 
-            <div class="row row-justify-center">
-              <div class="col-xs-24 col-lg-16">
+            <div class="row row-justify-left">
+              <div class="col-xs-24 col-lg-24">
                 <h3>{{__ 'inspire GAFAs subtitle 1'}}</h3>
                 <p>{{__ 'inspire GAFAs content 1'}}</p>
                 <h3>{{__ 'inspire GAFAs subtitle 2'}}</h3>
