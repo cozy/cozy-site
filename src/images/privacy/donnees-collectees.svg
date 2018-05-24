@@ -1,132 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="425px" height="354px" viewBox="0 0 425 354" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 20</title>
+<svg width="450px" height="386px" viewBox="0 0 450 386" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="privacy-(en-cours)-copy-3" transform="translate(-800.000000, -1466.000000)">
-            <g id="Stacked-Group" transform="translate(752.000000, 728.000000)">
-                <g id="Group-19" transform="translate(0.000000, 634.000000)">
-                    <g id="Group-20" transform="translate(48.000000, 104.000000)">
-                        <rect id="Rectangle-14" x="27" y="0" width="725" height="358"></rect>
-                        <g id="Stacked-Group" transform="translate(133.000000, 68.000000)" fill="#32363F" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="24">
-                            <text id="Vous-visitez-le-site">
-                                <tspan x="0" y="14">Vous visitez le site cozy.io</tspan>
-                            </text>
-                            <text id="Vous-nous-contactez">
-                                <tspan x="0" y="52">Vous nous contactez via le chat de cozy.io</tspan>
-                            </text>
-                            <text id="Vous-nous-demandez-d">
-                                <tspan x="0" y="90">Vous nous demandez des informations par email</tspan>
-                            </text>
-                            <text id="Vous-utilisez-Cozy">
-                                <tspan x="0" y="128">Vous utilisez Cozy</tspan>
-                            </text>
-                            <text id="Vous-recevez-des-ema">
-                                <tspan x="0" y="166">Vous recevez des emails de notre part</tspan>
-                            </text>
-                            <text id="Vous-branchez-des-co">
-                                <tspan x="0" y="204">Vous branchez des connecteurs</tspan>
-                            </text>
-                            <text id="Vous-souscrivez-à-un">
-                                <tspan x="0" y="242">Vous souscrivez à un compte Premium</tspan>
-                            </text>
-                            <text id="Vous-acceptez-de-rec">
-                                <tspan x="0" y="280">Vous acceptez de recevoir nos emails marketing</tspan>
-                            </text>
+        <g id="icon">
+            <g id="donnees-collectees" transform="translate(10.000000, 10.000000)">
+                <g id="Stacked-Group" transform="translate(133.000000, 68.000000)" font-size="14" font-family="Lato-Regular, Lato" fill="#32363F" font-weight="normal">
+                    <g id="Vous-visitez-le-site">
+                        <text id="Vous-visitez-le-site-cozy.io">
+                            <tspan x="0" y="14">Vous visitez le site cozy.io</tspan>
+                        </text>
+                    </g>
+                    <g id="Vous-nous-contactez" transform="translate(0.000000, 38.000000)">
+                        <text id="Vous-nous-contactez-via-le-chat-de-cozy.io">
+                            <tspan x="0" y="14">Vous nous contactez via le chat de cozy.io</tspan>
+                        </text>
+                    </g>
+                    <g id="Vous-nous-demandez-d" transform="translate(0.000000, 76.000000)">
+                        <text id="Vous-nous-demandez-des-informations-par-email">
+                            <tspan x="0" y="14">Vous nous demandez des informations par email</tspan>
+                        </text>
+                    </g>
+                    <g id="Vous-utilisez-Cozy" transform="translate(0.000000, 114.000000)">
+                        <text>
+                            <tspan x="0" y="14">Vous utilisez Cozy</tspan>
+                        </text>
+                    </g>
+                    <g id="Vous-recevez-des-ema" transform="translate(0.000000, 152.000000)">
+                        <text id="Vous-recevez-des-emails-de-notre-part">
+                            <tspan x="0" y="14">Vous recevez des emails de notre part</tspan>
+                        </text>
+                    </g>
+                    <g id="Vous-branchez-des-co" transform="translate(0.000000, 190.000000)">
+                        <text id="Vous-branchez-des-connecteurs">
+                            <tspan x="0" y="14">Vous branchez des connecteurs</tspan>
+                        </text>
+                    </g>
+                    <g id="Vous-souscrivez-à-un" transform="translate(0.000000, 228.000000)">
+                        <text id="Vous-souscrivez-à-un-compte-Premium">
+                            <tspan x="0" y="14">Vous souscrivez à un compte Premium</tspan>
+                        </text>
+                    </g>
+                    <g id="Vous-acceptez-de-rec" transform="translate(0.000000, 266.000000)">
+                        <text id="Vous-acceptez-de-recevoir-nos-emails-marketing">
+                            <tspan x="0" y="14">Vous acceptez de recevoir nos emails marketing</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-6" transform="translate(93.000000, 72.000000)" fill-rule="nonzero" fill="#297EF1">
+                    <rect id="Rectangle-12" x="7" y="10" width="2" height="226"></rect>
+                    <g id="Stacked-Group">
+                        <g id="Group-3">
+                            <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
                         </g>
-                        <g id="Group-6" transform="translate(93.000000, 72.000000)" fill="#297EF1">
-                            <rect id="Rectangle-12" x="7" y="10" width="2" height="226"></rect>
-                            <g id="Stacked-Group">
-                                <g id="Group-3">
-                                    <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                                <g id="Group-3-Copy" transform="translate(0.000000, 38.000000)">
-                                    <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                                <g id="Group-3-Copy-12" transform="translate(0.000000, 76.000000)">
-                                    <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                                <g id="Group-3-Copy-13" transform="translate(0.000000, 114.000000)">
-                                    <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                                <g id="Group-3-Copy-2" transform="translate(0.000000, 152.000000)">
-                                    <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                                <g id="Group-3-Copy-14" transform="translate(0.000000, 190.000000)">
-                                    <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                                <g id="Group-3-Copy-15" transform="translate(0.000000, 228.000000)">
-                                    <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                                <g id="Group-3-Copy-3" opacity="0.01" transform="translate(0.000000, 266.000000)">
-                                    <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                            </g>
+                        <g id="Group-3-Copy" transform="translate(0.000000, 38.000000)">
+                            <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
                         </g>
-                        <g id="Group-6-Copy-2" transform="translate(61.000000, 72.000000)" fill="#0DCBCF">
-                            <g id="Group-13">
-                                <g id="Group-3-Copy">
-                                    <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                                <g id="Group-3-Copy-2" transform="translate(0.000000, 38.000000)">
-                                    <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                                <g id="Group-3-Copy-3" transform="translate(0.000000, 76.000000)">
-                                    <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                                <g id="Group-3-Copy-4" transform="translate(0.000000, 114.000000)">
-                                    <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                                <g id="Group-3-Copy-8" opacity="0.01" transform="translate(0.000000, 152.000000)">
-                                    <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                                <g id="Group-3-Copy-9" transform="translate(0.000000, 190.000000)">
-                                    <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                                <g id="Group-3-Copy-10" transform="translate(0.000000, 228.000000)">
-                                    <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                                <g id="Group-3-Copy-11" transform="translate(0.000000, 266.000000)">
-                                    <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
-                                    <circle id="Oval" cx="8" cy="8" r="4"></circle>
-                                </g>
-                            </g>
-                            <rect id="Rectangle-12" x="7" y="8" width="2" height="270" rx="1"></rect>
+                        <g id="Group-3-Copy-12" transform="translate(0.000000, 76.000000)">
+                            <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
                         </g>
-                        <g id="Group-11" transform="translate(86.000000, 0.000000)">
-                            <path d="M21,56 L15,62 L9,56 L4,56 C1.790861,56 2.705415e-16,54.209139 0,52 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 L80,0 C82.209139,-4.05812251e-16 84,1.790861 84,4 L84,52 C84,54.209139 82.209139,56 80,56 L21,56 Z" id="Rectangle-6" fill="#297EF1"></path>
-                            <text id="Nous-collectons-des" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" fill="#FFFFFF">
-                                <tspan x="28.02" y="17">Nous </tspan>
-                                <tspan x="14.64" y="32">collectons</tspan>
-                                <tspan x="8.904" y="47">des données</tspan>
-                            </text>
+                        <g id="Group-3-Copy-13" transform="translate(0.000000, 114.000000)">
+                            <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
                         </g>
-                        <g id="Group-11-Copy-2">
-                            <path d="M75,56 L69,62 L63,56 L4,56 C1.790861,56 2.705415e-16,54.209139 0,52 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 L80,0 C82.209139,-4.05812251e-16 84,1.790861 84,4 L84,52 C84,54.209139 82.209139,56 80,56 L75,56 Z" id="Rectangle-6" fill="#0DCBCF"></path>
-                            <text id="Vous-envoyez-des-don" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" fill="#FFFFFF">
-                                <tspan x="28.665" y="17">Vous </tspan>
-                                <tspan x="9.543" y="32">envoyez des </tspan>
-                                <tspan x="19.311" y="47">données</tspan>
-                            </text>
+                        <g id="Group-3-Copy-2" transform="translate(0.000000, 152.000000)">
+                            <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
+                        </g>
+                        <g id="Group-3-Copy-14" transform="translate(0.000000, 190.000000)">
+                            <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
+                        </g>
+                        <g id="Group-3-Copy-15" transform="translate(0.000000, 228.000000)">
+                            <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
+                        </g>
+                        <g id="Group-3-Copy-3" opacity="0.01" transform="translate(0.000000, 266.000000)">
+                            <circle id="Oval" fill-opacity="0.5" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
                         </g>
                     </g>
+                </g>
+                <g id="Group-6-Copy-2" transform="translate(61.000000, 72.000000)" fill-rule="nonzero" fill="#0DCBCF">
+                    <g id="Group-13">
+                        <g id="Group-3-Copy">
+                            <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
+                        </g>
+                        <g id="Group-3-Copy-2" transform="translate(0.000000, 38.000000)">
+                            <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
+                        </g>
+                        <g id="Group-3-Copy-3" transform="translate(0.000000, 76.000000)">
+                            <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
+                        </g>
+                        <g id="Group-3-Copy-4" transform="translate(0.000000, 114.000000)">
+                            <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
+                        </g>
+                        <g id="Group-3-Copy-8" opacity="0.01" transform="translate(0.000000, 152.000000)">
+                            <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
+                        </g>
+                        <g id="Group-3-Copy-9" transform="translate(0.000000, 190.000000)">
+                            <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
+                        </g>
+                        <g id="Group-3-Copy-10" transform="translate(0.000000, 228.000000)">
+                            <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
+                        </g>
+                        <g id="Group-3-Copy-11" transform="translate(0.000000, 266.000000)">
+                            <circle id="Oval" fill-opacity="0.33" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval" cx="8" cy="8" r="4"></circle>
+                        </g>
+                    </g>
+                    <rect id="Rectangle-12" x="7" y="8" width="2" height="270" rx="1"></rect>
+                </g>
+                <g id="Group-11" transform="translate(86.000000, 0.000000)">
+                    <path d="M21,56 L15,62 L9,56 L4,56 C1.790861,56 2.705415e-16,54.209139 0,52 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 L80,0 C82.209139,-4.05812251e-16 84,1.790861 84,4 L84,52 C84,54.209139 82.209139,56 80,56 L21,56 Z" id="Rectangle-6" fill="#297EF1" fill-rule="nonzero"></path>
+                    <g id="Nous-collectons-des" transform="translate(8.000000, 5.000000)" font-size="12" font-family="Lato-Bold, Lato" fill="#FFFFFF" font-weight="bold">
+                        <text id="Nous">
+                            <tspan x="20.02" y="12">Nous</tspan>
+                        </text>
+                        <text id="collectons">
+                            <tspan x="6.64" y="27">collectons</tspan>
+                        </text>
+                        <text id="des-données">
+                            <tspan x="0.904" y="42">des données</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-11-Copy-2">
+                    <path d="M75,56 L69,62 L63,56 L4,56 C1.790861,56 2.705415e-16,54.209139 0,52 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 L80,0 C82.209139,-4.05812251e-16 84,1.790861 84,4 L84,52 C84,54.209139 82.209139,56 80,56 L75,56 Z" id="Rectangle-6" fill="#0DCBCF" fill-rule="nonzero"></path>
+                    <text id="Vous" fill="#FFFFFF" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold">
+                        <tspan x="28.665" y="17">Vous</tspan>
+                    </text>
+                    <text id="envoyez-des" fill="#FFFFFF" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold">
+                        <tspan x="9.543" y="32">envoyez des</tspan>
+                    </text>
+                    <text id="données" fill="#FFFFFF" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold">
+                        <tspan x="19.311" y="47">données</tspan>
+                    </text>
                 </g>
             </g>
         </g>
