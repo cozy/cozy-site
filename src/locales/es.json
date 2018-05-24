@@ -858,5 +858,6 @@
     "data safety content": "We use reasonable organizational, technical and administrative measures to protect Personal Data within our organization. Unfortunately, no storage or data transmission system can be guaranteed as 100% safe. If you have reason to believe that your interactions with us are unsafe (for example, if you feel that the security of your account has been compromised), please contact us immediately.",
     "download policies title": "Download our privacy policy",
     "download policies content": "If you want to have even more information about our privacy policy you can download it here:",
-    "download policies link": "Cozy Cloud Privacy Policy"
+    "download policies link": "Cozy Cloud Privacy Policy",
+    "dataWeCollectImage": "/en/images/privacy/data-collected.svg"
 }

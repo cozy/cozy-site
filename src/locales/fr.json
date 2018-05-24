@@ -858,5 +858,6 @@
     "data safety content": "Nous utilisons des mesures raisonnables organisationnelles, techniques et administratives afin de protéger les Données Personnelles au sein de notre organisation. Malheureusement, aucun système de stockage ou de transmission des données ne peut être garanti comme sûr à 100%. Si vous avez des raisons de penser que vos interactions avec nous ne sont plus sûres (par exemple si vous avez l’impression que la sécurité de votre compte a été compromise), veuillez nous contacter immédiatement.",
     "download policies title": "Téléchargez notre politique de confidentialité",
     "download policies content": "Si vous souhaitez avoir encore plus d'informations à propos de notre politique de confidentialité, vous pouvez la télécharger ici :",
-    "download policies link": "Politique de confidentialité de Cozy Cloud"
+    "download policies link": "Politique de confidentialité de Cozy Cloud",
+    "dataWeCollectImage": "/fr/images/privacy/donnees-collectees.svg"
 }
