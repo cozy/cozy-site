@@ -650,3 +650,120 @@ h3.press-details
 
 	.btn
 		margin 1.875rem 0 3rem
+
+// Privacy
+
+.privacyContent
+
+	.container
+		max-width 800px
+
+	section
+		margin-bottom $spacer-y
+
+	h2, h3
+		text-align left
+
+	h2
+		font-size $fs-h3
+		padding-left $spacer-y + $fs-xs - $border-width
+		margin-bottom $spacer-y
+		position relative
+
+		&:before
+			content ''
+			position absolute
+			left - $fs-root
+			top -2px
+			width 32px
+			height 32px
+			background-size contain
+
+	.ourPrivacyVisionTitle:before
+		background-image url('../images/privacy/our-privacy-vision.svg')
+	.dataWeCollectTitle:before
+		background-image url('../images/privacy/data-we-collect.svg')
+	.howUseDataTitle:before
+		background-image url('../images/privacy/how-use-data.svg')
+	.dataAccessTitle:before
+		background-image url('../images/privacy/data-access.svg')
+	.cookiesTitle:before
+		background-image url('../images/privacy/cookies.svg')
+	.dataSafetyTitle:before
+		background-image url('../images/privacy/data-safety.svg')
+	.inspireGAFAsTitle:before
+		background-image url('../images/privacy/inspire-gafas.svg')
+
+	h3
+		font-size $fs-h4
+		padding-left $spacer-y
+		margin-bottom $spacer-y
+
+	p, img
+		padding-left $spacer-y
+
+// Delete the second the img is removed
+	img
+		padding-bottom 32px
+
+	ul
+		padding-left $spacer-y + $spacer-x
+	li
+		padding-bottom $spacer-y
+
+.howUseData h3
+	margin-bottom $spacer-z
+
+.responsive-table
+	overflow-x auto
+
+table
+	font-size $fs-sm
+	margin-bottom $spacer-y
+
+table, thead, tr
+	border 1px solid $clr-lightgrey
+
+thead
+	background $clr-light
+	text-transform uppercase
+	text-align left
+	font-size 12px
+	color $clr-darkgrey
+
+th, td
+	padding 16px
+	max-width 208px
+
+td
+	vertical-align top
+
+	ul
+		padding-left 16px
+
+	li
+		padding-bottom 0
+
+q
+	font-size $fs-xl
+	font-style italic
+	display block
+	quotes '“' '”' '‘' '’'
+
+	q:before
+	  content open-quote
+
+	q:after
+		content close-quote
+
+.quote
+	margin $spacer-y 0 $spacer-y $spacer-y
+	padding 4px 0 4px 24px
+	border-left 5px solid $clr-lightgrey
+
+	p
+		padding 0
+		margin 0
+
+		&:before
+			content '— '
