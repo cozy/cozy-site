@@ -791,7 +791,7 @@
     "data access table 1 line 3 col 2 li 4": "Logs",
     "data access table 1 line 3 col 2 li 5": "Types d'erreurs",
     "data access table 1 line 3 col 3": "C'est un outil de suivi de bugs; nous l'utilisons pour comprendre et analyser les bugs plus vite.",
-    "data access table 1 line 3 col 4": "USA et Union Européenne, sur les serveurs d'Amazon Web Services",
+    "data access table 1 line 3 col 4": "France, sur nos serveurs",
     "data access table 2 line 1 col 1": "Postmark",
     "data access table 2 line 1 col 2": "Email",
     "data access table 2 line 1 col 2 li 2": "Adresse IP",
@@ -855,5 +855,8 @@
     "inspire GAFAs content 3.5": "Au-delà de la promesse de permettre à tout un chacun de se réapproprier ses données, il est possible de bâtir un écosystème numérique alternatif et décentralisé déjà promu par Cozy Cloud.",
     "benjamin andre": "Benjamin André",
     "data safety title": "Comment nous garantissons la sécurité de vos données",
-    "data safety content": "Nous utilisons des mesures raisonnables organisationnelles, techniques et administratives afin de protéger les Données Personnelles au sein de notre organisation. Malheureusement, aucun système de stockage ou de transmission des données ne peut être garanti comme sûr à 100%. Si vous avez des raisons de penser que vos interactions avec nous ne sont plus sûres (par exemple si vous avez l’impression que la sécurité de votre compte a été compromise), veuillez nous contacter immédiatement."
+    "data safety content": "Nous utilisons des mesures raisonnables organisationnelles, techniques et administratives afin de protéger les Données Personnelles au sein de notre organisation. Malheureusement, aucun système de stockage ou de transmission des données ne peut être garanti comme sûr à 100%. Si vous avez des raisons de penser que vos interactions avec nous ne sont plus sûres (par exemple si vous avez l’impression que la sécurité de votre compte a été compromise), veuillez nous contacter immédiatement.",
+    "download policies title": "Téléchargez notre politique de confidentialité",
+    "download policies content": "Si vous souhaitez avoir encore plus d'informations à propos de notre politique de confidentialité, vous pouvez la télécharger ici :",
+    "download policies link": "Politique de confidentialité de Cozy Cloud"
 }

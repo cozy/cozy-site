@@ -791,7 +791,7 @@
 	"data access table 1 line 3 col 2 li 4": "Logs",
 	"data access table 1 line 3 col 2 li 5": "Error types",
 	"data access table 1 line 3 col 3": "This is a error tracking software: we use it to understand and fix bugs faster.",
-	"data access table 1 line 3 col 4": "USA, European Union, on Amazon Web Services servers",
+	"data access table 1 line 3 col 4": "France, on Cozy servers",
 	"data access table 2 line 1 col 1": "Postmark",
 	"data access table 2 line 1 col 2": "Email",
 	"data access table 2 line 1 col 2 li 2": "IP",
@@ -855,5 +855,8 @@
 	"inspire GAFAs content 3.5": "Beyond the promise to allow everyone to reclaim their data, it is possible to build an alternative digital ecosystem, decentralized already promoted by Cozy Cloud.",
 	"benjamin andre": "Benjamin André",
 	"data safety title": "How we guarantee the security of your data",
-	"data safety content": "We use reasonable organizational, technical and administrative measures to protect Personal Data within our organization. Unfortunately, no storage or data transmission system can be guaranteed as 100% safe. If you have reason to believe that your interactions with us are unsafe (for example, if you feel that the security of your account has been compromised), please contact us immediately."
+	"data safety content": "We use reasonable organizational, technical and administrative measures to protect Personal Data within our organization. Unfortunately, no storage or data transmission system can be guaranteed as 100% safe. If you have reason to believe that your interactions with us are unsafe (for example, if you feel that the security of your account has been compromised), please contact us immediately.",
+	"download policies title": "Download our privacy policy",
+	"download policies content": "If you want to have even more information about our privacy policy you can download it here:",
+	"download policies link": "Cozy Cloud Privacy Policy"
 }
