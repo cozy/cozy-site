@@ -678,6 +678,8 @@ h3.press-details
 			width 32px
 			height 32px
 			background-size contain
+			+bp-max(md)
+				left -6px
 
 	.ourPrivacyVisionTitle:before
 		background-image url('../images/privacy/our-privacy-vision.svg')
@@ -701,10 +703,6 @@ h3.press-details
 
 	p, img
 		padding-left $spacer-y
-
-// Delete the second the img is removed
-	img
-		padding-bottom 32px
 
 	ul
 		padding-left $spacer-y + $spacer-x
