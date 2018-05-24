@@ -746,7 +746,7 @@
     "collect free bill content one": "collect free bill content one",
     "collect free bill content two": "collect free bill content two",
     "our privacy vision title": "Notre vision de la vie privée",
-    "our privacy vision content 1": "Chez Cozy Cloud, nous pensonts que nous avons chacun nos responsabilités. Commençons par celles de Cozy Cloud !",
+    "our privacy vision content 1": "Chez Cozy Cloud, nous pensons que nous avons chacun nos responsabilités. Commençons par celles de Cozy Cloud !",
     "our privacy vision subtitle 1": "Nos responsabilités",
     "our privacy vision content 2": "Cozy Cloud s’engage à être à l’état de l’art d’un professionnel de l’hébergement de données personnelles",
     "our privacy vision content 3": "S'agissant de vos données \"privées\", vous êtes seul(e) responsable de la finalité (ce que vous souhaitez faire de vos données \"privées\") et des moyens (le prix / temps que vous êtes prêt à payer / passer pour collecter et traiter vos données) du traitement de ces données à caractère personnel, Cozy Cloud n'étant alors que sous-traitant technique du traitement de vos données \"privées\".",
@@ -779,7 +779,7 @@
     "data access table 1 line 1 col 1": "Linxo",
     "data access table 1 line 1 col 2": "Identifiants bancaires et écritures bancaires",
     "data access table 1 line 1 col 3": "C'est un aggrégateur bancaire; nous utilisons leurs connecteurs bancaires.",
-    "data access table 1 line 1 col 4": "Ireland, sur les serveurs de Amazon Web Services",
+    "data access table 1 line 1 col 4": "Irlande, sur les serveurs de Amazon Web Services",
     "data access table 1 line 2 col 1": "OVH",
     "data access table 1 line 2 col 2": "Contenu du Cozy",
     "data access table 1 line 2 col 3": "C'est une société d'hébergement; nous les utilisons pour stocker vos données.",
@@ -855,5 +855,5 @@
     "inspire GAFAs content 3.5": "Au-delà de la promesse de permettre à tout un chacun de se réapproprier ses données, il est possible de bâtir un écosystème numérique alternatif, décentralisé.",
     "benjamin andre": "Benjamin André",
     "data safety title": "Comment nous garantissons la sécurité de vos données",
-    "data safety content": "Nous utilisons des mesures raisonnables organisationnelles, techniques et administratives afin de protéger les Données Personnelles au sein de notre organisation. Malheureusement, aucun système de stockage ou de transmission des données ne peut être garanti comme sûr à 100%. Si vous avez des raisons de penser que Vos interactions avec nous ne sont plus sûres (par exemple Si Vous avez l’impression que la sécurité de Votre compte a été compromise), veuillez nous contacter immédiatement."
+    "data safety content": "Nous utilisons des mesures raisonnables organisationnelles, techniques et administratives afin de protéger les Données Personnelles au sein de notre organisation. Malheureusement, aucun système de stockage ou de transmission des données ne peut être garanti comme sûr à 100%. Si vous avez des raisons de penser que vos interactions avec nous ne sont plus sûres (par exemple si vous avez l’impression que la sécurité de votre compte a été compromise), veuillez nous contacter immédiatement."
 }
