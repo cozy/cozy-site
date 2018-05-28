@@ -233,35 +233,48 @@
 	margin-bottom 1.75rem
 	justify-content center
 
+	.testimony-item:after
+		content ''
+		position absolute
+		top calc(100% + 2.5rem)
+		left 50%
+		transform translateX(-50%)
+		width 11.5rem
+		height 11.5rem
+
+	& :nth-child(1):after
+		background: url('../images/testimony/testimony-woman.svg')
+
+	& :nth-child(2):after
+		background: url('../images/testimony/testimony-man.svg')
+
+	& :nth-child(3):after
+		background: url('../images/testimony/testimony-couple.svg')
+		width 12rem
+
 .testimony-item
-	display flex
-	flex-direction column
-	justify-content center
-	margin-bottom 2rem
-	border 1px solid $clr-lightgrey
+	position relative
+	margin-bottom 16rem
+	box-shadow: 0 2px 4px 0 rgba(50, 54, 63, 0.25);
 	border-radius .5rem
-	padding 2rem 1rem
+	padding 2rem
+
+	&:before
+		content ''
+		position absolute
+		top calc(100% - 1px)
+		left 50%
+		transform translateX(-50%)
+		width 2.1875rem
+		height 2.1875rem
+		background: url('../images/testimony/corner.svg')
+
 
 .testimony-text
 	font-size 1rem
-	font-style italic
-	line-height 1.2
+	line-height 1.5
+	text-align left
 	color $clr-darkgrey
-
-	&::before
-		content '« '
-
-	&::after
-		content ' »'
-
-.testimony-desc
-	margin-top 3rem
-
-.testimony-icon
-	font-size 1.875rem
-
-.testimony-author
-	font-weight bold
 
 .reco
 	h4
