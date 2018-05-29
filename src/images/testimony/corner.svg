@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <style>
+    	<![CDATA[
+    	#Triangle {
+    		filter: drop-shadow( 0 2px 3px rgba(50, 54, 63, 0.25));
+    	}
+    	]]>
+    </style>
+    <title>Triangle</title>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-412.000000, -5146.000000)" fill="#FFFFFF">
+            <path d="M430.560644,5163.82761 L449,5146 L417,5146 L417,5158.07615 C417,5162.49443 420.581722,5166.07615 425,5166.07615 C427.075015,5166.07615 429.06885,5165.26991 430.560644,5163.82761 Z" id="Triangle"></path>
+        </g>
+    </g>
+</svg>
