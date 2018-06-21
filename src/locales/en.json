@@ -517,6 +517,8 @@
 	"features sante title": "Keep calm and get healthy",
 	"features sante content 1": "Be aware at any time of your family healthcare reimbursements status.",
 	"features sante content 2": "With Cozy Health, everything is crystal clear!",
+	"features store name": "Cozy Store",
+	"features store title": "Discover and install applications and services",
 	"nav privacy title": "Privacy",
 	"privacy title": "Privacy and Cozy Cloud",
 	"support title": "Hi. How can we help you?",
@@ -861,5 +863,16 @@
 	"download policies title": "Download our privacy policy",
 	"download policies content": "If you want to have even more information about our privacy policy you can download it here:",
 	"download policies link": "Cozy Cloud Privacy Policy",
-	"dataWeCollectImage": "/en/images/privacy/data-collected.svg"
+	"dataWeCollectImage": "/en/images/privacy/data-collected.svg",
+	"features contacts content 1": "Manage all your contacts at the same place.",
+	"features contacts content 2": "Create your contacts directly from your Cozy.",
+	"features contacts content 3": "Import all your contacts from Google, Apple and more.",
+	"collect image 3": "collect image 3",
+	"features contacts image 1": "/en/images/features/cozycontacts/allcontacts.png",
+	"features contacts image 2": "/en/images/features/cozycontacts/contactcard.png",
+	"features contacts image 3": "/en/images/features/cozycontacts/emptycontacts.png",
+	"features store content 1": "Find all the applications you need to take advantage of your data.",
+	"features store content 2": "Gather all you data at the same place with Cozy 100+ services.",
+	"features store image 1": "/en/images/features/cozystore/apps.png",
+	"features store image 2": "/en/images/features/cozystore/services.png"
 }

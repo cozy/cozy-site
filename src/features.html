@@ -25,59 +25,6 @@ from: features
 		</div>
 	</header>
 
-			<section id="collector" class="panel features">
-				<div class="container">
-					<div class="row row-justify-center">
-						<div class="col-xs-22">
-							<h2 class="panel-title">{{__ 'features collect title'}}</h2>
-						</div>
-					</div>
-
-					<div class="row row-justify-center row-row-reverse">
-						<div class="col-xs-22 col-lg-7 col-center">
-							<ul class="featuresList">
-								<li class="featuresList-item">
-									<a href="#" class="featuresList-item-link active" data-target="calendar">
-										<span class="featuresList-item-link-icon-sm">
-											<div class="featuresIcons files"></div>
-										</span>
-										<span class="featuresList-item-link-icon">
-											<img src="{{ pathTo }}/images/icons/icon-files.svg">
-										</span>
-										{{__ 'features collect content 1'}}
-									</a>
-								</li>
-								<li class="featuresList-item">
-									<a href="#" class="featuresList-item-link" data-target="contacts">
-										<span class="featuresList-item-link-icon-sm">
-											<div class="featuresIcons lock"></div>
-										</span>
-										<span class="featuresList-item-link-icon">
-											<img src="{{ pathTo }}/images/icons/icon-lock.svg">
-										</span>
-										{{__ 'features collect content 2'}}
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-xs-16 col-offset-xs-1 hidden-to-lg featuresList-screenshots">
-							<figure id="feature-calendar" class="featuresList-screenshotOutter active">
-								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{__ 'collect image 1'}}"
-											class="featuresList-screenshot img-responsive"
-											alt="{{__ 'ungoogle features calendars screenshot'}}">
-							</figure>
-							<figure id="feature-contacts" class="featuresList-screenshotOutter">
-								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{__ 'collect image 2'}}"
-											class="featuresList-screenshot img-responsive"
-											alt="{{__ 'ungoogle features contacts screenshot'}}">
-							</figure>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<hr class="dash-grey">
-
 			<section id="bank" class="panel features">
 				<div class="container">
 					<div class="row row-justify-center">
@@ -208,6 +155,128 @@ from: features
 								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{__ 'photos image sharing'}}"
 											class="featuresList-screenshot img-responsive"
 											alt="{{__ 'ungoogle features webmail screenshot'}}">
+							</figure>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<hr class="dash-grey">
+
+			<section id="contacts" class="panel features">
+				<div class="container">
+					<div class="row row-justify-center">
+						<div class="col-xs-22">
+							<h2 class="panel-title">{{__ 'features contacts title'}}</h2>
+						</div>
+					</div>
+
+					<div class="row row-justify-center">
+						<div class="col-xs-22 col-lg-7 col-center">
+							<ul class="featuresList">
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link active" data-target="contacts">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons files"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-files.svg">
+										</span>
+										{{__ 'features contacts content 1'}}
+									</a>
+								</li>
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link" data-target="card">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons lock"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-lock.svg">
+										</span>
+										{{__ 'features contacts content 2'}}
+									</a>
+								</li>
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link" data-target="empty">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons lock"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-lock.svg">
+										</span>
+										{{__ 'features contacts content 3'}}
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xs-16 col-offset-xs-1 hidden-to-lg featuresList-screenshots">
+							<figure id="feature-contacts" class="featuresList-screenshotOutter active">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{__ 'features contacts image 1'}}"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features calendars screenshot'}}">
+							</figure>
+							<figure id="feature-card" class="featuresList-screenshotOutter">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{__ 'features contacts image 2'}}"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features contacts screenshot'}}">
+							</figure>
+							<figure id="feature-empty" class="featuresList-screenshotOutter">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{__ 'features contacts image 3'}}"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features contacts screenshot'}}">
+							</figure>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<hr class="dash-grey">
+
+			<section id="store" class="panel features">
+				<div class="container">
+					<div class="row row-justify-center">
+						<div class="col-xs-22">
+							<h2 class="panel-title">{{__ 'features store title'}}</h2>
+						</div>
+					</div>
+
+					<div class="row row-justify-center row-row-reverse">
+						<div class="col-xs-22 col-lg-7 col-center">
+							<ul class="featuresList">
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link active" data-target="calendar">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons files"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-files.svg">
+										</span>
+										{{__ 'features store content 1'}}
+									</a>
+								</li>
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link" data-target="contacts">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons lock"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-lock.svg">
+										</span>
+										{{__ 'features store content 2'}}
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xs-16 col-offset-xs-1 hidden-to-lg featuresList-screenshots">
+							<figure id="feature-calendar" class="featuresList-screenshotOutter active">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{__ 'features store image 1'}}"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features calendars screenshot'}}">
+							</figure>
+							<figure id="feature-contacts" class="featuresList-screenshotOutter">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{__ 'features store image 2'}}"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features contacts screenshot'}}">
 							</figure>
 						</div>
 					</div>
