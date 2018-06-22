@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-applications</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon-applications" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M4,16 L12,16 L12,24 L4,24 L4,16 Z M16,4 L24,4 L24,12 L16,12 L16,4 Z M16,28 L24,28 L24,36 L16,36 L16,28 Z M28,16 L36,16 L36,24 L28,24 L28,16 Z" id="icon-grid-16" fill="#FCD0D5"></path>
+        <path d="M4,4 L12,4 L12,12 L4,12 L4,4 Z M4,28 L12,28 L12,36 L4,36 L4,28 Z M16,16 L24,16 L24,24 L16,24 L16,16 Z M28,4 L36,4 L36,12 L28,12 L28,4 Z M28,28 L36,28 L36,36 L28,36 L28,28 Z" id="icon-grid-16" fill="#F1142D"></path>
+    </g>
+</svg>
