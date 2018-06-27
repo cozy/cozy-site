@@ -866,7 +866,6 @@
 	"features contacts content 1": "Manage all your contacts at the same place.",
 	"features contacts content 2": "Create your contacts directly from your Cozy.",
 	"features contacts content 3": "Import all your contacts from Google, Apple and more.",
-	"collect image 3": "collect image 3",
 	"features contacts image 1": "/en/images/features/cozycontacts/allcontacts.png",
 	"features contacts image 2": "/en/images/features/cozycontacts/contactcard.png",
 	"features contacts image 3": "/en/images/features/cozycontacts/emptycontacts.png",
@@ -878,5 +877,6 @@
 	"about timeline Cozy store launch": "Cozy Cloud launches Cozy Store and Cozy Contacts.",
 	"about timeline Cozy gandi partnership": "Cozy Cloud and Gandi announces an offer to host Cozy on Gandi servers.",
 	"about timeline Cozy 100 connectors": "100 services are available to help people get back their data.",
-	"pricing soon": "pricing soon"
+	"features store apps screenshot": "Cozy Store apps screenshot",
+	"features store services screenshot": "Cozy Store services screenshot"
 }
