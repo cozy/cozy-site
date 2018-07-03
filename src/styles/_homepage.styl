@@ -13,11 +13,13 @@
 	.introduction
 		padding-top 20vh
 		padding-bottom 24vh
+		background-color $clr-primary
+		color $clr-lighter
 
 		+bp-max(lg)
 			text-align center
 			box-sizing content-box
-			padding-bottom 25rem
+			padding-bottom 0
 
 		+bp-max(md)
 			padding-top 12vh
@@ -25,12 +27,15 @@
 
 		+bp-max(sm)
 			padding-top 12vh
-			padding-bottom 20rem
+			padding-bottom 0
 			text-align center
 
+	.introduction-container
+		position relative
 
 	.introduction-title
 		text-align left
+		color $clr-lighter
 
 		+bp-max(lg)
 			text-align center
@@ -39,16 +44,27 @@
 		text-align left
 		font-weight normal
 		font-size 1.1rem
-		background rgba(255,255,255,.9)
 		margin-bottom 1.5rem
-		// position relative
-		// height 3.75rem
-		// overflow hidden
 
 		+bp-max(md)
 			display none
-			// height 5rem
-			// margin-bottom .5rem
+			
+	.introduction-canvas
+		position absolute
+		right 0
+		left 50%
+		top 50%
+		max-width 50%
+		overflow hidden
+		transform translateY(-40%)
+		
+		+bp-max(lg)
+			position static
+			max-width 100%
+			transform translateY(10%)
+			
+			> *
+				margin 0 auto
 
 	//	&:before
 	//	&:after
@@ -95,6 +111,9 @@
 		// 	width 6.25rem // 100px
 		// 	height .25rem // 4px
 		// 	background-color $clr-lighter
+
+	.panel--layer
+		padding-top: 3rem
 
 	.stores
 		margin-top 1.5rem

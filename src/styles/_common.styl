@@ -284,28 +284,33 @@
 				margin-bottom 2rem
 				font-size 1rem
 
-			.btn-primary
-				padding 1rem 2rem
-				background-color white
-				font-size 1.125rem
-				color $clr-primary
-				+bp-max(md)
-					width 100%
+	.standoutCTA-CTA
+		display inline-flex
+		flex-direction column
+		align-items stretch
 
-				+bp-max(md-hg)
-					font-size 1rem
+		.btn
+			box-sizing border-box
+			width 100%
+			padding 1rem 2rem
+			background-color white
+			font-size 1.125rem
+			color $clr-primary
+			box-shadow: 0 8px 8px 0 rgba(50, 54, 63, 0.15), 0 4px 4px 0 rgba(50, 54, 63, 0.16);
+			
+			&:hover
+			&:focus
+				border-color $clr-lighter
+			
+			+bp-max(md)
+				width 100%
 
-			.standoutCTA-CTA
-				display inline-flex
-				flex-direction column
-				align-items stretch
+			+bp-max(md-hg)
+				font-size 1rem
 
-				.btn
-					width 100%
-
-			.standoutCTA-reassurance
-				margin .5rem 0 0
-				font-size .875rem
+	.standoutCTA-reassurance
+		margin .5rem 0 0
+		font-size .875rem
 
 	.standout-panel
 		img
