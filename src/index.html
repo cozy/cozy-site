@@ -16,7 +16,7 @@ from: home
 {{> header }}
 
 	<header class="introduction homepage {{ locale }}">
-		<div class="container">
+		<div class="introduction-container container">
 			<div class="row">
 				<div class="col-xs-24 col-lg-12">
 					<h1 class="introduction-title">{{__ 'home main title'}}<br/>{{__ 'home secondary title'}}</h1>
@@ -37,27 +37,26 @@ from: home
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xs-24 col-lg-8">
-					<a href="{{__ 'pricing basic link'}}" class="btn btn-primary btn-bounce btn-xl " >{{__ 'pricing basic CTA'}}</a>
+			<div class="standoutCTA-CTA">
+				<div>
+					<a href="{{__ 'pricing basic link'}}" class="btn btn-primary btn-xl btn-bounce">
+						{{__ 'pricing basic CTA'}}
+					</a>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-24 col-lg-12">
-					<p class="introduction-reassurance">
-						{{__ 'home reassurance text'}}
-					</p>
-				</div>
+				<p class="standoutCTA-reassurance">{{__ 'home reassurance text'}}</p>
 			</div>
 			<div class="stores">
 				<a href="{{__ 'home store apple'}}" target="_blank" class="btn-store" ><img src="{{ pathTo }}/images/icon-apple.svg" alt="Apple Store"></a>
 				<a href="{{__ 'home store android'}}" target="_blank" class="btn-store" ><img src="{{ pathTo }}/images/icon-android.svg" alt="Play Store"></a>
 			</div>
+			<div class="introduction-canvas">
+				{{> home-animation}}
+			</div>
 		</div>
 	</header>
 
 	<section>
-		<div class="panel grey-background">
+		<div class="panel panel--layer grey-background">
 			<div class="container">
 				<div class="row-justify-center reco">
 					<div class="col-xs-24 col-md-lg-8 align-center">
