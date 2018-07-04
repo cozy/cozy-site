@@ -46,8 +46,8 @@
   <body class="{{#if homepage}}is-homepage{{/if}} {{#if fullHeightIntroduction}}is-introductionFullHeight{{/if}} {{#if annexe}}is-annexe{{/if}}">
     {{{ contents }}}
 		
-		{{#if homepage}}
 		<script src="{{ pathTo }}/js/main.min.js"></script>
+		{{#if homepage}}
     <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 		<script src="{{ pathTo }}/js/animations/device-animation.js"></script>
 		<script>
@@ -129,7 +129,6 @@
 		</script>
 		<script>
     	$(document).ready(function(){
-    		console.log('go!');
     		init();
     	});
 		</script>
