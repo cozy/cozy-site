@@ -91,8 +91,9 @@
 					window.addEventListener('resize', resizeCanvas);
 					resizeCanvas();
 					function resizeCanvas() {
+						var wrapper = document.getElementById("introcanvas");
 						var w = lib.properties.width, h = lib.properties.height;
-						var iw = window.innerWidth, ih=window.innerHeight;
+						var iw = wrapper.offsetWidth, ih=wrapper.offsetHeight;
 						var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;
 						if(isResp) {
 							if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {
@@ -121,7 +122,7 @@
 						stage.tickOnUpdate = true;
 					}
 				}
-				makeResponsive(true,'both',false,1);
+				makeResponsive(true,'width',false,1);
 				AdobeAn.compositionLoaded(lib.properties.id);
 				fnStartAnimation();
 			}
