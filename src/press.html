@@ -97,19 +97,44 @@ from: press
 		</section>
 
 		<section>
+			<div class="container press-cozyteam">
+				<div class="row row-justify-center">
+					<div class="col-xs-22 col-lg-13 align-center">
+						<h2>{{__ 'press branding title'}}</h2>
+						<p>{{__ 'press branding text'}}</p>
+						<h3>{{__ 'press branding cat one'}}</h3>
+						<div>
+							<img class="press-lg-img" src="../images/press/assets-preview.svg" alt="{{__ 'press branding preview'}}" width="570">
+						</div>
+						<a href="{{__ 'press branding resources href'}}" target="_blank" class="btn btn-primary">{{__ 'press branding resources cta'}}</a>
+						<h3>{{__ 'press branding cat two'}}</h3>
+					</div>
+					<div class="col-xs-22 col-lg-24 align-center">
+						<div class="row row-justify-center">
+							<div class="col-xs-22 col-lg-7 align-center">
+								<div>
+									<img src="../images/press/cozy-preview.png" alt="{{__ 'press branding preview'}}" width="300">
+								</div>
+								<a href="{{__ 'press branding preview href'}}" class="btn btn-primary">{{__ 'press branding preview cta'}}</a>
+							</div>
+							<div class="col-xs-22 col-lg-7 align-center">
+								<div>
+									<img src="../images/press/cozy-team.png" alt="{{__ 'press branding team'}}" width="300">
+								</div>
+								<a href="{{__ 'press branding team href'}}" class="btn btn-primary">{{__ 'press branding team cta'}}</a>
+							</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
 			<div class="container">
 				<div class="row row-justify-center">
-					<div class="col-xs-22 col-lg-13">
-						<h2>{{__ 'press manifesto title'}}</h2>
-						<ol class="press-manifesto">
-							<li>{{__ 'press manifesto one'}}</li>
-							<li>{{__ 'press manifesto two'}}</li>
-							<li>{{__ 'press manifesto three'}}</li>
-							<li>{{__ 'press manifesto four'}}</li>
-							<li>{{__ 'press manifesto five'}}</li>
-							<li>{{__ 'press manifesto six'}}</li>
-							<li>{{__ 'press manifesto seven'}}</li>
-						</ol>
+					<div class="col-xs-22 col-lg-13 align-center">
+						<h2>{{__ 'press blog title'}}</h2>
+						<p>{{__ 'press blog text'}}</p>
+						<a href="{{__ 'press branding resources href'}}" target="_blank" class="btn btn-primary">{{__ 'press blog cta'}}</a>
 					</div>
 				</div>
 			</div>
@@ -117,18 +142,9 @@ from: press
 
 		<section>
 			<div class="panel">
-				<div class="container">
-					<div class="row row-justify-center">
-						<div class="col-xs-24 col-lg-24">
-							<h2>{{__ 'press media title'}}</h2>
-						</div>
-					</div>
-				</div>
-				<div class="grey-background press-carousel-wrapper">
-					<div class="container">
-						{{> press-carousel}}
-					</div>
-				</div>
+
+				{{> press-carousel}}
+
 				<div class="container">
 					<div class="row row-justify-center">
 						<div class="col-xs-24 col-lg-13">
@@ -180,34 +196,24 @@ from: press
 			</div>
 		</section>
 
-		<section>
-			<div class="container press-cozyteam">
+		<!-- <section>
+			<div class="container">
 				<div class="row row-justify-center">
-					<div class="col-xs-22 col-lg-24 align-center">
-						<h2>{{__ 'press branding title'}}</h2>
-						<h3>{{__ 'press branding cat one'}}</h3>
-						<div>
-							<img class="press-lg-img" src="../images/press/assets-preview.svg" alt="{{__ 'press branding preview'}}" width="570">
-						</div>
-						<a href="{{__ 'press branding resources href'}}" target="_blank" class="btn btn-primary">{{__ 'press branding resources cta'}}</a>
-						<h3>{{__ 'press branding cat two'}}</h3>
-						<div class="row row-justify-center">
-							<div class="col-xs-22 col-lg-7 align-center">
-								<div>
-									<img src="../images/press/cozy-preview.png" alt="{{__ 'press branding preview'}}" width="300">
-								</div>
-								<a href="{{__ 'press branding preview href'}}" class="btn btn-primary">{{__ 'press branding preview cta'}}</a>
-							</div>
-							<div class="col-xs-22 col-lg-7 align-center">
-								<div>
-									<img src="../images/press/cozy-team.png" alt="{{__ 'press branding team'}}" width="300">
-								</div>
-								<a href="{{__ 'press branding team href'}}" class="btn btn-primary">{{__ 'press branding team cta'}}</a>
-							</div>
+					<div class="col-xs-22 col-lg-13">
+						<h2>{{__ 'press manifesto title'}}</h2>
+						<ol class="press-manifesto">
+							<li>{{__ 'press manifesto one'}}</li>
+							<li>{{__ 'press manifesto two'}}</li>
+							<li>{{__ 'press manifesto three'}}</li>
+							<li>{{__ 'press manifesto four'}}</li>
+							<li>{{__ 'press manifesto five'}}</li>
+							<li>{{__ 'press manifesto six'}}</li>
+							<li>{{__ 'press manifesto seven'}}</li>
+						</ol>
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 	</article>
 

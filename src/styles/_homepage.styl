@@ -37,15 +37,15 @@
 		position relative
 		display flex
 		align-items center
-		
+
 		+bp-max(lg)
 			flex-direction column
-	
+
 	.introduction-desc
 		box-sizing border-box
 		width 50%
 		padding 0 .625rem
-		
+
 		+bp-max(lg)
 			width 100%
 
@@ -64,23 +64,23 @@
 
 		+bp-max(md)
 			display none
-			
+
 	.introduction-canvas
 		position absolute
 		right 0
 		left 45%
 		top -8rem
 		bottom -8rem
-		width 55% 
+		width 55%
 		overflow hidden
-		
-		
+
+
 		+bp-max(lg)
 			position static
 			width 100%
 			transform translateY(10%)
 			margin-top -4rem
-			
+
 			> *
 				margin 0 auto
 
@@ -89,7 +89,7 @@
 			position relative
 			top 50%
 			transform translateY(-50%)
-		
+
 	//	&:before
 	//	&:after
 	//		position absolute
@@ -210,53 +210,18 @@
 .carousel-articleTitle
 	position relative
 	margin-bottom 1rem
-	text-align left
+	text-align center
 	font-size 1.2rem
 
-.carousel-articleTitle a:before
-	content ''
-	position absolute
-	left -2.5rem
-	top 2px
+.carousel-articleImg
+	position relative
+	left -1.5rem
+	top 0px
 	width 32px
 	height 32px
-	background-size contain
 
-.press-01net:before
-	background url('../images/press/01net.png')
-.press-adn:before
-	background url('../images/press/adn.png')
-.press-bfm:before
-	background url('../images/press/bfm.png')
-.press-canalplus:before
-	background url('../images/press/canal-plus-icon-152x152.png')
-.press-echos:before
-	background url('../images/press/lesechos.ico')
-.press-franceinfo:before
-	background url('../images/press/franceinfo.ico')
-.press-franceinter:before
-	background url('../images/press/franceinter.png')
-.press-jdn:before
-	background url('../images/press/jdn.ico')
-.press-lefigaro:before
-	background url('../images/press/lefigaro.png')
-.press-lepoint:before
-	background url('../images/press/lepoint.ico')
-.press-lesechos:before
-	background url('../images/press/lesechos.jpg')
-.press-numerama:before
-	background url('../images/press/numerama.ico')
-.press-nextinpact:before
-	background url('../images/press/nextinpact.ico')
-.press-techcrunch:before
-	background url('../images/press/techcrunch.ico')
-.press-usbeketrica:before
-	background url('../images/press/usbeketrica.ico')
-.press-usinedigitale:before
-	background url('../images/press/usinedigitale.ico')
-.press-wired:before
-	background url('../images/press/wired.ico')
-
+.slick-slide img
+	display initial !important
 
 .carousel-articleContent
 	font-style italic
