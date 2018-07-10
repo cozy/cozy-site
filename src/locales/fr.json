@@ -635,7 +635,7 @@
     "home press article4 date": "France Info - Février 2018",
     "home press article4 datetime": "2018-02",
     "home press article5 link": "https://www.nextinpact.com/news/105762-cozy-cloud-ouvert-a-tous-on-a-teste-plateforme-stockage-et-reprise-en-main-donnees.htm",
-    "home press article5 title": "Cozy Cloud ouvert à tous : on a testé la plateforme de stockage et de reprise en main des données",
+    "home press article5 title": "Cozy Cloud : on a testé la plateforme de stockage et de reprise en main des données",
     "home press article5 text": "C'est le grand jour pour Cozy. Après des années à développer le service, trouver des financements et des partenaires sur le long terme, penser et repenser la plateforme, ses applications, son modèle économique... le service est ouvert à tous.",
     "home press article5 date": "NextInpact - Janvier 2018",
     "home press article5 datetime": "2018-01",
@@ -897,5 +897,10 @@
     "about timeline Cozy gandi partnership": "Cozy Cloud et Gandi annoncent une offre d'hébergement Cozy sur les serveurs de Gandi.",
     "about timeline Cozy 100 connectors": "100 services sont disponibles pour aider le plus grand nombre à reprendre en main leurs données.",
     "features store apps screenshot": "Cozy Store apps screenshot",
-    "features store services screenshot": "Cozy Store services screenshot"
+    "features store services screenshot": "Cozy Store services screenshot",
+    "press branding text": "Téléchargez nos éléments de marque incluant notre logo, des captures d'écran du produit et des applications Cozy Store, Cozy Banks et Cozy Drive et des photos de notre équipe.",
+    "press blog title": "Blog",
+    "press blog text": "Jetez un oeil à notre blog pour suivre nos défis du quotidien pour permettre à chacun de se réapproprier ses données personnelles !",
+    "press blog cta": "Lire le blog de Cozy Cloud",
+    "home baseline 6": "home baseline 6"
 }
