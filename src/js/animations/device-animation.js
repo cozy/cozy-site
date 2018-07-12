@@ -355,16 +355,16 @@ p.nominalBounds = new cjs.Rectangle(-61,-173.5,122,347);
 
 
 // stage content:
-(lib.anim = function(mode,startPosition,loop) {
+(lib.anim3 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// smartphone (mask)
 	var mask = new cjs.Shape();
 	mask._off = true;
-	var mask_graphics_167 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
-	var mask_graphics_190 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
+	var mask_graphics_359 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
+	var mask_graphics_382 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(167).to({graphics:mask_graphics_167,x:197,y:192.5}).wait(23).to({graphics:mask_graphics_190,x:197,y:192.5}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(359).to({graphics:mask_graphics_359,x:197,y:192.5}).wait(23).to({graphics:mask_graphics_382,x:197,y:192.5}).wait(1));
 
 	// store-mobile
 	this.instance = new lib.Interpoler1("synched",0);
@@ -383,16 +383,16 @@ p.nominalBounds = new cjs.Rectangle(-61,-173.5,122,347);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},168).to({state:[{t:this.instance_1}]},22).wait(1));
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(168).to({_off:false},0).to({_off:true,x:197,y:192.5,alpha:1},22,cjs.Ease.cubicInOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},360).to({state:[{t:this.instance_1}]},22).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(360).to({_off:false},0).to({_off:true,x:197,y:192.5,alpha:1},22,cjs.Ease.cubicInOut).wait(1));
 
 	// laptop (mask)
 	var mask_1 = new cjs.Shape();
 	mask_1._off = true;
-	var mask_1_graphics_167 = new cjs.Graphics().p("A8WFeMAAAgrbMA4tAggMAAAArbg");
-	var mask_1_graphics_190 = new cjs.Graphics().p("Av2MRMAAAgrbMA4tAgfMAAAArcgEgo2gBTMAAAgrdITEKxMAAAArcg");
+	var mask_1_graphics_359 = new cjs.Graphics().p("A8WFeMAAAgrbMA4tAggMAAAArbg");
+	var mask_1_graphics_382 = new cjs.Graphics().p("Av2MRMAAAgrbMA4tAgfMAAAArcgEgo2gBTMAAAgrdITEKxMAAAArcg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:null,x:0,y:0}).wait(167).to({graphics:mask_1_graphics_167,x:477.5,y:349}).wait(23).to({graphics:mask_1_graphics_190,x:397.5,y:305.5}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(mask_1).to({graphics:null,x:0,y:0}).wait(359).to({graphics:mask_1_graphics_359,x:477.5,y:349}).wait(23).to({graphics:mask_1_graphics_382,x:397.5,y:305.5}).wait(1));
 
 	// store-desktop
 	this.instance_2 = new lib.Interpoler7("synched",0);
@@ -411,16 +411,17 @@ p.nominalBounds = new cjs.Rectangle(-61,-173.5,122,347);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_1;
 	}
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_2}]},167).to({state:[{t:this.instance_3}]},22).wait(2));
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(167).to({_off:false},0).to({_off:true,x:477,y:348.5,alpha:1},22,cjs.Ease.cubicInOut).wait(2));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_2}]},359).to({state:[{t:this.instance_3}]},22).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(359).to({_off:false},0).to({_off:true,x:477,y:348.5,alpha:1},22,cjs.Ease.cubicInOut).wait(2));
 
 	// smartphone copy 3 (mask)
 	var mask_2 = new cjs.Shape();
 	mask_2._off = true;
-	var mask_2_graphics_119 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
-	var mask_2_graphics_142 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
+	var mask_2_graphics_263 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
+	var mask_2_graphics_286 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
+	var mask_2_graphics_382 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:null,x:0,y:0}).wait(119).to({graphics:mask_2_graphics_119,x:197,y:192.5}).wait(23).to({graphics:mask_2_graphics_142,x:197,y:192.5}).wait(49));
+	this.timeline.addTween(cjs.Tween.get(mask_2).to({graphics:null,x:0,y:0}).wait(263).to({graphics:mask_2_graphics_263,x:197,y:192.5}).wait(23).to({graphics:mask_2_graphics_286,x:197,y:192.5}).wait(96).to({graphics:mask_2_graphics_382,x:197,y:192.5}).wait(1));
 
 	// photo-mobile
 	this.instance_4 = new lib.Interpoler13("synched",0);
@@ -439,16 +440,17 @@ p.nominalBounds = new cjs.Rectangle(-61,-173.5,122,347);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_2;
 	}
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_4}]},120).to({state:[{t:this.instance_5}]},22).wait(49));
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(120).to({_off:false},0).to({_off:true,x:197,y:192.5,alpha:1},22,cjs.Ease.cubicInOut).wait(49));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_4}]},264).to({state:[{t:this.instance_5}]},22).to({state:[{t:this.instance_5}]},96).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(264).to({_off:false},0).to({_off:true,x:197,y:192.5,alpha:1},22,cjs.Ease.cubicInOut).wait(97));
 
 	// laptop copy 2 (mask)
 	var mask_3 = new cjs.Shape();
 	mask_3._off = true;
-	var mask_3_graphics_119 = new cjs.Graphics().p("A8WFeMAAAgrbMA4tAggMAAAArbg");
-	var mask_3_graphics_142 = new cjs.Graphics().p("Av2MRMAAAgrbMA4tAgfMAAAArcgEgo2gBTMAAAgrdITEKxMAAAArcg");
+	var mask_3_graphics_263 = new cjs.Graphics().p("A8WFeMAAAgrbMA4tAggMAAAArbg");
+	var mask_3_graphics_286 = new cjs.Graphics().p("Av2MRMAAAgrbMA4tAgfMAAAArcgEgo2gBTMAAAgrdITEKxMAAAArcg");
+	var mask_3_graphics_382 = new cjs.Graphics().p("Av2MRMAAAgrbMA4tAgfMAAAArcgEgo2gBTMAAAgrdITEKxMAAAArcg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_3).to({graphics:null,x:0,y:0}).wait(119).to({graphics:mask_3_graphics_119,x:477.5,y:349}).wait(23).to({graphics:mask_3_graphics_142,x:397.5,y:305.5}).wait(49));
+	this.timeline.addTween(cjs.Tween.get(mask_3).to({graphics:null,x:0,y:0}).wait(263).to({graphics:mask_3_graphics_263,x:477.5,y:349}).wait(23).to({graphics:mask_3_graphics_286,x:397.5,y:305.5}).wait(96).to({graphics:mask_3_graphics_382,x:397.5,y:305.5}).wait(1));
 
 	// photo-desktop
 	this.instance_6 = new lib.Interpoler15("synched",0);
@@ -467,17 +469,18 @@ p.nominalBounds = new cjs.Rectangle(-61,-173.5,122,347);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_3;
 	}
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_6}]},119).to({state:[{t:this.instance_7}]},22).wait(50));
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(119).to({_off:false},0).to({_off:true,x:477.1,y:348.5,alpha:1},22,cjs.Ease.cubicInOut).wait(50));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_6}]},263).to({state:[{t:this.instance_7}]},22).to({state:[{t:this.instance_7}]},97).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(263).to({_off:false},0).to({_off:true,x:477.1,y:348.5,alpha:1},22,cjs.Ease.cubicInOut).wait(98));
 
 	// smartphone copy 2 (mask)
 	var mask_4 = new cjs.Shape();
 	mask_4._off = true;
-	var mask_4_graphics_71 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
-	var mask_4_graphics_94 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
-	var mask_4_graphics_142 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
+	var mask_4_graphics_167 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
+	var mask_4_graphics_190 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
+	var mask_4_graphics_238 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
+	var mask_4_graphics_382 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_4).to({graphics:null,x:0,y:0}).wait(71).to({graphics:mask_4_graphics_71,x:197,y:192.5}).wait(23).to({graphics:mask_4_graphics_94,x:197,y:192.5}).wait(48).to({graphics:mask_4_graphics_142,x:197,y:192.5}).wait(49));
+	this.timeline.addTween(cjs.Tween.get(mask_4).to({graphics:null,x:0,y:0}).wait(167).to({graphics:mask_4_graphics_167,x:197,y:192.5}).wait(23).to({graphics:mask_4_graphics_190,x:197,y:192.5}).wait(48).to({graphics:mask_4_graphics_238,x:197,y:192.5}).wait(144).to({graphics:mask_4_graphics_382,x:197,y:192.5}).wait(1));
 
 	// banks-mobile
 	this.instance_8 = new lib.Interpoler9("synched",0);
@@ -496,17 +499,18 @@ p.nominalBounds = new cjs.Rectangle(-61,-173.5,122,347);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_4;
 	}
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_8}]},72).to({state:[{t:this.instance_9}]},22).to({state:[{t:this.instance_9}]},48).wait(49));
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(72).to({_off:false},0).to({_off:true,x:197,y:192.5,alpha:1},22,cjs.Ease.cubicInOut).wait(97));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_8}]},168).to({state:[{t:this.instance_9}]},22).to({state:[{t:this.instance_9}]},48).to({state:[{t:this.instance_9}]},144).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(168).to({_off:false},0).to({_off:true,x:197,y:192.5,alpha:1},22,cjs.Ease.cubicInOut).wait(193));
 
 	// laptop copy (mask)
 	var mask_5 = new cjs.Shape();
 	mask_5._off = true;
-	var mask_5_graphics_71 = new cjs.Graphics().p("A8WFeMAAAgrbMA4tAggMAAAArbg");
-	var mask_5_graphics_94 = new cjs.Graphics().p("Av2MRMAAAgrbMA4tAgfMAAAArcgEgo2gBTMAAAgrdITEKxMAAAArcg");
-	var mask_5_graphics_142 = new cjs.Graphics().p("Av2MRMAAAgrbMA4tAgfMAAAArcgEgo2gBTMAAAgrdITEKxMAAAArcg");
+	var mask_5_graphics_167 = new cjs.Graphics().p("A8WFeMAAAgrbMA4tAggMAAAArbg");
+	var mask_5_graphics_190 = new cjs.Graphics().p("Av2MRMAAAgrbMA4tAgfMAAAArcgEgo2gBTMAAAgrdITEKxMAAAArcg");
+	var mask_5_graphics_238 = new cjs.Graphics().p("Av2MRMAAAgrbMA4tAgfMAAAArcgEgo2gBTMAAAgrdITEKxMAAAArcg");
+	var mask_5_graphics_382 = new cjs.Graphics().p("Av2MRMAAAgrbMA4tAgfMAAAArcgEgo2gBTMAAAgrdITEKxMAAAArcg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_5).to({graphics:null,x:0,y:0}).wait(71).to({graphics:mask_5_graphics_71,x:477.5,y:349}).wait(23).to({graphics:mask_5_graphics_94,x:397.5,y:305.5}).wait(48).to({graphics:mask_5_graphics_142,x:397.5,y:305.5}).wait(49));
+	this.timeline.addTween(cjs.Tween.get(mask_5).to({graphics:null,x:0,y:0}).wait(167).to({graphics:mask_5_graphics_167,x:477.5,y:349}).wait(23).to({graphics:mask_5_graphics_190,x:397.5,y:305.5}).wait(48).to({graphics:mask_5_graphics_238,x:397.5,y:305.5}).wait(144).to({graphics:mask_5_graphics_382,x:397.5,y:305.5}).wait(1));
 
 	// banks-desktop
 	this.instance_10 = new lib.Interpoler11("synched",0);
@@ -525,18 +529,18 @@ p.nominalBounds = new cjs.Rectangle(-61,-173.5,122,347);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_5;
 	}
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_10}]},71).to({state:[{t:this.instance_11}]},22).to({state:[{t:this.instance_11}]},49).wait(49));
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(71).to({_off:false},0).to({_off:true,x:476.5,y:347.5,alpha:1},22,cjs.Ease.cubicInOut).wait(98));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_10}]},167).to({state:[{t:this.instance_11}]},22).to({state:[{t:this.instance_11}]},49).to({state:[{t:this.instance_11}]},144).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(167).to({_off:false},0).to({_off:true,x:476.5,y:347.5,alpha:1},22,cjs.Ease.cubicInOut).wait(194));
 
 	// smartphone copy 4 (mask)
 	var mask_6 = new cjs.Shape();
 	mask_6._off = true;
-	var mask_6_graphics_23 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
-	var mask_6_graphics_46 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
+	var mask_6_graphics_71 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
 	var mask_6_graphics_94 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
-	var mask_6_graphics_190 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
+	var mask_6_graphics_142 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
+	var mask_6_graphics_382 = new cjs.Graphics().p("AphQWMAAAgrcITDKxMAAAArcg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_6).to({graphics:null,x:0,y:0}).wait(23).to({graphics:mask_6_graphics_23,x:197,y:192.5}).wait(23).to({graphics:mask_6_graphics_46,x:197,y:192.5}).wait(48).to({graphics:mask_6_graphics_94,x:197,y:192.5}).wait(96).to({graphics:mask_6_graphics_190,x:197,y:192.5}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(mask_6).to({graphics:null,x:0,y:0}).wait(71).to({graphics:mask_6_graphics_71,x:197,y:192.5}).wait(23).to({graphics:mask_6_graphics_94,x:197,y:192.5}).wait(48).to({graphics:mask_6_graphics_142,x:197,y:192.5}).wait(240).to({graphics:mask_6_graphics_382,x:197,y:192.5}).wait(1));
 
 	// drive-mobile copy
 	this.instance_12 = new lib.Interpoler17("synched",0);
@@ -555,18 +559,18 @@ p.nominalBounds = new cjs.Rectangle(-61,-173.5,122,347);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_6;
 	}
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_12}]},24).to({state:[{t:this.instance_13}]},22).wait(145));
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(24).to({_off:false},0).to({_off:true,x:197,y:192.5,alpha:1},22,cjs.Ease.cubicInOut).wait(145));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_12}]},72).to({state:[{t:this.instance_13}]},22).to({state:[{t:this.instance_13}]},288).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(72).to({_off:false},0).to({_off:true,x:197,y:192.5,alpha:1},22,cjs.Ease.cubicInOut).wait(289));
 
 	// laptop copy 3 (mask)
 	var mask_7 = new cjs.Shape();
 	mask_7._off = true;
-	var mask_7_graphics_23 = new cjs.Graphics().p("A8WFeMAAAgrbMA4tAggMAAAArbg");
-	var mask_7_graphics_46 = new cjs.Graphics().p("Av2MRMAAAgrbMA4tAgfMAAAArcgEgo2gBTMAAAgrdITEKxMAAAArcg");
+	var mask_7_graphics_71 = new cjs.Graphics().p("A8WFeMAAAgrbMA4tAggMAAAArbg");
 	var mask_7_graphics_94 = new cjs.Graphics().p("Av2MRMAAAgrbMA4tAgfMAAAArcgEgo2gBTMAAAgrdITEKxMAAAArcg");
-	var mask_7_graphics_190 = new cjs.Graphics().p("Av2MRMAAAgrbMA4tAgfMAAAArcgEgo2gBTMAAAgrdITEKxMAAAArcg");
+	var mask_7_graphics_142 = new cjs.Graphics().p("Av2MRMAAAgrbMA4tAgfMAAAArcgEgo2gBTMAAAgrdITEKxMAAAArcg");
+	var mask_7_graphics_382 = new cjs.Graphics().p("Av2MRMAAAgrbMA4tAgfMAAAArcgEgo2gBTMAAAgrdITEKxMAAAArcg");
 
-	this.timeline.addTween(cjs.Tween.get(mask_7).to({graphics:null,x:0,y:0}).wait(23).to({graphics:mask_7_graphics_23,x:477.5,y:349}).wait(23).to({graphics:mask_7_graphics_46,x:397.5,y:305.5}).wait(48).to({graphics:mask_7_graphics_94,x:397.5,y:305.5}).wait(96).to({graphics:mask_7_graphics_190,x:397.5,y:305.5}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(mask_7).to({graphics:null,x:0,y:0}).wait(71).to({graphics:mask_7_graphics_71,x:477.5,y:349}).wait(23).to({graphics:mask_7_graphics_94,x:397.5,y:305.5}).wait(48).to({graphics:mask_7_graphics_142,x:397.5,y:305.5}).wait(240).to({graphics:mask_7_graphics_382,x:397.5,y:305.5}).wait(1));
 
 	// drive-desktop copy
 	this.instance_14 = new lib.Interpoler19("synched",0);
@@ -585,22 +589,22 @@ p.nominalBounds = new cjs.Rectangle(-61,-173.5,122,347);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask_7;
 	}
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_14}]},23).to({state:[{t:this.instance_15}]},22).wait(146));
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(23).to({_off:false},0).to({_off:true,x:476.5,y:347.5,alpha:1},22,cjs.Ease.cubicInOut).wait(146));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_14}]},71).to({state:[{t:this.instance_15}]},22).to({state:[{t:this.instance_15}]},289).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(71).to({_off:false},0).to({_off:true,x:476.5,y:347.5,alpha:1},22,cjs.Ease.cubicInOut).wait(290));
 
 	// store-mobile copy
 	this.instance_16 = new lib.Interpoler2("synched",0);
 	this.instance_16.parent = this;
 	this.instance_16.setTransform(197,192.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(190).to({startPosition:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(382).to({startPosition:0},0).wait(1));
 
 	// store-desktop copy
 	this.instance_17 = new lib.Interpoler8("synched",0);
 	this.instance_17.parent = this;
 	this.instance_17.setTransform(477,348.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(190).to({startPosition:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(382).to({startPosition:0},0).wait(1));
 
 	// screens
 	this.shape = new cjs.Shape();
@@ -611,14 +615,14 @@ p.nominalBounds = new cjs.Rectangle(-61,-173.5,122,347);
 	this.shape_1.graphics.f("#FFFFFF").s().p("AphQVMAAAgrbITDKyMAAAArbg");
 	this.shape_1.setTransform(197,192.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_1},{t:this.shape}]},190).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).to({state:[{t:this.shape_1},{t:this.shape}]},382).wait(1));
 
 	// devices
 	this.instance_18 = new lib.devicesx2();
 	this.instance_18.parent = this;
 	this.instance_18.setTransform(0,0,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_18).wait(191));
+	this.timeline.addTween(cjs.Tween.get(this.instance_18).wait(383));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(344.5,402,689,804);
