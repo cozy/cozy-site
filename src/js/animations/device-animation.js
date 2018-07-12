@@ -355,7 +355,7 @@ p.nominalBounds = new cjs.Rectangle(-61,-173.5,122,347);
 
 
 // stage content:
-(lib.anim3 = function(mode,startPosition,loop) {
+(lib.anim = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// smartphone (mask)
