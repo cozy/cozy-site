@@ -902,5 +902,8 @@
     "press blog title": "Blog",
     "press blog text": "Read our blog to discover our daily challenges to help on the way to help everyone gather their data!",
     "press blog cta": "Read Cozy Cloud blog",
-    "header login link": "https://manager.cozycloud.cc/cozy/login?lang=en"
+    "header login link": "https://manager.cozycloud.cc/cozy/login?lang=en",
+    "announcement popup label 1": "We're",
+    "announcement popup label 2": "hiring",
+    "announcement popup label 3": "experts in Tech, Product and Marketing, to help us build our vision. Join us!"
 }
