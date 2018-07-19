@@ -905,5 +905,6 @@
     "header login link": "https://manager.cozycloud.cc/cozy/login?lang=fr",
     "announcement popup label 1": "Nous ",
     "announcement popup label 2": "recrutons ",
-    "announcement popup label 3": "des experts en Tech, Produit & Marketing pour nous aider à réaliser notre ambition. Rejoignez-nous !"
+    "announcement popup label 3": "des experts en Tech, Produit & Marketing pour nous aider à réaliser notre ambition. Rejoignez-nous !",
+    "press blog cta link": "https://blog.cozy.io/fr/"
 }
