@@ -906,5 +906,10 @@
 	"announcement popup label 1": "We're ",
 	"announcement popup label 2": "hiring ",
 	"announcement popup label 3": "experts in Tech, Product and Marketing, to help us build our vision. Join us!",
-	"press blog cta link": "https://blog.cozy.io/en/"
+	"press blog cta link": "https://blog.cozy.io/en/",
+	"legal CNIL title": "CNIL declaration",
+	"legal CNIL text": "CNIL declaration number: 1700083",
+	"legal ToS title": "Cozy Cloud Terms of Services",
+	"legal ToS text": "You can download Cozy Terms of Services here: ",
+	"legal ToS link": "Cozy Cloud Terms of Services"
 }
