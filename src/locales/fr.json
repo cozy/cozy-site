@@ -910,6 +910,10 @@
     "legal CNIL title": "Déclaration CNIL",
     "legal CNIL text": "Déclaration CNIL numéro : 1700083",
     "legal ToS title": "Conditions Générales d'Utilisation de Cozy Cloud",
+<<<<<<< HEAD
     "legal ToS text": "Vous pouvez télécharger les conditions générales d'utilisation ici : ",
+=======
+    "legal ToS text": "Vous pouvez télécharger les conditions générales d'utilisation ici :",
+>>>>>>> b028160c54ac2d2c20344dff05ef03014b693a45
     "legal ToS link": "Conditions Générales d'Utilisation de Cozy Cloud"
 }
