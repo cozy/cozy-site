@@ -18,13 +18,13 @@
     <meta property="og:description" content="{{__ metaDescription }}">
     <meta property="og:locale" content="en_US" />
     <meta property="og:locale:alternate" content="fr_FR" />
-    <meta property="og:image" content="https://cozy.io/en/images/logo-cozy-cloud.jpg">
+    <meta property="og:image" content="{{ pathTo }}/images/logo-cozy-cloud.jpg">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:url" content="http://twitter.com/mycozycloud/">
+    <meta name="twitter:url" content="http://twitter.com/cozycloud/">
     <meta name="twitter:title" content="Cozy Cloud - {{__ metaTitle }}">
     <meta name="twitter:description" content="{{__ metaDescription }}">
-    <meta name="twitter:image" content="https://cozy.io/en/images/logo-cozy-cloud.jpg">
+    <meta name="twitter:image" content="{{ pathTo }}/images/logo-cozy-cloud.jpg">
 
     <link rel="stylesheet" href="{{ pathTo }}/{{ fingerprint.[styles/main.css] }}" media="all">
     {{#if carousel}}
@@ -39,13 +39,13 @@
     <script type="text/plain" data-cookieconsent="preferences">
       window.$crisp=[];window.CRISP_WEBSITE_ID="b35f5596-c313-4529-bff4-8cf274c03cf0";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
     </script>
-		
+
 
   </head>
 
   <body class="{{#if homepage}}is-homepage{{/if}} {{#if fullHeightIntroduction}}is-introductionFullHeight{{/if}} {{#if annexe}}is-annexe{{/if}}">
     {{{ contents }}}
-		
+
 		<script src="{{ pathTo }}/js/main.min.js"></script>
 		{{#if homepage}}
     <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
