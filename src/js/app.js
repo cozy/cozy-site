@@ -6,6 +6,7 @@ $(function() {
 
 	linkToMenu.on('click', function() {
 		$(this).toggleClass('is-active');
+		$('body').toggleClass('has-layer');
 
 		if($menu.hasClass('is-open')) {
 			$menu.removeClass('is-open');
