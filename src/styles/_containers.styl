@@ -3,90 +3,93 @@
 // Apply styles to html, body and main containers classes
 
 body
-  // padding-top .938rem
-  font-family: $ff-common
-  font-size: $fs-base
-  line-height: $lh
-  color: $txt-clr-base
-  background-color: $body-bkg
-  -webkit-font-smoothing: antialiased
-  -moz-osx-font-smoothing: grayscale
+	// padding-top .938rem
+	font-family: $ff-common
+	font-size: $fs-base
+	line-height: $lh
+	color: $txt-clr-base
+	background-color: $body-bkg
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
 
-  &.is-homepage
-    background-color $body-bkg
-    
-  &.has-layer
-  	overflow hidden
+	&.is-homepage
+		background-color $body-bkg
 
-  &.is-introductionFullHeight
-    .introduction
-      padding-top "calc(30vh + %s)"  % $header-height
-      height 100vh
-      +bp-max(md)
-        padding-top "calc(20vh + %s)"  % $header-height
-        height 70vh
+	&.has-layer
+		overflow hidden
 
-  &.is-annexe
-    .introduction
-      margin-bottom $spacer
-      padding-top "calc(25vh + %s)" % $header-height
-      height: "calc(70vh + %s)" % $header-height
-      +bp-min(lg)
-        margin-bottom ($spacer * 1.5)
+	&.is-introductionFullHeight
+		.introduction
+			padding-top "calc(30vh + %s)"  % $header-height
+			height 100vh
+			+bp-max(md)
+				padding-top "calc(20vh + %s)"  % $header-height
+				height 70vh
+
+	&.is-annexe
+		.introduction
+			margin-bottom $spacer
+			padding-top "calc(25vh + %s)" % $header-height
+			height: "calc(70vh + %s)" % $header-height
+			+bp-min(lg)
+				margin-bottom ($spacer * 1.5)
 
 
 // Main content container
 //
 .main
-  min-height 100vh
+	min-height 100vh
 
 .announce + .main
 	padding-top 8rem
+	
+	+bp-max(lg)
+		padding-top 3.75rem
 
 // Default introduction panel
 //
 // ex: homepage
 .introduction
-  position relative
-  padding-top ($header-height + ($spacer * 1.5)) // header height + (default margin * 1.5)
+	position relative
+	padding-top ($header-height + ($spacer * 1.5)) // header height + (default margin * 1.5)
 
 .introduction-content
-  text-align center
-  font-size 16px
-  font-weight bold
-  +bp-min(md)
-    font-size 1.4rem
+	text-align center
+	font-size 16px
+	font-weight bold
+	+bp-min(md)
+		font-size 1.4rem
 
 .introduction-content-alt
-  text-align center
+	text-align center
 
 // Small screen duplicate content
 .introduction-content-duplicated
-  margin-bottom $spacer
-  text-align center
-  color: $txt-clr-highlight
+	margin-bottom $spacer
+	text-align center
+	color: $txt-clr-highlight
 
 .introduction-goTo
-  position absolute
-  bottom 5vh
-  width 100%
-  text-align center
+	position absolute
+	bottom 5vh
+	width 100%
+	text-align center
 
 
 // Full width block
 //
 // Set padding and background colors
 .panel
-  padding $spacer 0
-  +bp-min(lg)
-    padding-top ($spacer * 1.5)
-    padding-bottom ($spacer * 1.5)
-  +bp-max(md)
-    padding $spacer-y 0
+	padding $spacer 0
+	+bp-min(lg)
+		padding-top ($spacer * 1.5)
+		padding-bottom ($spacer * 1.5)
+	+bp-max(md)
+		padding $spacer-y 0
 
-  &.blueBackground
-    background-color $clr-primary
+	&.blueBackground
+		background-color $clr-primary
 
 .banner
-  padding 0
-  background-color rgba(0,0,0,.33)
+	padding 0
+	background-color rgba(0,0,0,.33)
