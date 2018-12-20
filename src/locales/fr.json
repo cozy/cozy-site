@@ -737,9 +737,6 @@
 	"nav feedback url": "https://claudecozycloud.typeform.com/to/e0Ot0K",
 	"nav feedback title": "Donnez votre avis",
 	"press media detail title": "Toutes nos publications presse",
-	"press 2018-12 innovation": "[FR] Cozy Cloud : Lauréat 2018 Grand Prix de l'Innovation",
-	"press 2018-12 innovation link": "/fr/CP-GrandPrixInnovation-20181219.pdf?pk_campaign=pressfrcozy&pk_kwd=Moonshot2040",
-	"press 2018-12 label": "[FR] Cozy Cloud obtient le Label Finance Innovation",
 	"press 2018-10 macg": "[FR] Cozy comparé au projet Solid de Tim Berners Lee",
 	"press 2018-10 twitter": "[EN] Just discovered @SolidMit idea was already invented by a French company @cozycloud.Even the great @timberners_lee can arrive late nowadays.",
 	"press 2018-10 lemonde": "[FR] Cozy et Solid de Tim Berners Lee : même ambition pour un modèle décentralisé article du monde",
@@ -926,5 +923,9 @@
 	"legal ToS text": "Vous pouvez télécharger les conditions générales d'utilisation ici : ",
 	"legal ToS link": "Conditions Générales d'Utilisation de Cozy Cloud",
 	"press release href two": "/fr/2018-06-25-communique-presse-lancement-cozy-store.pdf\n",
-	"press release text two": "Juin 2018 - Cozy Cloud lance une market place : Cozy Store."
+	"press release text two": "Juin 2018 - Cozy Cloud lance une market place : Cozy Store.",
+	"press release text three": "Décembre 2018 - Cozy Cloud obtient le Label Finance Innovation",
+	"press release href three": "https://hello-finance.com/fintech-community-37-nouveaux-labellises-a-decouvrir-pour-cette-8eme-edition/",
+	"press release text four": "Décembre 2018 - Cozy Cloud : Lauréat 2018 Grand Prix de l'Innovation",
+	"press release href four": "/fr/CP-GrandPrixInnovation-20181219.pdf?pk_campaign=pressfrcozy&pk_kwd=Moonshot2040"
 }
