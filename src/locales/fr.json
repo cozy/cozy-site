@@ -67,10 +67,13 @@
 	"nav pricing title": "Tarifs",
 	"about introduction": "Envie d'en savoir plus sur Cozy Cloud, notre histoire, notre business model et notre vision ? Vous êtes au bon endroit ! Commençons par le plus important.",
 	"about vision title": "Notre raison d'être",
-	"about vision content one": "Toutes vos décisions sont en passe d'être conditionnées par vos données depuis l'achat d'une poussette jusqu'à la musique que vous écoutez en passant par le choix du candidat pour lequel vous allez voter. La question politique majeure est donc de décider qui contrôle les données personnelles. Aujourd'hui, les services numériques puisant leur pouvoir dans l'accumulation des données, chez eux et pour eux, il est donc nécessaire de rendre possible une architecture qui décentralise les données. Or, dans une société démocratique, vous êtes le seul à disposer de la légitimité pour accéder et gérer vos données." ,
-	"about vision content two": "C'est précisément notre ambition : permettre une décentralisation à l'échelle de l'individu en lui mettant à disposition son domicile numérique, un cloud personnel dans lequel il peut réunir toutes ses données pour en avoir plus d'usages et de contrôle sans jamais divulguer son intimité numérique. Avec Cozy, nous voulons que les données servent à l'émancipation des individus et non à leur manipulation. Devenus produits, vous retrouvez votre statut de client et de citoyen." ,
+	"about vision content one": "Toutes vos décisions sont en passe d'être conditionnées par vos données depuis l'achat d'une poussette jusqu'à la musique que vous écoutez en passant par le choix du candidat pour lequel vous allez voter. La question politique majeure est donc de décider qui contrôle les données personnelles. Aujourd'hui, les services numériques puisant leur pouvoir dans l'accumulation des données, chez eux et pour eux, il est donc nécessaire de rendre possible une architecture qui décentralise les données. Or, dans une société démocratique, vous êtes le seul à disposer de la légitimité pour accéder et gérer vos données.",
+	"about vision content two": "C'est précisément notre ambition : permettre une décentralisation à l'échelle de l'individu en lui mettant à disposition son domicile numérique, un cloud personnel dans lequel il peut réunir toutes ses données pour en avoir plus d'usages et de contrôle sans jamais divulguer son intimité numérique. Avec Cozy, nous voulons que les données servent à l'émancipation des individus et non à leur manipulation. Devenus produits, vous retrouvez votre statut de client et de citoyen.",
 	"about team title": "L'équipe Cozy Cloud",
-	"about team content": "Nous sommes une équipe de 37 passionnés de développement et du logiciel libre, qui croit fermement à la défense de l'intimité numérique. Notre équipe répartie à 100% en télé-travail pour les développeurs avec des bureaux à Paris construit cette plateforme de demain des quatre coins de la France appuyée par une communauté très active de contributeurs. Notre organisation opérationnelle est structurée autour de 5 pôles agiles pour créer et construire le meilleur produit possible : pôle Technique, pôle Produit, pôle Engagement & Support Client, pôle Sales & Partenariats, pôle HR & Finance. Nous utilisons les technologies Python, Go, Javascript, React, Redux, Ruby et CouchDB pour construire la plateforme de demain.",
+	"about team content 1": "Nous sommes une équipe de 37 passionnés de développement et du logiciel libre, qui croit fermement à la défense de l'intimité numérique.",
+	"about team content 2": "Notre équipe répartie à 100% en télé-travail pour les développeurs avec des bureaux à Paris construit cette plateforme de demain des quatre coins de la France appuyée par une communauté très active de contributeurs.",
+	"about team content 3": "Notre organisation opérationnelle est structurée autour de 5 pôles agiles pour créer et construire le meilleur produit possible : pôle Technique, pôle Produit, pôle Engagement & Support Client, pôle Sales & Partenariats, pôle HR & Finance.",
+	"about team content 4": "Nous utilisons les technologies Python, Go, Javascript, React, Redux, Ruby et CouchDB pour construire la plateforme de demain.",
 	"about team ceo": "Co-fondateur & CEO",
 	"about team cto": "Co-fondateur & CTO",
 	"about team devops": "Devops",
@@ -931,5 +934,6 @@
 	"press release href two": "/fr/2018-06-25-communique-presse-lancement-cozy-store.pdf\n",
 	"press release text two": "Juin 2018 - Cozy Cloud lance une market place : Cozy Store.",
 	"press release text three": "Décembre 2018 - Cozy Cloud : Lauréat 2018 Grand Prix de l'Innovation",
-	"press release href three": "/fr/CP-GrandPrixInnovation-20181219.pdf?pk_campaign=pressfrcozy&pk_kwd=Moonshot2040"
+	"press release href three": "/fr/CP-GrandPrixInnovation-20181219.pdf?pk_campaign=pressfrcozy&pk_kwd=Moonshot2040",
+	"about team content": "about team content"
 }

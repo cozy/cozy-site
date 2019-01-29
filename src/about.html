@@ -12,493 +12,498 @@ from: about
 
 {{> header }}
 
-  <header class="introduction contrast about">
-    <div class="container">
-      <div class="row row-justify-center">
-        <div class="col-xs-22 col-lg-14">
-          <h1 class="introduction-title">{{__ 'about title'}}</h1>
-        </div>
-      </div>
-      <div class="row row-justify-center">
-        <div class="col-xs-22 col-lg-16">
-          <p class="introduction-content-alt">
-            {{__ 'about introduction'}}
-          </p>
-        </div>
-      </div>
-    </div>
-  </header>
+	<header class="introduction contrast about">
+		<div class="container">
+			<div class="row row-justify-center">
+				<div class="col-xs-22 col-lg-14">
+					<h1 class="introduction-title">{{__ 'about title'}}</h1>
+				</div>
+			</div>
+			<div class="row row-justify-center">
+				<div class="col-xs-22 col-lg-16">
+					<p class="introduction-content-alt">
+						{{__ 'about introduction'}}
+					</p>
+				</div>
+			</div>
+		</div>
+	</header>
 
-  <article class="aboutContent">
-    <section class="ourVision">
-      <div class="container">
-        <div class="row row-justify-center">
-          <div class="col-xs-22 col-lg-20">
-            <h2>{{__ 'about vision title'}}</h2>
+	<article class="aboutContent">
+		<section class="ourVision">
+			<div class="container">
+				<div class="row row-justify-center">
+					<div class="col-xs-22 col-lg-20">
+						<h2>{{__ 'about vision title'}}</h2>
 
-            <div class="row">
-              <div class="col-xs-24 col-lg-11">
-                <div class="dropcaps">
-                  <p>{{__ 'about vision content one'}}</p>
-                </div>
-              </div>
-              <div class="col-xs-24 col-lg-11 col-offset-lg-2">
-                <p>{{__ 'about vision content two'}}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+						<div class="row">
+							<div class="col-xs-24 col-lg-11">
+								<div class="dropcaps">
+									<p>{{__ 'about vision content one'}}</p>
+								</div>
+							</div>
+							<div class="col-xs-24 col-lg-11 col-offset-lg-2">
+								<p>{{__ 'about vision content two'}}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <hr class="dash-primary">
+		<hr class="dash-primary">
 
-    <section class="cozyTeam">
-      <div class="container">
-        <div class="row row-justify-center">
-          <div class="col-xs-22 col-lg-18">
-            <h2>{{__ 'about team title'}}</h2>
-            <div class="cozyTeam-content">
-              <p>{{__ 'about team content'}}</p>
-            </div>
-            <figure class="hidden-to-md align-center">
-            	<img class="img-responsive" src="{{ pathTo }}/images/about/word-BA-{{ locale}}.png" alt="">
-            </figure>
-             <section class="panel landingCTA">
-				      <div class="container">
-				        <h2 class="panel-title">
-				            {{__ 'about cta title'}}
-				        </h2>
+		<section class="cozyTeam">
+			<div class="container">
+				<div class="row row-justify-center">
+					<div class="col-xs-22 col-lg-18">
+						<h2>{{__ 'about team title'}}</h2>
+						<div class="cozyTeam-content">
+							<p>{{__ 'about team content 1'}}</p>
+							<p>{{__ 'about team content 2'}}</p>
+							<p>{{__ 'about team content 3'}}</p>
+							<p>{{__ 'about team content 4'}}</p>
+						</div>
+						<a href="https://youtu.be/WKMyx_fN4VU" target="_blank">
+							<figure class="hidden-to-md align-center">
+								<img class="img-responsive" src="{{ pathTo }}/images/about/word-BA-{{ locale}}.png" alt="">
+							</figure>
+						</a>
+						 <section class="panel landingCTA">
+							<div class="container">
+								<h2 class="panel-title">
+										{{__ 'about cta title'}}
+								</h2>
 
-				        <div class="align-center">
-				          <a href="https://www.welcometothejungle.co/companies/cozy-cloud" target="_blank" class="btn btn-primary btn-xl btn-bounce">
-				            {{__ 'about cta button'}}
-				          </a>
-				        </div>
-				      </div>
-				    </section>
-          </div>
-        </div>
-      </div>
-    </section>
+								<div class="align-center">
+									<a href="https://cozy-cloud.welcomekit.co/" target="_blank" class="btn btn-primary btn-xl btn-bounce">
+										{{__ 'about cta button'}}
+									</a>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <section class="ourHistory">
-      <div class="container">
-        <div class="row row-justify-center">
-          <div class="col-xs-20">
-            <h2>{{__ 'about history title'}}</h2>
+		<section class="ourHistory">
+			<div class="container">
+				<div class="row row-justify-center">
+					<div class="col-xs-20">
+						<h2>{{__ 'about history title'}}</h2>
 
-            <ul class="timeline">
-              <li class="timeline-item">
-                <div class="timeline-item-container highlighted withCozyLogo">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months november'}} 2012
-                  </h3>
-                  <p class="timeline-item-content">
-                    {{__ 'about timeline born'}}
-                  </p>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-team.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months february'}} 2013
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline core team'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-documents.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months march'}} 2013
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline mesinfos'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-flag.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months june'}} 2013
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline community'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-medal.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months july'}} 2013
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline leweb'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-clipboard.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months august'}} 2013
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline wired'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-code.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months november'}} 2013
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline v1'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-star.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months may'}} 2014
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline fundraising seed'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-laptop.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months december'}} 2014
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline app v1'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-player.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months january'}} 2015
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline ces'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-buddie.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months march'}} 2015
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline tristan'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-flag.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months april'}} 2015
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline edf'}}
-                  </div>
-                </div>
-              </li>
+						<ul class="timeline">
+							<li class="timeline-item">
+								<div class="timeline-item-container highlighted withCozyLogo">
+									<h3 class="timeline-item-date">
+										{{__ 'months november'}} 2012
+									</h3>
+									<p class="timeline-item-content">
+										{{__ 'about timeline born'}}
+									</p>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-team.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months february'}} 2013
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline core team'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-documents.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months march'}} 2013
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline mesinfos'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-flag.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months june'}} 2013
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline community'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-medal.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months july'}} 2013
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline leweb'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-clipboard.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months august'}} 2013
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline wired'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-code.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months november'}} 2013
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline v1'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-star.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months may'}} 2014
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline fundraising seed'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-laptop.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months december'}} 2014
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline app v1'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-player.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months january'}} 2015
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline ces'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-buddie.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months march'}} 2015
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline tristan'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-flag.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months april'}} 2015
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline edf'}}
+									</div>
+								</div>
+							</li>
 
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-screen.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months june'}} 2015
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline v2'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-cup.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months september'}} 2015
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline bitnami'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-flag.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months december'}} 2015
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline pine64'}}
-                  </div>
-                </div>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-flag.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months january'}} 2016
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline gandi'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-flag.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months february'}} 2016
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline hosting providers'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-star.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months june'}} 2016
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline fundraising a round'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-star.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months november'}} 2016
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline rewrite cozy in Go'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-screen.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months june'}} 2017
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline launching beta FENS'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-code.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months june'}} 2017
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline launching konnector program'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-player.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months june'}} 2017
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline VIVA Tech'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-code.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months september'}} 2017
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline self-hosting available'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-clipboard.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months december'}} 2017
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline Cozy Google trial'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-screen.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months january'}} 2018
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline Cozy official launch'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-flag.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months may'}} 2018
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline gdpr live'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-screen.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months june'}} 2018
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline Cozy store launch'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-screen.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months june'}} 2018
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline Cozy 100 connectors'}}
-                  </div>
-                </div>
-              </li>
-              <!-- <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-flag.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months july'}} 2018
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline Cozy gandi partnership'}}
-                  </div>
-                </div>
-              </li> -->
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-cup.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months december'}} 2018
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline Cozy innovation price'}}
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-item">
-                <div class="timeline-item-bullet">
-                  <img src="{{ pathTo }}/images/icon-cup.svg" alt="">
-                </div>
-                <div class="timeline-item-container">
-                  <h3 class="timeline-item-date">
-                    {{__ 'months december'}} 2018
-                  </h3>
-                  <div class="timeline-item-content">
-                    {{__ 'about timeline Cozy innovation label'}}
-                  </div>
-                </div>
-              </li>
-            </ul>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-screen.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months june'}} 2015
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline v2'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-cup.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months september'}} 2015
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline bitnami'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-flag.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months december'}} 2015
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline pine64'}}
+									</div>
+								</div>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-flag.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months january'}} 2016
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline gandi'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-flag.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months february'}} 2016
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline hosting providers'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-star.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months june'}} 2016
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline fundraising a round'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-star.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months november'}} 2016
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline rewrite cozy in Go'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-screen.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months june'}} 2017
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline launching beta FENS'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-code.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months june'}} 2017
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline launching konnector program'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-player.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months june'}} 2017
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline VIVA Tech'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-code.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months september'}} 2017
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline self-hosting available'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-clipboard.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months december'}} 2017
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline Cozy Google trial'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-screen.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months january'}} 2018
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline Cozy official launch'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-flag.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months may'}} 2018
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline gdpr live'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-screen.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months june'}} 2018
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline Cozy store launch'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-screen.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months june'}} 2018
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline Cozy 100 connectors'}}
+									</div>
+								</div>
+							</li>
+							<!-- <li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-flag.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months july'}} 2018
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline Cozy gandi partnership'}}
+									</div>
+								</div>
+							</li> -->
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-cup.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months december'}} 2018
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline Cozy innovation price'}}
+									</div>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-item-bullet">
+									<img src="{{ pathTo }}/images/icon-cup.svg" alt="">
+								</div>
+								<div class="timeline-item-container">
+									<h3 class="timeline-item-date">
+										{{__ 'months december'}} 2018
+									</h3>
+									<div class="timeline-item-content">
+										{{__ 'about timeline Cozy innovation label'}}
+									</div>
+								</div>
+							</li>
+						</ul>
 
-            <figure class="hidden-to-md align-center">
-            	<img class="img-responsive" src="{{ pathTo }}/images/about/history.png" alt="">
-            </figure>
-          </div>
-        </div>
-      </div>
-    </section>
+						<figure class="hidden-to-md align-center">
+							<img class="img-responsive" src="{{ pathTo }}/images/about/history.png" alt="">
+						</figure>
+					</div>
+				</div>
+			</div>
+		</section>
 
-  </article>
+	</article>
 
 {{> footer }}
