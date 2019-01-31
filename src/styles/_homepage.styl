@@ -234,6 +234,169 @@
 	font-size .8rem
 	font-weight bold
 
+.testimonies
+	position relative
+	background-color $clr-light
+	padding 4rem 0
+	
+	+bp-min(lg-hg)
+		margin-top 6rem
+	
+	+bp-min(lg)
+		margin-top 1rem
+
+.wave
+	position absolute
+	left 0
+	right 0
+	height 4rem
+	
+	+bp-min(lg-hg)
+		height 10rem
+		
+	+bp-min(lg)
+		height 14.5rem
+
+.wave--top
+	--primaryColor $clr-lighter
+	--secondaryColor $clr-light
+	top 0
+	
+	+bp-min(lg-hg)
+		top -7rem
+		
+	+bp-min(lg)
+		top -8rem
+
+.wave--bottom
+	--primaryColor $clr-light
+	--secondaryColor $clr-primary
+	bottom -1px
+	
+	+bp-min(lg-hg)
+		bottom -7rem
+		
+	+bp-min(lg)
+		bottom -8rem
+
+.testimonies-title
+	position relative
+	margin-bottom 1rem
+	padding 0 1rem
+	text-align center
+	font-size 1.5rem
+	
+	+bp-min(lg-hg)
+		font-size 2.5rem
+
+.testimonies-subtitle
+	position relative
+	margin-bottom 3rem
+	padding 0 1rem
+	line-height 1.6
+	color $clr-darkgrey
+	text-align center
+	font-size 1rem
+	
+	+bp-min(lg-hg)
+		font-size 1.25rem
+
+.testimonies-list
+	display flex
+	flex-direction row
+	flex-wrap wrap
+	justify-content center
+	align-items stretch
+	margin 0 auto
+
+	+bp-min(lg-hg)
+		justify-content space-between
+		max-width 40rem
+
+	+bp-min(lg)
+		max-width 60rem
+
+.testimonies-item
+	display flex
+	flex-direction column
+	justify-content space-between
+	position relative
+	border: 1px solid $clr-lightgrey
+	background-color $clr-lighter
+	flex 0 1 18rem
+	margin 0 2rem 1rem
+	border-radius .25rem
+	padding 1rem
+	color $clr-darkgrey
+	line-height 1.5
+
+	+bp-min(lg-hg)
+		margin 0 auto 3rem
+		
+		&:nth-child(odd)
+			top 2.5rem
+
+	+bp-min(lg)
+		margin 0 1.5rem 4.5rem
+		
+		&:nth-child(-n+3)
+			left -.75rem
+
+		&:nth-child(n+4)
+			left .75rem
+
+		&:first-child
+		&:nth-child(4)
+			top 1.5rem
+			margin-left 0
+			
+		&:last-child
+		&:nth-child(3)
+			top 1.5rem
+			margin-right 0
+
+		&:nth-child(2)
+			top -1rem
+
+		&:nth-child(5)
+			top -2.5rem
+			
+.testimonies-author
+	font-weight bold
+	
+.testimonies-medium
+	span
+	a:link
+		display inline-flex
+		align-items center
+		
+		&:before
+			content ''
+			display inline-block
+			margin-right .25rem
+			width 1rem
+			height 1rem
+			background url('../images/testimony/icon-mail.svg') left center / contain no-repeat
+
+	a:link
+		font-weight bold
+
+		&.testimonies-twitter:before
+			background-image url('../images/testimony/icon-twitter.svg')
+
+		&.testimonies-mastodon:before
+			background-image url('../images/testimony/icon-mastodon.svg')
+
+		&.testimonies-playstore:before
+			background-image url('../images/testimony/icon-playstore.svg')
+
+		&.testimonies-apple:before
+			background-image url('../images/testimony/icon-apple.svg')
+
+		&.testimonies-comment:before
+			background-image url('../images/testimony/icon-comment.svg')
+
+
 .testimony
 	margin-bottom 1.75rem
 	justify-content center
@@ -340,6 +503,8 @@
 			height 2.5rem
 
 .values
+	position relative
+	z-index 1
 	+bp-max(lg)
 		img
 			width 4.375rem
