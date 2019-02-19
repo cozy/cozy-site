@@ -109,13 +109,14 @@ body
 
 // Banner
 .banner
-	background $clr-primary url('../images/landing/cover.png') top center / cover no-repeat
+	background $clr-lightgrey url('../images/landing/cover-mobile.jpg') top left / cover no-repeat
 	min-height 22.5rem
 	display flex
 	align-items center
 	justify-content center
 
 	+bp-min(md-lg)
+		background $clr-lightgrey url('../images/landing/cover.jpg') top center / cover no-repeat
 		min-height 30rem
 
 .banner-wrapper
