@@ -151,6 +151,60 @@
 			+bp-max(md)
 				width 100%
 
+// Features
+.featuresPage
+	.introduction-title
+		font-size 4rem
+
+		+bp-max(lg)
+			font-size 3rem
+
+	.introduction-subtitle
+		font-size 1.5rem
+		line-height 1.3
+
+		+bp-max(lg)
+			font-size 1rem
+
+	.introduction-cta
+		position absolute
+		top 100%
+		left 50%
+		width 100%
+		transform translateX(-50%) translateY(-50%)
+		background-color $clr-success
+		border-color $clr-success
+		max-width 32rem
+
+	.feature-app
+		margin-bottom 1rem
+
+	.feature-app-icon
+		width 4rem
+		height 4rem
+
+	.feature-app-name
+		margin-top .5rem
+		color $clr-darkbase
+		font-weight bold
+		text-transform uppercase
+
+	.feature-app-store
+		margin-top 4rem
+
+		h2
+			margin-bottom 2rem
+			font-size 1.25rem
+
+		a
+			display inline-block
+			margin 0 .5rem
+
+			img
+				width 10rem
+
+	.panel-title
+		line-height 1.3
 
 // Business
 .business
