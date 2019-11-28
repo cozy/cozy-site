@@ -443,7 +443,7 @@
 	"home business title": "CDO, CMO : Découvrez comment Cozy Cloud peut vous aider dans votre transformation numérique !",
 	"home business CTA": "en savoir plus",
 	"announcement popup label": "Sweet Home Cozy Cloud ! La nouvelle page d'accueil est arrivée. Connectez-vous pour la découvrir !",
-	"announcement popup url": "https://manager.cozycloud.cc/cozy/login?lang=fr",
+	"announcement popup url": "/pricing/",
 	"footer subscribe language en": ".",
 	"footer subscribe language fr": "checked",
 	"lost title": "Perdu !",
