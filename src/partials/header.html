@@ -13,7 +13,10 @@
 				 <img src="{{ pathTo }}/images/apps/cozy-bank.svg" alt=""> 
 			</div> -->
 			<div class="announcement-text">
-				<a href="{{ pathTo }}/{{__ 'announcement popup url'}}" target="_blank">{{__ 'announcement popup label'}} →</a>
+				<a href="{{__ 'announcement popup url'}}" target="_blank">
+					<img style='height: 1rem' src="{{ pathTo }}/images/apps/cozy-notes.svg" alt="Cozy Notes" />
+					{{__ 'announcement popup label'}} →
+				</a>
 			</div>
 		</aside>
 
@@ -33,11 +36,22 @@
             </span>
 						<ul class="submenu-level">
 							<li class="submenu-listItem">
+								<a href="https://manager.cozycloud.cc/cozy/login?lang={{ locale }}">
+									<div class="submenu-item">
+										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-notes.svg" alt="Cozy Notes" /></div>
+										<div>
+											<h2 class="submenu-itemTitle"><img src="{{ pathTo }}/images/icons/icon-new.svg" class="icon-new"> {{__ 'features notes name'}}</h2>
+											<p class="submenu-itemDesc">{{__ 'features notes title'}}</p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="submenu-listItem">
 								<a href="/{{ locale }}/features/#bank">
 									<div class="submenu-item">
 										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-bank.svg" alt=""></div>
 										<div>
-											<h2 class="submenu-itemTitle"><img src="{{ pathTo }}/images/icons/icon-new.svg" class="icon-new"> {{__ 'features bank name'}}</h2>
+											<h2 class="submenu-itemTitle"> {{__ 'features bank name'}}</h2>
 											<p class="submenu-itemDesc">{{__ 'features bank title'}}</p>
 										</div>
 									</div>
