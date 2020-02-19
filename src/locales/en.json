@@ -485,6 +485,8 @@
   "home usage text 4-1": "Takes notes anywhere and save them in your Cozy",
   "home usage text 4-2": "Share ideas, meeting notes, lessons and to-do lists",
   "home usage text 4-3": "with anyone in a secure and private space.",
+  "home usage title 5": "Never forget another password",
+  "home usage text 5": "Save your passwords and log in to sites with a single click. Cozy Pass remembers and synchronises all your passwords for you. By installing the password manager, your digital life will be more secure and simple.",
   "home usage cta 1": "Learn more",
   "home testimony 1": "Migrating everything from @Dropbox + @Cryptomator to @cozycloud. Wonderful product so far.",
   "home testimony 1 author": "Guillaume M.",
@@ -580,6 +582,7 @@
   "Learn more Banks": "About Cozy Banks",
   "Learn more Sync": "Sync all your devices",
   "Learn more Notes": "Create your first note",
+  "Learn more Pass": "Install the password manager",
   "footer love text": "Made with ❤️ in France not in California.",
   "sync share feature timeline photo screenshot": "Timeline of Cozy Photos",
   "sync share features drive screenshot": "View of Cozy Drive",
@@ -944,7 +947,5 @@
   "press release text three": "December 2018 - Cozy Cloud : 2018 Award Winner Innovation Grand Prix",
   "press release href three": "https://www.grandsprixinnovation.paris/en/page/284-relive-the-2018-edition-grands-prix-de-linnovation.html?pk_campaign=pressencozy&pk_kwd=Moonshot2040",
   "home\n            usage text 4-3": "home\n            usage text 4-3",
-  "home usage title 5": "home usage title 5",
-  "home usage text 5": "home usage text 5",
   "Learn more Pass": "Learn more Pass"
 }
