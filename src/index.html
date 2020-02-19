@@ -15,288 +15,394 @@ from: home
 
 {{> header }}
 
-	<header class="introduction homepage {{ locale }}">
-		<div class="introduction-container container">
-			<div class="introduction-desc">
-				<h1 class="introduction-title">{{__ 'home main title'}}<br/>{{__ 'home secondary title'}}</h1>
-				<div class="introduction-content">
-					{{__ 'home sub title 1'}}<br/>
-					{{__ 'home sub title 2'}}
-					<!--<div class="introduction-slider catchphrase">
+<header class="introduction homepage {{ locale }}">
+  <div class="introduction-container container">
+    <div class="introduction-desc">
+      <h1 class="introduction-title">
+        {{__ 'home main title'}}<br />{{__ 'home secondary title'}}
+      </h1>
+      <div class="introduction-content">
+        {{__ 'home sub title 1'}}<br />
+        {{__ 'home sub title 2'}}
+        <!--<div class="introduction-slider catchphrase">
 						<div class="introduction-slide">{{__ 'home baseline 1'}}</div>
 						<div class="introduction-slide">{{__ 'home baseline 2'}}</div>
 						<div class="introduction-slide">{{__ 'home baseline 3'}}</div>
 						<div class="introduction-slide">{{__ 'home baseline 4'}}</div>
 						<div class="introduction-slide">{{__ 'home baseline 5'}}</div>
 					</div>-->
-				</div>
-				<div class="standoutCTA-CTA">
-					<div>
-						<a href="{{__ 'pricing basic link'}}" class="btn btn-primary btn-xl btn-bounce">
-							{{__ 'pricing basic CTA'}}
-						</a>
-					</div>
-					<p class="standoutCTA-reassurance">{{__ 'home reassurance text'}}</p>
-				</div>
-				<div class="stores">
-					<a href="{{__ 'home store apple'}}" target="_blank" class="btn-store" ><img src="{{ pathTo }}/images/icon-apple.svg" alt="Apple Store"></a>
-					<a href="{{__ 'home store android'}}" target="_blank" class="btn-store" ><img src="{{ pathTo }}/images/icon-android.svg" alt="Play Store"></a>
-					<a href="{{__ 'home store desktop'}}" target="_blank" class="btn-store" ><img src="{{ pathTo }}/images/icon-laptop2.svg" alt="Desktop"></a>
-				</div>
-			</div>
-			<div id="introcanvas" class="introduction-canvas">
-				{{> home-animation}}
-			</div>
-		</div>
-	</header>
+      </div>
+      <div class="standoutCTA-CTA">
+        <div>
+          <a
+            href="{{__ 'pricing basic link'}}"
+            class="btn btn-primary btn-xl btn-bounce"
+          >
+            {{__ 'pricing basic CTA'}}
+          </a>
+        </div>
+        <p class="standoutCTA-reassurance">{{__ 'home reassurance text'}}</p>
+      </div>
+      <div class="stores">
+        <a href="{{__ 'home store apple'}}" target="_blank" class="btn-store"
+          ><img src="{{ pathTo }}/images/icon-apple.svg" alt="Apple Store"
+        /></a>
+        <a href="{{__ 'home store android'}}" target="_blank" class="btn-store"
+          ><img src="{{ pathTo }}/images/icon-android.svg" alt="Play Store"
+        /></a>
+        <a href="{{__ 'home store desktop'}}" target="_blank" class="btn-store"
+          ><img src="{{ pathTo }}/images/icon-laptop2.svg" alt="Desktop"
+        /></a>
+      </div>
+    </div>
+    <div id="introcanvas" class="introduction-canvas">
+      {{> home-animation}}
+    </div>
+  </div>
+</header>
 
-	<section>
-		<div class="panel panel--layer grey-background">
-			<div class="container">
-				<div class="row-justify-center reco">
-					<div class="col-xs-24 col-md-lg-8 align-center">
-						<h4>{{__ 'home reco title 1'}}</h4>
-						<div class="laurels ">
-							<div class="stars">
-								<img class="star" src="{{ pathTo }}/images/icon-starnote--full.svg" alt="1">
-								<img class="star" src="{{ pathTo }}/images/icon-starnote--full.svg" alt="2">
-								<img class="star" src="{{ pathTo }}/images/icon-starnote--full.svg" alt="3">
-								<img class="star" src="{{ pathTo }}/images/icon-starnote--full.svg" alt="4">
-								<img class="star" src="{{ pathTo }}/images/icon-starnote--half.svg" alt="5">
-							</div>
-							<div class="laurels-info">
-								{{__ 'home reco text 1'}}
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-24 col-md-lg-8 align-center">
-						<h4>{{__ 'home reco title 2'}}</h4>
-						<div class="row-justify-center reco-media">
-							<div class="col align-center">
-								<a href="{{ pathTo }}/press/"><img src="{{ pathTo }}/images/press/logo-bfmtv-2017.svg" alt="BFM"></a>
-								BFM TV
-							</div>
-							<div class="col align-center">
-								<a href="{{ pathTo }}/press/"><img src="{{ pathTo }}/images/press/france-info.svg" alt="France Info"></a>
-								France Info
-							</div>
-							<div class="col align-center">
-								<a href="{{ pathTo }}/press/"><img src="{{ pathTo }}/images/press/tc.svg" alt="TechCrunch"></a>
-								Tech&thinsp;Crunch
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-24 col-md-lg-8 align-center">
-						<h4>{{__ 'home reco title 3'}}</h4>
-						<div class="row-justify-center reco-values">
-							<div class="col align-center">
-								<img src="{{ pathTo }}/images/icon-gdpr.svg" alt="GDPR">
-								{{__ 'home reco text 3-1'}}
-							</div>
-							<div class="col align-center">
-								<img src="{{ pathTo }}/images/icon-privacy.svg" alt="Privacy">
-								{{__ 'home reco text 3-2'}}
-							</div>
-							<div class="col align-center">
-								<img src="{{ pathTo }}/images/icon-open-source.svg" alt="Open source">
-								{{__ 'home reco text 3-3'}}
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+<section>
+  <div class="panel panel--layer grey-background">
+    <div class="container">
+      <div class="row-justify-center reco">
+        <div class="col-xs-24 col-md-lg-8 align-center">
+          <h4>{{__ 'home reco title 1'}}</h4>
+          <div class="laurels ">
+            <div class="stars">
+              <img
+                class="star"
+                src="{{ pathTo }}/images/icon-starnote--full.svg"
+                alt="1"
+              />
+              <img
+                class="star"
+                src="{{ pathTo }}/images/icon-starnote--full.svg"
+                alt="2"
+              />
+              <img
+                class="star"
+                src="{{ pathTo }}/images/icon-starnote--full.svg"
+                alt="3"
+              />
+              <img
+                class="star"
+                src="{{ pathTo }}/images/icon-starnote--full.svg"
+                alt="4"
+              />
+              <img
+                class="star"
+                src="{{ pathTo }}/images/icon-starnote--half.svg"
+                alt="5"
+              />
+            </div>
+            <div class="laurels-info">
+              {{__ 'home reco text 1'}}
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-24 col-md-lg-8 align-center">
+          <h4>{{__ 'home reco title 2'}}</h4>
+          <div class="row-justify-center reco-media">
+            <div class="col align-center">
+              <a href="{{ pathTo }}/press/"
+                ><img
+                  src="{{ pathTo }}/images/press/logo-bfmtv-2017.svg"
+                  alt="BFM"
+              /></a>
+              BFM TV
+            </div>
+            <div class="col align-center">
+              <a href="{{ pathTo }}/press/"
+                ><img
+                  src="{{ pathTo }}/images/press/france-info.svg"
+                  alt="France Info"
+              /></a>
+              France Info
+            </div>
+            <div class="col align-center">
+              <a href="{{ pathTo }}/press/"
+                ><img src="{{ pathTo }}/images/press/tc.svg" alt="TechCrunch"
+              /></a>
+              Tech&thinsp;Crunch
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-24 col-md-lg-8 align-center">
+          <h4>{{__ 'home reco title 3'}}</h4>
+          <div class="row-justify-center reco-values">
+            <div class="col align-center">
+              <img src="{{ pathTo }}/images/icon-gdpr.svg" alt="GDPR" />
+              {{__ 'home reco text 3-1'}}
+            </div>
+            <div class="col align-center">
+              <img src="{{ pathTo }}/images/icon-privacy.svg" alt="Privacy" />
+              {{__ 'home reco text 3-2'}}
+            </div>
+            <div class="col align-center">
+              <img
+                src="{{ pathTo }}/images/icon-open-source.svg"
+                alt="Open source"
+              />
+              {{__ 'home reco text 3-3'}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-	<section class="usage">
-		<div class="panel">
-			<h2 class="usage-title">{{__ 'home usage title'}}</h2>
-		</div>
-		<div class="panel">
-			<div class="usage-wrapper">
-				<div class="usage-text">
-					<div>
-						<h3 class="h2" data-step="1">
-							<span>{{__ 'home usage title 1'}}</span>
-						</h3>
-						<p>{{__ 'home usage text 1-1'}} <b>{{__ 'home usage text 1-2'}}</b> {{__ 'home usage text 1-3'}}</p>
-						<a href="{{ pathTo }}/features#collector">
-							<img src="{{ pathTo }}/images/apps/cozy-drive.svg" alt="">
-							{{__ 'Learn more Drive'}} →
-						</a>
-					</div>
-				</div>
-				<div class="usage-image usage-drive"></div>
-			</div>
-		</div>
-		<div class="panel">
-			<div class="usage-wrapper usage-reverse">
-				<div class="usage-text">
-					<div>
-						<h3 class="h2" data-step="2">
-							<span>{{__ 'home usage title 2'}}</span>
-						</h3>
-						<p>{{__ 'home usage text 2-1'}} <b>{{__ 'home usage text 2-2'}}</b> {{__ 'home usage text 2-3'}}</p>
-						<a href="{{ pathTo }}/features#bank">
-							<img src="{{ pathTo }}/images/apps/cozy-bank.svg" alt="">
-							{{__ 'Learn more Banks'}} →
-						</a>
-					</div>
-				</div>
-				<div class="usage-image usage-bank"></div>
-			</div>
-		</div>
-		<div class="panel">
-			<div class="usage-wrapper">
-				<div class="usage-text">
-					<div>
-						<h3 class="h2" data-step="3">
-							<span>{{__ 'home usage title 3'}}</span>
-						</h3>
-						<p>{{__ 'home usage text 3-1'}} <b>{{__ 'home usage text 3-2'}}</b> {{__ 'home usage text 3-3'}}</p>
-						<a href="https://cozy.io/{{ locale }}/download/">
-							<img src="{{ pathTo }}/images/apps/cozy-sync.svg" alt="">
-							{{__ 'Learn more Sync'}} →
-						</a>
-					</div>
-				</div>
-				<div class="usage-image usage-sync"></div>
-			</div>
-		</div>
-		<div class="panel">
-			<div class="usage-wrapper usage-reverse">
-				<div class="usage-text">
-					<div>
-						<h3 class="h2" data-step="4">
-							<span>{{__ 'home usage title 4'}}</span>
-						</h3>
-						<p>{{__ 'home usage text 4-1'}} {{__ 'home usage text 4-2'}} {{__ 'home usage text 4-3'}}</p>
-						<a href="https://manager.cozycloud.cc/cozy/login?lang={{ locale }}">
-							<img src="{{ pathTo }}/images/apps/cozy-notes.svg" alt="">
-							{{__ 'Learn more Notes'}} →
-						</a>
-					</div>
-				</div>
-				<div class="usage-image usage-notes"></div>
-			</div>
-		</div>
-	</section>
+<section class="usage">
+  <div class="panel">
+    <h2 class="usage-title">{{__ 'home usage title'}}</h2>
+  </div>
+  <div class="panel">
+    <div class="usage-wrapper">
+      <div class="usage-text">
+        <div>
+          <h3 class="h2" data-step="1">
+            <span>{{__ 'home usage title 1'}}</span>
+          </h3>
+          <p>
+            {{__ 'home usage text 1-1'}}
+            <b>{{__ 'home usage text 1-2'}}</b> {{__ 'home usage text 1-3'}}
+          </p>
+          <a href="{{ pathTo }}/features#collector">
+            <img src="{{ pathTo }}/images/apps/cozy-drive.svg" alt="" />
+            {{__ 'Learn more Drive'}} →
+          </a>
+        </div>
+      </div>
+      <div class="usage-image usage-drive"></div>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="usage-wrapper usage-reverse">
+      <div class="usage-text">
+        <div>
+          <h3 class="h2" data-step="2">
+            <span>{{__ 'home usage title 2'}}</span>
+          </h3>
+          <p>
+            {{__ 'home usage text 2-1'}}
+            <b>{{__ 'home usage text 2-2'}}</b> {{__ 'home usage text 2-3'}}
+          </p>
+          <a href="{{ pathTo }}/features#bank">
+            <img src="{{ pathTo }}/images/apps/cozy-bank.svg" alt="" />
+            {{__ 'Learn more Banks'}} →
+          </a>
+        </div>
+      </div>
+      <div class="usage-image usage-bank"></div>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="usage-wrapper">
+      <div class="usage-text">
+        <div>
+          <h3 class="h2" data-step="3">
+            <span>{{__ 'home usage title 3'}}</span>
+          </h3>
+          <p>
+            {{__ 'home usage text 3-1'}}
+            <b>{{__ 'home usage text 3-2'}}</b> {{__ 'home usage text 3-3'}}
+          </p>
+          <a href="https://cozy.io/{{ locale }}/download/">
+            <img src="{{ pathTo }}/images/apps/cozy-sync.svg" alt="" />
+            {{__ 'Learn more Sync'}} →
+          </a>
+        </div>
+      </div>
+      <div class="usage-image usage-sync"></div>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="usage-wrapper usage-reverse">
+      <div class="usage-text">
+        <div>
+          <h3 class="h2" data-step="4">
+            <span>{{__ 'home usage title 4'}}</span>
+          </h3>
+          <p>
+            {{__ 'home usage text 4-1'}} {{__ 'home usage text 4-2'}} {{__ 'home usage text 4-3'}}
+          </p>
+          <a href="https://manager.cozycloud.cc/cozy/login?lang={{ locale }}">
+            <img src="{{ pathTo }}/images/apps/cozy-notes.svg" alt="" />
+            {{__ 'Learn more Notes'}} →
+          </a>
+        </div>
+      </div>
+      <div class="usage-image usage-notes"></div>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="usage-wrapper">
+      <div class="usage-text">
+        <div>
+          <h3 class="h2" data-step="5">
+            <span>{{__ 'home usage title 5'}}</span>
+          </h3>
+          <p>
+            {{__ 'home usage text 5'}}
+          </p>
+          <a href="https://manager.cozycloud.cc/cozy/login?lang={{ locale }}">
+            <img src="{{ pathTo }}/images/apps/cozy-pass.svg" alt="" />
+            {{__ 'Learn more Pass'}} →
+          </a>
+        </div>
+      </div>
+      <div class="usage-image usage-pass"></div>
+    </div>
+  </div>
+</section>
 
-	<section>
-		<div class="panel">
-			<div class="container">
-				<div class="row-justify-center values">
-					<div class="col-xs-24 col-md-lg-8 values-col align-center">
-						<figure>
-							<img src="{{ pathTo }}/images/icon-secure.svg" alt="">
-						</figure>
-						<div>
-							<h3>{{__ 'home value proposition 1'}}</h3>
-							<p>{{__ 'home value proposition text 1'}}</p>
-							<a href="{{ pathTo }}/privacy/">{{__ 'Learn more'}} →</a>
-						</div>
-					</div>
-					<div class="col-xs-24 col-md-lg-8 values-col align-center">
-						<figure>
-							<img src="{{ pathTo }}/images/icon-cocorico.svg" alt="">
-						</figure>
-						<div>
-							<h3>{{__ 'home value proposition 2'}}</h3>
-							<p>{{__ 'home value proposition text 2'}}</p>
-							<a href="https://support.cozy.io/article/303-ou-sont-heberges-vos-serveurs">{{__ 'Learn more'}} →</a>
-						</div>
-					</div>
-					<div class="col-xs-24 col-md-lg-8 values-col align-center">
-						<figure>
-							<img src="{{ pathTo }}/images/icon-piggy.svg" alt="">
-						</figure>
-						<div>
-							<h3>{{__ 'home value proposition 3'}}</h3>
-							<p>{{__ 'home value proposition text 3'}}</p>
-							<a href="{{ pathTo }}/pricing/">{{__ 'Learn more'}} →</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+<section>
+  <div class="panel">
+    <div class="container">
+      <div class="row-justify-center values">
+        <div class="col-xs-24 col-md-lg-8 values-col align-center">
+          <figure>
+            <img src="{{ pathTo }}/images/icon-secure.svg" alt="" />
+          </figure>
+          <div>
+            <h3>{{__ 'home value proposition 1'}}</h3>
+            <p>{{__ 'home value proposition text 1'}}</p>
+            <a href="{{ pathTo }}/privacy/">{{__ 'Learn more'}} →</a>
+          </div>
+        </div>
+        <div class="col-xs-24 col-md-lg-8 values-col align-center">
+          <figure>
+            <img src="{{ pathTo }}/images/icon-cocorico.svg" alt="" />
+          </figure>
+          <div>
+            <h3>{{__ 'home value proposition 2'}}</h3>
+            <p>{{__ 'home value proposition text 2'}}</p>
+            <a
+              href="https://support.cozy.io/article/303-ou-sont-heberges-vos-serveurs"
+              >{{__ 'Learn more'}} →</a
+            >
+          </div>
+        </div>
+        <div class="col-xs-24 col-md-lg-8 values-col align-center">
+          <figure>
+            <img src="{{ pathTo }}/images/icon-piggy.svg" alt="" />
+          </figure>
+          <div>
+            <h3>{{__ 'home value proposition 3'}}</h3>
+            <p>{{__ 'home value proposition text 3'}}</p>
+            <a href="{{ pathTo }}/pricing/">{{__ 'Learn more'}} →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-	<section class="testimonies">
-		{{> wave}}
-		<svg class="wave wave--top" width="100%" aria-hidden="true" focusable="false" viewbox="0 0 1280 232" preserveAspectRatio="none">
-	    <use xlink:href="#wave"></use>
-	  </svg>
-		<h2 class="testimonies-title">{{__ 'home testimony title'}}</h2>
-		<p class="testimonies-subtitle">{{__ 'home testimony subtitle'}}</p>
-		<div class="testimonies-list">
-			<div class="testimonies-item">
-				<p>{{__ 'home testimony 1'}}</p>
-				<div class="testimonies-desc">
-					<div class="testimonies-author">{{__ 'home testimony 1 author'}}</div>
-					<div class="testimonies-medium">
-						<a target="_blank" class="testimonies-twitter" href="https://twitter.com/gmoigneu/status/957183873019994112">{{__ 'home testimony 1 medium'}}</a>
-					</div>
-				</div>
-			</div>
-			<div class="testimonies-item">
-				<p>{{__ 'home testimony 2'}}</p>
-				<div class="testimonies-desc">
-					<div class="testimonies-author">{{__ 'home testimony 2 author'}}</div>
-					<div class="testimonies-medium">
-						<span>{{__ 'home testimony 2 medium'}}</span>
-					</div>
-				</div>
-			</div>
-			<div class="testimonies-item">
-				<p>{{__ 'home testimony 3'}}</p>
-				<div class="testimonies-desc">
-					<div class="testimonies-author">{{__ 'home testimony 3 author'}}</div>
-					<div class="testimonies-medium">
-						<span>{{__ 'home testimony 3 medium'}}</span>
-					</div>
-				</div>
-			</div>
-			<div class="testimonies-item">
-				<p>{{__ 'home testimony 4'}}</p>
-				<div class="testimonies-desc">
-					<div class="testimonies-author">{{__ 'home testimony 4 author'}}</div>
-					<div class="testimonies-medium">
-						<a target="_blank" class="testimonies-comment" href="https://www.meetup.com/fr-FR/Meetup-Cozy-Cloud-en-France/">{{__ 'home testimony 4 medium'}}</a>
-					</div>
-				</div>
-			</div>
-			<div class="testimonies-item">
-				<p>{{__ 'home testimony 5'}}</p>
-				<div class="testimonies-desc">
-					<div class="testimonies-author">{{__ 'home testimony 5 author'}}</div>
-					<div class="testimonies-medium">
-						<a target="_blank" class="testimonies-playstore" href="https://appfollow.io/gp/87770/review/32617534?s=f7">{{__ 'home testimony 5 medium'}}</a>
-					</div>
-				</div>
-			</div>
-			<div class="testimonies-item">
-				<p>{{__ 'home testimony 6'}}</p>
-				<div class="testimonies-desc">
-					<div class="testimonies-author">{{__ 'home testimony 6 author'}}</div>
-					<div class="testimonies-medium">
-						<span>{{__ 'home testimony 6 medium'}}</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- To display when thhe dedicated testimony page is up -->
-		<!-- <div class="align-center">
+<section class="testimonies">
+  {{> wave}}
+  <svg
+    class="wave wave--top"
+    width="100%"
+    aria-hidden="true"
+    focusable="false"
+    viewbox="0 0 1280 232"
+    preserveAspectRatio="none"
+  >
+    <use xlink:href="#wave"></use>
+  </svg>
+  <h2 class="testimonies-title">{{__ 'home testimony title'}}</h2>
+  <p class="testimonies-subtitle">{{__ 'home testimony subtitle'}}</p>
+  <div class="testimonies-list">
+    <div class="testimonies-item">
+      <p>{{__ 'home testimony 1'}}</p>
+      <div class="testimonies-desc">
+        <div class="testimonies-author">{{__ 'home testimony 1 author'}}</div>
+        <div class="testimonies-medium">
+          <a
+            target="_blank"
+            class="testimonies-twitter"
+            href="https://twitter.com/gmoigneu/status/957183873019994112"
+            >{{__ 'home testimony 1 medium'}}</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="testimonies-item">
+      <p>{{__ 'home testimony 2'}}</p>
+      <div class="testimonies-desc">
+        <div class="testimonies-author">{{__ 'home testimony 2 author'}}</div>
+        <div class="testimonies-medium">
+          <span>{{__ 'home testimony 2 medium'}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="testimonies-item">
+      <p>{{__ 'home testimony 3'}}</p>
+      <div class="testimonies-desc">
+        <div class="testimonies-author">{{__ 'home testimony 3 author'}}</div>
+        <div class="testimonies-medium">
+          <span>{{__ 'home testimony 3 medium'}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="testimonies-item">
+      <p>{{__ 'home testimony 4'}}</p>
+      <div class="testimonies-desc">
+        <div class="testimonies-author">{{__ 'home testimony 4 author'}}</div>
+        <div class="testimonies-medium">
+          <a
+            target="_blank"
+            class="testimonies-comment"
+            href="https://www.meetup.com/fr-FR/Meetup-Cozy-Cloud-en-France/"
+            >{{__ 'home testimony 4 medium'}}</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="testimonies-item">
+      <p>{{__ 'home testimony 5'}}</p>
+      <div class="testimonies-desc">
+        <div class="testimonies-author">{{__ 'home testimony 5 author'}}</div>
+        <div class="testimonies-medium">
+          <a
+            target="_blank"
+            class="testimonies-playstore"
+            href="https://appfollow.io/gp/87770/review/32617534?s=f7"
+            >{{__ 'home testimony 5 medium'}}</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="testimonies-item">
+      <p>{{__ 'home testimony 6'}}</p>
+      <div class="testimonies-desc">
+        <div class="testimonies-author">{{__ 'home testimony 6 author'}}</div>
+        <div class="testimonies-medium">
+          <span>{{__ 'home testimony 6 medium'}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- To display when thhe dedicated testimony page is up -->
+  <!-- <div class="align-center">
 			<a href="https://manager.cozycloud.cc/cozy/create?lang=fr" class="btn btn-primary btn-xl btn-bounce">
 				{{__ 'home testimony CTA'}}
 			</a>
 		</div> -->
-		<svg class="wave wave--bottom" width="100%" aria-hidden="true" focusable="false" viewbox="0 0 1280 232" preserveAspectRatio="none">
-	    <use xlink:href="#wave"></use>
-	  </svg>
-	</section>
+  <svg
+    class="wave wave--bottom"
+    width="100%"
+    aria-hidden="true"
+    focusable="false"
+    viewbox="0 0 1280 232"
+    preserveAspectRatio="none"
+  >
+    <use xlink:href="#wave"></use>
+  </svg>
+</section>
 
-	<section class="panel standoutCTA landingCTA">
-		{{> sign-in}}
-	</section>
+<section class="panel standoutCTA landingCTA">
+  {{> sign-in}}
+</section>
 
 {{> footer }}

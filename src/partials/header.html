@@ -13,8 +13,8 @@
 				 <img src="{{ pathTo }}/images/apps/cozy-bank.svg" alt=""> 
 			</div> -->
 			<div class="announcement-text">
-				<a href="{{__ 'announcement popup url'}}" target="_blank">
-					<img class='announcement-image' src="{{ pathTo }}/images/apps/cozy-notes.svg" alt="Cozy Notes" />
+				<a href="/{{locale}}/features#pass">
+					<img class='announcement-image' src="{{ pathTo }}/images/apps/cozy-pass.svg" alt="Cozy Pass" />
 					{{__ 'announcement popup label'}} →
 				</a>
 			</div>
@@ -35,6 +35,17 @@
               <a href="/{{locale}}/features" class="btn btn-link">{{__ 'nav features title'}}<img src="{{ pathTo }}/images/icons/small-dot.svg" class="red-dot"></a>
             </span>
 						<ul class="submenu-level">
+                            <li class="submenu-listItem">
+                                <a href="/{{locale}}/features#pass">
+                                    <div class="submenu-item">
+                                        <div class="submenu-itemIcon"><img src="{{ pathTo }}/images/apps/cozy-pass.svg" alt="Cozy Pass" /></div>
+                                        <div>
+                                            <h2 class="submenu-itemTitle"><img src="{{ pathTo }}/images/icons/icon-new.svg" class="icon-new"> {{__ 'features pass name'}}</h2>
+                                            <p class="submenu-itemDesc">{{__ 'features pass preview'}}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
 							<li class="submenu-listItem">
 								<a href="https://manager.cozycloud.cc/cozy/login?lang={{ locale }}">
 									<div class="submenu-item">
