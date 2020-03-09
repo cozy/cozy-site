@@ -62,6 +62,8 @@
   "nav download title desktop": "Desktop App",
   "nav product title": "Product",
   "nav features title": "Features",
+  "nav release notes": "Release notes",
+  "nav release url": "https://help.cozy.io/category/438-releases",
   "nav business title": "Business",
   "nav support title": "Support",
   "nav self-hosting title": "Self-hosting",
