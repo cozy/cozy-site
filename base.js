@@ -34,7 +34,8 @@ handlebars.registerHelper({
   }
 });
 
-handlebars.registerHelper('join', function(...elements) {
+handlebars.registerHelper('join', function() {
+	const elements = Array.from(arguments)
 	return elements.slice(0, -1).join('');
 })
 
