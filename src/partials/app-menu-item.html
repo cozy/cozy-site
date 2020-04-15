@@ -1,0 +1,33 @@
+<li class="submenu-listItem">
+	<a href="{{ href }}">
+		<div class="submenu-item">
+			<div class="submenu-itemIcon"><img src="{{ icon }}" alt="{{ iconAlt }}"></div>
+			<div>
+				<h2 class="submenu-itemTitle">
+					{{#if new}}
+						<img src="{{ pathTo }}/images/icons/icon-new.svg" class="icon-new">
+					{{/if}}
+				 {{ title }}</h2>
+				<p class="submenu-itemDesc">{{ description }}</p>
+			</div>
+		</div>
+	</a>
+	{{# if (or androidURL iosURL) }}
+		<div class="submenu-app">
+			{{#if androidURL }}
+			<a href="{{ androidURL }}" target="_blank">
+				<figure>
+					<img src="{{ pathTo }}/{{__ 'download Android logo bis'}}" class="store-icons" alt="{{ downloadAndroidAlt }}">
+				</figure>
+			</a>
+			{{/if}}
+			{{#if iosURL}}
+			<a href="{{ iosURL }}" target="_blank">
+				<figure>
+					<img src="{{ pathTo }}/{{__ 'download iOS logo bis'}}" class="store-icons" alt="{{ downloadIOSAlt }}">
+				</figure>
+			</a>
+			{{/if}}
+		</div>
+	{{/if}}
+</li>
