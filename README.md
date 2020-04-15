@@ -1,26 +1,21 @@
 # Cozy Website sources
 
-## Hack
+## Develop
+
+⚠️ Currently, you need to use Node 8.
 
 *setup*
 
 Clone this repository then install dependencies:
 
 ```bash
-npm i
+yarn install
 ```
 
 *build*
 
 To run the build properly you will need at least Node.js v4.0. 
 
-NPM
-```bash
-npm run build
-npm run build:fr
-```
-
-Yarn
 ```bash
 yarn build
 yarn build:fr
@@ -30,14 +25,6 @@ The result will be stored in a folder named `build`.
 
 *How to start the development server*
 
-NPM
-```bash
-npm run dev
-npm run dev:fr
-npm run dev:es
-```
-
-Yarn
 ```bash
 yarn dev
 yarn dev:fr
