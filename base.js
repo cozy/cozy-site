@@ -25,6 +25,20 @@ handlebars.registerHelper('ifequals', function (item, comparison, options) {
 });
 
 
+handlebars.registerHelper({
+  and: function () {
+      return Array.prototype.slice.call(arguments, 0, -1).every(Boolean);
+  },
+  or: function () {
+      return Array.prototype.slice.call(arguments, 0, -1).some(Boolean);
+  }
+});
+
+handlebars.registerHelper('join', function(...elements) {
+	return elements.slice(0, -1).join('');
+})
+
+
 module.exports = {
   getMetalsmith: function (locale) {
     var destination = 'build/' + locale;
