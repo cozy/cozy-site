@@ -1,6 +1,8 @@
 {
 	"2017": "2017",
 	"2018": "2018",
+  "2019": "2019",
+  "2020": "2020",
 	"try main title": "Bienvenue ! 👋",
 	"try main introduction": "Rejoignez la communauté Cozy et commencez à reprendre en main vos données personnelles !",
 	"try form email address": "Adresse e-mail",
@@ -773,6 +775,7 @@
 	"nav feedback url": "https://claudecozycloud.typeform.com/to/e0Ot0K",
 	"nav feedback title": "Donnez votre avis",
 	"press media detail title": "Toutes nos publications presse",
+	"press 2019-01 label": "[FR] TV Finance : Interview Benjamin André - Réunir toutes ses données dans la plus grande sécurité",
 	"press 2018-12 label": "[FR] Cozy Cloud obtient le Label Finance Innovation",
 	"press 2018-10 macg": "[FR] Cozy comparé au projet Solid de Tim Berners Lee",
 	"press 2018-10 twitter": "[EN] Just discovered @SolidMit idea was already invented by a French company @cozycloud.Even the great @timberners_lee can arrive late nowadays.",
