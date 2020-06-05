@@ -1,0 +1,4 @@
+Contact: mailto:security@cozycloud.cc
+Encryption: https://cozy.io/.well-known/pgp-key.txt
+Preferred-Languages: fr, en
+Canonical: https://cozy.io/.well-known/security.txt
