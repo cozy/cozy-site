@@ -50,7 +50,7 @@ files directly, but prefer to edit them on Transifex.
 
 ## Application page
 
-The application is automatically generated. It's done via two scripts located
+This application is automatically generated. It's done via two scripts located
 in the `utils` folder. Here is the script to download icons from the app
 registry and build the app page from the Cozy registry information:
 
@@ -72,8 +72,8 @@ node app.js
 ![Cozy
 Logo](https://raw.github.com/cozy/cozy-setup/gh-pages/assets/images/happycloud.png)
 
-[Cozy](http://cozy.io) is a platform that brings all your web services in the
-same private space.  With it, your web apps and your devices can share data
+[Cozy](http://cozy.io) is a platform that brings all of your web services at
+a single private space.  With it, your web apps and your devices can share data
 easily, providing you with a new experience. You can install Cozy on your own
 hardware where no one profiles you.
 
