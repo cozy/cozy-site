@@ -243,6 +243,10 @@ from: features
 
 			<hr class="dash-grey">
 
+
+			
+
+			<!--
 			<section id="pass" class="panel features">
 				<div class="container">
 					<div class="row row-justify-center">
@@ -255,9 +259,77 @@ from: features
 						</div>
 					</div>
 
-					<div class="row row-justify-center">
-						<div class="col-xs-22">
-							<iframe src="https://player.vimeo.com/video/388525741" width="100%" height="440" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+	<div class="row row-justify-center">
+						<div class="col-xs-22 col-lg-7 col-center">
+							<ul class="featuresList">
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link active" data-target="pass-synchronisation">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons sync"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-synchronisation.svg"> 
+										</span>
+										{{__ 'features pass content 1'}} 
+									</a>
+								</li>
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link" data-target="pass-generator">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons generator"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-generator.svg"> 
+										</span>
+										{{__ 'features pass content 2'}} 
+									</a>
+								</li>
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link" data-target="pass-password">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons password"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-password.svg"> 
+										</span>
+										{{__ 'features pass content 3'}} 
+									</a>
+								</li>
+								<li class="featuresList-item">
+									<a href="#" class="featuresList-item-link" data-target="pass-card">
+										<span class="featuresList-item-link-icon-sm">
+											<div class="featuresIcons card"></div>
+										</span>
+										<span class="featuresList-item-link-icon">
+											<img src="{{ pathTo }}/images/icons/icon-card.svg"> 
+										</span>
+										{{__ 'features pass content 4'}} 
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xs-16 col-offset-xs-1 hidden-to-lg featuresList-screenshots">
+							<figure id="feature-pass-synchronisation" class="featuresList-screenshotOutter active">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozypass/pass-synchronisation-{{ locale }}.png"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features calendars screenshot'}}">
+							</figure>
+							<figure id="feature-pass-generator" class="featuresList-screenshotOutter">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozypass/pass-generator-{{ locale }}.png"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features contacts screenshot'}}">
+							</figure>
+							<figure id="feature-pass-password" class="featuresList-screenshotOutter">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozypass/pass-password-{{ locale }}.png"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features webmail screenshot'}}">
+							</figure>
+							<figure id="feature-pass-card" class="featuresList-screenshotOutter">
+								<img src="{{ pathTo }}/images/spinner.svg" data-src="{{ pathTo }}/images/features/cozypass/pass-card-{{ locale }}.png"
+											class="featuresList-screenshot img-responsive"
+											alt="{{__ 'ungoogle features webmail screenshot'}}">
+							</figure>
+							
 						</div>
 					</div>
 
@@ -284,6 +356,7 @@ from: features
 
 				</div>
 			</section>
+			-->
 
 		</div>
 	</article>
