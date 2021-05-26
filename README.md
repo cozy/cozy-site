@@ -81,7 +81,7 @@ hardware where no one profiles you.
 
 You can reach the Cozy Community by:
 
-* Chatting with us on IRC #cozycloud on irc.freenode.net
+* Chatting with us on IRC `#cozycloud` on [libera.chat](https://libera.chat/)
 * Posting on our [Forum](https://forum.cozy.io/)
 * Posting issues on the [Github repos](https://github.com/cozy/)
 * Mentioning us on [Twitter](http://twitter.com/cozycloud)
