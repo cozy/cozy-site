@@ -12,6 +12,40 @@ pathTo: ..
 from: download
 ---
 
+<script type="text/javascript" charset="UTF-8">
+  function getFields(input, field) {
+      var output = [];
+      input.forEach(function(item) {
+        output.push(item[field]);
+      })
+      return output;
+  }
+
+  function desktopDownload(suffix) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4) {
+        if (this.status == 200) {
+          const resp = JSON.parse(this.responseText)
+          const download_urls = getFields(resp.assets, "browser_download_url")
+          var selectedUrl = download_urls.filter(url => {
+            return url.endsWith(suffix)
+          })
+          if (selectedUrl.length > 0) {
+            window.location.href = selectedUrl[0]
+          } else {
+            alert("{{__ 'download link error'}}")
+          }
+        } else {
+          alert("{{__ 'download link error'}}")
+        }
+      }
+    };
+    xhttp.open("GET", "https://api.github.com/repos/cozy-labs/cozy-desktop/releases/latest", true);
+    xhttp.send();
+  }
+</script>
+
 {{> header }}
 
 	<header class="support">
@@ -39,7 +73,7 @@ from: download
 					</div>
 					<div class="row row-justify-center align-center">
 						<div class="col-xs-12 col-lg-8 align-center">
-							<a class="supportList" href="https://nuts.cozycloud.cc/download/channel/stable/osx">
+							<a class="supportList" href="#" onclick="desktopDownload('.dmg')">
 								<figure class="">
 									<img src="{{ pathTo }}/images/icon-48-apple.svg" alt="">
 								</figure>
@@ -48,7 +82,7 @@ from: download
 							</a>
 						</div>
 						<div class="col-xs-12 col-lg-8 align-center">
-							<a class="supportList" href="https://nuts.cozycloud.cc/download/channel/stable/win">
+							<a class="supportList" href="#" onclick="desktopDownload('.exe')">
 								<figure class="">
 									<img src="{{ pathTo }}/images/icon-48-windows.svg" alt="">
 								</figure>
