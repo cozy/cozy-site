@@ -921,7 +921,7 @@
     "legal CNIL text": "Declaración de la CNIL número: 1700083",
     "legal ToS title": "Condiciones de servicio de Cozy Cloud",
     "legal ToS text": "Descargar las condiciones de servicio de Cozy aquí:",
-    "legal ToS link": "Condiciones de servicio de Cozy Cloud",
+    "legal ToS link": "https://files.cozycloud.cc/TOS-4.41.2.pdf",
     "press release href two": "/es/2018-06-25-communique-presse-lancement-cozy-store.pdf",
     "press release text two": "Junio 2018 - Cozy Cloud lanza un mercado de apps: Cozy Store"
 }
