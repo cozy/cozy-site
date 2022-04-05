@@ -521,7 +521,7 @@
 	"home testimony CTA": "Partager votre avis avec nous",
 	"home cta title": "Vos données n'attendent que vous...",
 	"home cta text 1": "Créez votre domicile numérique Cozy en récupérant vos premières données en",
-	"home cta text 2": "moins de 2 minutes !",
+	"home cta text 2": "moins de 2 minutes ! Pas de carte de crédit nécessaire.",
 	"features title": "Le domicile numérique qui vous facilite la vie",
 	"features subtitle": "Faites le choix du domicile numérique intelligent et open source qui combine sécurité et confort pour plus de services. ",
 	"features cta title": "Installer Cozy gratuitement",
@@ -726,7 +726,7 @@
 	"pricing basic price": "0€/mois",
 	"pricing basic price for life": " sans engagement",
 	"pricing basic link": "https://manager.cozycloud.cc/v2/cozy/onboard?lang=fr",
-	"pricing basic CTA": "JE PASSE A L' ACTION",
+	"pricing basic CTA": "TESTER COZY, C'EST GRATUIT",
 	"pricing offers title": "Accro à votre Cozy ? Ajoutez-y des options",
 	"pricing offer cozy title": "Vous souhaitez sauvegarder tous vos documents depuis votre ordinateur",
 	"pricing offer cozy storage": "50 Go",
