@@ -43,7 +43,9 @@
 		<script src="{{ pathTo }}/js/plugins/bodyScrollLock.min.js"></script>
 		<script src="{{ pathTo }}/js/main.min.js"></script>
 
-		{{#if homepage}}
+
+		{{! hide the animation of the header in the desktop to replace with a new one}}
+		<!-- {{#if homepage}}
     <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 		<script src="{{ pathTo }}/js/animations/device-animation.js"></script>
 		<script>
@@ -126,9 +128,11 @@
 		<script>
     	$(document).ready(function(){
     		init();
-    	});
-		</script>
+    	})
+		</script>;-->
 		{{/if}}
+	
+	 <img src="images/homepage.png">
 
     {{#if carousel}}
     <script src="{{ pathTo }}/js/plugins/slick.min.js"></script>
