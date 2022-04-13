@@ -42,12 +42,16 @@
 
 		<script src="{{ pathTo }}/js/plugins/bodyScrollLock.min.js"></script>
 		<script src="{{ pathTo }}/js/main.min.js">
-			 <img src="images/homepage.png"></script>
+			 
 
 
+		{{#if homepage}}
+		<img src="images/homepage.png"></script>
+		
+		
 		{{! hide the animation of the header in the desktop to replace with a new one}}
-		<!-- {{#if homepage}}
-    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+		
+    <!-- <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 		<script src="{{ pathTo }}/js/animations/device-animation.js"></script>
  
 		<script>
@@ -131,8 +135,8 @@
     	$(document).ready(function(){
     		init();
     	})
-		</script>;
-		{{/if}}-->
+		</script>;-->
+		{{/if}}
 	
 
 
