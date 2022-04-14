@@ -15,7 +15,7 @@
   "repository": "https://github.com/cozy/cozy-site",
   "license": "AGPL-3.0",
   "dependencies": {
-    "async": "^1.5.0",
+    "async": "^3.2.2",
     "handlebars": "4.0.4",
     "metalsmith": "2.1.0",
     "metalsmith-assets": "0.1.0",
