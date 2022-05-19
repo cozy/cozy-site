@@ -375,6 +375,26 @@ from: privacy
       </div>
     </section>
 
+        <section class="cookies" id="cookies">
+          <div class="container">
+            <div class="row row-justify-left">
+              <div class="col-xs-22 col-lg-24">
+                <img src="{{ pathTo }}/images/icon-code.svg" alt="">
+                <h2 class="cookiesTitle">{{__ 'opt-out tracking'}}</h2>
+
+                <div class="row row-justify-left">
+                  <div class="col-xs-24 col-lg-24">
+                    <iframe
+                      style="border: 0; height: 200px; width: 600px;"
+                      src="https://matomo.cozycloud.cc:443/index.php?module=CoreAdminHome&action=optOut&language=fr&backgroundColor=297ef2&fontSize=16px&fontFamily=lato"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
     <!-- <hr class="dash-grey">
 
     <section class="ourEngagements">
@@ -447,19 +467,19 @@ from: privacy
           </div>
         </div>
         <div class="row row-justify-center align-center">
-  				<div class="align-center">
-  					<a href="{{__ 'privacy tos url'}}" class="btn btn-primary btn-xl btn-bounce">
-  						{{__ 'privacy tos CTA'}}
-  					</a>
-  				</div>
-  			</div>
+          <div class="align-center">
+            <a href="{{__ 'privacy tos url'}}" class="btn btn-primary btn-xl btn-bounce">
+              {{__ 'privacy tos CTA'}}
+            </a>
+          </div>
+        </div>
       </div>
     </section> -->
 
   </article>
 
   <section class="panel standoutCTA landingCTA">
-		{{> sign-in}}
-	</section>
+    {{> sign-in}}
+  </section>
 
 {{> footer }}
