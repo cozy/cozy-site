@@ -117,7 +117,9 @@
 									<a href="/{{locale}}/download#mobile">{{__ 'nav download title mobile'}}</a>
 								</li>
 								<li class="siteFooter-list-item muted">
-									<a href="/{{locale}}/download#desktop">{{__ 'nav download title desktop'}}</a>
+									<a href="{{#ifequals locale "fr"}}https://cozydriveinstall.cozy.io/?mtm_campaign=Install-desktop&mtm_source=site-footer{{else}}/{{locale}}/download#desktop{{/ifequals}}">
+									  {{__ 'nav download title desktop'}}
+                  </a>
 								</li>
 							</ul>
 						</div>
@@ -162,7 +164,7 @@
 		              </a>
 								</li>
 								<li class="siteFooter-list-item muted">
-									<a href="{{__ 'download Computer url'}}">
+									<a href="{{#ifequals locale "fr"}}https://cozydriveinstall.cozy.io/?mtm_campaign=Install-desktop&mtm_source=site-footer{{else}}{{__ 'download Computer url'}}{{/ifequals}}">
 		                <figure>
 		                  <img src="{{ pathTo }}/{{__ 'download Computer logo'}}" class="store-icons" alt="{{__ 'download Computer title'}}">
 		                </figure>
