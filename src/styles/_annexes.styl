@@ -500,7 +500,7 @@ h3.h4.align-left
 .basic-apps
 .basic-storage
 	display flex
-	align-items top
+	align-items center
 	margin-top 1rem
 	+bp-max(md-hg)
 		flex-direction column
@@ -516,6 +516,15 @@ h3.h4.align-left
 	img
 		display block
 		margin 0 auto
+
+.basic-storage-size
+	flex 0 0 14rem
+	font-size $fs-h2
+	font-weight bold
+	text-align center
+	+bp-max(md-hg)
+		flex-basis auto
+		margin-bottom .5rem
 
 .basic-price
 	flex 0 0 15rem
@@ -541,14 +550,31 @@ h3.h4.align-left
 	+bp-max(lg)
 		flex-direction column
 
+.offer-list
+	flex 1 1 auto
+
+.offer-list-item
+	display flex
+	flex-direction row
+	align-items center
+	+bp-max(lg)
+		flex-direction column
+	
+.offer-list-item + .offer-list-item 
+	margin-top 2rem
 
 .offer-desc
-	flex 1 1 auto
+	flex 1 1 auto	
 	+bp-max(lg)
 		margin-bottom 1rem
+		max-width 512px
+		text-align center
 
 	.h4
 		margin-bottom .5rem
+		text-align left
+		+bp-max(lg)
+			text-align center
 
 .offer-storage
 	flex 0 0 14rem
