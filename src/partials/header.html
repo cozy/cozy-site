@@ -64,63 +64,15 @@
 						</ul>
           </div>
 
-          <div class="col-center align-center submenu">
-            <span >
-              <a href="/{{ locale }}/community/" class="btn btn-link">
-                {{__ 'nav developers title'}}
-              </a>
-            </span>
-            <ul class="submenu-level">
-							<li class="submenu-listItem">
-								<a href="https://docs.cozy.io/">
-									<div class="submenu-item">
-										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/icons/icon-documentation.svg" alt=""></div>
-										<div>
-											<h2 class="submenu-itemTitle">{{__ 'nav documentation title'}}</h2>
-											<p class="submenu-itemDesc">{{__ 'nav documentation text'}}</p>
-										</div>
-									</div>
-								</a>
-							</li>
-							<li class="submenu-listItem">
-	              <a href="https://github.com/cozy/cozy-stack">
-	              	<div class="submenu-item">
-										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/icons/icon-code.svg" alt=""></div>
-										<div>
-											<h2 class="submenu-itemTitle">{{__ 'nav source title'}}</h2>
-											<p class="submenu-itemDesc">{{__ 'nav source text'}}</p>
-										</div>
-									</div>
-								</a>
-							</li>
-							<li class="submenu-listItem">
-								<a href="/{{ locale }}/community/">
-									<div class="submenu-item">
-										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/icons/icon-community.svg" alt=""></div>
-										<div>
-											<h2 class="submenu-itemTitle">{{__ 'nav contribute title'}}</h2>
-											<p class="submenu-itemDesc">{{__ 'nav contribute text'}}</p>
-										</div>
-									</div>
-								</a>
-							</li>
-              <li class="submenu-listItem">
-								<a href="https://docs.cozy.io/en/tutorials/selfhost-debian/">
-									<div class="submenu-item">
-										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/icons/icon-self-hosting.svg" alt=""></div>
-										<div>
-											<h2 class="submenu-itemTitle">{{__ 'nav self-hosting title'}}</h2>
-											<p class="submenu-itemDesc">{{__ 'nav self-hosting text'}}</p>
-										</div>
-									</div>
-								</a>
-							</li>
-						</ul>
-          </div>
-
 					<div class="col-center align-center">
             <a href="/{{locale}}/pricing/" class="btn btn-link">
               {{__ 'nav pricing title'}}
+            </a>
+          </div>
+
+					<div class="col-center align-center">
+            <a href="/{{ locale }}/download/" class="btn btn-link">
+              {{__ 'download menu title'}}
             </a>
           </div>
 
@@ -155,34 +107,22 @@
 						</ul>
           </div>
 
-
-
-           <!--<div class="col-center align-center">
-            <a href="{{__ 'nav blog link'}}" class="btn btn-link">
-              {{__ 'nav blog title'}}
-            </a>
-          </div>-->
-
 					<div class="col-center align-center submenu">
             <span >
-              <a href="https://blog.cozy.io/{{ locale }}/" class="btn btn-link">{{__ 'nav blog title'}}</a>
+              <a href="https://cozy.io/{{ locale }}/community/" class="btn btn-link">{{__ 'nav blog title'}}</a>
             </span>
             <ul class="submenu-level">
-
-								<li class="submenu-listItem">
-	              <a href="/{{ locale }}/download/">
-	              	<div class="submenu-item">
-										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/icons/icon-download.svg" alt=""></div>
+							<li class="submenu-listItem">
+								<a href="/{{ locale }}/support/">
+									<div class="submenu-item">
+										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/icons/icon-blog.svg" alt=""></div>
 										<div>
-											<h2 class="submenu-itemTitle">{{__ 'download menu title'}}</h2>
-											<p class="submenu-itemDesc">{{__ 'nav download menu text'}}</p>
+											<h2 class="submenu-itemTitle">{{__ 'nav support title'}}</h2>
+											<p class="submenu-itemDesc">{{__ 'nav support text'}}</p>
 										</div>
 									</div>
 								</a>
 							</li>
-
-
-
 							<li class="submenu-listItem">
 								<a href="https://blog.cozy.io/{{ locale }}/">
 									<div class="submenu-item">
@@ -194,9 +134,6 @@
 									</div>
 								</a>
 							</li>
-
-
-
 							<li class="submenu-listItem">
 	              <a href="https://blog.cozy.io/fr/tag/partenariat/">
 	              	<div class="submenu-item">
@@ -209,28 +146,12 @@
 								</a>
 							</li>
 							<li class="submenu-listItem">
-								<a href="https://blog.cozy.io/fr/cozy-cloud-nouveautes-du-mois/">
-									{{#ifequals locale "fr"}}
-								<a href="https://blog.cozy.io/fr/cozy-cloud-nouveautes-du-mois/">
-								{{else}}
-								<a href="https://blog.cozy.io/en/product-update/">
-								{{/ifequals}}
+								<a href="/{{ locale }}/community/">
 									<div class="submenu-item">
-										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/icons/icon-news.svg" alt=""></div>
+										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/icons/icon-community.svg" alt=""></div>
 										<div>
-											<h2 class="submenu-itemTitle">{{__ 'newfeatures main title'}}</h2>
-											<p class="submenu-itemDesc">{{__ 'nav newfeatures secondary title'}}</p>
-										</div>
-									</div>
-								</a>
-							</li>
-							<li class="submenu-listItem">
-								<a href="https://blog.cozy.io/fr/choix-machine-learning-decentralise-pour-repondre-a-la-crise-sanitaire/">
-									<div class="submenu-item">
-										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/icons/icon-publications.svg" alt=""></div>
-										<div>
-											<h2 class="submenu-itemTitle">{{__ 'publications main title'}}</h2>
-											<p class="submenu-itemDesc">{{__ 'nav publications secondary title'}}</p>
+											<h2 class="submenu-itemTitle">{{__ 'nav contribute title'}}</h2>
+											<p class="submenu-itemDesc">{{__ 'nav contribute text'}}</p>
 										</div>
 									</div>
 								</a>
@@ -238,53 +159,56 @@
 						</ul>
           </div>
 
-
-
-
-
-           <div class="col-center align-center">
-            <a href="/{{ locale }}/support/" class="btn btn-link">
-              {{__ 'nav support title'}}
-            </a>
+          <div class="col-center align-center submenu">
+            <span >
+              <a href="/{{ locale }}/community/" class="btn btn-link">
+                {{__ 'nav developers title'}}
+              </a>
+            </span>
+            <ul class="submenu-level">
+							<li class="submenu-listItem">
+								<a href="https://docs.cozy.io/">
+									<div class="submenu-item">
+										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/icons/icon-documentation.svg" alt=""></div>
+										<div>
+											<h2 class="submenu-itemTitle">{{__ 'nav documentation title'}}</h2>
+											<p class="submenu-itemDesc">{{__ 'nav documentation text'}}</p>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="submenu-listItem">
+	              <a href="https://github.com/cozy/cozy-stack">
+	              	<div class="submenu-item">
+										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/icons/icon-code.svg" alt=""></div>
+										<div>
+											<h2 class="submenu-itemTitle">{{__ 'nav source title'}}</h2>
+											<p class="submenu-itemDesc">{{__ 'nav source text'}}</p>
+										</div>
+									</div>
+								</a>
+							</li>
+              <li class="submenu-listItem">
+								<a href="https://docs.cozy.io/en/tutorials/selfhost-debian/">
+									<div class="submenu-item">
+										<div class="submenu-itemIcon"><img src="{{ pathTo }}/images/icons/icon-self-hosting.svg" alt=""></div>
+										<div>
+											<h2 class="submenu-itemTitle">{{__ 'nav self-hosting title'}}</h2>
+											<p class="submenu-itemDesc">{{__ 'nav self-hosting text'}}</p>
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
           </div>
-
-          <!-- <div class="col-xs-3 col-center align-center">
-            <a href="https://blog.cozycloud.cc/" class="btn btn-link" target="_blank">
-              {{__ 'nav blog title'}}
-            </a>
-          </div> -->
-
-		      <!-- <div class="col-center align-center">
-		        <div class="btn btn-link switchLang">
-          		{{#ifequals locale "en"}}
-		            	<span>
-		            	  EN
-		            	</span>
-		          {{else}}
-		          		<a href="/en">
-		            	  EN
-		            	</a>
-		          {{/ifequals}}
-		            	&nbsp;/&nbsp;
-		          {{#ifequals locale "fr"}}
-		          		<span>
-		            	  FR
-		            	</span>
-		          {{else}}
-		            	<a href="/fr">
-		            	  FR
-		            	</a>
-		        	{{/ifequals}}
-            </div>
-          </div> -->
 
 					<div class="siteNavigation-ctaContainerWrapper">
 						<div class="siteNavigation-ctaContainer">
-	            <a href="{{__ 'header login link'}}" class="btn btn-outlined-primary-grey">
+	            <a href="https://manager.cozycloud.cc/v2/cozy/login?lang={{ locale }}" class="btn btn-outlined-primary-grey">
 	              {{__ 'nav signin title'}}
 	            </a>
-	            <a href="{{__ 'pricing basic link'}}" class="btn btn-primary">
-	              {{__ 'nav signup title'}}
+	            <a href="https://manager.cozycloud.cc/v2/cozy/login?lang={{ locale }}" class="btn btn-primary">
+	              {{__ 'nav signin title'}}
 	            </a>
 	          </div>
 	        </div>
