@@ -2,7 +2,7 @@
 
 ## Develop
 
-⚠️ Currently, you need to use Node 8.
+⚠️ Currently, you need to use Node 10.
 
 *setup*
 
@@ -14,7 +14,7 @@ yarn install
 
 *build*
 
-To run the build properly you will need at least Node.js v4.0. 
+To run the build properly you will need at least Node.js v4.0.
 
 ```bash
 yarn build
@@ -62,8 +62,8 @@ node app.js
 
 ## Extra information
 
-* The build engine of the website is based on [Metalsmith](http://metalsmith.io/) (a static website generator). 
-* The templates are written with [Handlebars](http://handlebarsjs.com/). 
+* The build engine of the website is based on [Metalsmith](http://metalsmith.io/) (a static website generator).
+* The templates are written with [Handlebars](http://handlebarsjs.com/).
 * Stylesheets are written with [Stylus](http://stylus-lang.com/)
 
 

@@ -316,7 +316,7 @@
 			// margin-bottom 4.5rem
 			+bp-max(md-hg)
 				padding 1rem
-				
+
 			.container
 				position relative
 
@@ -357,11 +357,11 @@
 			font-size 1.125rem
 			color $clr-primary
 			box-shadow: 0 8px 8px 0 rgba(50, 54, 63, 0.15), 0 4px 4px 0 rgba(50, 54, 63, 0.16);
-			
+
 			&:hover
 			&:focus
 				border-color $clr-lighter
-			
+
 			+bp-max(md)
 				width 100%
 
@@ -470,26 +470,13 @@
 
 	+bp-min(lg)
 		display block
-		margin ($spacer - .625rem) 0
+		margin $spacer 0
 		margin-left $grid-gutter
 		width auto
 		vertical-align middle
 
 		&:first-child
 			margin-top 0
-
-		// &::after
-		//   content ""
-		//   position absolute
-		//   bottom -(($spacer - 0.625rem) / 2) - (0.938rem / 2) // half of item margin bottom - half of the component height
-		//   left (2.813rem / 2) // 50% of icon size
-		//   width .125rem
-		//   height .938rem
-		//   background-color $clr-lighter
-
-		// &:last-child
-		//   &::after
-		//     display none
 
 .featuresList-item-light
 	position relative
@@ -504,6 +491,7 @@
 	text-align center
 	line-height $lh-sm
 	color $clr-darkgrey !important
+	padding .5rem
 	+bp-min(lg)
 		position absolute
 		top 50%

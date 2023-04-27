@@ -43,17 +43,6 @@ from: home
         </div>
         <p class="standoutCTA-reassurance">{{__ 'home reassurance text'}}</p>
       </div>
-      <div class="stores">
-        <a href="{{__ 'home store apple'}}" target="_blank" class="btn-store"
-          ><img src="{{ pathTo }}/images/icon-apple.svg" alt="Apple Store"
-        /></a>
-        <a href="{{__ 'home store android'}}" target="_blank" class="btn-store"
-          ><img src="{{ pathTo }}/images/icon-android.svg" alt="Play Store"
-        /></a>
-        <a href="{{__ 'home store desktop'}}" target="_blank" class="btn-store"
-          ><img src="{{ pathTo }}/images/icon-laptop2.svg" alt="Desktop"
-        /></a>
-      </div>
     </div>
 
     <div id="introcanvas" class="introduction-canvas">
@@ -209,7 +198,7 @@ from: home
             {{__ 'home usage text 3-1'}}
             <b>{{__ 'home usage text 3-2'}}</b> {{__ 'home usage text 3-3'}}
           </p>
-          <a href="https://cozy.io/{{ locale }}/download/">
+          <a href="{{ pathTo }}/download">
             <img src="{{ pathTo }}/images/apps/cozy-sync.svg" alt="" />
             {{__ 'Learn more Sync'}} →
           </a>
@@ -228,7 +217,7 @@ from: home
           <p>
             {{__ 'home usage text 4-1'}} {{__ 'home usage text 4-2'}} {{__ 'home usage text 4-3'}}
           </p>
-          <a href="https://manager.cozycloud.cc/v2/cozy/login?lang={{ locale }}">
+          <a href="{{ pathTo }}/features#notes">
             <img src="{{ pathTo }}/images/apps/cozy-notes.svg" alt="" />
             {{__ 'Learn more Notes'}} →
           </a>
@@ -247,7 +236,7 @@ from: home
           <p>
             {{__ 'home usage text 5'}}
           </p>
-          <a href="https://cozy.io/{{ locale }}/features/?lang={{ locale }}?#pass">
+          <a href="{{ pathTo }}/features#pass">
             <img src="{{ pathTo }}/images/apps/cozy-pass.svg" alt="" />
             {{__ 'Learn more Pass'}} →
           </a>
