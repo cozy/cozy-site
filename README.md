@@ -2,7 +2,7 @@
 
 ## Develop
 
-⚠️ Currently, you need to use Node 10.
+⚠️ Currently, you need to use Node 8.
 
 *setup*
 
