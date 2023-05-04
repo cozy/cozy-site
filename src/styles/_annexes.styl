@@ -43,7 +43,7 @@
 		background #D0C2A7 url(../images/bkg-apps.jpg) no-repeat 50% 100% / cover
 
 	&.support
-		background #D0C2A7 url(../images/bkg-support.jpg) no-repeat 50% 100% / cover
+		background #297EF2
 
 	&.privacy
 		background #F3F3F3 url(../images/bkg-privacy@2x.png) no-repeat 50% 100% / cover
@@ -72,6 +72,11 @@ body.is-annexe
 
 	.introduction.partners
 		margin-bottom: 0
+
+	.introduction.support
+		align-items center
+		padding-top 0
+		height 439px
 
 .grey-background
 	background-color $clr-light
@@ -430,7 +435,42 @@ body.is-annexe
 
 // Download pages
 .downloadContent .panel
-	padding 0
+	padding-top 0
+
+	.title
+		margin-top 16px
+		margin-bottom 32px
+
+	.first
+		+bp-min(lg)
+			border-right 1px solid #1D212A1F
+			padding-right 32px
+
+	.second
+		+bp-min(lg)
+			padding-left 12px
+
+	table
+		font-size 16px
+
+		a
+			color initial
+			&:hover
+				color initial
+
+		th
+			height 80px
+			text-transform none
+			font-size 20px
+
+			img
+				margin-right 8px
+
+		tbody
+			height 100px
+
+			td
+				vertical-align middle
 
 // Pricing page
 .cozy-logo
@@ -559,12 +599,12 @@ h3.h4.align-left
 	align-items center
 	+bp-max(lg)
 		flex-direction column
-	
-.offer-list-item + .offer-list-item 
+
+.offer-list-item + .offer-list-item
 	margin-top 2rem
 
 .offer-desc
-	flex 1 1 auto	
+	flex 1 1 auto
 	+bp-max(lg)
 		margin-bottom 1rem
 		max-width 512px
@@ -682,7 +722,7 @@ h3.press-details
 
 	.btn
 		margin 1.875rem 0 3rem
-		
+
 .kit-preview
 	box-shadow 0 0 4px 2px rgba(0, 0, 0, .23)
 

@@ -14,7 +14,7 @@ from: download
 
 {{> header }}
 
-	<header class="support">
+	<header class="introduction contrast support row align-center">
 		<div class="container">
 			<div class="row row-justify-center">
 				<div class="col-xs-22 col-lg-20">
@@ -26,158 +26,174 @@ from: download
 	</header>
 
 	<article class="downloadContent">
-
 		<section>
 			<div class="panel">
 				<div class="container">
-					<div class="row-justify-center align-center">
-						<div class="row row-justify-center">
-							<div id="desktop" class="col-xs-24 col-lg-24">
-                <h2 id="desktop" class="makeitbreathe">
-                  <img src="../images/apps/cozy-drive.svg" alt="{{__ 'download Drive title'}}" title="{{__ 'download Drive title'}}" />
-								  <div>{{__ 'download Drive title'}}</div>
-                </h2>
-							</div>
-						</div>
-					</div>
 					<div class="row row-justify-center align-center">
-						<div class="col-xs-12 col-lg-8 align-center">
-							<a class="supportList" href="https://nuts.cozycloud.cc/download/channel/stable/osx">
-								<figure class="">
-									<img src="{{ pathTo }}/images/icon-48-apple.svg" alt="">
-								</figure>
-								<h3>{{__ 'download Drive MacOS title'}}</h3>
-								<p>{{__ 'download Drive MacOS text'}}</p>
-							</a>
-						</div>
-						<div class="col-xs-12 col-lg-8 align-center">
-							<a class="supportList" href="https://nuts.cozycloud.cc/download/channel/stable/win">
-								<figure class="">
-									<img src="{{ pathTo }}/images/icon-48-windows.svg" alt="">
-								</figure>
-								<h3>{{__ 'download Drive Windows title'}}</h3>
-								<p>{{__ 'download Drive Windows text'}}</p>
-							</a>
-						</div>
-						<div class="col-xs-12 col-lg-8 align-center">
-							<a class="supportList" href="{{__ 'download Drive Linux link'}}">
-								<figure class="">
-									<img src="{{ pathTo }}/images/tux.svg" class="img-icon" alt="">
-								</figure>
-								<h3>{{__ 'download Drive Linux title'}}</h3>
-								<p>{{__ 'download Drive Linux text'}}</p>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="panel">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-lg-12 align-center">
-							<a class="supportList" href="{{__ 'download Drive iOS url'}}">
-								<figure class="">
-									<img src="../{{__ 'download iOS logo'}}" alt="">
-								</figure>
-								<h3>{{__ 'download Drive iOS title'}}</h3>
-								<p>{{__ 'download Drive iOS text'}}</p>
-							</a>
-						</div>
-						<div class="col-xs-12 col-lg-12 align-center">
-							<a class="supportList" href="{{__ 'download Drive Android url'}}">
-								<figure class="store-logo">
-									<img src="../{{__ 'download Android logo'}}" alt="">
-								</figure>
-								<h3>{{__ 'download Drive Android title'}}</h3>
-								<p>{{__ 'download Drive Android text'}}</p>
-							</a>
-							<p>{{__ 'download Android APK text 1'}} <a href="https://github.com/cozy/cozy-drive/releases/download/mobile-1.34.1/cozy-drive-1341000003.apk">{{__ 'download Android APK text 2'}}</a>{{__ 'download Android APK text 3'}}</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<hr class="dash-grey">
-		
-		<section>
-			<div class="panel">
-				<div class="container">
-					<div class="row-justify-center align-center">
-						<div class="row row-justify-center">
-							<div id="mobile-banks" class="col-xs-24 col-lg-24">
-                <h2 class="makeitbreathe">
-                  <img src="../images/apps/cozy-bank.svg" alt="{{__ 'download banks mobile title'}}" title="{{__ 'download banks mobile title'}}" />
-                  <div>{{__ 'download banks mobile title'}}</div>
-                </h2>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-12 col-lg-12 align-center">
-							<a class="supportList" href="{{__ 'download Banks iOS url'}}">
-								<figure class="">
-									<img src="../{{__ 'download iOS logo'}}" alt="">
-								</figure>
-								<h3>{{__ 'download Banks iOS title'}}</h3>
-								<p>{{__ 'download Banks iOS text'}}</p>
-							</a>
-						</div>
-						<div class="col-xs-12 col-lg-12 align-center">
-							<a class="supportList" href="{{__ 'download Banks Android url'}}">
-								<figure class="store-logo">
-									<img src="../{{__ 'download Android logo'}}" alt="">
-								</figure>
-								<h3>{{__ 'download Banks Android title'}}</h3>
-								<p>{{__ 'download Banks Android text'}}</p>
-							</a>
-							<p>{{__ 'download Android APK text 1'}} <a href="https://github.com/cozy/cozy-banks/releases">{{__ 'download Android APK text 2'}}</a>{{__ 'download Android APK text 3'}}</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<hr class="dash-grey">
-		
-		<section>
-			<div class="panel">
-				<div class="container">
-					<div class="row-justify-center align-center">
-						<div class="row row-justify-center">
-							<div id="mobile-pass" class="col-xs-24 col-lg-24">
-                <h2 class="makeitbreathe">
-                  <img src="../images/apps/cozy-pass.svg" alt="{{__ 'download Pass title'}}" title="{{__ 'download Pass title'}}" />
-                  <div>{{__ 'download pass mobile title'}}</div>
-                </h2>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-12 col-lg-12 align-center">
-							<a title="{{__ 'download Pass iOS title'}}" class="supportList" href="{{__ 'download Pass iOS url'}}">
-								<figure class="">
-									<img src="../{{__ 'download iOS logo'}}" alt="">
-								</figure>
-								<h3>{{__ 'download Pass iOS title'}}</h3>
-								<p>{{__ 'download Pass iOS text'}}</p>
-							</a>
-						</div>
-						<div class="col-xs-12 col-lg-12 align-center">
-							<a title="{{__ 'download Pass Android title'}}" class="supportList" href="{{__ 'download Pass Android url'}}">
-								<figure class="store-logo">
-									<img src="../{{__ 'download Android logo'}}" alt="">
-								</figure>
-								<h3>{{__ 'download Pass Android title'}}</h3>
-								<p>{{__ 'download Pass Android text'}}</p>
-							</a>
-						</div>
-					</div> 
-				</div> 
-			</div> 
-		</section>
+						<div class="col-xs-24 col-lg-12 first">
+							<div><img src="{{ pathTo }}/images/phone.svg" alt="{{__ 'download mobile alt' }}" /></div>
+							<div class="h2 title">{{__ 'download mobile'}}</div>
 
+							<table class="table round grey lines fullwidth">
+								<thead>
+									<tr>
+										<th class="align-center" scope="col" colspan="2">
+											<img src="{{ pathTo }}/images/cozy-home.svg" alt="{{__ 'download cozy alt' }}" />
+											{{__ 'download cozy'}}
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<a href="https://play.google.com/store/apps/details?id=io.cozy.flagship.mobile&hl={{ locale }}">
+												<div>
+													<img src="{{ pathTo }}/images/icons/icon-android.svg" alt="{{__ 'download android alt' }}" />
+													<div>{{__ 'download android'}}</div>
+													<div class="caption">{{__ 'download android text'}}</div>
+												</div>
+											</a>
+										</td>
+										<td>
+											<a href="https://apps.apple.com/{{ locale }}/app/my-cozy/id1600636174">
+												<div>
+													<img src="{{ pathTo }}/images/icons/icon-apple.svg" alt="{{__ 'download ios alt'}}" />
+													<div>{{__ 'download ios'}}</div>
+													<div class="caption">{{__ 'download ios text'}}</div>
+												</div>
+											</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
 
+							<table class="table round grey lines fullwidth noMargin-lg">
+								<thead>
+									<tr>
+										<th class="align-center" scope="col" colspan="2">
+											<img
+												src="{{ pathTo }}/images/apps/cozy-pass.svg"
+												alt="{{__ 'download pass alt'}}"
+											/>
+											{{__ 'download pass'}}
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<a href="https://play.google.com/store/apps/details?id=io.cozy.pass&hl={{ locale }}">
+												<div>
+													<img src="{{ pathTo }}/images/icons/icon-android.svg" alt="{{__ 'download android alt'}}" />
+													<div>{{__ 'download android'}}</div>
+													<div class="caption">{{__ 'download android text'}}</div>
+												</div>
+											</a>
+										</td>
+										<td>
+											<a href="https://apps.apple.com/{{ locale }}/app/cozy-pass/id1502262449">
+												<div>
+													<img src="{{ pathTo }}/images/icons/icon-apple.svg" alt="{{__ 'download ios alt'}}" />
+													<div>{{__ 'download ios'}}</div>
+													<div class="caption">{{__ 'download ios text'}}</div>
+												</div>
+											</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-xs-24 col-lg-12 second">
+							<div><img src="{{ pathTo }}/images/laptop.svg" alt="{{__ 'download desktop alt'}}" /></div>
+							<div class="h2 title">{{__ 'download desktop'}}</div>
+
+							<table class="table round grey lines fullwidth">
+								<thead >
+									<tr>
+										<th class="align-center" scope="col" colspan="3">
+											<img src="{{ pathTo }}/images/cozy-home.svg" alt="{{__ 'download cozy alt'}}" />
+											{{__ 'download cozy'}}
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<a href="https://nuts.cozycloud.cc/download/channel/stable/win">
+												<div>
+													<img src="{{ pathTo }}/images/icons/icon-windows.svg" alt="{{__ 'download windows alt'}}" />
+													<div>{{__ 'download windows'}}</div>
+													<div class="caption">{{__ 'download windows text'}}</div>
+												</div>
+											</a>
+										</td>
+										<td>
+											<a href="https://nuts.cozycloud.cc/download/channel/stable/osx">
+												<div>
+													<img src="{{ pathTo }}/images/icons/icon-apple.svg" alt="{{__ 'download macos alt'}}" />
+													<div>{{__ 'download macos'}}</div>
+													<div class="caption">{{__ 'download macos text'}}</div>
+												</div>
+											</a>
+										</td>
+										<td>
+											<a href="https://docs.cozy.io/en/howTos/sync/linux/">
+												<div>
+													<img src="{{ pathTo }}/images/icons/icon-linux.svg" alt="{{__ 'download linux alt'}}" />
+													<div>{{__ 'download linux'}}</div>
+													<div class="caption">{{__ 'download linux text'}}</div>
+												</div>
+											</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<table class="table round grey lines fullwidth noMargin-lg">
+								<thead >
+									<tr>
+										<th class="align-center" scope="col" colspan="3">
+											<img
+												src="{{ pathTo }}/images/apps/cozy-pass.svg"
+												alt="{{__ 'download pass alt'}}"
+											/>
+											{{__ 'download pass'}}</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<a href="https://chrome.google.com/webstore/detail/cozy-personal-cloud/jplochopoaajoochpoccajmgelpfbbic">
+												<div>
+													<img src="{{ pathTo }}/images/icons/icon-chrome.svg" alt="{{__ 'download chrome alt'}}" />
+													<div>{{__ 'download chrome'}}</div>
+												</div>
+											</a>
+										</td>
+										<td>
+											<a href="https://apps.apple.com/us/app/cozy-pass-for-safari/id1504487449?l={{ locale }}&ls=1">
+												<div>
+													<img src="{{ pathTo }}/images/icons/icon-safari.svg" alt="{{__ 'download safari alt'}}" />
+													<div>{{__ 'download safari'}}</div>
+												</div>
+											</a>
+										</td>
+										<td>
+											<a href="https://addons.mozilla.org/{{ locale }}/firefox/addon/cozy-personal-cloud/">
+												<div>
+													<img src="{{ pathTo }}/images/icons/icon-firefox.svg" alt="{{__ 'download firefox alt'}}" />
+													<div>{{__ 'download firefox'}}</div>
+												</div>
+											</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 	</article>
 
