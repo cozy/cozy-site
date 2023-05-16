@@ -8,6 +8,7 @@ old
 
 # npm dependencies
 node_modules
+npm-debug.log
 
 # build folder
 build
