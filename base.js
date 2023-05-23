@@ -87,7 +87,6 @@ module.exports = {
         locales: ['en', 'fr', 'es'],
         directory: 'src/locales'
       }))
-
       .use(function locales(files, metalsmith, done) {
           for (var file in files) {
             files[file].locale = locale;
@@ -95,6 +94,12 @@ module.exports = {
           };
         }
       )
+
+      // Bootstrap
+			.use(assets({
+        source: './node_modules/cozy-bootstrap/dist/',
+        destination: './styles'
+      }))
 
       // HTML
       .use(layouts({
