@@ -681,6 +681,11 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
+cozy-bootstrap@1.13.1:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/cozy-bootstrap/-/cozy-bootstrap-1.13.1.tgz#4cf5d25a6444a298e990c18d47e4f63fcc48275e"
+  integrity sha512-3ocUFll1gm8YeJO2ZiuIm7QnlPGMEAwb1wn8Whca5HFMUzwD22UNBL5VtdD15PseX1+p4mLej++oKDL4QHgb3A==
+
 create-error-class@^3.0.1:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/create-error-class/-/create-error-class-3.0.2.tgz#06be7abef947a3f14a30fd610671d401bca8b7b6"
