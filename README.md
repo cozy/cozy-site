@@ -41,12 +41,11 @@ Check http://localhost:3000/en/ to start browsing!
 
 ## Locales
 
-We use JSON key-value files to store all the locales, and Transifex to translate the website.
-These files are located inside the `src/locales` folder. To prevent conflicts, please avoid updating this
-files directly, but prefer to edit them on Transifex.
+Localization and translations are handled by [Transifex][tx], which is used by all Cozy's apps.
 
-* To translate the Website, go to [Transifex](https://www.transifex.com/cozy/cozy-site/);
-* To test your translations, install the [Transifex client](http://docs.transifex.com/client/) and run `tx pull` inside the root directory, the rebuild the site.
+As a _translator_, you can login to [Transifex][tx-signin] (using your Github account) and claim an access to the [app repository][tx-app]. Transifex will then create pull request on the repository, and the locales are merged after validating the pull request.
+
+As a _developer_, you just have to modify json in `/src/locales`. New locales will be automatically added to Transifex. If you need to pull or push manually locales, you can use [Transifex CLI](tx-cli). If you were using a [transifex-client](tx-client), you must move to [Transifex CLI](tx-cli) to be compatible with the v3 API.
 
 ## Application page
 
@@ -86,3 +85,8 @@ You can reach the Cozy Community by:
 * Posting issues on the [Github repos](https://github.com/cozy/)
 * Mentioning us on [Twitter](http://twitter.com/cozycloud)
 
+[tx]: https://www.transifex.com/cozy/
+[tx-signin]: https://www.transifex.com/signin/
+[tx-app]: https://www.transifex.com/cozy/cozy-site/dashboard/
+[tx-cli]: https://developers.transifex.com/docs/cli
+[tx-client]: https://github.com/transifex/transifex-client
