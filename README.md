@@ -2,7 +2,9 @@
 
 ## Develop
 
-⚠️ Currently, you need to use Node 8.
+⚠️ This project requires node 10 and will not compile with node 12+.
+Currently, you need to use Node 8 if you plan to use yarn. Using yarn with node 10 will lead to a nodejs stacktrace.
+Node 10 works perfectly fine if you don't use yarn.
 
 *setup*
 
@@ -12,6 +14,12 @@ Clone this repository then install dependencies:
 yarn install
 ```
 
+or with node 10:
+
+```bash
+npm install
+```
+
 *build*
 
 To run the build properly you will need at least Node.js v4.0.
@@ -19,6 +27,14 @@ To run the build properly you will need at least Node.js v4.0.
 ```bash
 yarn build
 yarn build:fr
+yarn build:es
+```
+or with node 10:
+
+```bash
+node output.js
+node output-fr.js
+node output-es.js
 ```
 
 The result will be stored in a folder named `build`.
@@ -29,6 +45,14 @@ The result will be stored in a folder named `build`.
 yarn dev
 yarn dev:fr
 yarn dev:es
+```
+
+or with node 10:
+
+```bash
+node output.js --dev
+node output-fr.js --dev
+node output-es.js --dev
 ```
 
 This command will run:
