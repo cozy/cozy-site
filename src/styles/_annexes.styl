@@ -521,135 +521,129 @@ body.is-annexe
 h3.h4.align-left
 	text-align left
 
-.basic
-	display flex
-	flex-direction row
-	align-items center
-	justify-content space-between
-	+bp-max(lg)
-		flex-direction column
+// CSS to harmonize design between bootstrap and existing
+.pricing-bootstrap
+	.small
+		font-size .875rem
 
-.basic-perks .h4
-	margin-bottom .6875rem
-
-.basic-perks p
-	font-size $fs-h5
-	color $clr-lightbase
-
-.basic-data
-.basic-apps
-.basic-storage
-	display flex
-	align-items center
-	margin-top 1rem
-	+bp-max(md-hg)
-		flex-direction column
-		margin-top 2rem
-
-.basic-image
-	flex 0 0 14rem
-	height 5rem
-	+bp-max(md-hg)
-		flex-basis auto
-		margin-bottom .5rem
-
-	img
-		display block
-		margin 0 auto
-
-.basic-storage-size
-	flex 0 0 14rem
-	font-size $fs-h2
-	font-weight bold
-	text-align center
-	+bp-max(md-hg)
-		flex-basis auto
-		margin-bottom .5rem
-
-.basic-price
-	flex 0 0 15rem
-	padding-left 3rem
-	text-align center
-	+bp-max(lg)
-		flex-basis auto
-		padding-left 0
-
-  strong.highlight-basic
-	   font-size $fs-h2
-	   font-weight bold
-
+	h5
+		font-size 1.125rem
+		line-height 1.313
+		margin-bottom: 0.5rem;
 
 	.btn
-		width 100%
-		font-weight bold
+		font-weight: 700;
+		line-height: 1rem;
+		padding: 0.688rem 1rem;
 
-.offer
-	display flex
-	flex-direction row
-	align-items center
-	+bp-max(lg)
-		flex-direction column
+	.btn-primary
+		color: var(--primaryTextContrastColor);
+		background-color: var(--primaryColor);
+		border-color: transparent;
 
-.offer-list
-	flex 1 1 auto
+	.btn-outline-info
+		color: var(--primaryTextColor);
+		border-color: var(--btn-secondary-border-color);
 
-.offer-list-item
-	display flex
-	flex-direction row
-	align-items center
-	+bp-max(lg)
-		flex-direction column
+.pricing-header
+	padding-bottom 2rem
+	+bp-min(md-lg)
+		padding-bottom 259px
 
-.offer-list-item + .offer-list-item
-	margin-top 2rem
+	&>h1
+		max-width 600px
 
-.offer-desc
-	flex 1 1 auto
-	+bp-max(lg)
-		margin-bottom 1rem
-		max-width 512px
-		text-align center
+.pricing-offer
+	+bp-min(md-lg)
+		margin-left 1rem
+		margin-right 1rem
+		top -227px
+		margin-bottom -227px
 
-	.h4
-		margin-bottom .5rem
-		text-align left
-		+bp-max(lg)
-			text-align center
+	.offer-table
+		border-style none !important
+		+bp-min(md-lg)
+			border-radius 1rem
+			border-style solid !important
 
-.offer-storage
-	flex 0 0 14rem
-	margin-bottom .5rem
-	font-size $fs-h2
-	font-weight bold
-	text-align center
-	+bp-max(lg)
-		flex-basis auto
+	.offer-table-header
+		position sticky
+		border-top-style solid !important
+		border-bottom-style solid !important
+		top 64px
+		+bp-min(md-lg)
+			position static
+			border-radius 1rem 1rem 0 0
+			height 227px
+			border-style none !important
 
-.offer-info
-	font-size $fs-h5
-	margin-bottom 0
+		.offer-table-header-title
+			font-size 14px
+			line-height 19px
+			+bp-min(md-lg)
+				font-size 18px
+				line-height 23px
 
-.offer-price
-	font-size $fs-h2
-	font-weight bold
-	margin-bottom .75rem
+		.offer-table-header-price
+			font-size 32px
+			line-height 37px
+			letter-spacing -0.4px
+			+bp-min(md-lg)
+				font-size 48px
+				line-height 52px
+				letter-spacing -0.8px
 
-.offer-cta
-	flex 0 0 15rem
-	padding-left 3rem
-	text-align center
-	+bp-max(lg)
-		flex-basis auto
-		padding-left 0
+		.offer-table-header-cents
+			font-size 16px
+			line-height 12px
+			+bp-min(md-lg)
+				font-size 23px
+				line-height 22px
 
-	.btn
-		width 100%
-		white-space normal
+		.offer-table-header-month
+			font-size 12px
+			line-height 10px
+			+bp-min(md-lg)
+				font-size 18px
+				line-height 16px
+
+		.offer-table-header-cta
+			padding 0.5rem 0.75rem
+			font-size .8125rem
+			+bp-min(md-lg)
+				padding 0.688rem 1rem
+				font-size .875rem
+
+
+	.offer-item-title
+		font-weight 700
+		font-size 16px
+		line-height 21px
+		+bp-min(md-lg)
+			font-weight 400
+			font-size 14px
+			line-height 19px
+
+	.offer-pro
+		border-radius 1rem
 
 .pricing-pro
 	margin-bottom 4rem
 	padding 2rem
 	background-color $clr-light
+
+.pricing-faq
+	margin 3rem 1rem
+	+bp-min(md-lg)
+		margin 6rem 1rem
+
+	&>h2
+		margin-bottom 1.5rem
+		+bp-min(md-lg)
+			margin-bottom 3rem
+
+.pricing-footnote-ref
+	color var(--primaryTextColor)
 
 //Press
 .press

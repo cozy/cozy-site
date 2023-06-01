@@ -1,11 +1,10 @@
 ---
-layout: base.html
+layout: bootstrap.html
 
 metaTitle: pricing title
 metaDescription: pricing desc
-annexe: true
 
-colorscheme: pricing
+annexe: true
 
 locale:
 pathTo: ..
@@ -14,99 +13,328 @@ from: pricing
 
 {{> header }}
 
-
-  <article class="pricing">
-    <section>
-      <div class="container">
-        <div class="row row-justify-center">
-          <div class="col-xs-22 col-lg-20">
-          	<!--<div class="cozy-logo">
-          		<svg width="512" height="388" viewBox="0 0 512 388" xmlns="http://www.w3.org/2000/svg"><title>Cozy</title><path d="M376.453 387.847H135.66C60.908 387.847.123 327.305.123 252.882c0-35.49 13.72-69.015 38.656-94.382 21.84-22.2 50.134-36.02 80.74-39.615 3.616-30.48 17.48-58.658 39.794-80.4C184.79 13.644 218.45 0 254.094 0c35.637 0 69.306 13.646 94.783 38.474 22.22 21.65 36.045 49.676 39.75 79.993 69.05 6.16 123.363 64.097 123.363 134.425 0 74.413-60.826 134.955-135.547 134.955h.01zm-1.024-28.31h1.023c59.064 0 107.11-47.844 107.11-106.655 0-58.8-48.046-106.644-107.11-106.644h-1.075c-7.71 0-14.03-6.11-14.203-13.81-1.33-57.435-49.357-104.138-107.07-104.138-57.712 0-105.758 46.723-107.08 104.16-.173 7.556-6.286 13.646-13.885 13.82-57.67 1.323-104.59 49.146-104.59 106.622 0 58.812 48.045 106.655 107.11 106.655h.87l.338-.02c.307 0 .614 0 .92.02H375.4l.03-.01zm-51.826-114.74c-8.55-5.55-8.97-15.745-8.99-16.193a5.018 5.018 0 0 0-5.12-4.908c-2.786.05-4.997 2.342-4.946 5.092.02.366.164 5.153 2.457 10.794-30.433 28.678-78.254 28.718-108.748.173 2.355-5.723 2.508-10.59 2.508-10.957.052-2.75-2.15-5.02-4.915-5.092-2.734-.082-5.058 2.14-5.15 4.888 0 .407-.41 10.642-8.98 16.192-2.336 1.528-2.99 4.634-1.465 6.946a5.023 5.023 0 0 0 4.22 2.27c.94 0 1.893-.264 2.743-.814a27.528 27.528 0 0 0 5.59-4.787c16.938 15.175 38.34 22.762 59.74 22.762 21.454 0 42.907-7.617 59.874-22.862a27.765 27.765 0 0 0 5.684 4.888c.84.55 1.802.815 2.744.815a5.073 5.073 0 0 0 4.22-2.282 5.014 5.014 0 0 0-1.466-6.944v.02z" fill-rule="evenodd"/></svg>
-          	</div>-->
-            <h1 class="h2 pricing-title">{{__ 'pricing title'}}</h1>
-            <!--<p class="pricing-desc align-center">{{__ 'pricing desc'}}</p>-->
-						<div class="pricing-box">
-							<h2 class="">{{__ 'pricing basic title'}}</h2>
-							<div class="basic">
-								<div class="basic-perks">
-									<div class="basic-data">
-										<div class="basic-image">
-											<img src="../images/pricing/illu-recuperation-data.svg" alt="">
-										</div>
-										<div>
-											<h3 class="h4 align-left">{{__ 'pricing basic data title'}}</h3>
-											<p class="align-left">{{__ 'pricing basic data desc'}}</p>
-										</div>
-									</div>
-                  <div class="basic-apps">
-										<div class="basic-image">
-											<img src="../images/pricing/illu-apps.svg" alt="">
-										</div>
-										<div>
-											<h3 class="h4 align-left">{{__ 'pricing basic apps title'}}</h3>
-											<p class="align-left">{{__ 'pricing basic apps desc'}}</p>
-										</div>
-									</div>
-									<div class="basic-storage">
-										<div class="basic-storage-size">{{__ 'pricing basic storage size'}}</div>
-										<div>
-											<h3 class="h4 align-left">{{__ 'pricing basic storage title'}}</h3>
-											<p class="align-left">{{__ 'pricing basic storage desc'}}</p>
-										</div>
-									</div>
-								</div>
-								<div class="basic-price align-center">
-									<div><p><strong class="highlight-basic">{{__ 'pricing basic price'}}</strong>{{__ 'pricing basic price for life'}}</p></div>
-									<a href="{{__ 'pricing basic link'}}" rel="nofollow" class="btn btn-primary">{{__ 'pricing basic CTA'}}</a>
-								</div>
-							</div>
+<header class="d-flex flex-column text-center text-white bg-primary pt-5 px-4 pricing-header align-items-center">
+  <h1 class="fw-bold text-white mb-4 mb-md-5">{{__ 'pricing title'}}</h1>
+	<p class="mb-0" >{{__ 'pricing desc'}}</p>
+</header>
+<div class="container text-body pricing-bootstrap">
+	<section class="position-relative grid  pricing-offer" style="--bs-gap: 0;">
+		<div class="g-col-12 g-col-md-9 bg-white border offer-table">
+			<div class="grid bg-white offer-table-header border-top border-bottom" style="--bs-gap: 0;">
+				<div class="d-none d-md-block g-col-3"></div>
+				<div class="g-col-4 g-col-md-3 border-start border-end py-3 py-md-5 text-center">
+					<h5 class="fw-bold text-primary mb-1 mb-md-4 offer-table-header-title">{{__ 'pricing discover title'}}</h5>
+					<p class="d-flex mb-1 mb-md-4 ">
+						<span class="fw-bold mb-0 ms-auto offer-table-header-price">{{__ 'pricing discover price'}}</span>
+						<span class="d-flex flex-column my-auto me-auto">
+							<span class="fw-bold text-start lh-1 mb-0 offer-table-header-cents">{{__ 'pricing discover price cents'}}</span>
+							<span class="lh-1 offer-table-header-month">{{__ 'pricing month'}}</span>
+						</span>
+					</p>
+					<a
+						class="btn btn-primary offer-table-header-cta"
+						href="{{__ 'pricing discover action link'}}">
+						{{__ 'pricing discover action'}}
+					</a>
+				</div>
+				<div class="g-col-4 g-col-md-3 border-end py-3 py-md-5 text-center">
+					<h5 class="offer-table-header-title fw-bold text-primary mb-1 mb-md-4">{{__ 'pricing confort title'}}</h5>
+					<p class="d-flex mb-1 mb-md-4">
+						<span class="fw-bold mb-0 ms-auto offer-table-header-price">{{__ 'pricing confort price'}}</span>
+						<span class="d-flex flex-column my-auto me-auto">
+							<span class="fw-bold text-start lh-1 mb-0 offer-table-header-cents">{{__ 'pricing confort price cents'}}</span>
+							<span class="lh-1 offer-table-header-month">{{__ 'pricing month'}}</span>
+						</span>
+					</p>
+					<a
+						class="btn btn-primary offer-table-header-cta"
+						href="{{__ 'pricing confort action link'}}">
+						{{__ 'pricing confort action'}}
+					</a>
+				</div>
+				<div class="g-col-4 g-col-md-3 py-3 py-md-5 text-center">
+					<h5 class="offer-table-header-title fw-bold text-primary mb-1 mb-md-4">{{__ 'pricing superconfort title'}}</h5>
+					<p class="d-flex mb-1 mb-md-4">
+						<span class="fw-bold mb-0 ms-auto offer-table-header-price">{{__ 'pricing superconfort price'}}</span>
+						<span class="d-flex flex-column my-auto me-auto">
+							<span class="fw-bold text-start lh-1 mb-0 offer-table-header-cents">{{__ 'pricing superconfort price cents'}}</span>
+							<span class="lh-1 offer-table-header-month">{{__ 'pricing month'}}</span>
+						</span>
+					</p>
+					<a
+						class="btn btn-primary offer-table-header-cta"
+						href="{{__ 'pricing superconfort action link'}}">
+						{{__ 'pricing superconfort action'}}
+					</a>
+				</div>
+			</div>
+			<div class="grid py-3 py-md-0 bg-body">
+				<div class="g-col-12 g-col-md-3 mb-3 mb-md-0 px-5 px-md-3 py-md-2 text-start d-flex justify-content-center">
+					<img src="{{ pathTo }}/images/apps/cozy-drive.svg" class="me-md-3 h-100 d-none d-md-block" alt="{{__ 'download pass alt'}}" width="24"/>
+					<div class="d-flex flex-column justify-content-center">
+						<div class="d-flex justify-content-center justify-content-md-start">
+							<img src="{{ pathTo }}/images/apps/cozy-drive.svg" class="me-2 d-block d-md-none" alt="{{__ 'download pass alt'}}" width="16"/>
+							<p class="mb-0 offer-item-title">{{__ 'pricing drive title'}}</p>
 						</div>
-
-						<h2 class="h2 pricing-title">{{__ 'pricing offers title'}}</h2>
-						<div class="pricing-box pricing-box--narrow">
-							<div class="offer">
-								<div class="offer-storage">{{__ 'pricing offer cozy storage'}}</div>
-								<div class="offer-desc">
-									<h3 class="h4">{{__ 'pricing offer cozy title'}}</h3>
-									<p class="offer-info">{{__ 'pricing offer cozy desc'}}</p>
-								</div>
-								<div class="offer-cta">
-									<div class="offer-price">{{__ 'pricing offer cozy price'}}</div>
-									<a href="{{__ 'pricing offer cozy link'}}" rel="nofollow" class="btn btn-primary" >{{__ 'pricing offer cozy CTA'}}</a>
-								</div>
-							</div>
+						<p class="mb-0 caption text-center text-md-start">{{__ 'pricing drive desc'}}</p>
+					</div>
+				</div>
+				<div class="g-col-4 g-col-md-3 border-start border-end text-center d-flex">
+					<p class="fw-bold small m-auto">{{__ 'pricing drive discover'}}</p>
+				</div>
+				<div class="g-col-4 g-col-md-3 border-end text-center d-flex">
+					<p class="fw-bold small m-auto">{{__ 'pricing drive confort'}}</p>
+				</div>
+				<div class="g-col-4 g-col-md-3 text-center d-flex">
+					<p class="fw-bold small m-auto">{{__ 'pricing drive superconfort'}}</p>
+				</div>
+			</div>
+			<div class="grid py-3 py-md-0">
+				<div class="g-col-12 g-col-md-3 mb-3 mb-md-0 px-5 px-md-3 py-md-2 text-start d-flex justify-content-center">
+					<img src="{{ pathTo }}/images/pricing/icon-konnectors.svg" class="me-md-3 h-100 d-none d-md-block" alt="{{__ 'download pass alt'}}" width="24"/>
+					<div class="d-flex flex-column justify-content-center">
+						<div class="d-flex justify-content-center justify-content-md-start">
+							<img src="{{ pathTo }}/images/pricing/icon-konnectors.svg" class="me-2 d-block d-md-none" alt="{{__ 'download pass alt'}}" width="16"/>
+							<p class="mb-0 offer-item-title">{{__ 'pricing konnectors title'}}</p>
 						</div>
-						<div class="pricing-box pricing-box--narrow">
-							<div class="offer">
-								<div class="offer-list">
-									<div class="offer-list-item">
-										<div class="offer-storage">
-											<img src="../images/pricing/illu-document-edition.svg" alt="">
-										</div>
-										<div class="offer-desc">
-											<h3 class="h4">{{__ 'pricing offer supercozy document title'}}</h3>
-											<p class="offer-info">{{__ 'pricing offer supercozy document desc'}}</p>
-										</div>
-									</div>
-									<div class="offer-list-item">
-										<div class="offer-storage">{{__ 'pricing offer supercozy photos storage'}}</div>
-										<div class="offer-desc">
-											<h3 class="h4">{{__ 'pricing offer supercozy photos title'}}</h3>
-											<p class="offer-info">{{__ 'pricing offer supercozy photos desc'}}</p>
-										</div>
-									</div>
-								</div>
-								<div class="offer-cta">
-									<div class="offer-price">{{__ 'pricing offer supercozy price'}}</div>
-									<a href="{{__ 'pricing offer supercozy link'}}" rel="nofollow" class="btn btn-primary" >{{__ 'pricing offer supercozy CTA'}}</a>
-								</div>
-							</div>
+						<p class="mb-0 caption text-center text-md-start">{{__ 'pricing konnectors desc'}}</p>
+					</div>
+				</div>
+				<div class="g-col-4 g-col-md-3 border-start border-end text-center d-flex">
+					<p class="fw-bold small m-auto">{{__ 'pricing konnectors discover'}}</p>
+				</div>
+				<div class="g-col-4 g-col-md-3 border-end text-center d-flex">
+					<p class="fw-bold small m-auto">{{__ 'pricing konnectors confort'}}</p>
+				</div>
+				<div class="g-col-4 g-col-md-3 text-center d-flex">
+					<p class="fw-bold small m-auto">{{__ 'pricing konnectors superconfort'}}</p>
+				</div>
+			</div>
+			<div class="grid py-3 py-md-0 bg-body">
+				<div class="g-col-12 g-col-md-3 mb-3 mb-md-0 px-5 px-md-3 py-md-2 text-start d-flex justify-content-center">
+					<img src="{{ pathTo }}/images/apps/cozy-pass.svg" class="me-md-3 h-100 d-none d-md-block" alt="{{__ 'download pass alt'}}" width="24"/>
+					<div class="d-flex flex-column justify-content-center">
+						<div class="d-flex justify-content-center justify-content-md-start">
+							<img src="{{ pathTo }}/images/apps/cozy-pass.svg" class="me-2 d-block d-md-none" alt="{{__ 'download pass alt'}}" width="16"/>
+							<p class="mb-0 offer-item-title">{{__ 'pricing passwords title'}}</p>
 						</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  </article>
+						<p class="mb-0 caption text-center text-md-start">{{__ 'pricing passwords desc'}}</p>
+					</div>
+				</div>
+				<div class="g-col-4 g-col-md-3 border-start border-end text-center d-flex">
+					<img src="{{ pathTo }}/images/icons/icon-check.svg" alt="{{__ 'pricing check'}}" class="m-auto">
+				</div>
+				<div class="g-col-4 g-col-md-3 border-end text-center d-flex">
+					<img src="{{ pathTo }}/images/icons/icon-check.svg" alt="{{__ 'pricing check'}}" class="m-auto">
+				</div>
+				<div class="g-col-4 g-col-md-3 text-center d-flex">
+					<img src="{{ pathTo }}/images/icons/icon-check.svg" alt="{{__ 'pricing check'}}" class="my-auto ms-auto me-1">
+					<p class="fw-bold small my-auto me-auto">{{__ 'pricing passwords superconfort'}}</p>
+				</div>
+			</div>
+			<div class="grid py-3 py-md-0">
+				<div class="g-col-12 g-col-md-3 mb-3 mb-md-0 px-5 px-md-3 py-md-2 text-start d-flex justify-content-center">
+					<img src="{{ pathTo }}/images/pricing/icon-onlyoffice.svg" class="me-md-3 h-100 d-none d-md-block" alt="{{__ 'download pass alt'}}" width="24"/>
+					<div class="d-flex flex-column justify-content-center">
+						<div class="d-flex justify-content-center justify-content-md-start">
+							<img src="{{ pathTo }}/images/pricing/icon-onlyoffice.svg" class="me-2 d-block d-md-none" alt="{{__ 'download pass alt'}}" width="16"/>
+							<p class="mb-0 offer-item-title">{{__ 'pricing onlyoffice title'}}</p>
+						</div>
+						<p class="mb-0 caption text-center text-md-start">{{__ 'pricing onlyoffice desc'}}</p>
+					</div>
+				</div>
+				<div class="g-col-4 g-col-md-3 border-start border-end text-center d-flex" id="onlyoffice-disclaimer-ref">
+					<p class="fw-bold small m-auto">
+						{{__ 'pricing onlyoffice discover'}}
+						<a href="#onlyoffice-disclaimer" class="pricing-footnote-ref">*</a>
+					</p>
+				</div>
+				<div class="g-col-4 g-col-md-3 border-end text-center d-flex">
+					<p class="fw-bold small m-auto">
+						{{__ 'pricing onlyoffice confort'}}
+						<a href="#onlyoffice-disclaimer" class="pricing-footnote-ref">*</a>
+					</p>
+				</div>
+				<div class="g-col-4 g-col-md-3 text-center d-flex">
+					<p class="fw-bold small m-auto">
+						{{__ 'pricing onlyoffice superconfort'}}
+						<a href="#onlyoffice-disclaimer" class="pricing-footnote-ref">*</a>
+					</p>
+				</div>
+			</div>
+			<div class="grid py-3 py-md-0 bg-body">
+				<div class="g-col-12 g-col-md-3 mb-3 mb-md-0 px-5 px-md-3 py-md-2 text-start d-flex justify-content-center">
+					<img src="{{ pathTo }}/images/apps/cozy-notes.svg" class="me-md-3 h-100 d-none d-md-block" alt="{{__ 'download pass alt'}}" width="24"/>
+					<div class="d-flex flex-column justify-content-center">
+						<div class="d-flex justify-content-center justify-content-md-start">
+							<img src="{{ pathTo }}/images/apps/cozy-notes.svg" class="me-2 d-block d-md-none" alt="{{__ 'download pass alt'}}" width="16"/>
+							<p class="mb-0 offer-item-title">{{__ 'pricing notes title'}}</p>
+						</div>
+						<p class="mb-0 caption text-center text-md-start">{{__ 'pricing notes desc'}}</p>
+					</div>
+				</div>
+				<div class="g-col-4 g-col-md-3 border-start border-end text-center d-flex">
+					<img src="{{ pathTo }}/images/icons/icon-check.svg" alt="{{__ 'pricing check'}}" class="m-auto">
+				</div>
+				<div class="g-col-4 g-col-md-3 border-end text-center d-flex">
+					<img src="{{ pathTo }}/images/icons/icon-check.svg" alt="{{__ 'pricing check'}}" class="m-auto">
+				</div>
+				<div class="g-col-4 g-col-md-3 text-center d-flex">
+					<img src="{{ pathTo }}/images/icons/icon-check.svg" alt="{{__ 'pricing check'}}" class="m-auto">
+				</div>
+			</div>
+			<div class="grid py-3 py-md-0">
+				<div class="g-col-12 g-col-md-3 mb-3 mb-md-0 px-5 px-md-3 py-md-2 text-start d-flex justify-content-center">
+					<img src="{{ pathTo }}/images/apps/mes-papiers.svg" class="me-md-3 h-100 d-none d-md-block" alt="{{__ 'download pass alt'}}" width="24"/>
+					<div class="d-flex flex-column justify-content-center">
+						<div class="d-flex justify-content-center justify-content-md-start">
+							<img src="{{ pathTo }}/images/apps/mes-papiers.svg" class="me-2 d-block d-md-none" alt="{{__ 'download pass alt'}}" width="16"/>
+							<p class="mb-0 offer-item-title">{{__ 'pricing mespapiers title'}}</p>
+						</div>
+						<p class="mb-0 caption text-center text-md-start">{{__ 'pricing mespapiers desc'}}</p>
+					</div>
+				</div>
+				<div class="g-col-4 g-col-md-3 border-start border-end text-center d-flex">
+					<img src="{{ pathTo }}/images/icons/icon-check.svg" alt="{{__ 'pricing check'}}" class="m-auto">
+				</div>
+				<div class="g-col-4 g-col-md-3 border-end text-center d-flex">
+					<img src="{{ pathTo }}/images/icons/icon-check.svg" alt="{{__ 'pricing check'}}" class="m-auto">
+				</div>
+				<div class="g-col-4 g-col-md-3 text-center d-flex">
+					<img src="{{ pathTo }}/images/icons/icon-check.svg" alt="{{__ 'pricing check'}}" class="m-auto">
+				</div>
+			</div>
+			<div class="grid py-3 py-md-0 bg-body">
+				<div class="g-col-12 g-col-md-3 mb-3 mb-md-0 px-5 px-md-3 py-md-2 text-start d-flex justify-content-center">
+					<img src="{{ pathTo }}/images/apps/cozy-bank.svg" class="me-md-3 h-100 d-none d-md-block" alt="{{__ 'download pass alt'}}" width="24"/>
+					<div class="d-flex flex-column justify-content-center">
+						<div class="d-flex justify-content-center justify-content-md-start">
+							<img src="{{ pathTo }}/images/apps/cozy-bank.svg" class="me-2 d-block d-md-none" alt="{{__ 'download pass alt'}}" width="16"/>
+							<p class="mb-0 offer-item-title">{{__ 'pricing banks title'}}</p>
+						</div>
+						<p class="mb-0 caption text-center text-md-start">{{__ 'pricing banks desc'}}</p>
+					</div>
+				</div>
+				<div class="g-col-4 g-col-md-3 border-start border-end text-center d-flex">
+					<img src="{{ pathTo }}/images/icons/icon-check.svg" alt="{{__ 'pricing check'}}" class="m-auto">
+				</div>
+				<div class="g-col-4 g-col-md-3 border-end text-center d-flex">
+					<img src="{{ pathTo }}/images/icons/icon-check.svg" alt="{{__ 'pricing check'}}" class="m-auto">
+				</div>
+				<div class="g-col-4 g-col-md-3 text-center d-flex">
+					<img src="{{ pathTo }}/images/icons/icon-check.svg" alt="{{__ 'pricing check'}}" class="m-auto">
+				</div>
+			</div>
+			<div class="grid py-3 py-md-0">
+				<div class="g-col-12 g-col-md-3 mb-3 mb-md-0 px-5 px-md-3 py-md-2 text-start d-flex justify-content-center">
+					<img src="{{ pathTo }}/images/apps/cozy-store.svg" class="me-md-3 h-100 d-none d-md-block" alt="{{__ 'download pass alt'}}" width="24"/>
+					<div class="d-flex flex-column justify-content-center">
+						<div class="d-flex justify-content-center justify-content-md-start">
+							<img src="{{ pathTo }}/images/apps/cozy-store.svg" class="me-2 d-block d-md-none" alt="{{__ 'download pass alt'}}" width="16"/>
+							<p class="mb-0 offer-item-title">{{__ 'pricing store title'}}</p>
+						</div>
+						<p class="mb-0 caption text-center text-md-start">{{__ 'pricing store desc'}}</p>
+					</div>
+				</div>
+				<div class="g-col-4 g-col-md-3 border-start border-end text-center d-flex">
+					<img src="{{ pathTo }}/images/icons/icon-check.svg" alt="{{__ 'pricing check'}}" class="m-auto" />
+				</div>
+				<div class="g-col-4 g-col-md-3 border-end text-center d-flex">
+					<img src="{{ pathTo }}/images/icons/icon-check.svg" alt="{{__ 'pricing check'}}" class="m-auto" />
+				</div>
+				<div class="g-col-4 g-col-md-3 text-center d-flex">
+					<img src="{{ pathTo }}/images/icons/icon-check.svg" alt="{{__ 'pricing check'}}" class="m-auto" />
+				</div>
+			</div>
+		</div>
+		<div class="g-col-12 g-col-md-3 bg-white border m-3 my-md-0 ms-md-1 me-md-0 p-4 py-md-5 text-center offer-pro d-flex order-last order-md-0">
+			<div class="flex-shrink-0 d-block d-md-none me-4">
+				<img src="{{ pathTo }}/images/pricing/illu-compagny.svg" aria-hidden="true" width="48" />
+			</div>
+			<div class="d-flex flex-column text-start text-md-center">
+				<h5 class="text-primary d-none d-md-block mb-3">{{__ 'pricing offer pro title'}}</h5>
+				<div class="mb-3 d-none d-md-block">
+					<img src="{{ pathTo }}/images/pricing/illu-compagny.svg" aria-hidden="true" />
+				</div>
+				<div class="mb-md-5 order-last order-md-0">
+					<a class="btn btn-outline-info" href="mailto:{{__ 'pricing offer pro cta link'}}">{{__ 'pricing offer pro cta'}}</a>
+				</div>
+				<h5>{{__ 'pricing offer pro subtitle'}}</h5>
+				<p class="mb-2">{{__ 'pricing offer pro desc'}}</p>
+			</div>
+		</div>
+		<footer class="g-col-12 mt-2 ms-3">
+			<p class="caption fst-italic mb-0" id="onlyoffice-disclaimer">
+				* {{__ 'pricing onlyoffice disclaimer'}}
+				<a href="#onlyoffice-disclaimer-ref" aria-label="Back to content" class="visually-hidden">↵</a>
+			</p>
+		</footer>
+	</section>
+	<section class="pricing-faq">
+		<h2>{{__ 'pricing faq title'}}</h2>
+		<div class="accordion" id="pricing-faq">
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="question-one-title">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one" aria-expanded="true" aria-controls="question-one">
+						{{__ 'pricing faq question one title'}}
+					</button>
+				</h2>
+				<div id="question-one" class="accordion-collapse collapse" aria-labelledby="question-one-title" data-bs-parent="#pricing-faq">
+					<div class="accordion-body">
+						{{__ 'pricing faq question one answer'}}
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="question-two-title">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two" aria-expanded="true" aria-controls="question-two">
+						{{__ 'pricing faq question two title'}}
+					</button>
+				</h2>
+				<div id="question-two" class="accordion-collapse collapse" aria-labelledby="question-two-title" data-bs-parent="#pricing-faq">
+					<div class="accordion-body">
+						{{__ 'pricing faq question two answer'}}
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="question-three-title">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three" aria-expanded="true" aria-controls="question-three">
+						{{__ 'pricing faq question three title'}}
+					</button>
+				</h2>
+				<div id="question-three" class="accordion-collapse collapse" aria-labelledby="question-three-title" data-bs-parent="#pricing-faq">
+					<div class="accordion-body">
+						{{__ 'pricing faq question three answer'}}
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="question-four-title">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four" aria-expanded="true" aria-controls="question-four">
+						{{__ 'pricing faq question four title'}}
+					</button>
+				</h2>
+				<div id="question-four" class="accordion-collapse collapse" aria-labelledby="question-four-title" data-bs-parent="#pricing-faq">
+					<div class="accordion-body">
+						{{__ 'pricing faq question four answer'}}
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header" id="question-five-title">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-five" aria-expanded="true" aria-controls="question-five">
+						{{__ 'pricing faq question five title'}}
+					</button>
+				</h2>
+				<div id="question-five" class="accordion-collapse collapse" aria-labelledby="question-five-title" data-bs-parent="#pricing-faq">
+					<div class="accordion-body">
+						{{__ 'pricing faq question five answer'}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
 
 {{> footer }}
