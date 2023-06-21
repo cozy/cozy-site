@@ -486,6 +486,27 @@
 	p
 		margin-bottom 0 // reset default margin
 
+.featuresList-item-link-flex
+	display flex
+	align-items center
+	gap 16px
+	color $clr-darkgrey
+	line-height $lh-sm
+
+	+bp-min(lg)
+		padding 8px 16px
+
+		+hover-state()
+			color $clr-darkgrey
+			background-color $clr-light
+
+	&.active
+		color $clr-darkgrey
+
+	img
+		width 32px
+		height 32px
+
 .featuresList-item-link
 	display block
 	text-align center

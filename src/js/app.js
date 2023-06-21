@@ -25,6 +25,7 @@ $(function() {
 	//
 	// Config features screenshot switching
 	var $featuresLink         = $('.featuresList-item-link'),
+			$featuresLinkFlex     = $('.featuresList-item-link-flex'),
 			$screenshotsContainer = $('.featuresList-screenshots'),
 			$featuresScreenshot   = $('.featuresList-screenshotOutter');
 
@@ -36,8 +37,7 @@ $(function() {
 		}).resize();
 	});
 
-	$featuresLink.on('mouseover', function() {
-
+	function featureLinkHover() {
 		// Disable active state on the previously hovered element
 		var previousActiveElement = $(this).parents('ul').find('li a.active')
 		previousActiveElement.removeClass('active')
@@ -56,12 +56,18 @@ $(function() {
 		$('#feature-' + currentTarget).addClass('active')
 
 		return false;
-	});
+	}
+
+	function featureLinkPrevent(event) {
+		return false;
+	}
+
+	$featuresLink.on('mouseover', featureLinkHover);
+	$featuresLinkFlex.on('mouseover', featureLinkHover);
 
 	// Prevent a click from moving the screen to the top of the page.
-	$featuresLink.on('click', function(event) {
-		return false;
-	});
+	$featuresLink.on('click', featureLinkPrevent);
+	$featuresLinkFlex.on('click', featureLinkPrevent);
 
 
 	// Smooth scrolling on click on anchor link
