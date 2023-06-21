@@ -276,6 +276,7 @@
 	"ungoogle features notes images screenshot": "Capture d'écran des images de l'outil de Notes.",
 	"ungoogle features drive screenshot": "Capture d'écran de l'outil de Drive.",
 	"ungoogle features pass screenshot": "Capture d'écran de l'outil de Cozy Pass.",
+	"ungoogle features mespapiers screenshot": "Capture d'écran de l'outil de MesPapiers.",
 	"ungoogle cta tile": "Dégooglisez votre vie dès maintenant",
 	"selfhosting title": "Hébergez votre cloud chez vous",
 	"selfhosting introduction content subtitle": "Profitez d'un stockage optimal et préservez la confidentialité de vos données",
@@ -565,6 +566,11 @@
 	"features pass content 5": "Vérifiez en 1 clic si vos mots de passe ont été piratés",
 	"features pass content 6": "Partagez certains mots de passe avec vos proches",
 	"features pass preview": "Stockez et synchronisez tous vos mots de passe pour ne plus les oublier",
+	"features mespapiers name": "Mes Papiers",
+	"features mespapiers title": "Gérez votre administratif comme un pro",
+	"features mespapiers content 1": "Rassemblez et sécuriez tous vos papiers et documents administratifs",
+	"features mespapiers content 2": "Automatisez leurs mises à jour",
+	"features mespapiers content 3": "Accessible partout et tout le temps",
 	"nav privacy title": "Sécurité et vie privée",
 	"privacy title": "Cozy Cloud et la vie privée",
 	"support title": "Vous êtes perdu·e ? Notre équipe est là pour vous aider.",
@@ -1029,5 +1035,6 @@
 	"pricing passwords ckeck": "pricing passwords ckeck",
 	"pricing passwords check": "pricing passwords check",
 	"pricing check": "pricing check",
-	"pricing offer pro contact": "pricing offer pro contact"
+	"pricing offer pro contact": "pricing offer pro contact",
+	"features mespapiers title 1": "features mespapiers title 1"
 }
