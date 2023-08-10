@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard 2 Copy</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Artboard-2-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M27,22 C23.6862915,22 21,18.8659932 21,15 C21,11.1340068 23.6862915,8 27,8 C30.3137085,8 33,11.1340068 33,15 C33,18.8659932 30.3137085,22 27,22 Z M15,29 C15,27.5 18,23 21,23 C24,23 22.5,24.5 27,24.5 C31.5,24.5 30,23 33,23 C36,23 39,27.5 39,29 C39,30.5 39,32 37.5,32 L16.5,32 C15,32 15,30.5 15,29 Z" id="icon-user-16" fill="#FF9300"></path>
-        <polygon id="icon-add-16" fill="#FFD799" points="8 12 10 12 10 19 17 19 17 21 10 21 10 28 8 28 8 21 1 21 1 19 8 19"></polygon>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><g fill="none" fill-rule="evenodd"><path fill="#FF9300" d="M27 22c-3.314 0-6-3.134-6-7s2.686-7 6-7 6 3.134 6 7-2.686 7-6 7Zm-12 7c0-1.5 3-6 6-6s1.5 1.5 6 1.5 3-1.5 6-1.5 6 4.5 6 6 0 3-1.5 3h-21C15 32 15 30.5 15 29Z"/><path fill="#FFD799" d="M8 12h2v7h7v2h-7v7H8v-7H1v-2h7z"/></g></svg>
