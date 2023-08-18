@@ -5,18 +5,18 @@ Contact: mailto:security@cozycloud.cc
 Encryption: https://cozy.io/.well-known/pgp-key.txt
 Preferred-Languages: fr, en
 Canonical: https://cozy.io/.well-known/security.txt
-Expires: 2023-05-19T13:37:00.000Z
+Expires: 2025-08-17T09:00:00.000Z
 -----BEGIN PGP SIGNATURE-----
 
-iQHKBAEBCgA0FiEECVxNrYhcw/BB9U+MuJM56wc/oTcFAmLErT0WHHNlY3VyaXR5
-QGNvenljbG91ZC5jYwAKCRC4kznrBz+hN5IpDACke/I+BRHrXcl05TpSH0MiOznG
-gXVbiUY8BfyfjjCGoz2kcqXxRV8b5ti1VLoc58dPAAvTKvtm6ZrmFhk137rsJ7PZ
-PxMa/mTYoHHfIW2ihKwXf9iykvKbddtcsJ7H1jcSBLnRRettShlDtYoZkrLBCMZd
-2y1QWd2LYJQp9aIwahYHtI2QnX6aP5f7Tq3j81nYCO4EQSIX3pYA+VtCVc+SUjIP
-3NoZ50VYIPYJDpjEEWoV45SJ/YnARA82vdeI1QYa/rQEBJArC/Ggt16guY9w4KIH
-Kgrh48gi+cP4ROftZCzzZnXupKhCmf62JbyywAdg5Q69nPpUKjjZdXeffzRzQO7W
-15XN0VSdh4ZQmSastZvVcvBhpScDuhwNnqS37mnqUmjnj8cchz7xYjWw2chhKoiz
-EW85SBvAaG/A4hQkea616JXe4n/I+erH5FnmVt4UGBMEPsQiJJhMIOfX2ewPfRqD
-qrH0Ug9rYEgO9UQLa80p98B+y3MfG9dItEWqaNg=
-=m8uB
+iQHKBAEBCgA0FiEECVxNrYhcw/BB9U+MuJM56wc/oTcFAmTfNDoWHHNlY3VyaXR5
+QGNvenljbG91ZC5jYwAKCRC4kznrBz+hNzH+C/9phR27dbjG1p2wFrEhV+FXoo8q
+sdj2ADOnVJxa1fEEQ0zB3T1GeHdLZrDvS/ibwzqXdnY6biflrd4Tgwo5BhqqKh5S
+g56Nxqm37chjxkOlIK5V6386EjzeP3Psug6hcAHsgNuMcvR8EKEW5uRE7/2JHrZH
+CDuBxIQWqLEzWEk+IK9xv3LZJ1LZ62XneXoINKmG5etZDtcfgBU9X1dkUuN3jLAx
+QUOal3QMQTVJg0OI+3pVmFXoF0tKjHaKLkzh7R6KF9SVVE/rFz8yk/XGctcwyuFW
+SuoIMJcsHHPjX9vqZpCcngZwHRMCTzl/eKJNeFnepteJMIo2bly12ShJLJ+0A0Kp
+6FEaN+Qh5bOeEOua8ebbrEM5tEmssteIrN18nHwqTTkzaygfAnE+1K7YTgLQ1PhT
+yg2h8x+RPw4MYARPwAKF6MYG4zK9QlA1oKZcSG1HjUHc1Y+hPNTIZGu0LW2KeuBv
+3H7i4Cs6cywyNhiGXQUc8v1eMOmz6jYDOXTwuCM=
+=9xtI
 -----END PGP SIGNATURE-----
