@@ -9,7 +9,11 @@
     "dev:es": "node output-es.js --dev",
     "build": "node output.js",
     "build:fr": "node output-fr.js",
-    "build:es": "node output-es.js"
+    "build:es": "node output-es.js",
+		"order-locales": "yarn order-locales:fr && yarn order-locales:en && yarn order-locales:es",
+		"order-locales:fr": "jq --tab  --sort-keys . src/locales/fr.json > src/locales/fr_sorted.json && mv src/locales/fr_sorted.json src/locales/fr.json",
+		"order-locales:en": "jq --tab  --sort-keys . src/locales/en.json > src/locales/en_sorted.json && mv src/locales/en_sorted.json src/locales/en.json",
+		"order-locales:es": "jq --tab  --sort-keys . src/locales/es.json > src/locales/es_sorted.json && mv src/locales/es_sorted.json src/locales/es.json"
   },
   "author": "Cozy Cloud <frank@cozycloud.cc> (https://cozycloud.cc/)",
   "repository": "https://github.com/cozy/cozy-site",
