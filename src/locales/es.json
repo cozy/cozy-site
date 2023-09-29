@@ -322,6 +322,7 @@
 	"download ios text": "11.0 o superior",
 	"download linux": "GNU/Linux",
 	"download linux alt": "Logo linux",
+	"download linux link": "https://help.cozy.io/218-install-desktop-client-on-gnu-linux-system/",
 	"download linux text": "Sistema de 64 bits",
 	"download macos": "MacOS",
 	"download macos alt": "Logo MacOS",
@@ -872,6 +873,9 @@
 	"pricing confort price cents": "€99",
 	"pricing confort title": "Confort",
 	"pricing desc": "Porque la seguridad y la sencillez de tu vida digital tienen un precio",
+	"pricing devices desc": "Aplicaciones móviles, sincronización con el PC, extensiones del navegador, etc.",
+	"pricing devices discover": "2",
+	"pricing devices title": "Nº de dispositivos conectados",
 	"pricing discover action": "Discover",
 	"pricing discover action link": "https://manager.cozycloud.cc/cozy/premium",
 	"pricing discover price": "0",
@@ -1066,6 +1070,5 @@
 	"webdev tellme three": "Como Cozy es código abierto, usted puede recuperar y estudiar su código, o modificarlo a voluntad. Más aún, puede utilizar Cozy como herramienta para adquirir y mejorar sus competencias en desarrollo. Cozy es una plataforma perfecta para aprender Node.js, Express.js, React.js y Angular.js y entender cómo esas frameworks se utilizan en un desarrollo informático concreto.",
 	"webdev tellme two": "Además, usted puede reutilizar los datos que almacena en su Cozy. Puede así desarrollar nuevos servicios basados en diversos datos-usuario como emails, contactos, eventos, datos sobre el sueño, operaciones bancarias y mucho más!",
 	"webdev title": "Aprenda a desarrollar en la Web",
-	"→ live demo": "→ Ver demostración",
-	"download linux link": "https://help.cozy.io/218-install-desktop-client-on-gnu-linux-system/"
+	"→ live demo": "→ Ver demostración"
 }
