@@ -840,3 +840,19 @@ q
 
 		&:before
 			content '— '
+
+.releases-header
+	height 275px
+
+	h1
+		max-width 750px
+
+.releases-iframe
+	height calc(100vh - (3.75rem + 275px))
+	+bp-min(md-lg)
+		height calc(100vh - (8rem + 275px))
+
+.releases-background
+	background linear-gradient(#f8fafb, #f8fafb) top, linear-gradient(#f2f5f7, #f2f5f7) bottom
+	background-size 100% 49px, 100% 100%
+	background-repeat no-repeat
