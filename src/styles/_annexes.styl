@@ -840,3 +840,122 @@ q
 	background linear-gradient(#f8fafb, #f8fafb) top, linear-gradient(#f2f5f7, #f2f5f7) bottom
 	background-size 100% 49px, 100% 100%
 	background-repeat no-repeat
+
+/*
+ * B2B page
+ */
+
+.app-list
+	list-style none
+	padding 0
+	display flex
+	gap .5rem 1rem
+	flex-wrap wrap
+
+.app-list li
+	position relative
+	padding .40625rem .75rem
+	background-color rgba(29, 33, 42, 0.048)
+
+.app-list li + li:before
+	content "+"
+	position absolute
+	left -13px // content size (10px) + ((app-list gap (1.5 rem) - content size (10px)) / 2)
+	top 50%
+	transform: translateY(-50%)
+
+.my-md-7
+	+bp-min(md-lg)
+		margin-top 3.5rem
+		margin-bottom 3.5rem
+
+.mb-md-8
+	+bp-min(md-lg)
+		margin-bottom 6rem !important
+
+.py-md-8
+	+bp-min(md-lg)
+		padding-top 6rem !important
+		padding-bottom 6rem !important
+
+.odd-child-contrasted
+	section:nth-child(even)
+		background: rgba(29, 33, 42, 0.048)
+
+	section:nth-child(odd)
+		background: #fff
+
+	+bp-min(md-lg)
+		section:nth-child(even)
+			background: #fff
+
+		section:nth-child(odd)
+			background: rgba(29, 33, 42, 0.048)
+
+.bg-contrast
+	background-color rgba(29, 33, 42, 0.048)
+
+.sub-feature-title
+	font-size 1rem
+	font-weight 700
+	line-height 21px
+
+.cta
+	color var(--primaryTextContrastColor)
+	background-color var(--primaryColor)
+	border-color transparent
+	box-shadow 0px 6px 24px 2px #0000001C, 0px 5px 7px -2px #0000001F, 0px 0px 0px 0.5px #0000001F
+	font-weight bold
+
+	&:hover
+		color var(--primaryTextContrastColor)
+		border-color transparent
+		background-color #eaf3ff
+
+.mw-60
+	max-width 60rem
+
+.pro-content
+	color var(--primaryTextColor)
+
+	.section-title
+		font-size 2rem
+		line-height 2.3125rem
+		letter-spacing -.4px
+
+		+bp-min(md-lg)
+			margin-left auto
+			margin-right auto
+			max-width 75%
+			font-size 2.5rem
+			line-height 3.5rem
+			letter-spacing -.8px
+
+	.subsection-title
+		font-size 1.5rem
+		line-height 1.75rem
+
+		+bp-min(md-lg)
+			font-size 2rem
+			line-height 2.3125rem
+			letter-spacing -.4px
+
+	.subsection-link
+		position relative
+		color var(--primaryColor)
+		font-size 14px
+		font-weight bold
+		line-height normal
+		border-radius 2px
+		text-transform uppercase
+		padding .5rem 2rem .5rem 11px
+
+		&::after
+			position absolute
+			content url('../images/icon-arrow.svg')
+			margin-left .5rem
+			height 1rem
+			width 1rem
+
+		&:hover
+			background-color rgba(41, 126, 242, 0.04)

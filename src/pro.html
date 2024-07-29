@@ -1,0 +1,282 @@
+---
+layout: bootstrap.html
+
+metaTitle: pro title
+metaDescription: pro desc
+
+annexe: true
+
+locale:
+pathTo: ..
+from: pro
+---
+
+{{> header }}
+
+<header class="theme-inverted bg-paper">
+	<div class="container grid">
+		<div class="g-col-12 g-col-md-5 px-4 py-6 d-flex flex-column justify-content-center">
+			<h1 class="text-center text-md-start text-white mb-4 mb-md-5">{{__ 'pro title'}}</h1>
+			<p class="text-center text-md-start text-white mb-3 mb-md-5" >{{__ 'pro desc 1.1'}}<br/>{{__ 'pro desc 1.2'}}</p>
+			<div class="d-flex justify-content-center justify-content-md-start">
+				<a class="btn btn-primary cta" href="mailto:contact@cozycloud.cc?subject=Cozy%20Cloud%20pour%20les%20Collectivit%C3%A9s">{{__ 'pro cta button'}}</a>
+			</div>
+		</div>
+		<div class="g-col-1 d-none d-md-block"></div>
+		<div class="g-col-6 d-none d-md-block my-md-7">
+			<img src="{{pathTo}}/images/pro/illustration.svg" alt="" />
+		</div>
+	</div>
+</header>
+<div class="bg-body py-5">
+	<div class="container d-flex flex-column flex-md-row gap-5 align-items-center justify-content-center">
+		<p class="mb-0 h5">{{__ 'pro clients label'}}</p>
+		<div class="d-flex overflow-auto gap-5">
+			<img src="{{pathTo}}/images/pro/metropole-grand-lyon.svg" alt="{{__ 'pro clients metropole-grand-lyon alt'}}" class="ms-4" />
+			<img src="{{pathTo}}/images/pro/academie-de-rennes.svg" alt="{{__ 'pro clients academie-de-rennes alt'}}" />
+			<img src="{{pathTo}}/images/pro/communaute-agglomeration-de-la-rochelle.svg" alt="{{__ 'pro clients communaute-agglomeration-de-la-rochelle alt'}}" />
+			<img src="{{pathTo}}/images/pro/departement-des-alpes-maritimes.svg" alt="{{__ 'pro clients departement-des-alpes-maritimes alt'}}" />
+			<img src="{{pathTo}}/images/pro/noisy-le-grand.svg" alt="{{__ 'pro clients noisy-le-grand alt'}}" class="me-4" />
+		</div>
+	</div>
+</div>
+<div class="d-flex flex-column flex-md-column-reverse odd-child-contrasted pro-content">
+	<div>
+		<section class="py-6 py-md-8">
+			<div class="container px-4">
+				<h2 class="mb-6 mb-md-8 section-title">{{__ 'pro administration title'}}</h2>
+				<div class="grid mb-6 mb-md-8">
+					<div class="g-col-12 g-col-md-6 pe-5 order-2 order-md-1">
+						<h3 class="text-start mb-3 subsection-title">{{__ 'pro administration feature 1 title'}}</h3>
+						<ul class="app-list">
+							{{> app-pill
+								app-id="mes-papiers"
+								app-name=(__ 'pricing mespapiers title')
+							}}
+							{{> app-pill
+								app-id="cozy-pass"
+								app-name=(__ 'features pass name')
+							}}
+						</ul>
+						<div class="d-flex flex-column gap-4 align-items-start">
+							{{> sub-feature-item
+								img="pro/administration-1.1.svg"
+								title=(__ 'pro administration feature 1.1 title')
+								desc=(__ 'pro administration feature 1.1 desc')
+							}}
+							{{> sub-feature-item
+								img="pro/administration-1.2.svg"
+								title=(__ 'pro administration feature 1.2 title')
+								desc=(__ 'pro administration feature 1.2 desc')
+							}}
+							{{> sub-feature-item
+								img="pro/administration-1.3.svg"
+								title=(__ 'pro administration feature 1.3 title')
+								desc=(__ 'pro administration feature 1.3 desc')
+							}}
+							<p class="mb-0">{{__ 'pro administration feature 1 desc'}}</p>
+							<a
+								href="{{__ 'pro administration feature 1 link href'}}"
+								class="subsection-link">
+								<span>{{__ 'pro administration feature 1 link'}}</span>
+							</a>
+						</div>
+					</div>
+					<div class="g-col-12 g-col-md-6 d-flex order-1 order-md-2">
+						<img src="{{ pathTo }}/images/pro/administration-1.png" alt="" class="my-auto" />
+					</div>
+				</div>
+				<div class="grid">
+					<div class="g-col-12 g-col-md-6 d-flex">
+						<img src="{{ pathTo }}/images/pro/administration-2.png" alt="" class="my-auto" />
+					</div>
+					<div class="g-col-12 g-col-md-6 ps-md-6">
+						<h3 class="text-start mb-3 subsection-title">{{__ 'pro administration feature 2 title'}}</h3>
+						<ul class="app-list">
+							{{> app-pill
+								app-id="cozy-store"
+								app-name=(__ 'features store name')
+							}}
+						</ul>
+						<p>{{__ 'pro administration feature 2 desc'}}</p>
+						<div class="d-flex flex-column gap-4 align-items-start">
+							{{> sub-feature-item
+								img="pro/administration-2.1.svg"
+								title=(__ 'pro administration feature 2.1 title')
+								desc=(__ 'pro administration feature 2.1 desc')
+							}}
+							{{> sub-feature-item
+								img="pro/administration-2.2.svg"
+								title=(__ 'pro administration feature 2.2 title')
+								desc=(__ 'pro administration feature 2.2 desc')
+							}}
+							{{> sub-feature-item
+								img="pro/administration-2.3.svg"
+								title=(__ 'pro administration feature 2.3 title')
+								desc=(__ 'pro administration feature 2.3 desc')
+							}}
+							<a
+								href="{{__ 'pro administration feature 2 link href'}}"
+								class="subsection-link">
+								<span>{{__ 'pro administration feature 2 link'}}</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="py-6 py-md-8">
+			<div class="container px-4">
+				<h2 class="mb-6 mb-md-8 section-title">{{__ 'pro sustainability title'}}</h2>
+				<div class="grid mb-6 mb-md-8">
+					<div class="g-col-12 g-col-md-6 pe-5 order-2 order-md-1">
+						<h3 class="text-start mb-3 subsection-title">{{__ 'pro sustainability feature 1 title'}}</h3>
+						<ul class="app-list">
+							{{> app-pill
+								app-id="coach-co2"
+								app-name=(__ 'features coach-co2 name')
+							}}
+						</ul>
+						<p>{{__ 'pro sustainability feature 1 desc'}}</p>
+						<div class="d-flex flex-column gap-4 align-items-start">
+							{{> sub-feature-item
+								img="pro/sustainability-1.1.svg"
+								title=(__ 'pro sustainability feature 1.1 title')
+								desc=(__ 'pro sustainability feature 1.1 desc')
+							}}
+							{{> sub-feature-item
+								img="pro/sustainability-1.2.svg"
+								title=(__ 'pro sustainability feature 1.2 title')
+								desc=(__ 'pro sustainability feature 1.2 desc')
+							}}
+							{{> sub-feature-item
+								img="pro/sustainability-1.3.svg"
+								title=(__ 'pro sustainability feature 1.3 title')
+								desc=(__ 'pro sustainability feature 1.3 desc')
+							}}
+							<a
+								href="{{__ 'pro sustainability feature 1 link href'}}"
+								class="subsection-link">
+								<span>{{__ 'pro sustainability feature 1 link'}}</span>
+							</a>
+						</div>
+					</div>
+					<div class="g-col-12 g-col-md-6 d-flex order-1 order-md-2">
+						<img src="{{ pathTo }}/images/pro/sustainability-1.png" alt="" class="my-auto" />
+					</div>
+				</div>
+				<div class="grid">
+					<div class="g-col-12 g-col-md-6 d-flex">
+						<img src="{{ pathTo }}/images/pro/sustainability-2.png" alt="" class="my-auto" />
+					</div>
+					<div class="g-col-12 g-col-md-6 ps-md-6">
+						<h3 class="text-start mb-3 subsection-title">{{__ 'pro sustainability feature 2 title'}}</h3>
+						<ul class="app-list">
+							{{> app-pill
+								app-id="ecolyo"
+								app-name=(__ 'apps ecolyo name')
+							}}
+						</ul>
+						<p>{{__ 'pro sustainability feature 2 desc'}}</p>
+						<div class="d-flex flex-column gap-4 align-items-start">
+							{{> sub-feature-item
+								img="pro/sustainability-2.1.svg"
+								desc=(__ 'pro sustainability feature 2.1 desc')
+							}}
+							{{> sub-feature-item
+								img="pro/sustainability-2.2.svg"
+								desc=(__ 'pro sustainability feature 2.2 desc')
+							}}
+							<a
+								href="{{__ 'pro sustainability feature 2 link href'}}"
+								class="subsection-link">
+								<span>{{__ 'pro sustainability feature 2 link'}}</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="py-6 py-md-8">
+			<div class="container px-4">
+				<h2 class="mb-6 mb-md-8 section-title">{{__ 'pro autonomy title'}}</h2>
+				<div class="grid">
+					<div class="g-col-12 g-col-md-6 me-6 order-2 order-md-1">
+						<h3 class="text-start mb-3 subsection-title">{{__ 'pro autonomy feature 1 title'}}</h3>
+						<ul class="app-list">
+							{{> app-pill
+								app-id="cozy-drive"
+								app-name=(__ 'features drive name')
+							}}
+							{{> app-pill
+								app-id="cozy-pass"
+								app-name=(__ 'features pass name')
+							}}
+							{{> app-pill
+								app-id="cozy-bank"
+								app-name=(__ 'features bank name')
+							}}
+						</ul>
+						<p>{{__ 'pro autonomy feature 1 desc'}}</p>
+						<div class="d-flex flex-column gap-4 align-items-start">
+							{{> sub-feature-item
+								img="pro/autonomy-1.1.svg"
+								title=(__ 'pro autonomy feature 1.1 title')
+								desc=(__ 'pro autonomy feature 1.1 desc')
+							}}
+							{{> sub-feature-item
+								img="pro/autonomy-1.2.svg"
+								title=(__ 'pro autonomy feature 1.2 title')
+								desc=(__ 'pro autonomy feature 1.2 desc')
+							}}
+							{{> sub-feature-item
+								img="pro/autonomy-1.3.svg"
+								title=(__ 'pro autonomy feature 1.3 title')
+								desc=(__ 'pro autonomy feature 1.3 desc')
+							}}
+							<a
+								href="{{__ 'pro autonomy feature 1 link href'}}"
+								class="subsection-link">
+								<span>{{__ 'pro autonomy feature 1 link'}}</span>
+							</a>
+						</div>
+					</div>
+					<div class="g-col-12 g-col-md-6 d-flex order-1 order-md-2">
+						<img src="{{ pathTo }}/images/pro/autonomy-1.png" class="my-auto" />
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<section class="py-6 py-md-8">
+		<div class="container px-4 grid">
+			<div class="g-col-12 g-col-md-3 p-4 bg-contrast text-center rounded-3">
+				<img class="mb-3" src="{{pathTo}}/images/pro/remarkable-1.svg" alt="" />
+				<h3 class="mb-2 h4">{{__ 'pro remarkable 1 title'}}</h3>
+			</div>
+			<div class="g-col-12 g-col-md-3 p-4 bg-contrast text-center rounded-3">
+				<img class="mb-3" src="{{pathTo}}/images/pro/remarkable-2.svg" alt="" />
+				<h3 class="mb-2 h4">{{__ 'pro remarkable 2 title'}}</h3>
+			</div>
+			<div class="g-col-12 g-col-md-3 p-4 bg-contrast text-center rounded-3">
+				<img class="mb-3" src="{{pathTo}}/images/pro/remarkable-3.svg" alt="" />
+				<h3 class="mb-2 h4">{{__ 'pro remarkable 3 title'}}</h3>
+			</div>
+			<div class="g-col-12 g-col-md-3 p-4 bg-contrast text-center rounded-3">
+				<img class="mb-3" src="{{pathTo}}/images/pro/remarkable-4.svg" alt="" />
+				<h3 class="mb-2 h4">{{__ 'pro remarkable 4 title'}}</h3>
+			</div>
+		</div>
+	</section>
+</div>
+<div class="theme-inverted bg-paper">
+	<div class="container px-4 py-6 d-flex flex-column align-items-center">
+		<h2 class="mb-3 text-white text-center">{{__ 'pro cta title'}}</h2>
+		<p class="text-white text-center mw-60">{{__ 'pro cta desc'}}</p>
+		<div class="d-flex justify-content-center">
+			<a href="mailto:contact@cozycloud.cc?subject=Cozy%20Cloud%20pour%20les%20Collectivit%C3%A9s" class="btn btn-primary cta">{{__ 'pro cta button'}}</a>
+		</div>
+	</div>
+</div>
+
+{{> footer }}
