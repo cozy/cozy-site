@@ -34,7 +34,7 @@
 
           <div class="col-center align-center submenu">
             <span>
-              <a href="/{{locale}}/features" class="btn btn-link">{{__ 'nav features title'}}<img src="{{ pathTo }}/images/icons/small-dot.svg" class="red-dot"></a>
+              <a href="/{{locale}}/features" class="btn btn-link {{#if (isActive from 'features')}}active{{/if}}">{{__ 'nav features title'}}<img src="{{ pathTo }}/images/icons/small-dot.svg" class="red-dot"></a>
             </span>
 						<ul class="submenu-level">
 							{{> app-menu-item
@@ -83,20 +83,20 @@
           </div>
 
 					<div class="col-center align-center">
-            <a href="/{{locale}}/pricing/" class="btn btn-link">
+            <a href="/{{locale}}/pricing/" class="btn btn-link {{#if (isActive from 'pricing')}}active{{/if}}">
               {{__ 'nav pricing title'}}
             </a>
           </div>
 
 					<div class="col-center align-center">
-            <a href="/{{ locale }}/download/" class="btn btn-link">
+            <a href="/{{ locale }}/download/" class="btn btn-link {{#if (isActive from 'download')}}active{{/if}}">
               {{__ 'download menu title'}}
             </a>
           </div>
 
           <div class="col-center align-center submenu">
             <span >
-              <a href="/{{ locale }}/about/" class="btn btn-link">{{__ 'nav company title'}}</a>
+              <a href="/{{ locale }}/about/" class="btn btn-link {{#if (isActive from 'about,privacy')}}active{{/if}}">{{__ 'nav company title'}}</a>
             </span>
             <ul class="submenu-level">
 							<li class="submenu-listItem">
@@ -121,13 +121,12 @@
 									</div>
 								</a>
 							</li>
-
 						</ul>
           </div>
 
 					<div class="col-center align-center submenu">
             <span >
-              <a href="/{{ locale }}/support/" class="btn btn-link">{{__ 'nav blog title'}}</a>
+              <a href="/{{ locale }}/support/" class="btn btn-link {{#if (isActive from 'support,releases,community')}}active{{/if}}">{{__ 'nav blog title'}}</a>
             </span>
             <ul class="submenu-level">
 							<li class="submenu-listItem">
@@ -178,7 +177,7 @@
           </div>
 
 					<div class="col-center align-center">
-            <a href="/{{locale}}/pro/" class="btn btn-link">
+            <a href="/{{locale}}/pro/" class="btn btn-link {{#if (isActive from 'pro')}}active{{/if}}">
               {{__ 'nav pro title'}}
             </a>
           </div>
@@ -211,32 +210,32 @@
         </div>
       </div>
       <ul id="menu" class="siteNavigation-sm">
-        <li class="siteNavigation-sm-item">
+        <li class="siteNavigation-sm-item {{#if (isActive from 'features')}}active{{/if}}">
           <a href="/{{ locale }}/features/">
             {{__ 'nav features title'}}
           </a>
         </li>
-        <li class="siteNavigation-sm-item">
+        <li class="siteNavigation-sm-item {{#if (isActive from 'pricing')}}active{{/if}}">
           <a href="/{{locale}}/pricing/">
             {{__ 'nav pricing title'}}
           </a>
         </li>
-        <li class="siteNavigation-sm-item">
+        <li class="siteNavigation-sm-item {{#if (isActive from 'download')}}active{{/if}}">
           <a href="/{{ locale }}/download/">
             {{__ 'download menu title'}}
           </a>
         </li>
-        <li class="siteNavigation-sm-item">
+        <li class="siteNavigation-sm-item {{#if (isActive from 'about')}}active{{/if}}">
           <a href="/{{ locale }}/about/">
             {{__ 'nav company title'}}
           </a>
         </li>
-        <li class="siteNavigation-sm-item">
+        <li class="siteNavigation-sm-item  {{#if (isActive from 'support')}}active{{/if}}">
           <a href="/{{ locale }}/support/" target="_blank">
             {{__ 'nav blog title'}}
           </a>
         </li>
-        <li class="siteNavigation-sm-item">
+        <li class="siteNavigation-sm-item {{#if (isActive from 'pro')}}active{{/if}}">
           <a href="/{{locale}}/pro/">
             {{__ 'nav pro title'}}
           </a>

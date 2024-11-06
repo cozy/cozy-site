@@ -24,6 +24,10 @@ handlebars.registerHelper('ifequals', function (item, comparison, options) {
     }
 });
 
+handlebars.registerHelper('isActive', function (currentPage, pages) {
+	const pagesArray = pages.split(',');
+  return pagesArray.includes(currentPage);
+});
 
 handlebars.registerHelper({
   and: function () {
