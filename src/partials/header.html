@@ -8,15 +8,11 @@
 
   	<!-- Bandeau d'annonce -->
     <aside class="announcement">
-			<!--
 			<div class="announcement-image">
-				 <img src="{{ pathTo }}/images/apps/cozy-bank.svg" alt="">
-			</div> -->
+				 <img src="{{ pathTo }}/images/apps/cozy-drive.svg" alt="">
+			</div>
 			<div class="announcement-text">
 				<a href="{{__ 'announcement popup url'}}">
-					<!--
-					<img class='announcement-image' src="{{ pathTo }}/images/apps/cozy-pass.svg" alt="Cozy Pass" />
-					</div> -->
 					{{__ 'announcement popup label'}} →
 				</a>
 			</div>
@@ -55,24 +51,28 @@
 									description=(__ 'features pass preview')
 									icon=(join pathTo "/images/apps/cozy-pass.svg")
 							}}
+							{{!--
 							{{> app-menu-item
 								href=(join "/" locale "/features/#coach-co2")
 								title=(__ 'features coach-co2 name')
 								description=(__ 'features coach-co2 preview')
 								icon=(join pathTo "/images/apps/coach-co2.svg")
-						}}
+							}}
+							--}}
 							{{> app-menu-item
 									href=(join "/" locale "/features/#notes")
 									title=(__ 'features notes name')
 									description=(__ 'features notes title')
 									icon=(join pathTo "/images/apps/cozy-notes.svg")
 							}}
+							{{!--
 							{{> app-menu-item
 									href=(join "/" locale "/features/#bank")
 									title=(__ 'features bank name')
 									description=(__ 'features bank title')
 									icon=(join pathTo "/images/apps/cozy-bank.svg")
 							}}
+							--}}
 							{{> app-menu-item
 								href=(join "/" locale "/features/#photos")
 								title=(__ 'features photos name')
