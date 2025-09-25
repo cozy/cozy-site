@@ -21,7 +21,7 @@
   "dependencies": {
     "engine.io": "6.6.2",
     "async": "^1.5.0",
-    "handlebars": "4.0.4",
+    "handlebars": "4.7.7",
     "metalsmith": "2.1.0",
     "metalsmith-assets": "0.1.0",
     "metalsmith-autoprefixer": "1.1.0",
